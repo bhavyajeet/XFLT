@@ -1,0 +1,58 @@
+11/01/2022 08:52:51 PM [INFO] test dataset count : 189
+Testing: 0it [00:00, ?it/s]
+/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testing: 100%|█████████████████████████████████████████████████████████████| 48/48 [06:40<00:00,  6.25s/it]11/01/2022 08:59:32 PM [INFO] as : epoch : 1 | BLEU = 0.09 6.4/0.3/0.0/0.0 (BP = 0.901 ratio = 0.905 hyp_len = 10773 ref_len = 11898)
+11/01/2022 08:59:32 PM [INFO] epoch : 1 - average_test_loss : 3.529758
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'as_overall_test_bleu': 0.08999991782867878,
+ 'avg_test_loss': tensor(3.5298, device='cuda:0')}
+--------------------------------------------------------------------------------
+Testing: 100%|█████████████████████████████████████████████████████████████| 48/48 [06:41<00:00,  8.36s/it]
+11/01/2022 08:59:32 PM [DEBUG] testing done.

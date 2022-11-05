@@ -1,0 +1,1 @@
+{"test_loss": 1.8005609512329102, "_runtime": 742, "_timestamp": 1663542729, "_step": 14310, "kn_overall_test_bleu": 13.963801670399521, "kn_test_bleu_1": 22.6, "kn_test_bleu_2": 17.0, "kn_test_bleu_3": 12.2, "kn_test_bleu_4": 8.1, "avg_test_loss": 0.6058672070503235, "epoch": 5, "_wandb": {"runtime": 739}}

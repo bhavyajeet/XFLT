@@ -1,0 +1,1 @@
+{"test_loss": 3.6390321254730225, "_runtime": 410, "_timestamp": 1667316572, "_step": 134, "as_overall_test_bleu": 0.08999991782867878, "as_test_bleu_1": 6.4, "as_test_bleu_2": 0.3, "as_test_bleu_3": 0.0, "as_test_bleu_4": 0.0, "avg_test_loss": 3.5297579765319824, "epoch": 1, "_wandb": {"runtime": 410}}

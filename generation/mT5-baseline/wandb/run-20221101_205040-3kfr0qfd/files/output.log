@@ -1,0 +1,48 @@
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+11/01/2022 08:50:48 PM [INFO] val dataset count : 189
+Validation sanity check:  50%|███████████████████████▌                       | 1/2 [00:00<00:00,  4.50it/s]11/01/2022 08:50:48 PM [INFO] epoch : 0 - average_val_loss : 23.221529
+11/01/2022 08:50:49 PM [INFO] train dataset count : 1069
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  96%|█████████████████████████████████▌ | 140/146 [01:02<00:02,  2.23it/s, loss=4.345, v_num=0qfd]
+
+Validating:  92%|█████████████████████████████████████████████████████▏    | 11/12 [00:01<00:00,  9.72it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 133 < 150; dropping {'avg_val_loss': 3.566101551055908, 'epoch': 0}.
+Epoch 0: 100%|████████████████| 146/146 [01:08<00:00,  2.14it/s, loss=4.345, v_num=0qfd, avg_val_loss=3.57]11/01/2022 08:51:57 PM [INFO] epoch : 0 - average_train_loss : 5.777002
+Epoch 0: 100%|████████████████| 146/146 [01:08<00:00,  2.14it/s, loss=4.345, v_num=0qfd, avg_val_loss=3.57]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 133 < 151; dropping {'avg_train_loss': 5.777001857757568, 'epoch': 0}.
+11/01/2022 08:51:59 PM [DEBUG] training done.

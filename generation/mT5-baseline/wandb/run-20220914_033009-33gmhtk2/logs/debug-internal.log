@@ -1,0 +1,165 @@
+2022-09-14 03:30:11,512 INFO    MainThread:17246 [internal.py:wandb_internal():89] W&B internal server running at pid: 17246, started at: 2022-09-14 03:30:11.511295
+2022-09-14 03:30:11,515 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: check_version
+2022-09-14 03:30:11,516 INFO    WriterThread:17246 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/run-33gmhtk2.wandb
+2022-09-14 03:30:11,520 DEBUG   SenderThread:17246 [sender.py:send():185] send: header
+2022-09-14 03:30:11,520 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: check_version
+2022-09-14 03:30:11,903 DEBUG   SenderThread:17246 [sender.py:send():185] send: run
+2022-09-14 03:30:11,916 INFO    SenderThread:17246 [sender.py:_maybe_setup_resume():428] checking resume status for None/multilingual-data-to-text-generation/33gmhtk2
+2022-09-14 03:30:12,660 INFO    SenderThread:17246 [dir_watcher.py:__init__():169] watching files in: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files
+2022-09-14 03:30:12,660 INFO    SenderThread:17246 [sender.py:_start_run_threads():749] run started: 33gmhtk2 with start time 1663106409
+2022-09-14 03:30:12,665 DEBUG   SenderThread:17246 [sender.py:send():185] send: summary
+2022-09-14 03:30:12,666 INFO    SenderThread:17246 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-09-14 03:30:12,669 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: run_start
+2022-09-14 03:30:13,671 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-summary.json
+2022-09-14 03:30:16,845 DEBUG   HandlerThread:17246 [meta.py:__init__():40] meta init
+2022-09-14 03:30:16,846 DEBUG   HandlerThread:17246 [meta.py:__init__():54] meta init done
+2022-09-14 03:30:16,846 DEBUG   HandlerThread:17246 [meta.py:probe():211] probe
+2022-09-14 03:30:16,854 DEBUG   HandlerThread:17246 [meta.py:_setup_git():201] setup git
+2022-09-14 03:30:16,902 DEBUG   HandlerThread:17246 [meta.py:_setup_git():208] setup git done
+2022-09-14 03:30:16,902 DEBUG   HandlerThread:17246 [meta.py:_save_pip():58] save pip
+2022-09-14 03:30:16,904 DEBUG   HandlerThread:17246 [meta.py:_save_pip():72] save pip done
+2022-09-14 03:30:16,905 DEBUG   HandlerThread:17246 [meta.py:_save_conda():79] save conda
+2022-09-14 03:30:17,689 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/requirements.txt
+2022-09-14 03:30:17,691 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/output.log
+2022-09-14 03:30:17,692 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/conda-environment.yaml
+2022-09-14 03:30:20,692 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/output.log
+2022-09-14 03:30:21,693 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/output.log
+2022-09-14 03:30:28,304 DEBUG   HandlerThread:17246 [meta.py:_save_conda():87] save conda done
+2022-09-14 03:30:28,304 DEBUG   HandlerThread:17246 [meta.py:probe():249] probe done
+2022-09-14 03:30:28,311 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: stop_status
+2022-09-14 03:30:28,312 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:28,313 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: stop_status
+2022-09-14 03:30:28,313 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:28,649 DEBUG   SenderThread:17246 [sender.py:send():185] send: config
+2022-09-14 03:30:28,650 DEBUG   SenderThread:17246 [sender.py:send():185] send: telemetry
+2022-09-14 03:30:28,653 DEBUG   SenderThread:17246 [sender.py:send():185] send: exit
+2022-09-14 03:30:28,653 INFO    SenderThread:17246 [sender.py:send_exit():294] handling exit code: 1
+2022-09-14 03:30:28,654 INFO    SenderThread:17246 [sender.py:send_exit():296] handling runtime: 15
+2022-09-14 03:30:28,656 INFO    SenderThread:17246 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-09-14 03:30:28,656 INFO    SenderThread:17246 [sender.py:send_exit():306] send defer
+2022-09-14 03:30:28,656 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:28,657 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:28,657 DEBUG   SenderThread:17246 [sender.py:send():185] send: files
+2022-09-14 03:30:28,657 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:28,658 INFO    SenderThread:17246 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2022-09-14 03:30:28,658 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 0
+2022-09-14 03:30:28,659 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:28,659 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 0
+2022-09-14 03:30:28,659 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 1
+2022-09-14 03:30:28,660 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:28,660 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 1
+2022-09-14 03:30:28,701 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-summary.json
+2022-09-14 03:30:28,701 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/conda-environment.yaml
+2022-09-14 03:30:28,701 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-metadata.json
+2022-09-14 03:30:28,816 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:28,816 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:28,817 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 1
+2022-09-14 03:30:28,817 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 2
+2022-09-14 03:30:28,818 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:28,818 DEBUG   SenderThread:17246 [sender.py:send():185] send: stats
+2022-09-14 03:30:28,818 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:28,819 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 2
+2022-09-14 03:30:28,820 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:28,820 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 2
+2022-09-14 03:30:28,820 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 3
+2022-09-14 03:30:28,820 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:28,820 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 3
+2022-09-14 03:30:28,821 DEBUG   SenderThread:17246 [sender.py:send():185] send: summary
+2022-09-14 03:30:28,822 INFO    SenderThread:17246 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2022-09-14 03:30:28,823 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:28,823 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 3
+2022-09-14 03:30:28,823 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 4
+2022-09-14 03:30:28,823 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:28,824 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 4
+2022-09-14 03:30:28,824 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:28,824 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 4
+2022-09-14 03:30:28,920 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:29,206 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 5
+2022-09-14 03:30:29,206 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:29,206 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:29,207 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 5
+2022-09-14 03:30:29,207 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:29,207 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 5
+2022-09-14 03:30:29,207 INFO    SenderThread:17246 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-09-14 03:30:29,308 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:29,631 INFO    Thread-11 :17246 [upload_job.py:push():137] Uploaded file /tmp/tmpfdlstw4lwandb/674mfgj9-wandb-metadata.json
+2022-09-14 03:30:29,702 INFO    Thread-8  :17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/config.yaml
+2022-09-14 03:30:29,703 INFO    SenderThread:17246 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-summary.json
+2022-09-14 03:30:29,704 INFO    SenderThread:17246 [dir_watcher.py:finish():313] scan: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files
+2022-09-14 03:30:29,704 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-metadata.json wandb-metadata.json
+2022-09-14 03:30:29,704 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/requirements.txt requirements.txt
+2022-09-14 03:30:29,705 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/conda-environment.yaml conda-environment.yaml
+2022-09-14 03:30:29,705 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/config.yaml config.yaml
+2022-09-14 03:30:29,712 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-summary.json wandb-summary.json
+2022-09-14 03:30:29,717 INFO    SenderThread:17246 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/output.log output.log
+2022-09-14 03:30:29,725 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 6
+2022-09-14 03:30:29,725 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:29,727 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:29,728 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 6
+2022-09-14 03:30:29,736 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:29,737 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 6
+2022-09-14 03:30:29,743 INFO    SenderThread:17246 [file_pusher.py:finish():177] shutting down file pusher
+2022-09-14 03:30:29,827 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:29,828 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:29,930 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:29,930 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,032 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,033 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,135 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,135 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,237 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,237 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,340 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,340 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,442 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,442 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,544 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,545 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,647 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,647 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,675 INFO    Thread-12 :17246 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/requirements.txt
+2022-09-14 03:30:30,683 INFO    Thread-15 :17246 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/wandb-summary.json
+2022-09-14 03:30:30,685 INFO    Thread-16 :17246 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/output.log
+2022-09-14 03:30:30,750 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,750 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,829 INFO    Thread-14 :17246 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/config.yaml
+2022-09-14 03:30:30,852 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,852 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,955 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:30,955 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:30,972 INFO    Thread-13 :17246 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/files/conda-environment.yaml
+2022-09-14 03:30:31,057 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:31,057 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:31,160 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:31,160 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:31,172 INFO    Thread-7  :17246 [sender.py:transition_state():319] send defer: 7
+2022-09-14 03:30:31,173 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:31,173 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 7
+2022-09-14 03:30:31,173 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:31,174 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 7
+2022-09-14 03:30:31,262 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:31,473 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 8
+2022-09-14 03:30:31,474 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:31,475 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:31,475 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 8
+2022-09-14 03:30:31,475 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:31,475 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 8
+2022-09-14 03:30:31,476 INFO    SenderThread:17246 [sender.py:transition_state():319] send defer: 9
+2022-09-14 03:30:31,477 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: defer
+2022-09-14 03:30:31,477 INFO    HandlerThread:17246 [handler.py:handle_request_defer():143] handle defer: 9
+2022-09-14 03:30:31,477 DEBUG   SenderThread:17246 [sender.py:send():185] send: final
+2022-09-14 03:30:31,478 DEBUG   SenderThread:17246 [sender.py:send():185] send: footer
+2022-09-14 03:30:31,478 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: defer
+2022-09-14 03:30:31,478 INFO    SenderThread:17246 [sender.py:send_request_defer():315] handle sender defer: 9
+2022-09-14 03:30:31,576 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: poll_exit
+2022-09-14 03:30:31,577 DEBUG   SenderThread:17246 [sender.py:send_request():199] send_request: poll_exit
+2022-09-14 03:30:31,577 INFO    SenderThread:17246 [file_pusher.py:join():182] waiting for file pusher
+2022-09-14 03:30:32,240 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: get_summary
+2022-09-14 03:30:32,241 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: sampled_history
+2022-09-14 03:30:32,242 DEBUG   HandlerThread:17246 [handler.py:handle_request():126] handle_request: shutdown
+2022-09-14 03:30:32,243 INFO    HandlerThread:17246 [handler.py:finish():683] shutting down handler
+2022-09-14 03:30:32,478 INFO    WriterThread:17246 [datastore.py:close():281] close: /home/bhavyajeet.singh/XAlign/src/data-to-text-generator/mT5-baseline/wandb/run-20220914_033009-33gmhtk2/run-33gmhtk2.wandb
+2022-09-14 03:30:33,238 INFO    SenderThread:17246 [sender.py:finish():986] shutting down sender
+2022-09-14 03:30:33,238 INFO    SenderThread:17246 [file_pusher.py:finish():177] shutting down file pusher
+2022-09-14 03:30:33,238 INFO    SenderThread:17246 [file_pusher.py:join():182] waiting for file pusher
+2022-09-14 03:30:33,242 INFO    MainThread:17246 [internal.py:handle_exit():76] Internal process exited

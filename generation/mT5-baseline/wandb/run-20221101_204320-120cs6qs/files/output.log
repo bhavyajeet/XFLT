@@ -1,0 +1,47 @@
+11/01/2022 08:43:28 PM [CRITICAL] val: merging the 2 ['en', 'hi'] different languages dataset
+{'val.jsonl'} files are missing, creating the files..
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+11/01/2022 08:43:31 PM [INFO] val dataset count : 9751
+Validation sanity check: 0it [00:00, ?it/s]
+/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home2/manav.chaudhary/XAlign/src/data-to-text-generator/mT5-baseline/main.py", line 575, in <module>
+    start_training(args)
+  File "/home2/manav.chaudhary/XAlign/src/data-to-text-generator/mT5-baseline/main.py", line 426, in start_training
+    trainer.fit(model)
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 66, in train_or_test
+    results = self.trainer.train()
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 467, in train
+    self.run_sanity_check(self.get_model())
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 659, in run_sanity_check
+    _, eval_results = self.run_evaluation(test_mode=False, max_batches=self.num_sanity_val_batches)
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 567, in run_evaluation
+    for batch_idx, batch in enumerate(dataloader):
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1085, in _next_data
+    return self._process_data(data)
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1111, in _process_data
+    data.reraise()
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/_utils.py", line 428, in reraise
+    raise self.exc_type(msg)
+KeyError: Caught KeyError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 198, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home2/manav.chaudhary/miniconda3/envs/xalign/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home2/manav.chaudhary/XAlign/src/data-to-text-generator/mT5-baseline/dataloader.py", line 65, in __getitem__
+    lang_iso = data_instance['lang'].strip().lower()
+KeyError: 'lang'
