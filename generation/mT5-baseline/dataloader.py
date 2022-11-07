@@ -62,8 +62,7 @@ class TextDataset(Dataset):
     def __getitem__(self, idx):
         prefix_str = ''
         data_instance = self.dataset[idx]
-        #lang_iso = data_instance['lang'].strip().lower()
-        lang_iso = 'as' 
+        lang_iso = data_instance['lang'].strip().lower()
         lang_id = languages_map[lang_iso]['id']
         if self.prefix:
             prefix_str = "generate  %s : " % languages_map[lang_iso]['label'].lower()
