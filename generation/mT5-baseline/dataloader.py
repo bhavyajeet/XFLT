@@ -9,7 +9,7 @@ en_tok = MosesTokenizer(lang="en")
 
 
 class TextDataset(Dataset):
-    def __init__(self, prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, sorted_order=True):
+    def __init__(self, prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, sorted_order=True, add_label = 1):
         self.tokenizer = tokenizer
         self.src_max_seq_len = src_max_seq_len
         self.tgt_max_seq_len = tgt_max_seq_len
@@ -20,6 +20,7 @@ class TextDataset(Dataset):
         self.prefix = prefix
         self.sorted_order = sorted_order
         self.script_unification = script_unification
+        self.add_label = add_label
         self.lang_normalizer = get_language_normalizer()
         if dataset_count>0:
             # retain selected dataset count
@@ -59,13 +60,52 @@ class TextDataset(Dataset):
         tokenized_data = self.tokenizer.encode_plus(**tokenzier_args)
         return tokenized_data['input_ids'], tokenized_data['attention_mask']
 
+    def getlbstr(self,score,lang):
+        langcutoff = {
+                'as':[0.5437,0.5766],
+                'bn':[0.5708,0.6166],
+                'en':[0.5993,0.6205],
+                'gu':[0.5441,0.5793],
+                'hi':[0.5662,0.6192],
+                'kn':[0.554,0.5903],
+                'ml':[0.5644,0.6062],
+                'mr':[0.5767,0.629],
+                'or':[0.5602,0.606],
+                'pa':[0.5355,0.5771],
+                'ta':[0.5606,0.6038],
+                'te':[0.5575,0.5912]
+                }
+
+        retstr = ""
+        comp = langcutoff[lang]
+
+        if score < comp[0]:
+            retstr = ' low'
+        elif score >= comp[0] and score < comp[1]:
+            restr = ' medium'
+        else :
+            retstr = ' high'
+
+        return retstr
+
+
     def __getitem__(self, idx):
         prefix_str = ''
         data_instance = self.dataset[idx]
         lang_iso = data_instance['lang'].strip().lower()
         lang_id = languages_map[lang_iso]['id']
         if self.prefix:
-            prefix_str = "generate  %s : " % languages_map[lang_iso]['label'].lower()
+            prefix_str = "generate  %s" % languages_map[lang_iso]['label'].lower()
+            if self.add_label:
+                if 'coverage_score' in data_instance:
+                    labelstr = self.getlbstr(float(data_instance['coverage_score']),lang_iso)
+                elif 'avg_coverage' in data_instance: 
+                    labelstr = self.getlbstr(float(data_instance['avg_coverage']),lang_iso)
+                else :
+                    labelstr = self.getlbstr(0.99,lang_iso)
+
+                prefix_str += labelstr
+            prefix_str += ' : '
         # preparing the input
         #section_info = data_instance['native_sentence_section'] if lang_iso=='en' else data_instance['translated_sentence_section'] 
         input_str = "{prefix}<H> {entity} {triples} ".format(prefix=prefix_str, 
@@ -102,7 +142,7 @@ def collate_batch(batch, tokenizer):
 
     return torch.tensor(batch_src_inputs, dtype=torch.long), torch.tensor(batch_src_masks, dtype=torch.long), torch.tensor(batch_tgt_inputs, dtype=torch.long), torch.tensor(batch_tgt_masks, dtype=torch.long), torch.tensor(lang_id, dtype=torch.long), torch.tensor(idx, dtype=torch.long)
 
-def get_dataset_loaders(tokenizer, filename, logger, prefix=False, dataset_count=0, batch_size=8, num_threads=1, src_max_seq_len=200, tgt_max_seq_len=200, script_unification=False, complete_coverage=False):
-    dataset = TextDataset(prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage)
+def get_dataset_loaders(tokenizer, filename, logger, prefix=True, dataset_count=0, batch_size=8, num_threads=1, src_max_seq_len=200, tgt_max_seq_len=200, script_unification=False, complete_coverage=False, add_label = 1):
+    dataset = TextDataset(prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, add_label)
     input_dataloader = DataLoader(dataset, batch_size=batch_size, num_workers=num_threads, collate_fn=lambda x : collate_batch(x, tokenizer))
     return input_dataloader

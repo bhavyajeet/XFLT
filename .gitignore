@@ -1,2 +1,5 @@
 datasets
 dataset_ordered.zip
+generation/mT5-baseline/wandb
+generation/mT5-baseline/__pycache__
+generation/mT5-baseline/__pycache__

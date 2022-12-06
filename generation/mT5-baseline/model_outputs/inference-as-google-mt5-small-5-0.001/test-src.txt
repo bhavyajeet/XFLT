@@ -1,0 +1,637 @@
+<H> bhagat singh <R> country_of_citizenship <T> british india <R> movement <T> indian independence movement <R> occupation <T> rebel
+<H> rakhi birla <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the delhi legislative assembly
+<H> rajesh khaitan <R> date_of_birth <T> 1944 <R> date_of_death <T> 15 december 2019
+<H> silverine swer <R> country_of_citizenship <T> british india <R> date_of_birth <T> 1910 <R> date_of_death <T> 2014 <R> employer <T> indian civil service <R> occupation <T> civil servant <R> occupation <T> academic <R> occupation <T> activist
+<H> bebe nanaki <R> sibling <T> guru nanak
+<H> prabhat mukherjee <R> occupation <T> film actor
+<H> bihuram boro <R> date_of_death <T> 27 september 1990
+<H> steven johnson <R> educated_at <T> brown university
+<H> walt disney <R> founded_by <T> the walt disney company
+<H> chandra kumar agarwala <R> country_of_citizenship <T> british india <R> date_of_birth <T> 28 november 1867 <R> place_of_birth <T> gohpur
+<H> charaka <R> author <T> charaka samhita <R> notable_work <T> charaka samhita <R> occupation <T> physician <R> occupation <T> academic
+<H> satyajit ray <R> director <T> aranyer din ratri <R> languages_spoken,_written_or_signed <T> bengali <R> main_subject <T> satyajit ray filmography
+<H> biju phukan <R> date_of_death <T> 22 november 2017 <R> place_of_death <T> guwahati
+<H> vasco da gama <R> cause_of_death <T> malaria
+<H> sigmund freud <R> father <T> jacob freud <R> main_subject <T> freud
+<H> uma bharti <R> member_of_political_party <T> bharatiya janata party
+<H> vijaya lakshmi pandit <R> country_of_citizenship <T> india <R> country_of_citizenship <T> dominion of india <R> sibling <T> jawaharlal nehru
+<H> pankaj tripathi <R> educated_at <T> national school of drama <R> occupation <T> actor
+<H> shashi kapoor <R> father <T> prithviraj kapoor <R> main_subject <T> shashi kapoor filmography
+<H> cameron diaz <R> place_of_birth <T> san diego
+<H> sitara devi <R> award_received <T> sangeet natak akademi award <R> award_received <T> padma shri in arts
+<H> ruskin bond <R> author <T> our trees still grow in dehra <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1992 <QR> for_work <QT> our trees still grow in dehra
+<H> chanakya <R> country_of_citizenship <T> maurya empire <R> occupation <T> advisor <R> student <T> chandragupta maurya <R> student <T> bindusara
+<H> rituparno ghosh <R> educated_at <T> jadavpur university
+<H> nana patekar <R> award_received <T> filmfare award for best actor <QR> point_in_time <QT> 1995 <QR> for_work <QT> krantiveer <R> award_received <T> national film award for best actor <QR> point_in_time <QT> 1995 <QR> for_work <QT> krantiveer <R> occupation <T> actor <R> winner <T> filmfare award for best actor <QR> point_in_time <QT> 1995 <QR> for_work <QT> krantiveer
+<H> thonakal gopi <R> occupation <T> athletics competitor <R> participant_in <T> 2016 summer olympics <R> participant_in <T> athletics at the 2016 summer olympics <R> sport <T> athletics
+<H> rukmini devi arundale <R> award_received <T> fellow of the sangeet natak akademi <R> award_received <T> sangeet natak akademi fellowship <QR> point_in_time <QT> 1967
+<H> ramdas gandhi <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> father <T> mahatma gandhi
+<H> irrfan khan <R> cast_member <T> bharat ek khoj
+<H> abiy ahmed <R> chairperson <T> ethiopian people's revolutionary democratic front <R> member_of_political_party <T> ethiopian people's revolutionary democratic front <R> member_of_political_party <T> oromo democratic party
+<H> g. madhavan nair <R> country_of_citizenship <T> india <R> date_of_birth <T> 31 october 1943 <R> employer <T> indian space research organisation <R> position_held <T> chairman of the indian space research organization
+<H> jibanananda das <R> country_of_citizenship <T> british india <R> occupation <T> poet <R> place_of_death <T> kolkata
+<H> j. k. rowling <R> after_a_work_by <T> harry potter and the philosopher's stone <R> author <T> harry potter and the philosopher's stone <R> notable_work <T> harry potter and the philosopher's stone
+<H> jhumpa lahiri <R> award_received <T> national humanities medal <QR> point_in_time <QT> 2014
+<H> che guevara <R> country_of_citizenship <T> argentina <R> date_of_birth <T> 14 june 1928 <R> main_subject <T> che guevara in popular culture
+<H> bhogeshwari phukanani <R> country_of_citizenship <T> british india <R> field_of_work <T> indian independence movement <R> occupation <T> activist
+<H> raghuram rajan <R> country_of_citizenship <T> india <R> employer <T> reserve bank of india <R> occupation <T> banker <R> occupation <T> economist <R> position_held <T> governor of reserve bank of india
+<H> geetanjali thapa <R> award_received <T> national film award for best actress <R> occupation <T> actor
+<H> bidya devi bhandari <R> country_of_citizenship <T> nepal <R> date_of_birth <T> 19 june 1961
+<H> pramod boro <R> date_of_birth <T> 01 march 1975
+<H> hemanta dutta <R> country_of_citizenship <T> india <R> occupation <T> playwright <R> place_of_birth <T> darrang district
+<H> rabindra sarkar <R> country_of_citizenship <T> india <R> date_of_birth <T> 07 august 1941
+<H> haobam ongbi ngangbi devi <R> award_received <T> sangeet natak akademi award
+<H> draupadi murmu <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the twelfth odisha legislative assembly <QR> electoral_district <QT> rairangpur vidhan sabha constituency
+<H> maggie smith <R> child <T> toby stephens
+<H> ram probesh mondal <R> date_of_death <T> 23 june 2018
+<H> gopalkrishna gandhi <R> sibling <T> ramchandra gandhi <R> sibling <T> rajmohan gandhi
+<H> robert frost <R> occupant <T> robert frost farm <R> residence <T> new hampshire
+<H> bhama srinivasan <R> employer <T> university of illinois at chicago <R> occupation <T> university teacher
+<H> kamala surayya <R> country_of_citizenship <T> india <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 31 march 1934 <R> place_of_birth <T> punnayurkulam <QR> country <QT> india
+<H> janhvi kapoor <R> father <T> boney kapoor <R> mother <T> sridevi
+<H> himanta biswa sarma <R> member_of_political_party <T> indian national congress <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> golap borbora <R> educated_at <T> university of calcutta
+<H> subhash chandra bose <R> educated_at <T> fitzwilliam college
+<H> bhaben barua <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1979 <R> country_of_citizenship <T> india <R> occupation <T> writer
+<H> meghnad saha <R> place_of_birth <T> dhaka
+<H> mayukh hazarika <R> country_of_citizenship <T> india <R> date_of_birth <T> 13 january 1971 <R> place_of_birth <T> guwahati
+<H> sheila dikshit <R> country_of_citizenship <T> india <R> date_of_birth <T> 31 march 1938 <R> place_of_birth <T> kapurthala
+<H> bhattadeva <R> place_of_birth <T> barpeta district
+<H> jayanta nath <R> country_of_citizenship <T> india <R> date_of_birth <T> 20 may 1964 <R> place_of_birth <T> gossaigaon
+<H> devanand konwar <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> india <R> country_of_citizenship <T> british india <R> date_of_birth <T> 1934 <R> date_of_death <T> 25 april 2020 <R> occupation <T> politician
+<H> gopinath bordoloi <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> surinder kaur <R> genre <T> filmi music <R> instrument <T> voice <R> occupation <T> playback singer <R> occupation <T> singer
+<H> edward jenner <R> member_of <T> royal society
+<H> ishwar chandra vidyasagar <R> educated_at <T> the sanskrit college and university <R> languages_spoken,_written_or_signed <T> sanskrit
+<H> razia sultana <R> date_of_death <T> 13 october 1240
+<H> manas robin <R> country_of_citizenship <T> india <R> date_of_birth <T> 03 december 1976 <R> native_language <T> assamese <R> place_of_birth <T> sivasagar
+<H> elli avram <R> father <T> jannis avramidis <R> languages_spoken,_written_or_signed <T> swedish <R> mother <T> maria granlund
+<H> t. s. eliot <R> award_received <T> nobel prize in literature <QR> point_in_time <QT> 1948 <R> nominated_for <T> nobel prize in literature <QR> point_in_time <QT> 1948
+<H> manik sarkar <R> country_of_citizenship <T> india <R> occupation <T> politician <R> place_of_birth <T> tripura <R> position_held <T> member of the tripura legislative assembly
+<H> lil bahadur chettri <R> award_received <T> sahitya akademi award <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> nepali <R> occupation <T> writer
+<H> moni kumar subba <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> anita desai <R> employer <T> mount holyoke college <R> employer <T> smith college
+<H> muhammad saleh akbar hydari <R> date_of_birth <T> 12 october 1894
+<H> andré-marie ampère <R> award_received <T> foreign member of the royal society <R> member_of <T> royal swedish academy of sciences <QR> start_time <QT> 1828 <R> member_of <T> royal society <QR> start_time <QT> 1827
+<H> sakshi malik <R> award_received <T> rajiv gandhi khel ratna <QR> point_in_time <QT> 2016 <R> country_of_citizenship <T> india
+<H> shraddha kapoor <R> father <T> shakti kapoor
+<H> amit trivedi <R> award_received <T> national film award for best music direction <R> award_received <T> filmfare awards <R> genre <T> film score <R> occupation <T> music director
+<H> hema bharali <R> date_of_death <T> 29 april 2020 <R> place_of_death <T> assam
+<H> harish-chandra <R> residence <T> princeton
+<H> peter j. ratcliffe <R> country_of_citizenship <T> united kingdom <R> date_of_birth <T> 14 may 1954
+<H> priyamani <R> award_received <T> national film award for best actress <R> award_received <T> filmfare awards south <R> occupation <T> actor
+<H> kiran desai <R> mother <T> anita desai
+<H> amalprava das <R> educated_at <T> scottish church college
+<H> suprabha devi <R> date_of_death <T> 14 june 2011
+<H> keerthy suresh <R> date_of_birth <T> 17 october 1992 <R> occupation <T> actor
+<H> ramen deka <R> country_of_citizenship <T> india <R> date_of_birth <T> 01 march 1954 <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> leo tolstoy <R> author <T> a letter to a hindu
+<H> priyanka vadra <R> spouse <T> robert vadra
+<H> alfred nobel <R> commemorates <T> nobel foundation <R> donated_by <T> nobel foundation <R> founded_by <T> nobel prize <R> named_after <T> nobel foundation
+<H> bibha chowdhuri <R> employer <T> bose institute <R> occupation <T> scientist
+<H> nita ambani <R> spouse <T> mukesh ambani
+<H> nalini bala devi <R> country_of_citizenship <T> india <R> country_of_citizenship <T> british india <R> date_of_birth <T> 23 march 1898 <R> place_of_birth <T> barpeta
+<H> soumya swaminathan <R> educated_at <T> keck school of medicine <R> occupation <T> physician <R> occupation <T> scientist
+<H> pinaki chandra ghose <R> educated_at <T> university of calcutta
+<H> promode gogoi <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> india <R> country_of_citizenship <T> british india <R> date_of_birth <T> 29 september 1930 <R> place_of_birth <T> sivasagar
+<H> kazi nazrul islam <R> country_of_citizenship <T> bangladesh
+<H> vidya balan <R> award_received <T> filmfare awards
+<H> pratima barua pandey <R> award_received <T> padma shri in arts <R> genre <T> folk music
+<H> shrikant jichkar <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of rajya sabha
+<H> alan turing <R> named_after <T> turing machine
+<H> suman haripriya <R> member_of_political_party <T> bharatiya janata party <R> mother <T> bijoya chakravarty <R> occupation <T> politician
+<H> b. r. ambedkar <R> educated_at <T> london school of economics and political science <R> field_of_work <T> economics
+<H> parag kumar das <R> date_of_death <T> 17 may 1996 <R> manner_of_death <T> homicide <R> place_of_death <T> guwahati
+<H> michael kremer <R> award_received <T> fellow of the american academy of arts and sciences <R> award_received <T> macarthur fellows program <QR> point_in_time <QT> 1997
+<H> prodyut bora <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> olga ladyzhenskaya <R> field_of_work <T> partial differential equation <R> field_of_work <T> theory of differential equations <R> occupation <T> mathematician
+<H> piyali baruah <R> country_of_citizenship <T> british india <R> date_of_death <T> 26 february 1858 <R> place_of_death <T> jorhat assam
+<H> mother teresa <R> founded_by <T> missionaries of charity
+<H> charaka <R> author <T> charaka samhita <R> notable_work <T> charaka samhita <R> occupation <T> physician <R> occupation <T> writer <R> occupation <T> academic
+<H> mamang dai <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 2017 2017 <QR> for_work <QT> the black hill <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> english <R> occupation <T> author
+<H> hema malini <R> candidacy_in_election <T> 2014 indian general election in mathura lok sabha constituency <QR> electoral_district <QT> mathura lok sabha constituency <R> position_held <T> member of the 16th lok sabha <QR> start_time <QT> 16 may 2014 <QR> replaces <QT> jayant chaudhary <QR> electoral_district <QT> mathura lok sabha constituency <QR> elected_in <QT> 2014 indian general election in mathura lok sabha constituency
+<H> bimla buti <R> educated_at <T> university of chicago
+<H> ajay devgn <R> educated_at <T> mithibai college
+<H> shyamal mitra <R> date_of_death <T> 15 november 1987
+<H> irrfan khan <R> date_of_death <T> 29 april 2020
+<H> mahua moitra <R> country_of_citizenship <T> india <R> member_of_political_party <T> all india trinamool congress <R> occupation <T> politician <R> position_held <T> member of the 17th lok sabha <QR> parliamentary_group <QT> all india trinamool congress <QR> electoral_district <QT> krishnanagar lok sabha constituency <QR> parliamentary_term <QT> 17th lok sabha <QR> start_time <QT> 23 may 2019
+<H> fakhruddin ali ahmed <R> member_of_political_party <T> indian national congress
+<H> soumya swaminathan <R> educated_at <T> armed forces medical college <R> occupation <T> physician
+<H> sonal mansingh <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> india <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 30 april 1944 <R> occupation <T> choreographer
+<H> bijoy sankar barman <R> award_received <T> yuva puraskar <QR> point_in_time <QT> 2013 <R> country_of_citizenship <T> india
+<H> archana mahanta <R> country_of_citizenship <T> india <R> occupation <T> singer <R> spouse <T> khagen mahanta
+<H> shashi kapoor <R> occupation <T> film director <R> occupation <T> film producer <R> occupation <T> film actor
+<H> martin luther king jr. <R> child <T> martin luther king iii <R> child <T> bernice king
+<H> walt disney <R> founded_by <T> walt disney animation studios <R> occupation <T> film producer <R> occupation <T> producer
+<H> anowar hussain <R> country_of_citizenship <T> india <R> language_of_work_or_name <T> assamese <R> native_language <T> assamese <R> occupation <T> film director
+<H> devi shetty <R> founded_by <T> rabindranath tagore international institute of cardiac sciences
+<H> devendra jhajharia <R> country_of_citizenship <T> india <R> participant_in <T> 2004 summer paralympics
+<H> oliver hart <R> award_received <T> fellow of the american academy of arts and sciences <R> member_of <T> national academy of sciences
+<H> saroj khan <R> award_received <T> iifa award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography <R> award_received <T> filmfare award for best choreography
+<H> balasaraswati <R> award_received <T> padma vibhushan <R> award_received <T> padma bhushan <R> occupation <T> dancer
+<H> ganesh gogoi <R> date_of_birth <T> 28 december 1907 <R> place_of_birth <T> jorhat assam
+<H> deepa malik <R> country_of_citizenship <T> india <R> date_of_birth <T> 30 september 1970 <R> occupation <T> athlete
+<H> bhupen hazarika <R> award_received <T> national film award for best music direction <R> occupation <T> music director
+<H> neena gupta <R> award_received <T> national film award for best supporting actress <R> occupation <T> actor
+<H> venkatraman ramakrishnan <R> mother <T> r. rajalakshmi
+<H> maggie smith <R> winner <T> academy award for best supporting actress <QR> point_in_time <QT> 1978 <QR> for_work <QT> california suite
+<H> irrfan khan <R> educated_at <T> national school of drama
+<H> sushma swaraj <R> position_held <T> minister of external affairs <QR> start_time <QT> 26 may 2014 <R> position_held <T> member of the 16th lok sabha
+<H> juan manuel santos <R> member_of_political_party <T> social party of national unity <QR> start_time <QT> 2005
+<H> george baker <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> india <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 28 october 1945 <R> place_of_birth <T> tezpur
+<H> suman haripriya <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the assam legislative assembly <QR> start_time <QT> 2016
+<H> harishankar parsai <R> author <T> bikalang shraddha ka dour <R> award_received <T> sahitya akademi award <QR> for_work <QT> bikalang shraddha ka dour <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> languages_spoken,_written_or_signed <T> hindi <R> notable_work <T> bikalang shraddha ka dour <R> occupation <T> author <R> occupation <T> writer
+<H> renuka ravindran <R> country_of_citizenship <T> india <R> employer <T> indian institute of science <R> occupation <T> mathematician <R> occupation <T> academic
+<H> sujangphaa <R> child <T> suphakphaa <R> date_of_death <T> 1422 <R> position_held <T> king of ahom <QR> end_time <QT> 1422 <QR> replaced_by <QT> suphakphaa
+<H> dimbeswar neog <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> india <R> date_of_birth <T> 07 august 1899 <R> ethnic_group <T> assamese people <R> place_of_birth <T> assam
+<H> janaki ballav patnaik <R> educated_at <T> banaras hindu university
+<H> m. visvesvaraya <R> educated_at <T> college of engineering pune <R> occupation <T> engineer
+<H> sudha chandran <R> educated_at <T> mithibai college
+<H> anwara taimur <R> country_of_citizenship <T> dominion of india <R> occupation <T> politician <R> position_held <T> member of the assam legislative assembly
+<H> nirupama borgohain <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1996 1996 <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> assamese <R> occupation <T> novelist
+<H> jamuna barua <R> date_of_death <T> 24 november 2005 <R> place_of_death <T> kolkata
+<H> puravi baramrudai <R> award_received <T> sahitya akademi award <R> languages_spoken,_written_or_signed <T> assamese <R> occupation <T> writer
+<H> neena gupta <R> educated_at <T> indian statistical institute <R> occupation <T> mathematician
+<H> tarali sarma <R> child <T> prabhat sarma
+<H> bhogeswar baruah <R> award_received <T> arjuna award <R> country_of_citizenship <T> india
+<H> madaram brahma <R> award_received <T> padma shri in literature and education
+<H> sharmistha mukherjee <R> country_of_citizenship <T> india <R> father <T> pranab mukherjee
+<H> zaheer khan <R> member_of_sports_team <T> india national cricket team <QR> start_time <QT> 2000 <QR> end_time <QT> 2014
+<H> gulzar <R> director <T> mirza ghalib
+<H> rani rampal <R> member_of_sports_team <T> india women's national field hockey team <R> occupation <T> field hockey player <R> participant_in <T> 2010 asian games <R> sport <T> field hockey
+<H> prashant goswami <R> award_received <T> shanti swarup bhatnagar prize for science and technology <QR> point_in_time <QT> 2001
+<H> lawrence ferlinghetti <R> date_of_birth <T> 24 march 1919
+<H> martin ohm <R> doctoral_advisor <T> karl christian von langsdorf
+<H> yogi adityanath <R> educated_at <T> hemwati nandan bahuguna garhwal university
+<H> gita gopinath <R> educated_at <T> delhi school of economics <QR> academic_degree <QT> master of economics <QR> end_time <QT> 1994
+<H> kiran bedi <R> educated_at <T> university of delhi
+<H> renuka ravindran <R> country_of_citizenship <T> india <R> employer <T> indian institute of science <R> occupation <T> academic
+<H> rita chowdhury <R> employer <T> cotton college guwahati <R> occupation <T> university teacher
+<H> ōsumi yoshinori <R> employer <T> tokyo institute of technology <R> professorship <T> professor
+<H> renuka devi barkataki <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the assam legislative assembly
+<H> arthur guyton <R> employer <T> university of mississippi <R> languages_spoken,_written_or_signed <T> english <R> occupation <T> physician <R> occupation <T> physiologist
+<H> imran khan <R> chairperson <T> pakistan tehreek-e-insaf <R> country_of_citizenship <T> pakistan <R> founded_by <T> pakistan tehreek-e-insaf <R> member_of_political_party <T> pakistan tehreek-e-insaf <R> position_held <T> chairperson <QR> of <QT> pakistan tehreek-e-insaf <QR> start_time <QT> 25 april 1996
+<H> neena gupta <R> educated_at <T> bethune college <R> occupation <T> mathematician <R> residence <T> india
+<H> aditi pant <R> country_of_citizenship <T> india <R> educated_at <T> savitribai phule pune university <R> employer <T> national institute of oceanography <R> field_of_work <T> oceanography <R> occupation <T> oceanographer
+<H> padmavathy bandopadhyay <R> country_of_citizenship <T> india <R> employer <T> indian air force <R> military_rank <T> air marshal <R> occupation <T> military officer
+<H> ramakrishna <R> date_of_death <T> 16 august 1886
+<H> nitin gadkari <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> anukulchandra chakraborty <R> date_of_death <T> 27 january 1969 <R> place_of_death <T> deoghar
+<H> kasturba gandhi <R> date_of_birth <T> 11 april 1869 <R> place_of_birth <T> porbandar
+<H> kapila vatsyayan <R> date_of_birth <T> 25 december 1928
+<H> lovlina borgohain <R> occupation <T> boxer <R> participant_in <T> 2017 asian amateur boxing championships <QR> award_received <QT> bronze medal <R> participant_in <T> 2018 aiba women's world boxing championships <QR> award_received <QT> bronze medal <R> sport <T> boxing
+<H> sonu nigam <R> date_of_birth <T> 30 july 1973 <R> occupation <T> singer
+<H> angoorlata deka <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician <R> position_held <T> member of the assam legislative assembly
+<H> adam smith <R> author <T> the theory of moral sentiments <R> creator <T> the theory of moral sentiments <R> notable_work <T> the theory of moral sentiments
+<H> govind ballabh pant <R> position_held <T> member of the central legislative assembly
+<H> anoushka shankar <R> father <T> ravi shankar
+<H> gulzar <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 2002
+<H> binoy majumdar <R> date_of_birth <T> 17 september 1934
+<H> banikanta kakati <R> educated_at <T> university of calcutta
+<H> ekta kapoor <R> sibling <T> tusshar kapoor
+<H> jagdish mukhi <R> occupation <T> politician <R> occupation <T> academic
+<H> bhumidhar barman <R> country_of_citizenship <T> india <R> date_of_birth <T> 12 october 1931
+<H> jagdeep <R> cast_member <T> andaz apna apna <R> cast_member <T> sholay <R> cast_member <T> purana mandir <R> occupation <T> actor
+<H> shrikant jichkar <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of maharashtra legislative assembly
+<H> nigamananda paramahansa <R> date_of_death <T> 29 november 1935 <R> place_of_death <T> kolkata
+<H> aditi pant <R> employer <T> national institute of oceanography <R> field_of_work <T> oceanography <R> occupation <T> oceanographer
+<H> roger penrose <R> employer <T> university of texas at austin <R> occupation <T> university teacher
+<H> phoolan devi <R> country_of_citizenship <T> india <R> member_of_political_party <T> samajwadi party <R> occupation <T> politician <R> residence <T> uttar pradesh
+<H> andré-marie ampère <R> part_of <T> 72 names on the eiffel tower
+<H> farhan akhtar <R> father <T> javed akhtar <R> mother <T> honey irani <R> sibling <T> zoya akhtar
+<H> balasaraswati <R> award_received <T> padma vibhushan <R> occupation <T> dancer
+<H> s. p. balasubrahmanyam <R> award_received <T> filmfare award for best male playback singer <R> occupation <T> playback singer
+<H> soumya swaminathan <R> educated_at <T> all india institute of medical sciences new delhi <R> occupation <T> physician
+<H> kameshwar brahma <R> award_received <T> padma shri in literature and education <R> place_of_birth <T> assam
+<H> b. r. ambedkar <R> affiliation <T> buddhist society of india
+<H> ben feringa <R> award_received <T> knight of the order of the netherlands lion <QR> point_in_time <QT> 2008 <R> country_of_citizenship <T> kingdom of the netherlands
+<H> ushadevi bhosle <R> educated_at <T> shivaji university
+<H> didier queloz <R> educated_at <T> university of geneva
+<H> akhil gogoi <R> country_of_citizenship <T> india <R> educated_at <T> cotton college guwahati
+<H> barkha dutt <R> educated_at <T> jamia millia islamia <R> occupation <T> journalist
+<H> nambi narayanan <R> employer <T> indian space research organisation <R> occupation <T> engineer
+<H> bebe nanaki <R> dedicated_to <T> guru nanak <R> sibling <T> guru nanak
+<H> vidita vaidya <R> date_of_birth <T> 1970
+<H> abdus salam <R> educated_at <T> government college university
+<H> utpal datta <R> occupation <T> film critic
+<H> ibn battuta <R> date_of_birth <T> 24 february 1304 <R> place_of_birth <T> tangier <R> religion <T> islam
+<H> helen keller <R> father <T> arthur henley keller <R> mother <T> catherine adams
+<H> shaktikanta das <R> country_of_citizenship <T> india <R> occupation <T> indian administrative service <R> occupation <T> civil servant
+<H> madan mohan malaviya <R> founded_by <T> akhil bharatiya hindu mahasabha
+<H> kunal ganjawala <R> country_of_citizenship <T> india <R> date_of_birth <T> 14 april 1972 <R> instrument <T> voice <R> occupation <T> singer
+<H> mitradev mahanta <R> date_of_birth <T> 13 june 1894 <R> languages_spoken,_written_or_signed <T> assamese
+<H> bhogeswar baruah <R> award_received <T> arjuna award <R> country_of_citizenship <T> india
+<H> william francis ganong, jr. <R> employer <T> university of california berkeley <R> occupation <T> physiologist
+<H> indrani rahman <R> occupation <T> beauty pageant contestant <R> victory <T> femina miss india <QR> point_in_time <QT> 1952
+<H> b. r. ambedkar <R> educated_at <T> elphinstone college
+<H> zohurul hoque <R> date_of_death <T> 18 january 2017 <R> place_of_death <T> muscat
+<H> k. r. narayanan <R> educated_at <T> london school of economics and political science
+<H> radhika apte <R> cast_member <T> rakta charitra <R> cast_member <T> i am <R> occupation <T> film actor <R> occupation <T> actor
+<H> gaurav gogoi <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician <R> position_held <T> member of the 16th lok sabha <QR> parliamentary_group <QT> indian national congress <QR> electoral_district <QT> kaliabor lok sabha constituency <R> position_held <T> member of the 17th lok sabha <QR> parliamentary_group <QT> indian national congress <QR> electoral_district <QT> kaliabor lok sabha constituency
+<H> sidney sheldon <R> screenwriter <T> easter parade
+<H> sundar pichai <R> date_of_birth <T> 12 july 1972
+<H> khagen mahanta <R> child <T> angaraag mahanta <R> country_of_citizenship <T> india <R> occupation <T> musician
+<H> scarlett johansson <R> award_received <T> bafta award for best actress in a leading role <R> occupation <T> film actor
+<H> timothy dexter <R> date_of_death <T> 23 october 1806 <R> date_of_death <T> 26 october 1806
+<H> jyoti prakash das <R> educated_at <T> st. anthony's college shillong
+<H> lilabati bhattacharjee <R> educated_at <T> university of calcutta <R> occupation <T> physicist
+<H> m. r. poovamma <R> date_of_birth <T> 05 june 1990
+<H> jean-pierre sauvage <R> languages_spoken,_written_or_signed <T> french <R> member_of <T> french academy of sciences
+<H> kamlesh mehta <R> award_received <T> arjuna award <R> country_of_citizenship <T> india <R> sport <T> table tennis
+<H> shaktikanta das <R> educated_at <T> st. stephen's college
+<H> tarun gogoi <R> educated_at <T> gauhati university
+<H> ramen deka <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the 16th lok sabha <R> position_held <T> member of the 15th lok sabha
+<H> tarun gogoi <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> xi jinping <R> member_of_political_party <T> communist party of china
+<H> bhikaiji cama <R> date_of_death <T> 13 august 1936
+<H> toni morrison <R> author <T> the bluest eye <R> notable_work <T> the bluest eye
+<H> akshay kumar <R> sibling <T> alka bhatia
+<H> irom chanu sharmila <R> country_of_citizenship <T> india <R> date_of_birth <T> 14 march 1972 <R> place_of_birth <T> imphal
+<H> michio kaku <R> country_of_citizenship <T> united states of america <R> military_branch <T> united states army
+<H> saikhom mirabai chanu <R> occupation <T> weightlifter <R> participant_in <T> 2018 commonwealth games
+<H> mangala narlikar <R> educated_at <T> university of mumbai <R> occupation <T> mathematician
+<H> zoya akhtar <R> award_received <T> filmfare award for best director <QR> for_work <QT> zindagi na milegi dobara <R> director <T> zindagi na milegi dobara <R> occupation <T> film director <R> winner <T> filmfare award for best director <QR> for_work <QT> zindagi na milegi dobara
+<H> sumati morarjee <R> date_of_death <T> 27 june 1998
+<H> hem barua <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> british india <R> ethnic_group <T> assamese people <R> occupation <T> politician <R> position_held <T> member of the lok sabha
+<H> kamala surayya <R> date_of_death <T> 31 may 2009 <R> place_of_death <T> pune
+<H> samuel hahnemann <R> place_of_birth <T> meissen
+<H> arup kumar dutta <R> educated_at <T> university of delhi
+<H> uday shankar <R> educated_at <T> royal college of art
+<H> priyanka chopra <R> award_received <T> national film award for best actress <QR> for_work <QT> fashion <R> occupation <T> film actor <R> winner <T> filmfare award for best actress <QR> for_work <QT> fashion
+<H> harishankar parsai <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 22 august 1922 <R> date_of_death <T> 10 august 1995 <R> occupation <T> writer <R> occupation <T> author
+<H> golap borbora <R> country_of_citizenship <T> india <R> member_of_political_party <T> janata party <R> occupation <T> politician
+<H> aditi pant <R> educated_at <T> university of hawaii <R> field_of_work <T> oceanography <R> languages_spoken,_written_or_signed <T> english <R> occupation <T> oceanographer
+<H> baijayant panda <R> candidacy_in_election <T> 2014 indian general election in kendrapara lok sabha constituency <QR> member_of_political_party <QT> biju janata dal <QR> electoral_district <QT> kendrapara lok sabha constituency <R> member_of_political_party <T> biju janata dal <R> occupation <T> politician <R> position_held <T> member of the 15th lok sabha <QR> electoral_district <QT> kendrapara lok sabha constituency <QR> parliamentary_group <QT> biju janata dal <R> position_held <T> member of the 16th lok sabha <QR> electoral_district <QT> kendrapara lok sabha constituency <QR> parliamentary_group <QT> biju janata dal
+<H> arundhati roy <R> author <T> the god of small things <R> award_received <T> booker prize <QR> point_in_time <QT> 1997 <QR> for_work <QT> the god of small things <R> languages_spoken,_written_or_signed <T> english <R> notable_work <T> the god of small things <R> winner <T> booker prize <QR> point_in_time <QT> 1997 <QR> for_work <QT> the god of small things
+<H> manas robin <R> country_of_citizenship <T> india <R> instrument <T> voice <R> native_language <T> assamese <R> occupation <T> music director <R> occupation <T> singer
+<H> sudipta sengupta <R> educated_at <T> jadavpur university
+<H> rajeshwari chatterjee <R> educated_at <T> university of mysore
+<H> ajay devgn <R> father <T> veeru devgan
+<H> sarbananda sonowal <R> candidacy_in_election <T> 2014 indian general election in lakhimpur lok sabha constituency <QR> member_of_political_party <QT> bharatiya janata party <QR> ranking <QT> 1.0 <QR> electoral_district <QT> lakhimpur lok sabha constituency <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician <R> position_held <T> member of the 16th lok sabha <QR> electoral_district <QT> lakhimpur lok sabha constituency <QR> parliamentary_group <QT> bharatiya janata party <QR> elected_in <QT> 2014 indian general election in lakhimpur lok sabha constituency
+<H> hagrama mohilary <R> country_of_citizenship <T> india <R> member_of_political_party <T> bodoland people's front <R> occupation <T> politician
+<H> manik sarkar <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the tripura legislative assembly
+<H> richard feynman <R> doctoral_advisor <T> john archibald wheeler
+<H> mahim bora <R> educated_at <T> cotton college guwahati
+<H> krishna kanta handique <R> educated_at <T> university of calcutta <R> languages_spoken,_written_or_signed <T> assamese
+<H> bijoya chakravarty <R> candidacy_in_election <T> 2014 indian general election in gauhati lok sabha constituency <QR> member_of_political_party <QT> bharatiya janata party <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> position_held <T> member of the 13th lok sabha <QR> parliamentary_group <QT> bharatiya janata party <R> position_held <T> member of the 15th lok sabha <QR> parliamentary_group <QT> bharatiya janata party <R> position_held <T> member of the 16th lok sabha <QR> parliamentary_group <QT> bharatiya janata party
+<H> sujatha ramdorai <R> award_received <T> shanti swarup bhatnagar prize for science and technology <QR> point_in_time <QT> 2004 <R> country_of_citizenship <T> india
+<H> ekta kapoor <R> educated_at <T> mithibai college
+<H> sushil kumar <R> award_received <T> rajiv gandhi khel ratna <R> country_of_citizenship <T> india
+<H> rishi kapoor <R> award_received <T> filmfare awards <R> cast_member <T> bobby <R> occupation <T> actor <R> occupation <T> film actor <R> winner <T> filmfare award for best actor <QR> for_work <QT> bobby
+<H> neil armstrong <R> country_of_citizenship <T> united states of america <R> military_branch <T> united states navy <R> occupation <T> astronaut
+<H> ronaldo <R> participant_in <T> 1994 fifa world cup
+<H> vikram sarabhai <R> spouse <T> mrinalini sarabhai
+<H> brajanath sarma <R> date_of_death <T> 12 september 1960 <R> place_of_death <T> guwahati
+<H> shanno devi <R> date_of_birth <T> 01 june 1901
+<H> jayanta hazarika <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> india <R> date_of_birth <T> 20 september 1943 <R> native_language <T> assamese <R> place_of_birth <T> mangaldoi
+<H> dipa karmakar <R> occupation <T> artistic gymnast <R> participant_in <T> gymnastics at the 2016 summer olympics
+<H> trailokya dutta <R> date_of_death <T> 11 november 2020
+<H> jared diamond <R> employer <T> university of california los angeles <R> occupation <T> university teacher
+<H> asima chatterjee <R> country_of_citizenship <T> india <R> position_held <T> member of rajya sabha
+<H> gautam bora <R> occupation <T> film director
+<H> sudeshna sinha <R> spouse <T> kapil hari paranjape
+<H> agatha sangma <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the 15th lok sabha
+<H> mangala narlikar <R> employer <T> university of cambridge
+<H> mira nair <R> educated_at <T> university of delhi
+<H> rituparno ghosh <R> director <T> chitrangada: the crowning wish <R> occupation <T> film director
+<H> dharani barman <R> country_of_citizenship <T> india <R> occupation <T> theatrical producer <R> place_of_birth <T> nalbari district
+<H> achyut lahkar <R> date_of_death <T> 12 june 2016
+<H> nargis <R> award_received <T> filmfare award for best actress <R> occupation <T> film actor <R> winner <T> filmfare award for best actress
+<H> kafil uddin sonar <R> date_of_death <T> 25 october 2019
+<H> bishnuram medhi <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> sushil kumar <R> participant_in <T> 2010 commonwealth games
+<H> vikram sarabhai <R> child <T> kartikeya sarabhai <R> child <T> mallika sarabhai shah
+<H> anoushka shankar <R> performer <T> live at carnegie hall
+<H> jibanananda das <R> educated_at <T> university of calcutta <R> educated_at <T> brojomohun college
+<H> rudra baruah <R> date_of_death <T> 14 february 1980
+<H> sharmila tagore <R> father <T> gitindranath tagore
+<H> soumya swaminathan <R> employer <T> world health organization <QR> start_time <QT> march 2019 <R> employer <T> world health organization <R> occupation <T> scientist
+<H> oliver hart <R> educated_at <T> princeton university
+<H> anupama chopra <R> author <T> sholay: the making of a classic <R> country_of_citizenship <T> india <R> notable_work <T> sholay: the making of a classic <R> occupation <T> film critic <R> occupation <T> writer
+<H> neena gupta <R> child <T> masaba gupta
+<H> steven spielberg <R> father <T> arnold spielberg
+<H> atulananda goswami <R> author <T> cheneh jorir ganthi <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 2006 <QR> for_work <QT> cheneh jorir ganthi <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> assamese <R> occupation <T> writer
+<H> dip gogoi <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician <R> position_held <T> member of the 15th lok sabha <QR> electoral_district <QT> kaliabor lok sabha constituency <QR> parliamentary_group <QT> indian national congress
+<H> alan turing <R> field_of_work <T> computer science <R> occupation <T> computer scientist
+<H> leon trotsky <R> conflict <T> russian revolution <R> member_of_political_party <T> russian social democratic labour party
+<H> elli avram <R> cast_member <T> mickey virus
+<H> yakub memon <R> date_of_death <T> 30 july 2015 <R> manner_of_death <T> capital punishment <R> occupation <T> criminal
+<H> rituparno ghosh <R> date_of_death <T> 30 may 2013
+<H> anna rajam malhotra <R> country_of_citizenship <T> india <R> employer <T> indian administrative service
+<H> reita faria <R> occupation <T> beauty pageant contestant <R> occupation <T> model <R> victory <T> miss world <QR> point_in_time <QT> 1966 <QR> statement_is_subject_of <QT> miss world 1966 <R> winner <T> miss world 1966
+<H> andrea m. ghez <R> country_of_citizenship <T> united states of america <R> member_of <T> national academy of sciences <QR> start_time <QT> 2004
+<H> sheena bora <R> country_of_citizenship <T> india <R> date_of_birth <T> 11 february 1987 <R> mother <T> indrani mukerjea
+<H> shammi kapoor <R> father <T> prithviraj kapoor
+<H> kanta gupta <R> doctoral_advisor <T> michael frederick newman
+<H> moirangthem maniram singha <R> country_of_citizenship <T> india <R> place_of_birth <T> north lakhimpur
+<H> hem barua <R> occupation <T> politician <R> position_held <T> member of the lok sabha
+<H> draupadi murmu <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the thirteenth odisha legislative assembly <R> position_held <T> member of the twelfth odisha legislative assembly
+<H> gérard mourou <R> country_of_citizenship <T> france <R> date_of_birth <T> 22 june 1944 <R> languages_spoken,_written_or_signed <T> french <R> occupation <T> physicist
+<H> durga boro <R> country_of_citizenship <T> india <R> date_of_birth <T> 28 january 1987 <R> occupation <T> association football player <R> sport <T> association football
+<H> jasimuddin <R> employer <T> university of dhaka <R> languages_spoken,_written_or_signed <T> bengali
+<H> roger penrose <R> employer <T> king's college london
+<H> neena gupta <R> doctoral_advisor <T> amartya kumar dutta <R> occupation <T> mathematician
+<H> moghai ojah <R> date_of_death <T> 15 march 1978
+<H> swami vivekananda <R> follower_of <T> ramakrishna
+<H> albert einstein <R> father <T> hermann einstein
+<H> ananda chandra dutta <R> date_of_death <T> 16 january 2016
+<H> gunjan bhardwaj <R> date_of_birth <T> 17 july 1986 <R> place_of_birth <T> tinsukia
+<H> kader khan <R> child <T> sarfaraz khan
+<H> lionel messi <R> award_received <T> fifa ballon d'or <QR> point_in_time <QT> 2011 <QR> statement_is_subject_of <QT> 2011 fifa ballon d'or <R> award_received <T> fifa ballon d'or <QR> point_in_time <QT> 2010 <QR> statement_is_subject_of <QT> 2010 fifa ballon d'or <R> award_received <T> fifa ballon d'or <QR> point_in_time <QT> 2012 <QR> statement_is_subject_of <QT> 2012 fifa ballon d'or
+<H> george baker <R> candidacy_in_election <T> 2014 indian general election in howrah lok sabha constituency <QR> member_of_political_party <QT> bharatiya janata party <QR> electoral_district <QT> howrah lok sabha constituency <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> sheila bhatia <R> award_received <T> padma shri <QR> point_in_time <QT> 1971
+<H> gaurav gogoi <R> father <T> tarun gogoi
+<H> bhama srinivasan <R> member_of <T> american mathematical society
+<H> amit shah <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> bimala prasad chaliha <R> date_of_death <T> 25 february 1971
+<H> vyjayanthi chari <R> educated_at <T> university of mumbai
+<H> paul dirac <R> award_received <T> nobel prize in physics <QR> point_in_time <QT> 1933 <QR> together_with <QT> erwin schrodinger <R> nominated_for <T> nobel prize in physics <QR> point_in_time <QT> 1933
+<H> meira kumar <R> educated_at <T> university of delhi <R> educated_at <T> indraprastha college for women
+<H> rajen gohain <R> educated_at <T> gauhati university
+<H> jogesh das <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1980 <QR> for_work <QT> pruthibira asukha <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> assamese <R> occupation <T> writer
+<H> che guevara <R> father <T> ernesto guevara lynch <R> mother <T> celia de la serna
+<H> indira gandhi <R> child <T> rajiv gandhi <R> child <T> sanjay gandhi
+<H> ajit iqbal singh <R> member_of <T> the national academy of sciences india
+<H> abhinav bindra <R> educated_at <T> st. stephen's school chandigarh
+<H> stephen hawking <R> date_of_death <T> 14 march 2018 <R> place_of_death <T> cambridge <R> residence <T> england
+<H> jwngdao bodosa <R> director <T> alayaron <R> educated_at <T> film and television institute of india <R> occupation <T> film director
+<H> abhinav bindra <R> award_received <T> rajiv gandhi khel ratna <R> award_received <T> arjuna award
+<H> valmiki <R> author <T> ramayana <R> languages_spoken,_written_or_signed <T> sanskrit <R> notable_work <T> ramayana <R> occupation <T> poet
+<H> ruskin bond <R> country_of_citizenship <T> british india <R> date_of_birth <T> 19 may 1934 <R> languages_spoken,_written_or_signed <T> english
+<H> rupamanjari ghosh <R> employer <T> shiv nadar university <R> occupation <T> physicist
+<H> omeo kumar das <R> educated_at <T> cotton college guwahati <R> educated_at <T> city college
+<H> herbert kleber <R> employer <T> yale university <R> languages_spoken,_written_or_signed <T> english <R> occupation <T> psychiatrist
+<H> nongthombam biren singh <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician <R> position_held <T> member of the manipur legislative assembly
+<H> kiran bedi <R> employer <T> indian police service <R> occupation <T> police officer
+<H> zakir naik <R> owned_by <T> peace tv <R> owned_by <T> peace tv bangla <R> owned_by <T> peace tv urdu <R> religion <T> islam
+<H> nazia hassan <R> instrument <T> voice <R> occupation <T> singer <R> performer <T> young tarang
+<H> kamlabai gokhale <R> mother <T> durgabai kamat <R> occupation <T> actor
+<H> jibanananda das <R> author <T> banalata sen <R> notable_work <T> banalata sen
+<H> anna rajam malhotra <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 17 july 1927
+<H> devendranath acharya <R> award_received <T> sahitya akademi award <QR> for_work <QT> jangam <R> country_of_citizenship <T> india <R> occupation <T> writer
+<H> muhammad <R> founded_by <T> islam <R> occupation <T> prophet of islam
+<H> tabu taid <R> date_of_birth <T> 01 august 1942 <R> date_of_death <T> 17 august 2019 <R> occupation <T> linguist
+<H> jwngdao bodosa <R> date_of_birth <T> 13 july 1959
+<H> rajen rabha <R> date_of_death <T> 06 june 1999 <R> ethnic_group <T> rabha tribe
+<H> pratibha patil <R> date_of_birth <T> 19 december 1934 <R> occupation <T> politician
+<H> saroj khan <R> award_received <T> filmfare award for best choreography
+<H> beauty sharma barua <R> country_of_citizenship <T> india <R> date_of_birth <T> 18 june 1951
+<H> ronit roy <R> award_received <T> filmfare awards <R> winner <T> indian telly award for best actor in a lead role - male
+<H> s. i. padmavati <R> date_of_birth <T> 20 june 1917 <R> place_of_birth <T> myanmar
+<H> venkatraman ramakrishnan <R> employer <T> university of cambridge <R> member_of <T> indian national science academy
+<H> ramesh pathak <R> date_of_birth <T> 01 may 1942 <R> occupant <T> teacher <R> occupation <T> writer
+<H> devika rani <R> educated_at <T> royal academy of music <R> educated_at <T> royal academy of dramatic art
+<H> s. p. balasubrahmanyam <R> award_received <T> nandi awards <R> languages_spoken,_written_or_signed <T> telugu <R> occupation <T> film producer
+<H> archana bhattacharyya <R> country_of_citizenship <T> india <R> employer <T> indian institute of geomagnetism <R> occupation <T> researcher
+<H> parbati kumar goswami <R> educated_at <T> cotton college guwahati
+<H> yogeshwar dutt <R> participant_in <T> 2008 summer olympics
+<H> steven johnson <R> author <T> future perfect: the case for progress in a networked age <R> occupation <T> writer
+<H> parag kumar das <R> country_of_citizenship <T> india <R> date_of_birth <T> 24 february 1961 <R> place_of_birth <T> shillong
+<H> nilmani phookan (junior) <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1981 <QR> for_work <QT> kabita <R> country_of_citizenship <T> india <R> occupation <T> author <R> occupation <T> poet
+<H> tawakel karman <R> educated_at <T> university of alberta
+<H> ramanand sagar <R> occupation <T> screenwriter <R> winner <T> filmfare award for best dialogue <QR> point_in_time <QT> 1960 <QR> for_work <QT> paigham
+<H> sushmita sen <R> occupation <T> beauty pageant contestant <R> winner <T> miss universe 1994
+<H> jawaharlal nehru <R> member_of_political_party <T> indian national congress
+<H> motilal nehru <R> place_of_birth <T> agra
+<H> manushi chhillar <R> educated_at <T> bhagat phool singh medical college <R> educated_at <T> st. thomas' school
+<H> anand kumar <R> founded_by <T> super 30
+<H> mukesh khanna <R> educated_at <T> film and television institute of india <R> occupation <T> actor
+<H> arundhati roy <R> author <T> the god of small things <R> award_received <T> booker prize <QR> point_in_time <QT> 1997 <QR> for_work <QT> the god of small things <R> notable_work <T> the god of small things <R> winner <T> booker prize <QR> point_in_time <QT> 1997 <QR> for_work <QT> the god of small things
+<H> rahat indori <R> educated_at <T> madhya pradesh bhoj open university
+<H> henry john stedman cotton <R> educated_at <T> king's college london
+<H> bhubanmohan baruah <R> date_of_death <T> 10 may 1998 <R> place_of_death <T> shillong
+<H> jamuna barua <R> date_of_death <T> 24 november 2005 <R> place_of_death <T> kolkata
+<H> preeti barua <R> date_of_death <T> 04 november 2015
+<H> arundhati bhattacharya <R> country_of_citizenship <T> india <R> employer <T> state bank of india <QR> start_time <QT> 1977 <R> occupation <T> banker
+<H> kalanidhi narayanan <R> award_received <T> sangeet natak akademi award <QR> point_in_time <QT> 1990 <R> country_of_citizenship <T> india
+<H> arnab ranjan goswami <R> educated_at <T> hindu college university of delhi <R> educated_at <T> st antony's college
+<H> tomas tranströmer <R> educated_at <T> stockholm university
+<H> madan mohan malaviya <R> educated_at <T> allahabad university
+<H> bhama srinivasan <R> country_of_citizenship <T> united states of america
+<H> irrfan khan <R> award_received <T> filmfare award for best actor <R> occupation <T> film actor
+<H> govind ballabh pant <R> member_of_political_party <T> indian national congress
+<H> mahi chandra miri <R> educated_at <T> cotton college guwahati
+<H> gaurav gogoi <R> candidacy_in_election <T> 2014 indian general election in kaliabor lok sabha constituency <QR> member_of_political_party <QT> indian national congress <QR> electoral_district <QT> kaliabor lok sabha constituency <R> country_of_citizenship <T> india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> kutub ahmed mazumder <R> date_of_death <T> 27 november 2019
+<H> shakuntala devi <R> date_of_death <T> 21 april 2013 <R> place_of_death <T> bengaluru
+<H> hans christian gram <R> discoverer_or_inventor <T> gram staining <R> named_after <T> gram staining <R> named_after <T> gram-negative bacteria <R> named_after <T> gram-positive bacteria <R> notable_work <T> gram staining
+<H> tarun gogoi <R> position_held <T> member of the assam legislative assembly
+<H> alan turing <R> cause_of_death <T> cyanide poisoning
+<H> balasaraswati <R> award_received <T> sangeet natak akademi award <R> country_of_citizenship <T> india
+<H> manpreet kaur <R> occupation <T> athletics competitor <R> sport <T> athletics <R> sports_discipline_competed_in <T> shot put
+<H> shreya ghoshal <R> date_of_birth <T> 12 march 1984 <R> religion <T> hinduism
+<H> reinhard genzel <R> employer <T> university of california berkeley <R> occupation <T> university teacher
+<H> zoya akhtar <R> director <T> dil dhadakne do <R> occupation <T> film director
+<H> surjya kanta hazarika <R> date_of_birth <T> 31 may 1956
+<H> amulya barua <R> country_of_citizenship <T> british india <R> date_of_birth <T> 30 june 1922 <R> place_of_birth <T> jorhat assam
+<H> abdus salam <R> employer <T> international centre for theoretical physics <R> founded_by <T> international centre for theoretical physics <R> occupation <T> theoretical physicist
+<H> vidita vaidya <R> educated_at <T> st. xavier's college mumbai
+<H> mahua moitra <R> country_of_citizenship <T> india <R> member_of_political_party <T> all india trinamool congress <R> occupation <T> politician
+<H> rima das <R> director <T> village rockstars <R> notable_work <T> village rockstars <R> occupation <T> film director
+<H> olga ladyzhenskaya <R> field_of_work <T> partial differential equation <R> field_of_work <T> theory of differential equations <R> occupation <T> mathematician
+<H> k. r. narayanan <R> educated_at <T> university of kerala
+<H> aruna asaf ali <R> founded_by <T> national federation of indian women <R> occupation <T> political activist
+<H> savitri jindal <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> morarji desai <R> educated_at <T> wilson college mumbai
+<H> himanta biswa sarma <R> educated_at <T> cotton college guwahati
+<H> trailokya dutta <R> country_of_citizenship <T> india <R> native_language <T> assamese <R> place_of_birth <T> barpeta district
+<H> sheila bhatia <R> date_of_death <T> 17 february 2008
+<H> jagannath barooah <R> date_of_death <T> 21 april 1907
+<H> bholanath borooah <R> country_of_citizenship <T> british india <R> date_of_birth <T> 1853 <R> date_of_death <T> 30 may 1923 <R> native_language <T> assamese <R> occupation <T> businessperson
+<H> indira gandhi <R> birth_name <T> indira priyadarshini nehru
+<H> walt disney <R> founded_by <T> the walt disney company <R> founded_by <T> walt disney studios
+<H> amrit kaur <R> father <T> harnam singh
+<H> neena gupta <R> educated_at <T> the lawrence school sanawar
+<H> irrfan khan <R> award_received <T> national film award for best actor <QR> for_work <QT> paan singh tomar <R> award_received <T> filmfare critics award for best actor <QR> for_work <QT> paan singh tomar <R> cast_member <T> paan singh tomar <R> notable_work <T> paan singh tomar <R> occupation <T> film actor
+<H> amartya sen <R> employer <T> jadavpur university <R> occupation <T> university teacher
+<H> meira kumar <R> candidacy_in_election <T> 2017 indian presidential election <R> occupation <T> politician
+<H> kajal aggarwal <R> cast_member <T> do lafzon ki kahani <R> occupation <T> film actor
+<H> harshdeep kaur <R> country_of_citizenship <T> india <R> date_of_birth <T> 16 december 1986 <R> instrument <T> voice <R> occupation <T> singer
+<H> melinda gates <R> founded_by <T> bill & melinda gates foundation <R> named_after <T> bill & melinda gates foundation <R> spouse <T> bill gates
+<H> bibhutibhushan bandyopadhyay <R> country_of_citizenship <T> british india <R> date_of_birth <T> 12 september 1894 <R> native_language <T> bengali
+<H> lila tretikov <R> country_of_citizenship <T> russia <R> date_of_birth <T> 25 january 1978 <R> place_of_birth <T> moscow
+<H> madhubala <R> date_of_death <T> 23 february 1969
+<H> manushi chhillar <R> occupation <T> beauty pageant contestant <R> winner <T> miss world 2017
+<H> mrinal miri <R> award_received <T> padma bhushan
+<H> ramdas gandhi <R> child <T> sumitra gandhi kulkarni
+<H> oliver hart <R> employer <T> london school of economics and political science <R> field_of_work <T> law and economics
+<H> renu c. laskar <R> educated_at <T> university of illinois system
+<H> jatin goswami <R> award_received <T> padma shri in arts
+<H> akshay kumar <R> founded_by <T> hari om entertainment <R> owner_of <T> hari om entertainment
+<H> michael kosterlitz <R> employer <T> university of birmingham <R> occupation <T> university teacher
+<H> rishi kapoor <R> director <T> aa ab laut chalen <R> occupation <T> film director
+<H> arundhati roy <R> mother <T> mary roy
+<H> jamshedji framji madan <R> founded_by <T> madan theatres
+<H> kavita ramanan <R> employer <T> brown university <R> occupation <T> probability theorist
+<H> uday shankar <R> spouse <T> amala shankar
+<H> radhika apte <R> cast_member <T> vetri selvan <R> occupation <T> actor
+<H> yogeshwar dutt <R> participant_in <T> wrestling at the 2012 summer olympics - men's freestyle 60 kg <QR> award_received <QT> olympic bronze medal <R> participant_in <T> 2012 summer olympics <R> sport <T> wrestling
+<H> kunjarani devi <R> award_received <T> rajiv gandhi khel ratna <R> country_of_citizenship <T> india
+<H> zoya akhtar <R> educated_at <T> st. xavier's college mumbai
+<H> zohurul hoque <R> educated_at <T> university of michigan
+<H> tapan das <R> date_of_birth <T> 11 january 1962
+<H> kabir phukan <R> author <T> aei anuragi aei udas <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 2011 <QR> for_work <QT> aei anuragi aei udas <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> assamese <R> occupation <T> writer
+<H> sarmistha pritam <R> country_of_citizenship <T> india <R> date_of_birth <T> 18 december 1985 <R> place_of_birth <T> nagaon
+<H> manu bhaker <R> occupation <T> sport shooter <R> participant_in <T> 2018 summer youth olympics <R> sport <T> shooting sport <R> winner <T> shooting at the 2018 summer youth olympics - girls' 10 metre air pistol
+<H> prodyut bora <R> country_of_citizenship <T> india <R> date_of_birth <T> 10 april 1974 <R> occupation <T> politician
+<H> hem barua <R> educated_at <T> university of calcutta
+<H> alan turing <R> cause_of_death <T> cyanide poisoning
+<H> lalita babar <R> participant_in <T> athletics at the 2016 summer olympics <R> sport <T> athletics
+<H> kautilya pandit <R> date_of_birth <T> 24 december 2007
+<H> pushpalata das <R> educated_at <T> banaras hindu university
+<H> swarupam purkayastha <R> country_of_citizenship <T> india <R> date_of_birth <T> 15 september 1989 <R> occupation <T> cricketer
+<H> akira kurosawa <R> date_of_birth <T> 23 march 1910
+<H> lachit borphukan <R> date_of_birth <T> 24 november 1622
+<H> soumya swaminathan <R> father <T> m. s. swaminathan <R> mother <T> mina swaminathan
+<H> priyamani <R> award_received <T> national film award for best actress <R> award_received <T> filmfare awards south <R> occupation <T> actor
+<H> atul chandra barua <R> educated_at <T> university of calcutta
+<H> fakhruddin ali ahmed <R> date_of_death <T> 11 february 1977
+<H> indu malhotra <R> father <T> om prakash malhotra
+<H> bhanu athaiya <R> award_received <T> academy award for best costume design <QR> for_work <QT> gandhi <R> field_of_work <T> costume design <R> nominated_for <T> academy award for best costume design <QR> for_work <QT> gandhi <R> occupation <T> costume maker
+<H> jibanananda das <R> mother <T> kusumkumari das
+<H> bijoy krishna handique <R> occupation <T> politician <R> position_held <T> member of the 15th lok sabha
+<H> vidya balan <R> spouse <T> siddharth roy kapur <QR> start_time <QT> 2012
+<H> mahua moitra <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the west bengal legislative assembly <QR> start_time <QT> 2016
+<H> william francis ganong, jr. <R> date_of_death <T> 23 december 2007 <R> place_of_death <T> albany
+<H> basu chatterjee <R> director <T> byomkesh bakshi <R> director <T> rajani
+<H> shobhana narasimhan <R> educated_at <T> harvard university <R> occupation <T> physicist
+<H> gopal krishna gokhale <R> country_of_citizenship <T> british india <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> richard william timm <R> educated_at <T> the catholic university of america
+<H> muhammed saadulah <R> award_received <T> knight commander of the order of the indian empire
+<H> bimla buti <R> country_of_citizenship <T> india <R> field_of_work <T> physics <R> member_of <T> indian national science academy <R> occupation <T> physicist
+<H> swami vivekananda <R> founded_by <T> ramakrishna mission <R> operator <T> ramakrishna math
+<H> banwarilal purohit <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the 11th lok sabha <QR> electoral_district <QT> nagpur lok sabha constituency <R> position_held <T> member of the 9th lok sabha <R> position_held <T> member of the 8th lok sabha
+<H> sharmila tagore <R> child <T> saif ali khan
+<H> balbir singh, sr. <R> occupation <T> field hockey player <R> sport <T> field hockey
+<H> balkrishna doshi <R> award_received <T> aga khan award for architecture
+<H> henry john stedman cotton <R> employer <T> indian civil service
+<H> banwarilal purohit <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician <R> position_held <T> member of the 11th lok sabha <QR> parliamentary_group <QT> bharatiya janata party
+<H> bill gates <R> employer <T> bill & melinda gates foundation <R> founded_by <T> bill & melinda gates foundation <R> named_after <T> bill & melinda gates foundation <R> spouse <T> melinda gates
+<H> banikona ghoshal <R> date_of_death <T> 23 january 2017
+<H> kopil bora <R> educated_at <T> cotton college guwahati
+<H> sudipta sengupta <R> award_received <T> shanti swarup bhatnagar prize for science and technology <QR> point_in_time <QT> 1991 <R> country_of_citizenship <T> india <R> field_of_work <T> structural geology <R> occupation <T> geologist
+<H> angelina jolie <R> place_of_birth <T> los angeles
+<H> achyut lahkar <R> date_of_death <T> 12 june 2016
+<H> helena bonham carter <R> father <T> raymond bonham carter
+<H> raghuram rajan <R> employer <T> university of chicago <R> occupation <T> professor
+<H> tawakel karman <R> sibling <T> safa karman
+<H> kamala harris <R> candidacy_in_election <T> 2016 united states senate election in california <R> country_of_citizenship <T> united states of america <R> ethnic_group <T> south asian american
+<H> barack obama <R> father <T> barack obama sr.
+<H> diganta hazarika <R> cast_member <T> mohenjo daro <R> occupation <T> actor
+<H> bhimbor deori <R> date_of_death <T> 30 november 1947
+<H> yogeshwar dutt <R> participant_in <T> 2006 asian games
+<H> chandragupta maurya <R> country_of_citizenship <T> maurya empire <R> family <T> maurya dynasty <R> founded_by <T> maurya empire
+<H> nita ambani <R> owned_by <T> mumbai indians
+<H> james p. allison <R> award_received <T> aaas fellow <R> member_of <T> national academy of sciences
+<H> mrinal miri <R> employer <T> university of delhi <R> languages_spoken,_written_or_signed <T> english
+<H> louise glück <R> award_received <T> nobel prize in literature <QR> point_in_time <QT> 2020
+<H> rajiv gandhi <R> educated_at <T> trinity college
+<H> omar khayyám <R> author <T> rubaiyat of omar khayyam <R> genre <T> ruba'i
+<H> parvati prasad baruva <R> cause_of_death <T> stroke <R> date_of_death <T> 07 june 1964
+<H> fatima jinnah <R> sibling <T> mohammad ali jinnah
+<H> khushwant singh <R> position_held <T> member of rajya sabha
+<H> b. r. ambedkar <R> father <T> ramji maloji sakpal
+<H> joe biden <R> country_of_citizenship <T> united states of america <R> position_held <T> president of the united states <QR> start_time <QT> 20 january 2021 <QR> replaces <QT> donald trump
+<H> promode gogoi <R> date_of_death <T> 06 april 2012
+<H> mrinal miri <R> award_received <T> padma bhushan
+<H> jakir khan <R> date_of_death <T> 19 october 2019
+<H> smriti irani <R> spouse <T> zubin irani
+<H> maria montessori <R> creator <T> montessori education <R> named_after <T> montessori education
+<H> ramanand sagar <R> award_received <T> filmfare award for best director <QR> for_work <QT> aankhen <R> director <T> aankhen <R> occupation <T> film director <R> winner <T> filmfare award for best director <QR> for_work <QT> aankhen
+<H> jared diamond <R> field_of_work <T> evolutionary biology <R> occupation <T> biologist
+<H> arundhati bhattacharya <R> country_of_citizenship <T> india <R> employer <T> state bank of india <R> occupation <T> banker <R> position_held <T> chairperson
+<H> manik sarkar <R> country_of_citizenship <T> india <R> member_of_political_party <T> communist party of india marxist <R> occupation <T> politician <R> position_held <T> chief minister of tripura <R> position_held <T> member of the tripura legislative assembly <R> successful_candidate <T> 2013 tripura legislative assembly election
+<H> mira nair <R> educated_at <T> harvard university
+<H> harsimrat kaur badal <R> member_of_political_party <T> shiromani akali dal <R> occupation <T> politician
+<H> muhammad yunus <R> educated_at <T> chittagong college
+<H> nabakanta barua <R> date_of_death <T> 14 july 2002
+<H> karl marx <R> author <T> the communist manifesto <R> notable_work <T> the communist manifesto
+<H> bhumidhar barman <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> chief minister of assam <QR> start_time <QT> 22 april 1996 <QR> end_time <QT> 14 may 1996 <R> position_held <T> member of the assam legislative assembly
+<H> bhumidhar barman <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the assam legislative assembly
+<H> bimla buti <R> field_of_work <T> physics <R> occupation <T> physicist
+<H> ravuri bharadhwaja <R> date_of_death <T> 18 october 2013 <R> place_of_death <T> hyderabad
+<H> tessy thomas <R> educated_at <T> government engineering college thrissur <R> occupation <T> engineer
+<H> abdus salam <R> director_/_manager <T> international centre for theoretical physics <QR> start_time <QT> 1964 <R> employer <T> international centre for theoretical physics <R> founded_by <T> international centre for theoretical physics <QR> start_time <QT> 1964 <R> occupation <T> theoretical physicist
+<H> abraham kovoor <R> educated_at <T> bangabasi college
+<H> vanaja iyengar <R> employer <T> osmania university
+<H> baharul islam <R> date_of_birth <T> 01 march 1918
+<H> marilyn monroe <R> cause_of_death <T> barbiturate overdose <R> manner_of_death <T> suicide
+<H> homi jehangir bhabha <R> employer <T> indian institute of science
+<H> rajiv gandhi <R> member_of_political_party <T> indian national congress <R> mother <T> indira gandhi
+<H> urjit patel <R> ancestral_home <T> mahudha
+<H> brajen baruah <R> director <T> opaja sonar mati <R> occupation <T> music director
+<H> deepika kumari <R> participant_in <T> 2012 summer olympics
+<H> neelam sanjiva reddy <R> country_of_citizenship <T> india <R> position_held <T> speaker of the lok sabha <QR> start_time <QT> 26 march 1977
+<H> arjen robben <R> award_received <T> footballer of the year
+<H> vinoba bhave <R> creator <T> bhoodan movement <R> occupation <T> politician
+<H> purushottam das tandon <R> member_of_political_party <T> indian national congress <R> occupation <T> politician
+<H> sudha murthy <R> chairperson <T> infosys <R> languages_spoken,_written_or_signed <T> english <R> languages_spoken,_written_or_signed <T> kannada <R> occupation <T> author <R> occupation <T> writer
+<H> bimla buti <R> educated_at <T> university of chicago <R> field_of_work <T> physics
+<H> vidita vaidya <R> award_received <T> shanti swarup bhatnagar prize for science and technology <QR> point_in_time <QT> 2015
+<H> abhishek bachchan <R> cast_member <T> dum maaro dum
+<H> helena bonham carter <R> educated_at <T> south hampstead high school
+<H> leander paes <R> award_received <T> rajiv gandhi khel ratna <R> country_of_citizenship <T> india
+<H> jennifer doudna <R> member_of <T> national academy of medicine <R> member_of <T> national academy of sciences <QR> start_time <QT> 2002 <QR> subject_has_role <QT> member of the national academy of sciences of the united states
+<H> rajen gohain <R> candidacy_in_election <T> 2014 indian general election in nowgong lok sabha constituency <QR> electoral_district <QT> nowgong lok sabha constituency <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the 16th lok sabha <QR> electoral_district <QT> nowgong lok sabha constituency <R> position_held <T> member of the 15th lok sabha <QR> electoral_district <QT> nowgong lok sabha constituency <R> position_held <T> member of the 13th lok sabha <QR> electoral_district <QT> nowgong lok sabha constituency
+<H> william g. kaelin <R> award_received <T> nobel prize in physiology or medicine <QR> point_in_time <QT> 2019 <QR> together_with <QT> gregg l. semenza peter j. ratcliffe
+<H> madaram brahma <R> award_received <T> padma shri in literature and education <R> country_of_citizenship <T> india
+<H> peter handke <R> winner <T> nobel prize in literature <QR> point_in_time <QT> 2019
+<H> anand kumar <R> depicted_by <T> super 30 <QR> performer <QT> hrithik roshan <R> main_subject <T> super 30
+<H> gauri barman <R> country_of_citizenship <T> india <R> native_language <T> assamese <R> occupation <T> film director <R> occupation <T> painter
+<H> teejan bai <R> award_received <T> sangeet natak akademi award <R> award_received <T> fukuoka asian culture prize
+<H> leander paes <R> date_of_birth <T> 17 june 1973 <R> place_of_birth <T> kolkata
+<H> ashraf ghani ahmadzai <R> country_of_citizenship <T> afghanistan <R> head_of_state <T> afghanistan <QR> start_time <QT> 29 september 2014 <QR> position_held <QT> president of afghanistan <R> position_held <T> president of afghanistan <QR> start_time <QT> 29 september 2014
+<H> mary kom <R> mass <T> 51.0 kilogram <R> occupation <T> boxer <R> participant_in <T> 2012 summer olympics <R> sport <T> boxing
+<H> harilal gandhi <R> child <T> kantilal gandhi
+<H> baisali mohanty <R> educated_at <T> university of oxford
+<H> jagdish mukhi <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> country_of_citizenship <T> india <R> date_of_birth <T> 01 december 1942
+<H> asima chatterjee <R> award_received <T> shanti swarup bhatnagar prize for science and technology <QR> point_in_time <QT> 1961
+<H> rajen gohain <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> tasadduk yusuf <R> date_of_death <T> 10 august 1982
+<H> syed akbaruddin <R> country_of_citizenship <T> india <R> languages_spoken,_written_or_signed <T> english <R> occupation <T> civil servant <R> officeholder <T> permanent representative of india to the united nations
+<H> rabindranath tagore <R> author <T> the post office
+<H> vidya balan <R> award_received <T> national film award for best actress <R> occupation <T> film actor <R> winner <T> filmfare award for best actress <R> winner <T> filmfare award for best actress <R> winner <T> filmfare award for best actress
+<H> gita gopinath <R> spouse <T> iqbal singh dhaliwal
+<H> jim peebles <R> educated_at <T> princeton university <R> educated_at <T> university of manitoba
+<H> rameswar teli <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> member of the 17th lok sabha <QR> electoral_district <QT> dibrugarh lok sabha constituency
+<H> kameshwar brahma <R> award_received <T> padma shri in literature and education
+<H> archana mahanta <R> spouse <T> khagen mahanta
+<H> bimala prasad chaliha <R> country_of_citizenship <T> india <R> date_of_birth <T> 26 march 1912 <R> place_of_birth <T> sivasagar
+<H> bhama srinivasan <R> educated_at <T> university of madras
+<H> sunil gavaskar <R> country_of_citizenship <T> india <R> date_of_birth <T> 10 july 1949 <R> occupation <T> cricketer
+<H> ernest hemingway <R> award_received <T> nobel prize in literature <QR> point_in_time <QT> 1954 <R> nominated_for <T> nobel prize in literature <QR> point_in_time <QT> 1954 <R> occupation <T> writer
+<H> sucheta dalal <R> educated_at <T> university of mumbai
+<H> charles m. rice <R> educated_at <T> university of california davis
+<H> manik sarkar <R> country_of_citizenship <T> india <R> occupation <T> politician <R> position_held <T> chief minister of tripura
+<H> yamuna krishnan <R> educated_at <T> indian institute of science <R> occupation <T> chemist
+<H> rakul preet singh <R> educated_at <T> university of delhi
+<H> bhabananda deka <R> country_of_citizenship <T> british india <R> country_of_citizenship <T> dominion of india <R> date_of_birth <T> 19 august 1929 <R> place_of_birth <T> assam
+<H> muhi ram saikia <R> country_of_citizenship <T> india <R> date_of_birth <T> 15 april 1923 <R> occupation <T> politician
+<H> rabindranath tagore <R> author <T> sandhya sangeet
+<H> kishore kumar <R> award_received <T> filmfare award for best male playback singer <R> genre <T> filmi music <R> instrument <T> voice <R> occupation <T> singer
+<H> suchitra sebastian <R> employer <T> university of cambridge <R> occupation <T> physicist
+<H> malala yousafzai <R> award_received <T> nobel peace prize <QR> point_in_time <QT> 2014 <QR> together_with <QT> kailash satyarthi <R> nominated_for <T> nobel peace prize <QR> point_in_time <QT> 2014 <R> winner <T> nobel peace prize <QR> point_in_time <QT> 2014
+<H> jayant vishnu narlikar <R> spouse <T> mangala narlikar
+<H> seema biswas <R> award_received <T> sangeet natak akademi award <R> award_received <T> genie awards <R> occupation <T> actor
+<H> louise glück <R> award_received <T> national book award for poetry <R> award_received <T> bollingen prize <R> award_received <T> pulitzer prize for poetry <R> award_received <T> national humanities medal
+<H> rihanna <R> performer <T> a girl like me
+<H> menaka p p bora <R> award_received <T> ustad bismillah khan yuva puraskar <R> country_of_citizenship <T> india
+<H> k. r. narayanan <R> educated_at <T> university of kerala
+<H> rohini bhate <R> award_received <T> sangeet natak akademi award <R> country_of_citizenship <T> india
+<H> kiren rijiju <R> country_of_citizenship <T> india <R> member_of_political_party <T> bharatiya janata party <R> occupation <T> politician
+<H> nana patekar <R> cast_member <T> parinda <R> occupation <T> actor <R> winner <T> national film award for best supporting actor <QR> point_in_time <QT> 1989 <QR> for_work <QT> parinda
+<H> nargis <R> award_received <T> national film award for best actress <QR> for_work <QT> raat aur din <R> cast_member <T> raat aur din <R> notable_work <T> raat aur din <R> occupation <T> film actor
+<H> vinod krishan <R> country_of_citizenship <T> india <R> member_of <T> indian academy of sciences
+<H> anandi gopal joshi <R> educated_at <T> woman's medical college of pennsylvania <R> occupation <T> physician
+<H> sushmita sen <R> country_of_citizenship <T> india <R> date_of_birth <T> 19 november 1975 <R> place_of_birth <T> hyderabad <R> religion <T> hinduism
+<H> richard dawkins <R> author <T> the god delusion
+<H> jibanananda das <R> author <T> banalata sen <R> notable_work <T> banalata sen <R> occupation <T> poet
+<H> asima chatterjee <R> employer <T> university of calcutta <R> occupation <T> university teacher
+<H> harivansh rai bachchan <R> award_received <T> sahitya akademi award <QR> point_in_time <QT> 1968 <QR> for_work <QT> do chattanen <R> languages_spoken,_written_or_signed <T> hindi <R> notable_work <T> do chattanen <R> occupation <T> poet <R> occupation <T> writer
+<H> rima das <R> director <T> village rockstars <R> director <T> bulbul can sing <R> notable_work <T> village rockstars <R> notable_work <T> bulbul can sing <R> occupation <T> film director
+<H> subrahmanyan chandrasekhar <R> educated_at <T> presidency college <R> educated_at <T> university of cambridge
+<H> chetana das <R> country_of_citizenship <T> india <R> date_of_birth <T> 04 november 1954 <R> occupation <T> actor
+<H> ajit iqbal singh <R> educated_at <T> university of cambridge
+<H> chuni goswami <R> country_of_citizenship <T> india <R> participant_in <T> 1962 asian games
+<H> rajinikanth <R> award_received <T> tamil nadu state film award <R> occupation <T> film actor <R> occupation <T> actor
+<H> david j. thouless <R> award_received <T> fellow of the royal society <R> member_of <T> american academy of arts and sciences <R> member_of <T> national academy of sciences
