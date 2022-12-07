@@ -7,23 +7,23 @@ dir_path=$(dirname "$file_path")
 
 #setting up the defaults
 LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
-#LANG='as,or' #ml,pa,as,or
+#LANG="$1" #ml,pa,as,or
 GPUS=4
 MODEL_DIR=$dir_path   #optional
-PYTHON="/home/bhavyajeet.singh/anaconda3/envs/xalign/bin/python"  #change required
-SCRATCH_DIR=/tmp/XAlign
+PYTHON="/home2/manav.chaudhary/miniconda3/envs/xalign/bin/python"  #change required
+SCRATCH_DIR=/scratch/mnv
 mkdir -p $SCRATCH_DIR
 CHECKPOINT_PATH=$SCRATCH_DIR/checkpoint   #change required
 
 
-BATCH_SIZE=4
+BATCH_SIZE=2
 TEST_BATCH_SIZE=4
-EPOCHS=30
+EPOCHS=10
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=200
-TGT_MAX_SEQ_LENGTH=200
+SRC_MAX_SEQ_LENGTH=400
+TGT_MAX_SEQ_LENGTH=400
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
@@ -117,7 +117,7 @@ echo "--------------------------------------------------- >>"
 printf "\n"
 
 # execute training
-$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --enable_script_unification 1
+$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose
 
 # inference
-$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --inference --enable_script_unification 1
+$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --inference
