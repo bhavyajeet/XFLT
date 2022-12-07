@@ -1,1 +1,0 @@
-{"test_loss": 1.8890811204910278, "_runtime": 390, "_timestamp": 1663593437, "_step": 5080, "gu_overall_test_bleu": 29.39421879430813, "gu_test_bleu_1": 41.9, "gu_test_bleu_2": 33.7, "gu_test_bleu_3": 26.4, "gu_test_bleu_4": 20.0, "avg_test_loss": 0.7138186693191528, "epoch": 5, "_wandb": {"runtime": 390}}

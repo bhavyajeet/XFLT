@@ -541,3 +541,5 @@ command line argument captured ..
 12/07/2022 05:16:53 PM [INFO] epoch : 2 - average_train_loss : 1.957516
 12/07/2022 08:58:30 PM [INFO] epoch : 3 - average_val_loss : 1.793403
 12/07/2022 08:58:36 PM [INFO] epoch : 3 - average_train_loss : 1.889600
+12/08/2022 12:39:03 AM [INFO] epoch : 4 - average_val_loss : 1.775818
+12/08/2022 12:39:08 AM [INFO] epoch : 4 - average_train_loss : 1.846482

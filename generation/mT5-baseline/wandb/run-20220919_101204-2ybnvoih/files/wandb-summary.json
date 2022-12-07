@@ -1,1 +1,0 @@
-{"test_loss": 0.058932360261678696, "_runtime": 332, "_timestamp": 1663562856, "_step": 25520, "ta_overall_test_bleu": 53.71655920933161, "ta_test_bleu_1": 70.0, "ta_test_bleu_2": 62.0, "ta_test_bleu_3": 53.3, "ta_test_bleu_4": 42.1, "avg_test_loss": 0.2246205359697342, "epoch": 4, "_wandb": {"runtime": 331}}

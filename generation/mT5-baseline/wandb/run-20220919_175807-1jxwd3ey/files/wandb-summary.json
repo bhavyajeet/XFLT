@@ -1,1 +1,0 @@
-{"test_loss": 0.11366521567106247, "_runtime": 361, "_timestamp": 1663590848, "_step": 25464, "hi_overall_test_bleu": 74.09142395264136, "hi_test_bleu_1": 81.9, "hi_test_bleu_2": 77.1, "hi_test_bleu_3": 72.0, "hi_test_bleu_4": 66.3, "avg_test_loss": 0.1656332165002823, "epoch": 4, "_wandb": {"runtime": 360}}
