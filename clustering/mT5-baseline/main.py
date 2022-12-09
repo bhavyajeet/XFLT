@@ -69,7 +69,7 @@ class ModelWrapper(pl.LightningModule):
         self.model.resize_token_embeddings(len(self.tokenizer))
 
     def add_special_tokens(self):
-        new_tokens = ['<H>', '<R>', '<T>', '<QR>', '<QT>', '<S>']
+        new_tokens = ['<H>', '<R>', '<T>', '<QR>', '<QT>', '<S>', '<BR>']
         new_tokens_vocab = {}
         new_tokens_vocab['additional_special_tokens'] = []
         for idx, t in enumerate(new_tokens):

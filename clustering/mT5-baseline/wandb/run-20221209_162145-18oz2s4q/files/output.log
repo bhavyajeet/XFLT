@@ -1,0 +1,60 @@
+12/09/2022 04:21:54 PM [CRITICAL] test : script unification to Devanagari is enabled.
+12/09/2022 04:21:54 PM [INFO] test dataset count : 189
+Testing: 0it [00:00, ?it/s]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████| 48/48 [04:21<00:00,  5.17s/it]12/09/2022 04:26:16 PM [INFO] as : epoch : 1 | BLEU = 0.02 3.0/0.0/0.0/0.0 (BP = 0.516 ratio = 0.602 hyp_len = 2486 ref_len = 4129)
+12/09/2022 04:26:16 PM [INFO] epoch : 1 - average_test_loss : 3.792655
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'as_overall_test_bleu': 0.0234504804523707,
+ 'avg_test_loss': tensor(3.7927, device='cuda:0')}
+--------------------------------------------------------------------------------
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████| 48/48 [04:21<00:00,  5.46s/it]
+12/09/2022 04:26:16 PM [DEBUG] testing done.

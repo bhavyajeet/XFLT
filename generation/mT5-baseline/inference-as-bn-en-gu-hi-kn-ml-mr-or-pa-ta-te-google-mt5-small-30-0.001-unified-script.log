@@ -1,41 +1,41 @@
-12/07/2022 05:57:18 AM [INFO] 
+12/09/2022 05:07:30 AM [INFO] 
 command line argument captured ..
-12/07/2022 05:57:18 AM [INFO] ------------------------------------------------------------
-12/07/2022 05:57:18 AM [INFO] checkpoint_path - /tmp/XAlign/checkpoint
-12/07/2022 05:57:18 AM [INFO] dataset_path - /tmp/XAlign/datasets
-12/07/2022 05:57:18 AM [INFO] gpus - 4
-12/07/2022 05:57:18 AM [INFO] epochs - 30
-12/07/2022 05:57:18 AM [INFO] batch_size - 4
-12/07/2022 05:57:18 AM [INFO] eval_batch_size - 4
-12/07/2022 05:57:18 AM [INFO] learning_rate - 0.001
-12/07/2022 05:57:18 AM [INFO] clip_grad_norm - 0.0
-12/07/2022 05:57:18 AM [INFO] weight_decay - 0.01
-12/07/2022 05:57:18 AM [INFO] dropout_rate - 0.1
-12/07/2022 05:57:18 AM [INFO] patience - 10
-12/07/2022 05:57:18 AM [INFO] enable_scheduler - False
-12/07/2022 05:57:18 AM [INFO] warmup_steps - 4000
-12/07/2022 05:57:18 AM [INFO] train_dataset_count - 0
-12/07/2022 05:57:18 AM [INFO] val_dataset_count - 0
-12/07/2022 05:57:18 AM [INFO] test_dataset_count - 0
-12/07/2022 05:57:18 AM [INFO] online_mode - 1
-12/07/2022 05:57:18 AM [INFO] verbose - True
-12/07/2022 05:57:18 AM [INFO] verbose_output_dir - /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/model_outputs
-12/07/2022 05:57:18 AM [INFO] model_name - google/mt5-small
-12/07/2022 05:57:18 AM [INFO] use_pretrained - 1
-12/07/2022 05:57:18 AM [INFO] enable_bleu_cal_per_epoch - 0
-12/07/2022 05:57:18 AM [INFO] src_max_seq_len - 200
-12/07/2022 05:57:18 AM [INFO] tgt_max_seq_len - 200
-12/07/2022 05:57:18 AM [INFO] lang - ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te']
-12/07/2022 05:57:18 AM [INFO] length_penalty - 1.0
-12/07/2022 05:57:18 AM [INFO] eval_beams - 5
-12/07/2022 05:57:18 AM [INFO] enable_script_unification - 1
-12/07/2022 05:57:18 AM [INFO] complete_coverage - 0
-12/07/2022 05:57:18 AM [INFO] inference - True
-12/07/2022 05:57:18 AM [INFO] logger_exp_name - inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script
-12/07/2022 05:57:18 AM [INFO] ------------------------------------------------------------
-12/07/2022 05:57:18 AM [DEBUG] initiating training process...
-12/07/2022 05:57:25 AM [CRITICAL] added 6 tokens
-12/07/2022 05:57:34 AM [DEBUG] ModelWrapper(
+12/09/2022 05:07:30 AM [INFO] ------------------------------------------------------------
+12/09/2022 05:07:30 AM [INFO] checkpoint_path - /tmp/XAlign/checkpoint
+12/09/2022 05:07:30 AM [INFO] dataset_path - /tmp/XAlign/datasets
+12/09/2022 05:07:30 AM [INFO] gpus - 4
+12/09/2022 05:07:30 AM [INFO] epochs - 30
+12/09/2022 05:07:30 AM [INFO] batch_size - 4
+12/09/2022 05:07:30 AM [INFO] eval_batch_size - 4
+12/09/2022 05:07:30 AM [INFO] learning_rate - 0.001
+12/09/2022 05:07:30 AM [INFO] clip_grad_norm - 0.0
+12/09/2022 05:07:30 AM [INFO] weight_decay - 0.01
+12/09/2022 05:07:30 AM [INFO] dropout_rate - 0.1
+12/09/2022 05:07:30 AM [INFO] patience - 10
+12/09/2022 05:07:30 AM [INFO] enable_scheduler - False
+12/09/2022 05:07:30 AM [INFO] warmup_steps - 4000
+12/09/2022 05:07:30 AM [INFO] train_dataset_count - 0
+12/09/2022 05:07:30 AM [INFO] val_dataset_count - 0
+12/09/2022 05:07:30 AM [INFO] test_dataset_count - 0
+12/09/2022 05:07:30 AM [INFO] online_mode - 1
+12/09/2022 05:07:30 AM [INFO] verbose - True
+12/09/2022 05:07:30 AM [INFO] verbose_output_dir - /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/model_outputs
+12/09/2022 05:07:30 AM [INFO] model_name - google/mt5-small
+12/09/2022 05:07:30 AM [INFO] use_pretrained - 1
+12/09/2022 05:07:30 AM [INFO] enable_bleu_cal_per_epoch - 0
+12/09/2022 05:07:30 AM [INFO] src_max_seq_len - 200
+12/09/2022 05:07:30 AM [INFO] tgt_max_seq_len - 200
+12/09/2022 05:07:30 AM [INFO] lang - ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te']
+12/09/2022 05:07:30 AM [INFO] length_penalty - 1.0
+12/09/2022 05:07:30 AM [INFO] eval_beams - 5
+12/09/2022 05:07:30 AM [INFO] enable_script_unification - 1
+12/09/2022 05:07:30 AM [INFO] complete_coverage - 0
+12/09/2022 05:07:30 AM [INFO] inference - True
+12/09/2022 05:07:30 AM [INFO] logger_exp_name - inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script
+12/09/2022 05:07:30 AM [INFO] ------------------------------------------------------------
+12/09/2022 05:07:30 AM [DEBUG] initiating training process...
+12/09/2022 05:07:37 AM [CRITICAL] added 6 tokens
+12/09/2022 05:07:54 AM [DEBUG] ModelWrapper(
   (model): MT5ForConditionalGeneration(
     (shared): Embedding(250106, 512)
     (encoder): T5Stack(
@@ -521,6 +521,24 @@ command line argument captured ..
     (lm_head): Linear(in_features=512, out_features=250106, bias=False)
   )
 )
-12/07/2022 05:57:34 AM [INFO] Model has 300170624 trainable parameters
-12/07/2022 05:57:34 AM [INFO] total number of files within checkpoint directory [/tmp/XAlign/checkpoint/as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script]: 0
-12/07/2022 05:57:34 AM [ERROR] No checkpoint found in directory : /tmp/XAlign/checkpoint/as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script
+12/09/2022 05:07:54 AM [INFO] Model has 300170624 trainable parameters
+12/09/2022 05:07:54 AM [INFO] total number of files within checkpoint directory [/tmp/XAlign/checkpoint/as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script]: 1
+12/09/2022 05:07:54 AM [INFO] resuming training from checkpoint : /tmp/XAlign/checkpoint/as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/epoch=10.ckpt
+12/09/2022 05:07:57 AM [DEBUG] about to start testing loop...
+12/09/2022 05:08:18 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+12/09/2022 05:08:19 AM [CRITICAL] test : script unification to Devanagari is enabled.
+12/09/2022 05:08:19 AM [INFO] test dataset count : 7425
+12/09/2022 06:11:42 AM [INFO] te : epoch : 11 | BLEU = 11.53 33.9/14.7/7.6/4.7 (BP = 1.000 ratio = 1.147 hyp_len = 6929 ref_len = 6039)
+12/09/2022 06:11:42 AM [INFO] pa : epoch : 11 | BLEU = 22.16 44.0/26.5/17.2/12.0 (BP = 1.000 ratio = 1.244 hyp_len = 8454 ref_len = 6796)
+12/09/2022 06:11:42 AM [INFO] bn : epoch : 11 | BLEU = 58.65 74.4/61.5/53.6/48.2 (BP = 1.000 ratio = 1.115 hyp_len = 7613 ref_len = 6826)
+12/09/2022 06:11:42 AM [INFO] hi : epoch : 11 | BLEU = 40.51 63.5/44.2/34.6/27.7 (BP = 1.000 ratio = 1.099 hyp_len = 10117 ref_len = 9208)
+12/09/2022 06:11:42 AM [INFO] kn : epoch : 11 | BLEU = 7.82 28.1/10.6/5.0/2.5 (BP = 1.000 ratio = 1.122 hyp_len = 6340 ref_len = 5653)
+12/09/2022 06:11:42 AM [INFO] gu : epoch : 11 | BLEU = 18.67 41.5/23.0/13.6/9.3 (BP = 1.000 ratio = 1.074 hyp_len = 6365 ref_len = 5926)
+12/09/2022 06:11:42 AM [INFO] as : epoch : 11 | BLEU = 9.47 37.9/16.1/8.2/4.0 (BP = 0.797 ratio = 0.815 hyp_len = 7987 ref_len = 9803)
+12/09/2022 06:11:42 AM [INFO] ta : epoch : 11 | BLEU = 20.96 42.8/23.2/16.2/12.0 (BP = 1.000 ratio = 1.223 hyp_len = 6569 ref_len = 5372)
+12/09/2022 06:11:42 AM [INFO] mr : epoch : 11 | BLEU = 23.52 50.7/28.9/17.9/11.7 (BP = 1.000 ratio = 1.070 hyp_len = 8469 ref_len = 7918)
+12/09/2022 06:11:42 AM [INFO] ml : epoch : 11 | BLEU = 24.27 49.5/28.8/19.3/12.6 (BP = 1.000 ratio = 1.104 hyp_len = 5417 ref_len = 4905)
+12/09/2022 06:11:42 AM [INFO] en : epoch : 11 | BLEU = 47.45 67.8/53.1/45.4/39.9 (BP = 0.939 ratio = 0.941 hyp_len = 7068 ref_len = 7513)
+12/09/2022 06:11:42 AM [INFO] or : epoch : 11 | BLEU = 40.06 63.8/44.7/34.6/26.1 (BP = 1.000 ratio = 1.008 hyp_len = 3246 ref_len = 3221)
+12/09/2022 06:11:42 AM [INFO] epoch : 11 - average_test_loss : 0.875718
+12/09/2022 06:11:43 AM [DEBUG] testing done.
