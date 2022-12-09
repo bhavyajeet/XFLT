@@ -5,6 +5,7 @@ import random
 from indicnlp.tokenize import indic_tokenize
 from sacremoses import MosesTokenizer
 import torch
+from random import shuffle
 en_tok = MosesTokenizer(lang="en")
 
 
@@ -30,15 +31,43 @@ class TextDataset(Dataset):
             logger.critical("%s : script unification to Devanagari is enabled." % data_type)
         logger.info("%s dataset count : %d" % (data_type, len(self.dataset)))
     
-    def process_facts(self, facts):
+    def process_facts(self, facts_list):
         """ linearizes the facts on the encoder side """
+        
+        facts =  [item for sublist in facts_list for item in sublist]
+
+        shuffle(facts)
+
         if self.sorted_order:
             facts = sorted(facts, key=lambda x: get_relation(x[0]).lower())
+
         linearized_facts = []
         for i in range(len(facts)):
             linearized_facts += linear_fact_str(facts[i], enable_qualifiers=True)
         processed_facts_str = ' '.join(linearized_facts)
         return processed_facts_str
+
+
+    def process_out_facts(self, facts_list):
+        """ linearizes the facts on the encoder side """
+           
+        processed_facts_str = ''
+        for facts in facts_list:
+            if self.sorted_order:
+                facts = sorted(facts, key=lambda x: get_relation(x[0]).lower())
+
+            linearized_facts = []
+            for i in range(len(facts)):
+                linearized_facts += linear_fact_str(facts[i], enable_qualifiers=True)
+
+            processed_facts_str += ' '.join(linearized_facts)
+            processed_facts_str += ' <BR> '
+            print ("processed ", processed_facts_str)
+
+        print ("processed ", processed_facts_str)
+        return processed_facts_str
+
+
 
     def process_text(self, text, lang):
         """ normalize and tokenize and then space join the text """
@@ -109,7 +138,7 @@ class TextDataset(Dataset):
         # preparing the input
         #section_info = data_instance['native_sentence_section'] if lang_iso=='en' else data_instance['translated_sentence_section'] 
         input_str = "{prefix}<H> {entity} {triples} ".format(prefix=prefix_str, 
-                                        entity=data_instance['entity_name'].lower().strip(), triples=self.process_facts(data_instance['facts']))
+                                        entity=data_instance['entity_name'].lower().strip(), triples=self.process_facts(data_instance['facts_list']))
 
         src_ids, src_mask = self.preprocess(input_str, self.src_max_seq_len)
         outputstr = self.process_out_facts(data_instance['facts_list'])
