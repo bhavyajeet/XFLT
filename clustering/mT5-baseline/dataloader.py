@@ -62,9 +62,9 @@ class TextDataset(Dataset):
 
             processed_facts_str += ' '.join(linearized_facts)
             processed_facts_str += ' <BR> '
-            print ("processed ", processed_facts_str)
+            #print ("processed ", processed_facts_str)
 
-        print ("processed ", processed_facts_str)
+        #print ("processed ", processed_facts_str)
         return processed_facts_str
 
 
