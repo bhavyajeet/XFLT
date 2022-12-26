@@ -14,9 +14,14 @@ import json
 import os
 
 
+FACT_TYPE = 'tailandfact'
+DISTANCE = 'cosine'
+
 tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased")
 
 model = AutoModelForMaskedLM.from_pretrained("google/muril-base-cased",output_hidden_states=True)
+
+punct_list = ['a','b']
 
 def generate_embeddings(text):
 
@@ -52,12 +57,16 @@ facts_list = ["member of political party", "Indian National Congress"]
 
 # , Fact level comparison
 
-def compute_distances(emb1,emb2):
+def compute_distances(emb1,emb2,dis):
 
     euc = distance.euclidean(np.array(emb1), np.array(emb2))
     cosine = np.dot(emb1,emb2)/(norm(emb1)*norm(emb2))
 
-    return cosine 
+
+    if distance=='euclidean':
+        return euc
+    else:
+        return cosine
 
 if __name__ == "__main__":
     root = "/Users/rahulmehta/Desktop/MultiSent/datasets/datasets_v2.7/"
@@ -67,20 +76,25 @@ if __name__ == "__main__":
         lang = subdir[-2:]
         print(lang)
     
-        if lang in ['gu','hi','7/','']:    
-            continue
-        else:
-            with open(subdir + '/test.jsonl') as f,open(f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results/' + lang + '-coverage.txt','a') as r:
-                i=0
+        #if lang in ['7/','']:    
+        #     continue
+        # else:
+        if lang in ['hi']:
+            with open(subdir + '/test.jsonl') as f,open(f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/' + lang + '-coverage.txt','a') as r:
+                j=0
                 for line in f:
-                    # i+=1
-                    # if i>10:
-                    #     break
+                    j+=1
+                    print(j)
+                    if j>10:
+                        break
 
                     c = 0
                     data = json.loads(line)
                     f = []
                     facts_list = data['facts']
+
+
+
                     text2 = data['sentence']
                     entity = data['entity_name']
                     #print(facts_list)
@@ -89,10 +103,21 @@ if __name__ == "__main__":
                     temp_top = []
                     temp_topdist = []
 
-                    for f in facts_list:
 
-                        fact = f[1]
-                        #print(fact)
+                    fact = [entity]
+                    for f in facts_list:
+                        fact.append(f[0])
+                        fact.append(f[1])
+                    fact = " ".join(fact)
+                    #print(fact)
+
+                    # for f in facts_list:
+
+                    #     if FACT_TYPE == 'tail':
+                    #         fact = f[1]
+                    #     elif FACT_TYPE == 'tailandfact':
+                    #         fact = f[0] + ' ' + f[1]
+                    #     #print(fact)
 
                     #fact = "Indian National Congress"
                     #text2 = "वह देवास निर्वाचन क्षेत्र के प्रतिनिधित्व (भारतीय राष्ट्रीय कांग्रेस) के नेता है"
@@ -103,58 +128,65 @@ if __name__ == "__main__":
                     #text2 = ["भारतीय","राष्ट्रीय","कांग्रेस"]  # # Separate pairwise 0.06131437420845032,Cosine Similarity: 0.99526656
                     #text2 = ["वह देवास निर्वाचन क्षेत्र के प्रतिनिधित्व (भारतीय राष्ट्रीय कांग्रेस) के नेता है"]
 
-                        emb1,_ = generate_embeddings(fact)
-                        #print(emb1.shape[0])
-                        avg_emb1 = torch.mean(emb1[1:emb1.shape[0]-1],dim=0)  #Exclude CLS and SEP embeddings
-                        #print(avg_emb1)
 
-                        emb2,tokens2 = generate_embeddings(text2)
+                    # fact = "Indian Congress"
+                    # text2 = "भारतीय राष्ट्रीय कांग्रेस"
 
-                    # How to average
-                    # avg_emb2 = torch.mean(emb2,dim=0) # or # Take rolling based on fact length
+                    emb1,tokens1 = generate_embeddings(fact)
 
-                        fact_len = emb1.shape[0]-2
-                        # print(fact_len)
-                        # print(tokens2)
-                        # print(emb2.shape)
-                        phrase_dict = {}
+                    #print(emb1.shape)
+                    #print(tokens1)
 
-                        for i in range(1,emb2.shape[0]-1):
-                            #print(i)
-                            phrase = ' '.join(tokens2[i:i+fact_len])
-                            #print(phrase)
 
-                            avg_emb2 = torch.mean(emb2[i:i+fact_len],dim=0)
-                            phrase_dict[phrase] = avg_emb2
+                    
 
-                        #print(phrase_dict.keys())
+                    #avg_emb1 = torch.mean(emb1[1:emb1.shape[0]-1],dim=0)  #Exclude CLS and SEP embeddings
+                    #print(avg_emb1)
 
-                
-                        phrase_scores = {}
-                        for k,v in phrase_dict.items():
-                            #print(v)
-                            phrase_scores[k] = compute_distances(avg_emb1,v)
+                    emb2,tokens2 = generate_embeddings(text2)
 
-                        #print(phrase_scores)
+
+                    # Match each word of the sentence with fact words
+                    max_pairs = []
+                    #print(emb1)
+                    #print(tokens2)
+                    #print(emb2)
+                    #print(tokens2)
+                    for index,word in enumerate(tokens2):
+                        #print(word)
+
+                        #print(emb2[index:index+1][0])
+                        word_emb = emb2[index:index+1,]
+                        #print(word_emb[0][0:10])
+                        dist = []
                         
-                        # Maximum phrase scores
-                        max_key = max(phrase_scores, key=phrase_scores.get)
-                        #max_value = max(phrase_scores)
-                        print(max_key,phrase_scores[max_key])
+                        for i in range(1,len(emb1)):
+                            #print(emb1)
+                            #print(emb1[i:i+1].shape)
+                            dist.append(compute_distances(word_emb[0],emb1[i:i+1][0],DISTANCE))
+                        #print(dist)
+                        max_index = np.argmax(dist)
+                        
+                        token_top = tokens1[max_index+1]
 
-                        temp_top.append(max_key)
-                        temp_topdist.append(phrase_scores[max_key])
+                        token_score = max(dist)
 
+                        #print(max_index,token_top)
+                        pair = tuple((word,token_top,token_score))
 
+                        if token_top in punct_list:
+                            continue
+                        else:
+                            max_pairs.append(pair)
 
+                 
                     results['entity_name'] = data['entity_name']
                     results['facts'] = data['facts']
                     results['sentence'] = data['sentence']
 
-                    results['phrase_top'] = temp_top
-                    results['phrase_topdist'] = temp_topdist
-        
-                    #print(results)
+                    results['scores'] = max_pairs
+
+                    print(results)
 
                     r.write(str(results))
                     r.write("\n")
