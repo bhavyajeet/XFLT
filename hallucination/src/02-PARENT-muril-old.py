@@ -13,12 +13,10 @@ import glob
 import json 
 import os
 import string
-from collections import Counter
-from statistics import mean
 
 
 #FACT_TYPE = 'tailandfact'
-DISTANCE = 'cosine'
+DISTANCE = 'euclidean'
 TOKENS_TO_EXCLUDE = ['[CLS]','[SEP]','।']
 
 tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased")
@@ -32,21 +30,11 @@ def generate_embeddings(text):
     """
     text : list of words  ['a','b']
     """
-    #print(text)
     tokens = tokenizer.convert_ids_to_tokens(tokenizer.encode(text,is_split_into_words=False))
-    #print(tokens)
-    
+    print(tokens)
 
-
-    #print({x : tokenizer.encode(x, add_special_tokens=False, add_prefix_space=True) for x in text.split()})
-    input_encoded = tokenizer(text,is_split_into_words=False, return_tensors="pt")
-    #print(input_encoded)
-    #print(tokenizer.is_fast)
-
-    #input_encoded = tokenizer.encode_plus(text,is_split_into_words=False, return_tensors="pt",return_offsets_mapping=True)
-    #print(input_encoded)
-
-    #print(input_encoded.word_ids())
+    input_encoded = tokenizer.encode_plus(text,is_split_into_words=False, return_tensors="pt")
+    print(input_encoded)
 
     with torch.no_grad():
             states = model(**input_encoded).hidden_states
@@ -58,7 +46,7 @@ def generate_embeddings(text):
 
     final_hidden_state = output[-4, :, ...]
 
-    return final_hidden_state,tokens,input_encoded.word_ids(),text.split(" ")
+    return final_hidden_state,tokens
 
 
 def compute_distances(emb1,emb2,dis):
@@ -78,34 +66,29 @@ if __name__ == "__main__":
     # output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
 
     # Generate reference scores
-    root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/ref/"
-    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-new/results-all-' + DISTANCE + '/'
-
+    root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/ref"
+    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/ref/results-all-' + DISTANCE + '/'
 
 
     for subdir, dirs, files in os.walk(root):
         lang = subdir[subdir.rfind('/')+1:]
-        #print(subdir)
         print(lang)
-
-
-
-        #lang = subdir[-2:]
+        # lang = subdir[-2:]
         # print(lang)
     
         # if len(lang)>2:
         #     continue
-        if lang in ['7/','','hi']:    
-            continue
-        else:
-        #if lang in ['hi']:
+        # if lang in ['7/','']:    
+        #     continue
+        #else:
+        if lang in ['hi']:
             with open(root + '/' + lang + '/test.jsonl') as f:
-                #j=0
+                j=0
                 for line in f:
-                    #j+=1
-                    #print(j)
-                    # if j>3:
-                    #     break
+                    j+=1
+                    print(j)
+                    if j>10:
+                        break
 
                     c = 0
                     data = json.loads(line)
@@ -126,22 +109,44 @@ if __name__ == "__main__":
                     #     fact.append(f[0])
                     #     fact.append(f[1])
                     fact = " ".join(facts_list)
-                    fact = fact.replace("_"," ")
                     #print(fact)
                     
                     #print(text2)
                     text2 = text2.translate(str.maketrans('', '', string.punctuation))
                     #print(text2)
-                  
-                    # fact = "Indian National Congress"
-                    # text2 = "(भारतीय राष्ट्रीय कांग्रेस) के नेता है"
+                    # for f in facts_list:
 
-                      # fact = "Indian Congress"
+                    #     if FACT_TYPE == 'tail':
+                    #         fact = f[1]
+                    #     elif FACT_TYPE == 'tailandfact':
+                    #         fact = f[0] + ' ' + f[1]
+                    #     #print(fact)
+
+                    #fact = "Indian National Congress"
+                    #text2 = "वह देवास निर्वाचन क्षेत्र के प्रतिनिधित्व (भारतीय राष्ट्रीय कांग्रेस) के नेता है"
+
+                    # fact = "Hinduism"
+                    # text2 = "शिवपुरी बाबा हिन्दू धर्म के एक सन्त थे"
+
+                    #text2 = ["भारतीय","राष्ट्रीय","कांग्रेस"]  # # Separate pairwise 0.06131437420845032,Cosine Similarity: 0.99526656
+                    #text2 = ["वह देवास निर्वाचन क्षेत्र के प्रतिनिधित्व (भारतीय राष्ट्रीय कांग्रेस) के नेता है"]
+
+
+                    # fact = "Indian Congress"
                     # text2 = "भारतीय राष्ट्रीय कांग्रेस"
 
-                    emb1,tokens1,subword_ids,word_list = generate_embeddings(fact)
+                    emb1,tokens1 = generate_embeddings(fact)
 
-                    emb2,tokens2,_,_= generate_embeddings(text2)
+                    #print(emb1.shape)
+                    #print(tokens1)
+
+
+                    
+
+                    #avg_emb1 = torch.mean(emb1[1:emb1.shape[0]-1],dim=0)  #Exclude CLS and SEP embeddings
+                    #print(avg_emb1)
+
+                    emb2,tokens2 = generate_embeddings(text2)
 
 
                     # Match each word of the sentence with fact words
@@ -158,45 +163,19 @@ if __name__ == "__main__":
                         #print(word_emb[0][0:10])
                         dist = []
                         
-
-                        #print(len(emb1))
-                        for i in range(1,len(emb1)-1):
+                        for i in range(1,len(emb1)):
                             #print(emb1)
                             #print(emb1[i:i+1].shape)
                             dist.append(compute_distances(word_emb[0],emb1[i:i+1][0],DISTANCE))
-
-                        #print(len(dist))
                         #print(dist)
-
-                        dist_updated = []
-                        cnt_subwords = dict(Counter(subword_ids))
-                        #print(cnt_subwords)
-                        prev = 0 
-                        new = 0 
-                        for i in range(0,len(word_list)):
-                            #print(word_list[i])
-                            # get count of  
-                            c = cnt_subwords[i]
-                            sub_dist = dist[new:new+c]
-                            #sub_dist = dist[new:i+c]
-                            new = new + c
-                            #print(i,new,c)
-                            #print(sub_dist)
-                            dist_updated.append(mean(sub_dist))    
-
-
-                        #print(dist_updated)
-                        min_index = np.argmin(dist_updated)
+                        min_index = np.argmin(dist)
                         
-                        #token_top = tokens1[min_index+1]
-                        token_top = word_list[min_index]
+                        token_top = tokens1[min_index+1]
 
-
-                        token_score = float(round(min(dist_updated),2))
+                        token_score = float(round(min(dist),2))
 
                         #print(min_index,token_top)
                         pair = tuple((word,token_top,token_score))
-                        #print(pair)
 
                         if token_top in TOKENS_TO_EXCLUDE:
                             continue
@@ -210,13 +189,12 @@ if __name__ == "__main__":
 
                     results['scores'] = min_pairs
 
-                    #print(word_list)
                     #print(results)
 
                     # r.write(str(results))
                     # r.write("\n")
 
 
-                    with open(output_path  + lang + '-coverage.jsonl','a') as fp: 
-                        json.dump(results,fp,ensure_ascii=False)
-                        fp.write('\n')
+                    # with open(output_path  + lang + '-coverage.jsonl','a') as fp: 
+                    #     json.dump(results,fp,ensure_ascii=False)
+                    #     fp.write('\n')
