@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
 
                     # Match each word of the sentence with fact words
-                    max_pairs = []
+                    min_pairs = []
                     #print(emb1)
                     #print(tokens2)
                     #print(emb2)
@@ -166,26 +166,26 @@ if __name__ == "__main__":
                             #print(emb1[i:i+1].shape)
                             dist.append(compute_distances(word_emb[0],emb1[i:i+1][0],DISTANCE))
                         #print(dist)
-                        max_index = np.argmax(dist)
+                        min_index = np.argmin(dist)
                         
-                        token_top = tokens1[max_index+1]
+                        token_top = tokens1[min_index+1]
 
-                        token_score = float(round(max(dist),2))
+                        token_score = float(round(min(dist),2))
 
-                        #print(max_index,token_top)
+                        #print(min_index,token_top)
                         pair = tuple((word,token_top,token_score))
 
                         if token_top in TOKENS_TO_EXCLUDE:
                             continue
                         else:
-                            max_pairs.append(pair)
+                            min_pairs.append(pair)
 
                     
                     #results['entity_name'] = data['entity_name']
                     results['facts'] = data['facts']
                     results['sentence'] = data['generated_sentence']
 
-                    results['scores'] = max_pairs
+                    results['scores'] = min_pairs
 
                     #print(results)
 
