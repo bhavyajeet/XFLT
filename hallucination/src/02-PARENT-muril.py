@@ -15,8 +15,8 @@ import os
 import string
 
 
-FACT_TYPE = 'tailandfact'
-DISTANCE = 'cosine'
+#FACT_TYPE = 'tailandfact'
+DISTANCE = 'euclidean'
 TOKENS_TO_EXCLUDE = ['[CLS]','[SEP]','।']
 
 tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased")
@@ -47,22 +47,10 @@ def generate_embeddings(text):
     return final_hidden_state,tokens
 
 
-sentence = ["वह देवास निर्वाचन क्षेत्र के प्रतिनिधित्व (भारतीय राष्ट्रीय कांग्रेस) के नेता है ।"]
-sentence = ["शिवपुरी बाबा हिन्दू धर्म के एक सन्त थे।"]
-
-facts_list = ["member of political party", "Indian National Congress"]
-
-# 1.Tail level comparision
-# Pass all phrases with window length of the fact
-# Average embeddings - done 
-# computer distance between all pairs and identify minimum distance phrase 
-
-# , Fact level comparison
-
 def compute_distances(emb1,emb2,dis):
 
     euc = distance.euclidean(np.array(emb1), np.array(emb2))
-    cosine = np.dot(emb1,emb2)/(norm(emb1)*norm(emb2))
+    cosine = 1 - np.dot(emb1,emb2)/(norm(emb1)*norm(emb2))
 
 
     if distance=='euclidean':
@@ -72,8 +60,14 @@ def compute_distances(emb1,emb2,dis):
 
 if __name__ == "__main__":
     #root = "/Users/rahulmehta/Desktop/MultiSent/datasets/datasets_v2.7/"
-    root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script"
-    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
+    # root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script"
+    # output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
+
+    # Generate reference scores
+    root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/ref"
+    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/ref/results-all-' + DISTANCE + '/'
+
+
     for subdir, dirs, files in os.walk(root):
         lang = subdir[subdir.rfind('/')+1:]
         print(lang)

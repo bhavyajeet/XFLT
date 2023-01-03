@@ -2,24 +2,31 @@ import os
 import json
 import ast
 import csv 
+from collections import Counter
 
 
 
 if __name__ == "__main__":
-    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/scores' 
-    with open('coverage-scores.csv', 'a', newline='') as cf:
+    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/scores/' 
+    #output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/ref/scores/' 
+
+    with open(output_path + 'coverage-scores.csv', 'a', newline='') as cf:
         writer = csv.DictWriter(cf, fieldnames = ["distance", "threshold", "lang","coverage","avg_coverage","total_correct","total_sentlen"])
         writer.writeheader()
 
     DISTANCES = ['euclidean','cosine']
-    THRESHOLDS = [0.60,0.65,0.70,0.75]
+    THRESHOLDS = [0.20,0.40,0.65,0.70,0.75]
 
     for DISTANCE in DISTANCES:
-        root = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
+        root = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/' # If ref
+        #root = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
         for THRESHOLD in THRESHOLDS:
             for subdir, dirs, files in os.walk(root):
-                for file in files:
-                    print(file)
+
+                #for file in files:
+                for file in files:#['ka-coverage.jsonl']:
+                    
+                    #print(file)
 
                     lang = file[0:2]
 
@@ -32,7 +39,7 @@ if __name__ == "__main__":
                         for line in f:
                             line_cnt+=1
                             data = json.loads(line)
-                            #print(data)
+                            print(data)
 
                             facts = data["facts"]
                             scores =  data["scores"]
@@ -45,11 +52,17 @@ if __name__ == "__main__":
 
                             # Numerator
                             correct =0
+                            cor = []
+                            print(scores)
                             for item in scores:
                                 #print(tuple(item))
-                                if item[2] > THRESHOLD and item[1] in facts:
-                                    correct+=1
-                                    print(item[1],correct)
+                                if item[2] < THRESHOLD and item[1] in facts:
+                                    #correct+=1
+                                    #print(item[1],correct)
+                                    cor.append(item[1])
+                            cnt = Counter(cor).keys()
+                            print(cnt)
+                            correct += len(cnt)       
 
                             coverage = correct/sentence_len
                             total_correct +=correct 
@@ -73,7 +86,7 @@ if __name__ == "__main__":
 
 
                     
-                    with open('coverage-scores.csv', 'a', newline='') as f:
+                    with open(output_path + 'coverage-scores.csv', 'a', newline='') as f:
                         writer = csv.writer(f)
                         writer.writerow([DISTANCE,THRESHOLD,lang,total_correct/total_sentlen,total_coverage/line_cnt,total_correct,total_sentlen])
 
