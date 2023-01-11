@@ -9,7 +9,7 @@ en_tok = MosesTokenizer(lang="en")
 
 
 class TextDataset(Dataset):
-    def __init__(self, prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, sorted_order=True, add_label = 1):
+    def __init__(self, prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, sorted_order=True, add_label = 0):
         self.tokenizer = tokenizer
         self.src_max_seq_len = src_max_seq_len
         self.tgt_max_seq_len = tgt_max_seq_len
@@ -142,7 +142,7 @@ def collate_batch(batch, tokenizer):
 
     return torch.tensor(batch_src_inputs, dtype=torch.long), torch.tensor(batch_src_masks, dtype=torch.long), torch.tensor(batch_tgt_inputs, dtype=torch.long), torch.tensor(batch_tgt_masks, dtype=torch.long), torch.tensor(lang_id, dtype=torch.long), torch.tensor(idx, dtype=torch.long)
 
-def get_dataset_loaders(tokenizer, filename, logger, prefix=True, dataset_count=0, batch_size=8, num_threads=1, src_max_seq_len=200, tgt_max_seq_len=200, script_unification=False, complete_coverage=False, add_label = 1):
+def get_dataset_loaders(tokenizer, filename, logger, prefix=True, dataset_count=0, batch_size=8, num_threads=1, src_max_seq_len=200, tgt_max_seq_len=200, script_unification=False, complete_coverage=False, add_label = 0):
     dataset = TextDataset(prefix, tokenizer, filename, dataset_count, src_max_seq_len, tgt_max_seq_len, script_unification, logger, complete_coverage, add_label)
     input_dataloader = DataLoader(dataset, batch_size=batch_size, num_workers=num_threads, collate_fn=lambda x : collate_batch(x, tokenizer))
     return input_dataloader
