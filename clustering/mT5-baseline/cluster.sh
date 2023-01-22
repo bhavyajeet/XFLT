@@ -6,8 +6,8 @@ dir_path=$(dirname "$file_path")
 
 
 #setting up the defaults
-LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
-#LANG='as' #ml,pa,as,or
+#LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
+LANG='as' #ml,pa,as,or
 GPUS=4
 MODEL_DIR=$dir_path   #optional
 PYTHON="/home/bhavyajeet.singh/anaconda3/envs/xalign/bin/python"  #change required
@@ -18,12 +18,12 @@ CHECKPOINT_PATH=$SCRATCH_DIR/checkpoint   #change required
 
 BATCH_SIZE=4
 TEST_BATCH_SIZE=4
-EPOCHS=30
+EPOCHS=1
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=400
-TGT_MAX_SEQ_LENGTH=400
+SRC_MAX_SEQ_LENGTH=200
+TGT_MAX_SEQ_LENGTH=200
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1

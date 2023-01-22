@@ -1,4 +1,5 @@
 import os,sys, re
+import time
 import random
 import json
 from argparse import ArgumentParser
@@ -522,7 +523,7 @@ if __name__ == "__main__":
         print('Invalid language(s) specified !!!')
         sys.exit(0)
 
-    args.logger_exp_name = "%s-%s-%s-%s-%s" % ('-'.join(args.lang), args.model_name, args.epochs, args.learning_rate, args.src_max_seq_len)
+    args.logger_exp_name = "%s-%s-%s-%s-%s-%s" % ("gen",'-'.join(args.lang), args.model_name, args.epochs, args.learning_rate, args.src_max_seq_len)
     args.logger_exp_name = args.logger_exp_name.replace('/', '-')
 
     if args.complete_coverage > 0:

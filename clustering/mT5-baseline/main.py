@@ -1,4 +1,5 @@
 import os,sys, re
+import time
 import random
 import json
 from argparse import ArgumentParser
@@ -113,7 +114,7 @@ class ModelWrapper(pl.LightningModule):
 
         return optimizer
 
-    def ids_to_clean_text(self, generated_ids, remove_special_tokens=True, remove_tok_spaces=True):
+    def ids_to_clean_text(self, generated_ids, remove_special_tokens=False, remove_tok_spaces=True):
         gen_text = self.tokenizer.batch_decode(
             generated_ids, skip_special_tokens=remove_special_tokens, clean_up_tokenization_spaces=remove_tok_spaces
         )
@@ -522,7 +523,7 @@ if __name__ == "__main__":
         print('Invalid language(s) specified !!!')
         sys.exit(0)
 
-    args.logger_exp_name = "%s-%s-%s-%s" % ('-'.join(args.lang), args.model_name, args.epochs, args.learning_rate)
+    args.logger_exp_name = "%s-%s-%s-%s-%s" % ("clustering",'-'.join(args.lang), args.model_name, args.epochs, args.learning_rate)
     args.logger_exp_name = args.logger_exp_name.replace('/', '-')
 
     if args.complete_coverage > 0:
