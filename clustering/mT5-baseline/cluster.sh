@@ -6,8 +6,8 @@ dir_path=$(dirname "$file_path")
 
 
 #setting up the defaults
-#LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
-LANG='as' #ml,pa,as,or
+LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
+#LANG='as' #ml,pa,as,or
 GPUS=4
 MODEL_DIR=$dir_path   #optional
 PYTHON="/home/bhavyajeet.singh/anaconda3/envs/xalign/bin/python"  #change required
