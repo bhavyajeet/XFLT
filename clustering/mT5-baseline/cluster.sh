@@ -22,8 +22,8 @@ EPOCHS=1
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=200
-TGT_MAX_SEQ_LENGTH=200
+SRC_MAX_SEQ_LENGTH=400
+TGT_MAX_SEQ_LENGTH=400
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
