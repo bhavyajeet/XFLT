@@ -1,0 +1,2464 @@
+
+Set SLURM handle signals.
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+12/26/2022 03:26:45 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+12/26/2022 03:26:45 PM [INFO] test dataset is already present.
+12/26/2022 03:26:48 PM [CRITICAL] test : script unification to Devanagari is enabled.
+12/26/2022 03:26:48 PM [INFO] test dataset count : 22082
+Testing: 0it [00:00, ?it/s]finalising
+Testing:   0% 1/2454 [00:03<2:37:48,  3.86s/it]finalising
+Testing:   0% 2/2454 [00:08<2:53:21,  4.24s/it]finalising
+Testing:   0% 3/2454 [00:15<3:40:23,  5.40s/it]finalising
+Testing:   0% 4/2454 [00:20<3:44:24,  5.50s/it]finalising
+Testing:   0% 5/2454 [00:27<4:04:25,  5.99s/it]finalising
+Testing:   0% 6/2454 [00:33<3:57:36,  5.82s/it]finalising
+Testing:   0% 7/2454 [00:38<3:45:56,  5.54s/it]finalising
+Testing:   0% 8/2454 [00:43<3:37:41,  5.34s/it]finalising
+Testing:   0% 9/2454 [00:48<3:43:21,  5.48s/it]finalising
+Testing:   0% 10/2454 [00:56<4:12:59,  6.21s/it]finalising
+Testing:   0% 11/2454 [01:01<3:57:04,  5.82s/it]finalising
+Testing:   0% 12/2454 [01:06<3:47:06,  5.58s/it]finalising
+Testing:   1% 13/2454 [01:09<3:18:23,  4.88s/it]finalising
+Testing:   1% 14/2454 [01:14<3:10:07,  4.68s/it]finalising
+Testing:   1% 15/2454 [01:20<3:29:43,  5.16s/it]finalising
+Testing:   1% 16/2454 [01:32<4:59:49,  7.38s/it]finalising
+Testing:   1% 17/2454 [01:35<4:05:19,  6.04s/it]finalising
+Testing:   1% 18/2454 [01:43<4:19:59,  6.40s/it]finalising
+Testing:   1% 19/2454 [01:58<6:05:35,  9.01s/it]finalising
+Testing:   1% 20/2454 [02:02<5:04:12,  7.50s/it]finalising
+Testing:   1% 21/2454 [02:08<4:48:35,  7.12s/it]finalising
+Testing:   1% 22/2454 [02:11<4:01:41,  5.96s/it]finalising
+Testing:   1% 23/2454 [02:16<3:52:27,  5.74s/it]finalising
+Testing:   1% 24/2454 [02:20<3:32:40,  5.25s/it]finalising
+Testing:   1% 25/2454 [02:25<3:22:43,  5.01s/it]finalising
+Testing:   1% 26/2454 [02:28<2:57:58,  4.40s/it]finalising
+Testing:   1% 27/2454 [02:34<3:23:05,  5.02s/it]finalising
+Testing:   1% 28/2454 [02:40<3:26:53,  5.12s/it]finalising
+Testing:   1% 29/2454 [02:45<3:26:49,  5.12s/it]finalising
+Testing:   1% 30/2454 [02:56<4:38:29,  6.89s/it]finalising
+Testing:   1% 31/2454 [03:00<4:06:26,  6.10s/it]finalising
+Testing:   1% 32/2454 [03:04<3:35:31,  5.34s/it]finalising
+Testing:   1% 33/2454 [03:08<3:17:25,  4.89s/it]finalising
+Testing:   1% 34/2454 [03:11<2:59:58,  4.46s/it]finalising
+Testing:   1% 35/2454 [03:21<4:03:28,  6.04s/it]finalising
+Testing:   1% 36/2454 [03:23<3:22:47,  5.03s/it]finalising
+Testing:   2% 37/2454 [03:27<3:04:53,  4.59s/it]finalising
+Testing:   2% 38/2454 [03:31<2:58:23,  4.43s/it]finalising
+Testing:   2% 39/2454 [03:42<4:14:30,  6.32s/it]finalising
+Testing:   2% 40/2454 [03:45<3:34:24,  5.33s/it]finalising
+Testing:   2% 41/2454 [03:49<3:20:33,  4.99s/it]finalising
+Testing:   2% 42/2454 [03:54<3:26:43,  5.14s/it]finalising
+Testing:   2% 43/2454 [04:00<3:31:46,  5.27s/it]finalising
+Testing:   2% 44/2454 [04:04<3:19:16,  4.96s/it]finalising
+Testing:   2% 45/2454 [04:07<2:54:06,  4.34s/it]finalising
+Testing:   2% 46/2454 [04:12<2:56:56,  4.41s/it]finalising
+Testing:   2% 47/2454 [04:14<2:27:25,  3.67s/it]finalising
+Testing:   2% 48/2454 [04:20<2:56:32,  4.40s/it]finalising
+Testing:   2% 49/2454 [04:27<3:25:28,  5.13s/it]finalising
+Testing:   2% 50/2454 [04:33<3:42:48,  5.56s/it]finalising
+Testing:   2% 51/2454 [04:36<3:08:46,  4.71s/it]finalising
+Testing:   2% 52/2454 [04:39<2:49:47,  4.24s/it]finalising
+Testing:   2% 53/2454 [04:49<3:59:31,  5.99s/it]finalising
+Testing:   2% 54/2454 [04:55<4:02:37,  6.07s/it]finalising
+Testing:   2% 55/2454 [05:01<4:02:53,  6.07s/it]finalising
+Testing:   2% 56/2454 [05:09<4:26:00,  6.66s/it]finalising
+Testing:   2% 57/2454 [05:11<3:25:29,  5.14s/it]finalising
+Testing:   2% 58/2454 [05:22<4:31:56,  6.81s/it]finalising
+Testing:   2% 59/2454 [05:31<5:05:56,  7.66s/it]finalising
+Testing:   2% 60/2454 [05:39<5:07:54,  7.72s/it]finalising
+Testing:   2% 61/2454 [05:46<4:57:44,  7.47s/it]finalising
+Testing:   3% 62/2454 [05:51<4:27:44,  6.72s/it]finalising
+Testing:   3% 63/2454 [05:56<4:02:50,  6.09s/it]finalising
+Testing:   3% 64/2454 [06:00<3:42:14,  5.58s/it]finalising
+Testing:   3% 65/2454 [06:09<4:26:17,  6.69s/it]finalising
+Testing:   3% 66/2454 [06:16<4:25:35,  6.67s/it]finalising
+Testing:   3% 67/2454 [06:22<4:19:23,  6.52s/it]finalising
+Testing:   3% 68/2454 [06:25<3:32:17,  5.34s/it]finalising
+Testing:   3% 69/2454 [06:31<3:37:04,  5.46s/it]finalising
+Testing:   3% 70/2454 [06:38<3:57:37,  5.98s/it]finalising
+Testing:   3% 71/2454 [06:42<3:32:07,  5.34s/it]finalising
+Testing:   3% 72/2454 [06:51<4:21:50,  6.60s/it]finalising
+Testing:   3% 73/2454 [06:56<4:07:20,  6.23s/it]finalising
+Testing:   3% 74/2454 [07:02<4:00:01,  6.05s/it]finalising
+Testing:   3% 75/2454 [07:08<3:54:06,  5.90s/it]finalising
+Testing:   3% 76/2454 [07:13<3:48:06,  5.76s/it]finalising
+Testing:   3% 77/2454 [07:18<3:41:34,  5.59s/it]finalising
+Testing:   3% 78/2454 [07:25<3:49:15,  5.79s/it]finalising
+Testing:   3% 79/2454 [07:34<4:28:18,  6.78s/it]finalising
+Testing:   3% 80/2454 [07:37<3:49:05,  5.79s/it]finalising
+Testing:   3% 81/2454 [07:51<5:29:18,  8.33s/it]finalising
+Testing:   3% 82/2454 [07:54<4:23:05,  6.65s/it]finalising
+Testing:   3% 83/2454 [07:56<3:24:33,  5.18s/it]finalising
+Testing:   3% 84/2454 [08:02<3:33:50,  5.41s/it]finalising
+Testing:   3% 85/2454 [08:10<4:03:58,  6.18s/it]finalising
+Testing:   4% 86/2454 [08:15<3:56:57,  6.00s/it]finalising
+Testing:   4% 87/2454 [08:20<3:39:01,  5.55s/it]finalising
+Testing:   4% 88/2454 [08:27<4:02:39,  6.15s/it]finalising
+Testing:   4% 89/2454 [08:30<3:22:14,  5.13s/it]finalising
+Testing:   4% 90/2454 [08:33<2:55:57,  4.47s/it]finalising
+Testing:   4% 91/2454 [08:45<4:19:18,  6.58s/it]finalising
+Testing:   4% 92/2454 [08:53<4:45:16,  7.25s/it]finalising
+Testing:   4% 93/2454 [08:57<4:00:31,  6.11s/it]finalising
+Testing:   4% 94/2454 [09:07<4:49:50,  7.37s/it]finalising
+Testing:   4% 96/2454 [09:17<3:59:31,  6.09s/it]finalising
+Testing:   4% 97/2454 [09:22<3:49:24,  5.84s/it]finalising
+Testing:   4% 98/2454 [09:28<3:50:54,  5.88s/it]finalising
+Testing:   4% 99/2454 [09:32<3:28:10,  5.30s/it]finalising
+Testing:   4% 100/2454 [09:35<2:57:10,  4.52s/it]inalising
+Testing:   4% 101/2454 [09:41<3:17:54,  5.05s/it]finalising
+Testing:   4% 102/2454 [09:45<3:03:56,  4.69s/it]finalising
+Testing:   4% 103/2454 [09:50<3:14:58,  4.98s/it]finalising
+Testing:   4% 104/2454 [09:55<3:08:44,  4.82s/it]finalising
+Testing:   4% 105/2454 [10:03<3:43:05,  5.70s/it]finalising
+Testing:   4% 106/2454 [10:07<3:26:22,  5.27s/it]finalising
+Testing:   4% 107/2454 [10:12<3:26:02,  5.27s/it]finalising
+Testing:   4% 108/2454 [10:15<2:56:30,  4.51s/it]finalising
+Testing:   4% 109/2454 [10:18<2:39:47,  4.09s/it]finalising
+Testing:   4% 110/2454 [10:24<2:57:38,  4.55s/it]finalising
+Testing:   5% 111/2454 [10:31<3:28:09,  5.33s/it]finalising
+Testing:   5% 112/2454 [10:37<3:41:08,  5.67s/it]finalising
+Testing:   5% 113/2454 [10:43<3:42:36,  5.71s/it]finalising
+Testing:   5% 114/2454 [10:45<3:02:02,  4.67s/it]finalising
+Testing:   5% 115/2454 [10:48<2:36:52,  4.02s/it]finalising
+Testing:   5% 116/2454 [10:53<2:44:30,  4.22s/it]finalising
+Testing:   5% 117/2454 [10:56<2:38:02,  4.06s/it]finalising
+Testing:   5% 118/2454 [11:00<2:32:55,  3.93s/it]finalising
+Testing:   5% 119/2454 [11:06<2:53:34,  4.46s/it]finalising
+Testing:   5% 120/2454 [11:09<2:39:29,  4.10s/it]finalising
+Testing:   5% 121/2454 [11:12<2:26:11,  3.76s/it]finalising
+Testing:   5% 122/2454 [11:19<3:06:58,  4.81s/it]finalising
+Testing:   5% 123/2454 [11:22<2:51:03,  4.40s/it]finalising
+Testing:   5% 124/2454 [11:29<3:13:03,  4.97s/it]finalising
+Testing:   5% 125/2454 [11:34<3:13:56,  5.00s/it]finalising
+Testing:   5% 126/2454 [11:39<3:13:26,  4.99s/it]finalising
+Testing:   5% 127/2454 [11:43<3:08:03,  4.85s/it]finalising
+Testing:   5% 128/2454 [11:46<2:46:49,  4.30s/it]finalising
+Testing:   5% 129/2454 [11:57<4:02:46,  6.27s/it]finalising
+Testing:   5% 130/2454 [12:03<3:54:21,  6.05s/it]finalising
+Testing:   5% 131/2454 [12:10<4:11:29,  6.50s/it]finalising
+Testing:   5% 132/2454 [12:16<4:03:43,  6.30s/it]finalising
+Testing:   5% 133/2454 [12:18<3:17:10,  5.10s/it]finalising
+Testing:   5% 134/2454 [12:26<3:40:30,  5.70s/it]finalising
+Testing:   6% 135/2454 [12:37<4:43:28,  7.33s/it]finalising
+Testing:   6% 136/2454 [12:40<3:56:32,  6.12s/it]finalising
+Testing:   6% 137/2454 [12:46<3:50:21,  5.97s/it]finalising
+Testing:   6% 138/2454 [12:50<3:28:00,  5.39s/it]finalising
+Testing:   6% 139/2454 [12:56<3:41:32,  5.74s/it]finalising
+Testing:   6% 140/2454 [13:00<3:13:34,  5.02s/it]finalising
+Testing:   6% 141/2454 [13:02<2:45:46,  4.30s/it]finalising
+Testing:   6% 142/2454 [13:05<2:33:27,  3.98s/it]finalising
+Testing:   6% 143/2454 [13:10<2:40:11,  4.16s/it]finalising
+Testing:   6% 144/2454 [13:15<2:49:03,  4.39s/it]finalising
+Testing:   6% 145/2454 [13:25<3:54:57,  6.11s/it]finalising
+Testing:   6% 146/2454 [13:28<3:22:04,  5.25s/it]finalising
+Testing:   6% 147/2454 [13:33<3:16:26,  5.11s/it]finalising
+Testing:   6% 148/2454 [13:38<3:19:18,  5.19s/it]finalising
+Testing:   6% 149/2454 [13:42<3:00:03,  4.69s/it]finalising
+Testing:   6% 150/2454 [13:49<3:22:55,  5.28s/it]finalising
+Testing:   6% 151/2454 [13:51<2:55:16,  4.57s/it]finalising
+Testing:   6% 152/2454 [13:54<2:31:17,  3.94s/it]finalising
+Testing:   6% 153/2454 [13:58<2:30:30,  3.92s/it]finalising
+Testing:   6% 154/2454 [14:02<2:27:30,  3.85s/it]finalising
+Testing:   6% 155/2454 [14:06<2:37:28,  4.11s/it]finalising
+Testing:   6% 156/2454 [14:14<3:22:39,  5.29s/it]finalising
+Testing:   6% 157/2454 [14:20<3:27:35,  5.42s/it]finalising
+Testing:   6% 158/2454 [14:27<3:42:22,  5.81s/it]finalising
+Testing:   6% 159/2454 [14:31<3:28:26,  5.45s/it]finalising
+Testing:   7% 160/2454 [14:35<3:09:57,  4.97s/it]finalising
+Testing:   7% 161/2454 [14:39<2:57:44,  4.65s/it]finalising
+Testing:   7% 162/2454 [14:42<2:32:10,  3.98s/it]finalising
+Testing:   7% 163/2454 [14:52<3:48:55,  6.00s/it]finalising
+Testing:   7% 164/2454 [14:58<3:42:52,  5.84s/it]finalising
+Testing:   7% 165/2454 [15:07<4:19:11,  6.79s/it]finalising
+Testing:   7% 166/2454 [15:10<3:37:02,  5.69s/it]finalising
+Testing:   7% 167/2454 [15:14<3:16:56,  5.17s/it]finalising
+Testing:   7% 168/2454 [15:19<3:16:13,  5.15s/it]finalising
+Testing:   7% 169/2454 [15:24<3:13:36,  5.08s/it]finalising
+Testing:   7% 170/2454 [15:33<4:04:05,  6.41s/it]finalising
+Testing:   7% 171/2454 [15:36<3:26:24,  5.42s/it]finalising
+Testing:   7% 172/2454 [15:42<3:30:34,  5.54s/it]finalising
+Testing:   7% 173/2454 [15:58<5:28:45,  8.65s/it]finalising
+Testing:   7% 174/2454 [16:04<4:51:37,  7.67s/it]finalising
+Testing:   7% 175/2454 [16:08<4:17:21,  6.78s/it]finalising
+Testing:   7% 176/2454 [16:12<3:44:37,  5.92s/it]finalising
+Testing:   7% 177/2454 [16:18<3:43:36,  5.89s/it]finalising
+Testing:   7% 178/2454 [16:22<3:22:56,  5.35s/it]finalising
+Testing:   7% 179/2454 [16:28<3:30:33,  5.55s/it]finalising
+Testing:   7% 180/2454 [16:31<2:55:10,  4.62s/it]finalising
+Testing:   7% 181/2454 [16:35<2:56:15,  4.65s/it]finalising
+Testing:   7% 182/2454 [16:39<2:41:09,  4.26s/it]finalising
+Testing:   7% 183/2454 [16:44<2:53:04,  4.57s/it]finalising
+Testing:   7% 184/2454 [16:47<2:37:43,  4.17s/it]finalising
+Testing:   8% 185/2454 [16:54<3:08:38,  4.99s/it]finalising
+Testing:   8% 186/2454 [17:00<3:16:38,  5.20s/it]finalising
+Testing:   8% 187/2454 [17:04<3:04:40,  4.89s/it]finalising
+Testing:   8% 188/2454 [17:13<3:55:39,  6.24s/it]finalising
+Testing:   8% 189/2454 [17:17<3:29:31,  5.55s/it]finalising
+Testing:   8% 190/2454 [17:21<3:08:55,  5.01s/it]finalising
+Testing:   8% 191/2454 [17:25<3:02:29,  4.84s/it]finalising
+Testing:   8% 192/2454 [17:31<3:15:09,  5.18s/it]finalising
+Testing:   8% 193/2454 [17:46<4:56:58,  7.88s/it]finalising
+Testing:   8% 194/2454 [17:49<4:11:26,  6.68s/it]finalising
+Testing:   8% 195/2454 [17:56<4:08:57,  6.61s/it]finalising
+Testing:   8% 196/2454 [17:58<3:22:37,  5.38s/it]finalising
+Testing:   8% 197/2454 [18:02<3:03:31,  4.88s/it]finalising
+Testing:   8% 198/2454 [18:09<3:27:31,  5.52s/it]finalising
+Testing:   8% 199/2454 [18:15<3:32:27,  5.65s/it]finalising
+Testing:   8% 200/2454 [18:21<3:39:16,  5.84s/it]finalising
+Testing:   8% 201/2454 [18:24<3:04:26,  4.91s/it]finalising
+Testing:   8% 202/2454 [18:33<3:51:49,  6.18s/it]finalising
+Testing:   8% 203/2454 [18:36<3:15:05,  5.20s/it]finalising
+Testing:   8% 204/2454 [18:41<3:14:59,  5.20s/it]finalising
+Testing:   8% 205/2454 [18:50<3:57:09,  6.33s/it]finalising
+Testing:   8% 206/2454 [18:55<3:39:01,  5.85s/it]finalising
+Testing:   8% 207/2454 [19:03<4:03:03,  6.49s/it]finalising
+Testing:   8% 208/2454 [19:08<3:45:46,  6.03s/it]finalising
+Testing:   9% 209/2454 [19:12<3:20:08,  5.35s/it]finalising
+Testing:   9% 210/2454 [19:19<3:45:39,  6.03s/it]finalising
+Testing:   9% 211/2454 [19:35<5:33:16,  8.91s/it]finalising
+Testing:   9% 212/2454 [19:41<4:59:13,  8.01s/it]finalising
+Testing:   9% 213/2454 [19:45<4:16:58,  6.88s/it]finalising
+Testing:   9% 214/2454 [19:48<3:27:45,  5.57s/it]finalising
+Testing:   9% 215/2454 [19:56<3:58:34,  6.39s/it]finalising
+Testing:   9% 216/2454 [20:05<4:32:02,  7.29s/it]finalising
+Testing:   9% 217/2454 [20:08<3:43:30,  5.99s/it]finalising
+Testing:   9% 218/2454 [20:11<3:09:36,  5.09s/it]finalising
+Testing:   9% 219/2454 [20:22<4:15:21,  6.86s/it]finalising
+Testing:   9% 220/2454 [20:32<4:47:49,  7.73s/it]finalising
+Testing:   9% 221/2454 [20:37<4:17:23,  6.92s/it]finalising
+Testing:   9% 222/2454 [20:39<3:24:44,  5.50s/it]finalising
+Testing:   9% 223/2454 [20:44<3:21:29,  5.42s/it]finalising
+Testing:   9% 224/2454 [20:57<4:35:30,  7.41s/it]finalising
+Testing:   9% 225/2454 [21:01<3:57:48,  6.40s/it]finalising
+Testing:   9% 226/2454 [21:13<5:01:42,  8.12s/it]finalising
+Testing:   9% 227/2454 [21:18<4:25:37,  7.16s/it]finalising
+Testing:   9% 228/2454 [21:22<3:54:02,  6.31s/it]finalising
+Testing:   9% 229/2454 [21:25<3:15:21,  5.27s/it]finalising
+Testing:   9% 230/2454 [21:33<3:51:45,  6.25s/it]finalising
+Testing:   9% 231/2454 [21:39<3:39:56,  5.94s/it]finalising
+Testing:   9% 232/2454 [21:44<3:36:47,  5.85s/it]finalising
+Testing:   9% 233/2454 [21:49<3:23:12,  5.49s/it]finalising
+Testing:  10% 234/2454 [21:52<2:52:33,  4.66s/it]finalising
+Testing:  10% 235/2454 [22:00<3:35:10,  5.82s/it]finalising
+Testing:  10% 236/2454 [22:11<4:36:36,  7.48s/it]finalising
+Testing:  10% 237/2454 [22:15<3:58:00,  6.44s/it]finalising
+Testing:  10% 238/2454 [22:24<4:15:16,  6.91s/it]finalising
+Testing:  10% 239/2454 [22:30<4:11:41,  6.82s/it]finalising
+Testing:  10% 240/2454 [22:37<4:16:09,  6.94s/it]finalising
+Testing:  10% 241/2454 [22:43<3:58:39,  6.47s/it]finalising
+Testing:  10% 242/2454 [22:46<3:24:02,  5.53s/it]finalising
+Testing:  10% 243/2454 [22:55<4:05:52,  6.67s/it]finalising
+Testing:  10% 244/2454 [22:59<3:33:04,  5.78s/it]finalising
+Testing:  10% 245/2454 [23:02<3:03:47,  4.99s/it]finalising
+Testing:  10% 246/2454 [23:07<3:02:47,  4.97s/it]finalising
+Testing:  10% 247/2454 [23:13<3:14:28,  5.29s/it]finalising
+Testing:  10% 248/2454 [23:20<3:30:55,  5.74s/it]finalising
+Testing:  10% 249/2454 [23:27<3:39:59,  5.99s/it]finalising
+Testing:  10% 250/2454 [23:29<3:04:40,  5.03s/it]finalising
+Testing:  10% 251/2454 [23:35<3:09:02,  5.15s/it]finalising
+Testing:  10% 252/2454 [23:39<3:00:41,  4.92s/it]finalising
+Testing:  10% 253/2454 [23:53<4:41:32,  7.68s/it]finalising
+Testing:  10% 254/2454 [23:56<3:48:12,  6.22s/it]finalising
+Testing:  10% 255/2454 [24:00<3:27:39,  5.67s/it]finalising
+Testing:  10% 256/2454 [24:06<3:21:45,  5.51s/it]finalising
+Testing:  10% 257/2454 [24:11<3:19:15,  5.44s/it]finalising
+Testing:  11% 258/2454 [24:18<3:37:44,  5.95s/it]finalising
+Testing:  11% 259/2454 [24:24<3:40:29,  6.03s/it]finalising
+Testing:  11% 260/2454 [24:27<3:03:37,  5.02s/it]finalising
+Testing:  11% 261/2454 [24:35<3:37:09,  5.94s/it]finalising
+Testing:  11% 262/2454 [24:39<3:19:36,  5.46s/it]finalising
+Testing:  11% 263/2454 [24:44<3:10:00,  5.20s/it]finalising
+Testing:  11% 264/2454 [24:58<4:48:01,  7.89s/it]finalising
+Testing:  11% 265/2454 [25:05<4:36:29,  7.58s/it]finalising
+Testing:  11% 266/2454 [25:14<4:56:37,  8.13s/it]finalising
+Testing:  11% 267/2454 [25:19<4:17:22,  7.06s/it]finalising
+Testing:  11% 268/2454 [25:25<4:04:02,  6.70s/it]finalising
+Testing:  11% 269/2454 [25:28<3:24:19,  5.61s/it]finalising
+Testing:  11% 270/2454 [25:32<3:03:01,  5.03s/it]finalising
+Testing:  11% 271/2454 [25:35<2:45:31,  4.55s/it]finalising
+Testing:  11% 272/2454 [25:41<3:02:50,  5.03s/it]finalising
+Testing:  11% 273/2454 [25:45<2:45:45,  4.56s/it]finalising
+Testing:  11% 274/2454 [25:49<2:44:46,  4.54s/it]finalising
+Testing:  11% 275/2454 [25:52<2:32:34,  4.20s/it]finalising
+Testing:  11% 276/2454 [25:58<2:48:30,  4.64s/it]finalising
+Testing:  11% 277/2454 [26:02<2:40:42,  4.43s/it]finalising
+Testing:  11% 278/2454 [26:06<2:30:50,  4.16s/it]finalising
+Testing:  11% 279/2454 [26:08<2:11:15,  3.62s/it]finalising
+Testing:  11% 280/2454 [26:11<2:02:09,  3.37s/it]finalising
+Testing:  11% 281/2454 [26:14<2:05:35,  3.47s/it]finalising
+Testing:  11% 282/2454 [26:23<3:05:21,  5.12s/it]finalising
+Testing:  12% 283/2454 [26:30<3:22:07,  5.59s/it]finalising
+Testing:  12% 284/2454 [26:34<3:01:25,  5.02s/it]finalising
+Testing:  12% 285/2454 [26:41<3:30:16,  5.82s/it]finalising
+Testing:  12% 286/2454 [26:47<3:24:37,  5.66s/it]finalising
+Testing:  12% 287/2454 [26:51<3:05:24,  5.13s/it]finalising
+Testing:  12% 288/2454 [26:53<2:37:20,  4.36s/it]finalising
+Testing:  12% 289/2454 [27:00<3:06:54,  5.18s/it]finalising
+Testing:  12% 290/2454 [27:03<2:38:55,  4.41s/it]finalising
+Testing:  12% 291/2454 [27:09<2:52:37,  4.79s/it]finalising
+Testing:  12% 292/2454 [27:11<2:25:32,  4.04s/it]finalising
+Testing:  12% 293/2454 [27:15<2:26:14,  4.06s/it]finalising
+Testing:  12% 294/2454 [27:18<2:19:15,  3.87s/it]finalising
+Testing:  12% 295/2454 [27:24<2:35:14,  4.31s/it]finalising
+Testing:  12% 296/2454 [27:29<2:44:49,  4.58s/it]finalising
+Testing:  12% 297/2454 [27:35<3:02:33,  5.08s/it]finalising
+Testing:  12% 298/2454 [27:39<2:50:39,  4.75s/it]finalising
+Testing:  12% 299/2454 [27:41<2:23:52,  4.01s/it]finalising
+Testing:  12% 300/2454 [27:46<2:25:11,  4.04s/it]finalising
+Testing:  12% 301/2454 [27:51<2:35:52,  4.34s/it]finalising
+Testing:  12% 302/2454 [27:56<2:46:20,  4.64s/it]finalising
+Testing:  12% 303/2454 [28:02<3:00:25,  5.03s/it]finalising
+Testing:  12% 304/2454 [28:05<2:43:01,  4.55s/it]finalising
+Testing:  12% 305/2454 [28:08<2:27:23,  4.12s/it]finalising
+Testing:  12% 306/2454 [28:19<3:36:28,  6.05s/it]finalising
+Testing:  13% 307/2454 [28:23<3:17:18,  5.51s/it]finalising
+Testing:  13% 308/2454 [28:31<3:44:09,  6.27s/it]finalising
+Testing:  13% 309/2454 [28:39<3:57:01,  6.63s/it]finalising
+Testing:  13% 310/2454 [28:45<3:52:57,  6.52s/it]finalising
+Testing:  13% 311/2454 [28:55<4:28:36,  7.52s/it]finalising
+Testing:  13% 312/2454 [28:59<3:49:41,  6.43s/it]finalising
+Testing:  13% 313/2454 [29:04<3:36:18,  6.06s/it]finalising
+Testing:  13% 314/2454 [29:09<3:25:11,  5.75s/it]finalising
+Testing:  13% 315/2454 [29:14<3:19:25,  5.59s/it]finalising
+Testing:  13% 316/2454 [29:21<3:35:51,  6.06s/it]finalising
+Testing:  13% 317/2454 [29:27<3:31:01,  5.93s/it]finalising
+Testing:  13% 318/2454 [29:41<4:59:14,  8.41s/it]finalising
+Testing:  13% 319/2454 [29:45<4:10:25,  7.04s/it]finalising
+Testing:  13% 320/2454 [29:49<3:38:25,  6.14s/it]finalising
+Testing:  13% 321/2454 [29:53<3:19:10,  5.60s/it]finalising
+Testing:  13% 322/2454 [29:58<3:08:37,  5.31s/it]finalising
+Testing:  13% 323/2454 [30:00<2:35:12,  4.37s/it]finalising
+Testing:  13% 324/2454 [30:03<2:16:52,  3.86s/it]finalising
+Testing:  13% 325/2454 [30:06<2:06:16,  3.56s/it]finalising
+Testing:  13% 326/2454 [30:11<2:28:35,  4.19s/it]finalising
+Testing:  13% 327/2454 [30:19<3:00:43,  5.10s/it]finalising
+Testing:  13% 328/2454 [30:33<4:37:01,  7.82s/it]finalising
+Testing:  13% 329/2454 [30:36<3:51:09,  6.53s/it]finalising
+Testing:  13% 330/2454 [30:40<3:17:57,  5.59s/it]finalising
+Testing:  13% 331/2454 [30:46<3:27:55,  5.88s/it]finalising
+Testing:  14% 332/2454 [30:51<3:20:07,  5.66s/it]finalising
+Testing:  14% 333/2454 [30:56<3:09:30,  5.36s/it]finalising
+Testing:  14% 334/2454 [30:58<2:37:52,  4.47s/it]finalising
+Testing:  14% 335/2454 [31:03<2:34:39,  4.38s/it]finalising
+Testing:  14% 336/2454 [31:17<4:16:48,  7.27s/it]finalising
+Testing:  14% 337/2454 [31:20<3:36:42,  6.14s/it]finalising
+Testing:  14% 338/2454 [31:24<3:12:10,  5.45s/it]finalising
+Testing:  14% 339/2454 [31:29<3:11:25,  5.43s/it]finalising
+Testing:  14% 340/2454 [31:33<2:55:48,  4.99s/it]finalising
+Testing:  14% 341/2454 [31:39<3:05:46,  5.28s/it]finalising
+Testing:  14% 342/2454 [31:42<2:40:48,  4.57s/it]finalising
+Testing:  14% 343/2454 [31:50<3:14:22,  5.52s/it]finalising
+Testing:  14% 344/2454 [31:54<2:58:02,  5.06s/it]finalising
+Testing:  14% 345/2454 [32:08<4:31:40,  7.73s/it]finalising
+Testing:  14% 346/2454 [32:14<4:12:09,  7.18s/it]finalising
+Testing:  14% 347/2454 [32:21<4:11:11,  7.15s/it]finalising
+Testing:  14% 348/2454 [32:25<3:38:56,  6.24s/it]finalising
+Testing:  14% 349/2454 [32:27<2:58:43,  5.09s/it]finalising
+Testing:  14% 350/2454 [32:33<3:06:41,  5.32s/it]finalising
+Testing:  14% 351/2454 [32:39<3:05:51,  5.30s/it]finalising
+Testing:  14% 352/2454 [32:41<2:34:36,  4.41s/it]finalising
+Testing:  14% 353/2454 [32:44<2:23:03,  4.09s/it]finalising
+Testing:  14% 354/2454 [32:49<2:30:10,  4.29s/it]finalising
+Testing:  14% 355/2454 [32:54<2:38:32,  4.53s/it]finalising
+Testing:  15% 356/2454 [33:00<2:56:13,  5.04s/it]finalising
+Testing:  15% 357/2454 [33:06<3:07:47,  5.37s/it]finalising
+Testing:  15% 358/2454 [33:14<3:35:32,  6.17s/it]finalising
+Testing:  15% 359/2454 [33:22<3:46:43,  6.49s/it]finalising
+Testing:  15% 360/2454 [33:28<3:39:24,  6.29s/it]finalising
+Testing:  15% 361/2454 [33:36<3:57:48,  6.82s/it]finalising
+Testing:  15% 362/2454 [33:40<3:29:47,  6.02s/it]finalising
+Testing:  15% 363/2454 [33:46<3:35:02,  6.17s/it]finalising
+Testing:  15% 364/2454 [33:51<3:25:14,  5.89s/it]finalising
+Testing:  15% 365/2454 [33:58<3:30:41,  6.05s/it]finalising
+Testing:  15% 366/2454 [34:01<2:58:42,  5.14s/it]finalising
+Testing:  15% 367/2454 [34:05<2:50:18,  4.90s/it]finalising
+Testing:  15% 368/2454 [34:09<2:38:03,  4.55s/it]finalising
+Testing:  15% 369/2454 [34:18<3:20:04,  5.76s/it]finalising
+Testing:  15% 370/2454 [34:24<3:25:20,  5.91s/it]finalising
+Testing:  15% 371/2454 [34:29<3:17:12,  5.68s/it]finalising
+Testing:  15% 372/2454 [34:33<2:54:54,  5.04s/it]finalising
+Testing:  15% 373/2454 [34:35<2:32:34,  4.40s/it]finalising
+Testing:  15% 374/2454 [34:38<2:17:57,  3.98s/it]finalising
+Testing:  15% 375/2454 [34:43<2:23:59,  4.16s/it]finalising
+Testing:  15% 376/2454 [34:48<2:36:45,  4.53s/it]finalising
+Testing:  15% 377/2454 [34:54<2:50:41,  4.93s/it]finalising
+Testing:  15% 378/2454 [35:01<3:07:41,  5.42s/it]finalising
+Testing:  15% 379/2454 [35:06<3:02:45,  5.28s/it]finalising
+Testing:  15% 380/2454 [35:13<3:27:29,  6.00s/it]finalising
+Testing:  16% 381/2454 [35:28<4:53:04,  8.48s/it]finalising
+Testing:  16% 382/2454 [35:32<4:09:42,  7.23s/it]finalising
+Testing:  16% 383/2454 [35:38<3:58:17,  6.90s/it]finalising
+Testing:  16% 384/2454 [35:46<4:05:17,  7.11s/it]finalising
+Testing:  16% 385/2454 [35:50<3:38:06,  6.32s/it]finalising
+Testing:  16% 386/2454 [36:05<5:00:13,  8.71s/it]finalising
+Testing:  16% 387/2454 [36:10<4:21:36,  7.59s/it]finalising
+Testing:  16% 388/2454 [36:13<3:42:55,  6.47s/it]finalising
+Testing:  16% 389/2454 [36:16<3:03:04,  5.32s/it]finalising
+Testing:  16% 390/2454 [36:21<2:58:16,  5.18s/it]finalising
+Testing:  16% 391/2454 [36:25<2:49:38,  4.93s/it]finalising
+Testing:  16% 392/2454 [36:28<2:31:41,  4.41s/it]finalising
+Testing:  16% 393/2454 [36:33<2:34:23,  4.49s/it]finalising
+Testing:  16% 394/2454 [36:36<2:16:57,  3.99s/it]finalising
+Testing:  16% 395/2454 [36:42<2:41:15,  4.70s/it]finalising
+Testing:  16% 396/2454 [36:53<3:42:03,  6.47s/it]finalising
+Testing:  16% 397/2454 [36:57<3:19:35,  5.82s/it]finalising
+Testing:  16% 398/2454 [37:00<2:51:59,  5.02s/it]finalising
+Testing:  16% 399/2454 [37:03<2:26:47,  4.29s/it]finalising
+Testing:  16% 400/2454 [37:17<4:08:51,  7.27s/it]finalising
+Testing:  16% 401/2454 [37:19<3:17:54,  5.78s/it]finalising
+Testing:  16% 402/2454 [37:23<2:55:54,  5.14s/it]finalising
+Testing:  16% 403/2454 [37:26<2:33:51,  4.50s/it]finalising
+Testing:  16% 404/2454 [37:30<2:27:16,  4.31s/it]finalising
+Testing:  17% 405/2454 [37:40<3:22:08,  5.92s/it]finalising
+Testing:  17% 406/2454 [37:46<3:21:18,  5.90s/it]finalising
+Testing:  17% 407/2454 [37:49<2:59:13,  5.25s/it]finalising
+Testing:  17% 408/2454 [37:54<2:52:03,  5.05s/it]finalising
+Testing:  17% 409/2454 [37:57<2:35:38,  4.57s/it]finalising
+Testing:  17% 410/2454 [38:02<2:40:34,  4.71s/it]finalising
+Testing:  17% 411/2454 [38:10<3:13:44,  5.69s/it]finalising
+Testing:  17% 412/2454 [38:18<3:33:34,  6.28s/it]finalising
+Testing:  17% 412/2454 [38:18<3:33:34,  6.28s/it]finalising
+Testing:  17% 413/2454 [38:20<2:45:53,  4.88s/it]finalising
+Testing:  17% 414/2454 [38:24<2:42:00,  4.76s/it]
+Testing:  17% 415/2454 [38:38<4:19:49,  7.65s/it]finalising
+Testing:  17% 415/2454 [38:38<4:19:49,  7.65s/it]finalising
+Testing:  17% 417/2454 [38:53<4:31:05,  7.99s/it]finalising
+Testing:  17% 417/2454 [38:53<4:31:05,  7.99s/it]finalising
+Testing:  17% 419/2454 [39:11<4:58:30,  8.80s/it]finalising
+Testing:  17% 419/2454 [39:11<4:58:30,  8.80s/it]finalising
+Testing:  17% 421/2454 [39:22<4:00:42,  7.10s/it]finalising
+Testing:  17% 421/2454 [39:22<4:00:42,  7.10s/it]finalising
+Testing:  17% 423/2454 [39:32<3:14:56,  5.76s/it]finalising
+Testing:  17% 423/2454 [39:32<3:14:56,  5.76s/it]finalising
+Testing:  17% 425/2454 [39:41<2:53:47,  5.14s/it]finalising
+Testing:  17% 425/2454 [39:41<2:53:47,  5.14s/it]finalising
+Testing:  17% 427/2454 [39:53<3:14:24,  5.75s/it]finalising
+Testing:  17% 427/2454 [39:53<3:14:24,  5.75s/it]finalising
+Testing:  17% 429/2454 [40:01<2:42:34,  4.82s/it]finalising
+Testing:  17% 429/2454 [40:01<2:42:34,  4.82s/it]finalising
+Testing:  18% 431/2454 [40:11<2:48:52,  5.01s/it]finalising
+Testing:  18% 431/2454 [40:11<2:48:52,  5.01s/it]finalising
+Testing:  18% 433/2454 [40:22<2:56:36,  5.24s/it]finalising
+Testing:  18% 433/2454 [40:22<2:56:36,  5.24s/it]finalising
+Testing:  18% 435/2454 [40:34<3:06:28,  5.54s/it]finalising
+Testing:  18% 435/2454 [40:34<3:06:28,  5.54s/it]finalising
+Testing:  18% 437/2454 [40:46<3:13:23,  5.75s/it]finalising
+Testing:  18% 437/2454 [40:46<3:13:23,  5.75s/it]finalising
+Testing:  18% 439/2454 [40:55<2:53:49,  5.18s/it]finalising
+Testing:  18% 439/2454 [40:55<2:53:49,  5.18s/it]finalising
+Testing:  18% 441/2454 [41:03<2:35:23,  4.63s/it]finalising
+Testing:  18% 441/2454 [41:03<2:35:23,  4.63s/it]finalising
+Testing:  18% 443/2454 [41:14<2:51:12,  5.11s/it]finalising
+Testing:  18% 443/2454 [41:14<2:51:12,  5.11s/it]finalising
+Testing:  18% 445/2454 [41:29<3:26:57,  6.18s/it]finalising
+Testing:  18% 445/2454 [41:29<3:26:57,  6.18s/it]finalising
+Testing:  18% 447/2454 [41:46<3:50:25,  6.89s/it]finalising
+Testing:  18% 447/2454 [41:46<3:50:25,  6.89s/it]finalising
+Testing:  18% 449/2454 [42:00<3:36:10,  6.47s/it]finalising
+Testing:  18% 449/2454 [42:00<3:36:10,  6.47s/it]finalising
+Testing:  18% 451/2454 [42:12<3:18:14,  5.94s/it]finalising
+Testing:  18% 451/2454 [42:12<3:18:14,  5.94s/it]finalising
+Testing:  18% 453/2454 [42:22<3:03:04,  5.49s/it]finalising
+Testing:  18% 453/2454 [42:22<3:03:04,  5.49s/it]finalising
+Testing:  19% 455/2454 [42:41<4:31:10,  8.14s/it]finalising
+Testing:  19% 455/2454 [42:41<4:31:10,  8.14s/it]finalising
+Testing:  19% 457/2454 [42:50<3:30:26,  6.32s/it]finalising
+Testing:  19% 457/2454 [42:50<3:30:26,  6.32s/it]finalising
+Testing:  19% 459/2454 [43:02<3:27:02,  6.23s/it]finalising
+Testing:  19% 459/2454 [43:02<3:27:02,  6.23s/it]finalising
+Testing:  19% 461/2454 [43:10<2:49:10,  5.09s/it]finalising
+Testing:  19% 461/2454 [43:10<2:49:10,  5.09s/it]finalising
+Testing:  19% 463/2454 [43:17<2:24:36,  4.36s/it]finalising
+Testing:  19% 463/2454 [43:17<2:24:36,  4.36s/it]finalising
+Testing:  19% 465/2454 [43:31<2:58:49,  5.39s/it]finalising
+Testing:  19% 465/2454 [43:31<2:58:49,  5.39s/it]finalising
+Testing:  19% 467/2454 [43:42<2:58:56,  5.40s/it]finalising
+Testing:  19% 467/2454 [43:42<2:58:56,  5.40s/it]finalising
+Testing:  19% 469/2454 [43:51<2:39:59,  4.84s/it]finalising
+Testing:  19% 469/2454 [43:51<2:39:59,  4.84s/it]finalising
+Testing:  19% 471/2454 [44:01<2:42:30,  4.92s/it]finalising
+Testing:  19% 471/2454 [44:01<2:42:30,  4.92s/it]finalising
+Testing:  19% 473/2454 [44:18<3:39:23,  6.64s/it]finalising
+Testing:  19% 473/2454 [44:18<3:39:23,  6.64s/it]finalising
+Testing:  19% 475/2454 [44:26<2:54:21,  5.29s/it]finalising
+Testing:  19% 475/2454 [44:26<2:54:21,  5.29s/it]finalising
+Testing:  19% 477/2454 [44:37<2:58:33,  5.42s/it]finalising
+Testing:  19% 477/2454 [44:37<2:58:33,  5.42s/it]finalising
+Testing:  20% 479/2454 [44:43<2:16:20,  4.14s/it]finalising
+Testing:  20% 479/2454 [44:43<2:16:20,  4.14s/it]finalising
+Testing:  20% 481/2454 [44:53<2:34:12,  4.69s/it]finalising
+Testing:  20% 481/2454 [44:53<2:34:12,  4.69s/it]finalising
+Testing:  20% 483/2454 [45:02<2:33:31,  4.67s/it]finalising
+Testing:  20% 483/2454 [45:02<2:33:31,  4.67s/it]finalising
+Testing:  20% 485/2454 [45:16<3:13:37,  5.90s/it]finalising
+Testing:  20% 485/2454 [45:16<3:13:37,  5.90s/it]finalising
+Testing:  20% 487/2454 [45:22<2:23:05,  4.37s/it]finalising
+Testing:  20% 487/2454 [45:22<2:23:05,  4.37s/it]finalising
+Testing:  20% 489/2454 [45:30<2:15:32,  4.14s/it]finalising
+Testing:  20% 489/2454 [45:30<2:15:32,  4.14s/it]finalising
+Testing:  20% 491/2454 [45:38<2:12:06,  4.04s/it]finalising
+Testing:  20% 491/2454 [45:38<2:12:06,  4.04s/it]finalising
+Testing:  20% 493/2454 [45:58<4:00:26,  7.36s/it]finalising
+Testing:  20% 493/2454 [45:58<4:00:26,  7.36s/it]finalising
+Testing:  20% 495/2454 [46:06<3:02:29,  5.59s/it]finalising
+Testing:  20% 495/2454 [46:06<3:02:29,  5.59s/it]finalising
+Testing:  20% 497/2454 [46:13<2:31:05,  4.63s/it]finalising
+Testing:  20% 497/2454 [46:13<2:31:05,  4.63s/it]finalising
+Testing:  20% 499/2454 [46:19<1:58:59,  3.65s/it]finalising
+Testing:  20% 499/2454 [46:19<1:58:59,  3.65s/it]finalising
+Testing:  20% 501/2454 [46:31<2:42:06,  4.98s/it]finalising
+Testing:  20% 501/2454 [46:31<2:42:06,  4.98s/it]finalising
+Testing:  20% 503/2454 [46:39<2:22:35,  4.39s/it]finalising
+Testing:  20% 503/2454 [46:39<2:22:35,  4.39s/it]finalising
+Testing:  21% 505/2454 [46:49<2:40:32,  4.94s/it]finalising
+Testing:  21% 505/2454 [46:49<2:40:32,  4.94s/it]finalising
+Testing:  21% 507/2454 [46:59<2:41:27,  4.98s/it]finalising
+Testing:  21% 507/2454 [46:59<2:41:27,  4.98s/it]finalising
+Testing:  21% 509/2454 [47:17<3:55:00,  7.25s/it]finalising
+Testing:  21% 509/2454 [47:17<3:55:00,  7.25s/it]finalising
+Testing:  21% 511/2454 [47:26<3:15:23,  6.03s/it]finalising
+Testing:  21% 511/2454 [47:26<3:15:23,  6.03s/it]finalising
+Testing:  21% 513/2454 [47:36<2:57:03,  5.47s/it]finalising
+Testing:  21% 514/2454 [47:42<2:59:42,  5.56s/it]finalising
+Testing:  21% 515/2454 [47:47<2:48:46,  5.22s/it]finalising
+Testing:  21% 516/2454 [47:51<2:42:27,  5.03s/it]finalising
+Testing:  21% 517/2454 [47:55<2:33:06,  4.74s/it]finalising
+Testing:  21% 518/2454 [48:00<2:34:10,  4.78s/it]finalising
+Testing:  21% 519/2454 [48:04<2:28:25,  4.60s/it]finalising
+Testing:  21% 520/2454 [48:10<2:35:49,  4.83s/it]finalising
+Testing:  21% 521/2454 [48:13<2:17:05,  4.26s/it]finalising
+Testing:  21% 522/2454 [48:16<2:05:16,  3.89s/it]finalising
+Testing:  21% 523/2454 [48:19<1:58:27,  3.68s/it]finalising
+Testing:  21% 524/2454 [48:22<1:52:42,  3.50s/it]finalising
+Testing:  21% 525/2454 [48:27<2:09:28,  4.03s/it]finalising
+Testing:  21% 526/2454 [48:32<2:16:12,  4.24s/it]finalising
+Testing:  21% 527/2454 [48:35<2:07:05,  3.96s/it]finalising
+Testing:  22% 528/2454 [48:49<3:44:12,  6.98s/it]finalising
+Testing:  22% 529/2454 [48:54<3:21:02,  6.27s/it]finalising
+Testing:  22% 530/2454 [49:01<3:26:42,  6.45s/it]finalising
+Testing:  22% 531/2454 [49:03<2:49:45,  5.30s/it]finalising
+Testing:  22% 532/2454 [49:11<3:11:53,  5.99s/it]finalising
+Testing:  22% 533/2454 [49:19<3:26:44,  6.46s/it]finalising
+Testing:  22% 534/2454 [49:28<3:52:09,  7.25s/it]finalising
+Testing:  22% 535/2454 [49:31<3:18:14,  6.20s/it]finalising
+Testing:  22% 536/2454 [49:37<3:13:06,  6.04s/it]finalising
+Testing:  22% 537/2454 [49:43<3:12:56,  6.04s/it]finalising
+Testing:  22% 538/2454 [49:47<2:55:17,  5.49s/it]finalising
+Testing:  22% 539/2454 [49:54<3:09:26,  5.94s/it]finalising
+Testing:  22% 540/2454 [50:00<3:03:55,  5.77s/it]finalising
+Testing:  22% 541/2454 [50:04<2:49:00,  5.30s/it]finalising
+Testing:  22% 542/2454 [50:09<2:51:29,  5.38s/it]finalising
+Testing:  22% 543/2454 [50:18<3:18:11,  6.22s/it]finalising
+Testing:  22% 544/2454 [50:24<3:23:12,  6.38s/it]finalising
+Testing:  22% 545/2454 [50:27<2:47:45,  5.27s/it]finalising
+Testing:  22% 546/2454 [50:30<2:27:33,  4.64s/it]finalising
+Testing:  22% 547/2454 [50:42<3:37:48,  6.85s/it]finalising
+Testing:  22% 548/2454 [50:51<3:57:03,  7.46s/it]finalising
+Testing:  22% 549/2454 [50:57<3:43:56,  7.05s/it]finalising
+Testing:  22% 550/2454 [51:04<3:41:27,  6.98s/it]finalising
+Testing:  22% 551/2454 [51:07<3:06:52,  5.89s/it]finalising
+Testing:  22% 552/2454 [51:13<3:02:18,  5.75s/it]finalising
+Testing:  23% 553/2454 [51:18<2:57:59,  5.62s/it]finalising
+Testing:  23% 554/2454 [51:23<2:50:58,  5.40s/it]finalising
+Testing:  23% 555/2454 [51:28<2:42:37,  5.14s/it]finalising
+Testing:  23% 556/2454 [51:34<2:54:01,  5.50s/it]finalising
+Testing:  23% 557/2454 [51:38<2:43:26,  5.17s/it]finalising
+Testing:  23% 558/2454 [51:49<3:35:22,  6.82s/it]finalising
+Testing:  23% 559/2454 [51:53<3:05:56,  5.89s/it]finalising
+Testing:  23% 560/2454 [51:57<2:48:10,  5.33s/it]finalising
+Testing:  23% 561/2454 [52:02<2:52:35,  5.47s/it]finalising
+Testing:  23% 562/2454 [52:08<2:52:45,  5.48s/it]finalising
+Testing:  23% 563/2454 [52:11<2:33:05,  4.86s/it]finalising
+Testing:  23% 564/2454 [52:15<2:16:49,  4.34s/it]finalising
+Testing:  23% 565/2454 [52:19<2:15:40,  4.31s/it]finalising
+Testing:  23% 566/2454 [52:27<2:54:04,  5.53s/it]finalising
+Testing:  23% 567/2454 [52:41<4:15:56,  8.14s/it]finalising
+Testing:  23% 568/2454 [52:47<3:49:16,  7.29s/it]finalising
+Testing:  23% 569/2454 [52:51<3:25:41,  6.55s/it]finalising
+Testing:  23% 570/2454 [52:57<3:17:42,  6.30s/it]finalising
+Testing:  23% 571/2454 [53:03<3:16:06,  6.25s/it]finalising
+Testing:  23% 572/2454 [53:06<2:45:04,  5.26s/it]finalising
+Testing:  23% 573/2454 [53:09<2:19:04,  4.44s/it]finalising
+Testing:  23% 574/2454 [53:14<2:22:12,  4.54s/it]finalising
+Testing:  23% 575/2454 [53:18<2:19:44,  4.46s/it]finalising
+Testing:  23% 576/2454 [53:22<2:15:55,  4.34s/it]finalising
+Testing:  24% 577/2454 [53:28<2:36:26,  5.00s/it]finalising
+Testing:  24% 578/2454 [53:37<3:13:21,  6.18s/it]finalising
+Testing:  24% 579/2454 [53:49<3:59:45,  7.67s/it]finalising
+Testing:  24% 580/2454 [53:51<3:08:17,  6.03s/it]finalising
+Testing:  24% 581/2454 [53:55<2:55:30,  5.62s/it]finalising
+Testing:  24% 582/2454 [53:59<2:34:52,  4.96s/it]finalising
+Testing:  24% 583/2454 [54:04<2:36:55,  5.03s/it]finalising
+Testing:  24% 584/2454 [54:10<2:40:56,  5.16s/it]finalising
+Testing:  24% 585/2454 [54:12<2:19:49,  4.49s/it]finalising
+Testing:  24% 586/2454 [54:15<2:00:24,  3.87s/it]finalising
+Testing:  24% 587/2454 [54:19<1:58:55,  3.82s/it]finalising
+Testing:  24% 588/2454 [54:26<2:28:12,  4.77s/it]finalising
+Testing:  24% 589/2454 [54:30<2:28:31,  4.78s/it]finalising
+Testing:  24% 590/2454 [54:34<2:22:28,  4.59s/it]finalising
+Testing:  24% 591/2454 [54:38<2:13:27,  4.30s/it]finalising
+Testing:  24% 592/2454 [54:41<2:02:00,  3.93s/it]finalising
+Testing:  24% 593/2454 [54:45<1:57:52,  3.80s/it]finalising
+Testing:  24% 594/2454 [54:49<2:02:15,  3.94s/it]finalising
+Testing:  24% 595/2454 [54:52<1:52:55,  3.64s/it]finalising
+Testing:  24% 596/2454 [54:55<1:44:55,  3.39s/it]finalising
+Testing:  24% 597/2454 [54:59<1:55:07,  3.72s/it]finalising
+Testing:  24% 598/2454 [55:04<2:08:28,  4.15s/it]finalising
+Testing:  24% 599/2454 [55:08<2:00:44,  3.91s/it]finalising
+Testing:  24% 600/2454 [55:13<2:10:29,  4.22s/it]finalising
+Testing:  24% 601/2454 [55:14<1:45:34,  3.42s/it]finalising
+Testing:  25% 602/2454 [55:21<2:17:08,  4.44s/it]finalising
+Testing:  25% 603/2454 [55:30<2:59:22,  5.81s/it]finalising
+Testing:  25% 604/2454 [55:36<3:04:59,  6.00s/it]finalising
+Testing:  25% 605/2454 [55:40<2:42:01,  5.26s/it]finalising
+Testing:  25% 606/2454 [55:45<2:42:24,  5.27s/it]finalising
+Testing:  25% 607/2454 [55:55<3:23:16,  6.60s/it]finalising
+Testing:  25% 608/2454 [56:00<3:07:16,  6.09s/it]finalising
+Testing:  25% 609/2454 [56:10<3:45:43,  7.34s/it]finalising
+Testing:  25% 610/2454 [56:13<3:04:20,  6.00s/it]finalising
+Testing:  25% 611/2454 [56:16<2:38:14,  5.15s/it]finalising
+Testing:  25% 612/2454 [56:21<2:32:32,  4.97s/it]finalising
+Testing:  25% 613/2454 [56:24<2:13:07,  4.34s/it]finalising
+Testing:  25% 614/2454 [56:30<2:32:52,  4.99s/it]finalising
+Testing:  25% 615/2454 [56:32<2:08:45,  4.20s/it]finalising
+Testing:  25% 616/2454 [56:37<2:15:47,  4.43s/it]finalising
+Testing:  25% 617/2454 [56:42<2:16:59,  4.47s/it]finalising
+Testing:  25% 618/2454 [56:45<2:02:02,  3.99s/it]finalising
+Testing:  25% 619/2454 [56:53<2:35:58,  5.10s/it]finalising
+Testing:  25% 620/2454 [56:58<2:41:33,  5.29s/it]finalising
+Testing:  25% 621/2454 [57:02<2:28:48,  4.87s/it]finalising
+Testing:  25% 622/2454 [57:05<2:12:08,  4.33s/it]finalising
+Testing:  25% 623/2454 [57:20<3:43:29,  7.32s/it]finalising
+Testing:  25% 624/2454 [57:26<3:38:49,  7.17s/it]finalising
+Testing:  25% 625/2454 [57:30<3:07:49,  6.16s/it]finalising
+Testing:  26% 626/2454 [57:38<3:20:13,  6.57s/it]finalising
+Testing:  26% 627/2454 [57:43<3:06:21,  6.12s/it]finalising
+Testing:  26% 628/2454 [57:48<2:55:12,  5.76s/it]finalising
+Testing:  26% 629/2454 [57:58<3:35:37,  7.09s/it]finalising
+Testing:  26% 630/2454 [58:04<3:25:13,  6.75s/it]finalising
+Testing:  26% 631/2454 [58:07<2:51:23,  5.64s/it]finalising
+Testing:  26% 632/2454 [58:11<2:40:50,  5.30s/it]finalising
+Testing:  26% 633/2454 [58:22<3:27:39,  6.84s/it]finalising
+Testing:  26% 634/2454 [58:25<2:54:40,  5.76s/it]finalising
+Testing:  26% 635/2454 [58:29<2:33:57,  5.08s/it]finalising
+Testing:  26% 636/2454 [58:31<2:06:30,  4.18s/it]finalising
+Testing:  26% 637/2454 [58:34<1:58:57,  3.93s/it]finalising
+Testing:  26% 638/2454 [58:37<1:53:35,  3.75s/it]finalising
+Testing:  26% 639/2454 [58:43<2:14:32,  4.45s/it]finalising
+Testing:  26% 640/2454 [58:46<2:01:21,  4.01s/it]finalising
+Testing:  26% 641/2454 [58:56<2:49:25,  5.61s/it]finalising
+Testing:  26% 642/2454 [59:06<3:29:38,  6.94s/it]finalising
+Testing:  26% 643/2454 [59:09<2:53:04,  5.73s/it]finalising
+Testing:  26% 644/2454 [59:13<2:42:46,  5.40s/it]finalising
+Testing:  26% 645/2454 [59:22<3:13:29,  6.42s/it]finalising
+Testing:  26% 646/2454 [59:25<2:40:18,  5.32s/it]finalising
+Testing:  26% 647/2454 [59:30<2:39:33,  5.30s/it]finalising
+Testing:  26% 648/2454 [59:36<2:49:11,  5.62s/it]finalising
+Testing:  26% 649/2454 [59:39<2:22:15,  4.73s/it]finalising
+Testing:  26% 650/2454 [59:42<2:05:50,  4.19s/it]finalising
+Testing:  27% 651/2454 [59:47<2:10:14,  4.33s/it]finalising
+Testing:  27% 652/2454 [59:53<2:24:25,  4.81s/it]finalising
+Testing:  27% 653/2454 [59:55<2:06:33,  4.22s/it]finalising
+Testing:  27% 654/2454 [1:00:05<2:52:54,  5.76s/it]nalising
+Testing:  27% 655/2454 [1:00:13<3:10:42,  6.36s/it]nalising
+Testing:  27% 656/2454 [1:00:16<2:48:19,  5.62s/it]nalising
+Testing:  27% 657/2454 [1:00:25<3:14:45,  6.50s/it]nalising
+Testing:  27% 658/2454 [1:00:31<3:08:47,  6.31s/it]nalising
+Testing:  27% 659/2454 [1:00:34<2:40:55,  5.38s/it]nalising
+Testing:  27% 660/2454 [1:00:43<3:13:02,  6.46s/it]nalising
+Testing:  27% 661/2454 [1:00:47<2:47:21,  5.60s/it]nalising
+Testing:  27% 662/2454 [1:00:51<2:32:58,  5.12s/it]nalising
+Testing:  27% 663/2454 [1:00:55<2:24:03,  4.83s/it]nalising
+Testing:  27% 664/2454 [1:01:00<2:27:49,  4.95s/it]nalising
+Testing:  27% 665/2454 [1:01:05<2:28:13,  4.97s/it]nalising
+Testing:  27% 666/2454 [1:01:11<2:33:03,  5.14s/it]nalising
+Testing:  27% 667/2454 [1:01:13<2:06:23,  4.24s/it]nalising
+Testing:  27% 668/2454 [1:01:18<2:16:39,  4.59s/it]nalising
+Testing:  27% 669/2454 [1:01:23<2:16:16,  4.58s/it]nalising
+Testing:  27% 670/2454 [1:01:37<3:44:57,  7.57s/it]nalising
+Testing:  27% 671/2454 [1:01:52<4:44:34,  9.58s/it]nalising
+Testing:  27% 672/2454 [1:01:56<4:00:14,  8.09s/it]nalising
+Testing:  27% 673/2454 [1:02:01<3:32:27,  7.16s/it]nalising
+Testing:  27% 674/2454 [1:02:06<3:08:27,  6.35s/it]nalising
+Testing:  28% 675/2454 [1:02:11<2:56:06,  5.94s/it]nalising
+Testing:  28% 676/2454 [1:02:17<2:58:31,  6.02s/it]nalising
+Testing:  28% 677/2454 [1:02:24<3:11:09,  6.45s/it]nalising
+Testing:  28% 678/2454 [1:02:29<2:52:45,  5.84s/it]nalising
+Testing:  28% 679/2454 [1:02:33<2:40:51,  5.44s/it]nalising
+Testing:  28% 680/2454 [1:02:36<2:17:56,  4.67s/it]nalising
+Testing:  28% 681/2454 [1:02:40<2:09:29,  4.38s/it]nalising
+Testing:  28% 682/2454 [1:02:48<2:41:24,  5.47s/it]nalising
+Testing:  28% 683/2454 [1:02:54<2:50:00,  5.76s/it]nalising
+Testing:  28% 684/2454 [1:03:00<2:49:08,  5.73s/it]nalising
+Testing:  28% 685/2454 [1:03:02<2:17:05,  4.65s/it]nalising
+Testing:  28% 686/2454 [1:03:09<2:41:28,  5.48s/it]nalising
+Testing:  28% 687/2454 [1:03:14<2:31:14,  5.14s/it]nalising
+Testing:  28% 688/2454 [1:03:21<2:48:50,  5.74s/it]nalising
+Testing:  28% 689/2454 [1:03:26<2:39:52,  5.43s/it]nalising
+Testing:  28% 690/2454 [1:03:31<2:43:20,  5.56s/it]nalising
+Testing:  28% 691/2454 [1:03:41<3:19:13,  6.78s/it]nalising
+Testing:  28% 692/2454 [1:03:46<3:00:02,  6.13s/it]nalising
+Testing:  28% 693/2454 [1:03:56<3:32:40,  7.25s/it]nalising
+Testing:  28% 694/2454 [1:03:58<2:52:50,  5.89s/it]nalising
+Testing:  28% 695/2454 [1:04:05<3:02:47,  6.23s/it]nalising
+Testing:  28% 696/2454 [1:04:08<2:33:48,  5.25s/it]nalising
+Testing:  28% 697/2454 [1:04:13<2:30:16,  5.13s/it]nalising
+Testing:  28% 698/2454 [1:04:16<2:09:47,  4.43s/it]nalising
+Testing:  28% 699/2454 [1:04:21<2:17:04,  4.69s/it]nalising
+Testing:  29% 700/2454 [1:04:27<2:23:57,  4.92s/it]nalising
+Testing:  29% 701/2454 [1:04:32<2:30:28,  5.15s/it]nalising
+Testing:  29% 702/2454 [1:04:36<2:18:43,  4.75s/it]nalising
+Testing:  29% 703/2454 [1:04:43<2:37:06,  5.38s/it]nalising
+Testing:  29% 704/2454 [1:04:49<2:40:04,  5.49s/it]nalising
+Testing:  29% 705/2454 [1:05:03<3:59:26,  8.21s/it]nalising
+Testing:  29% 706/2454 [1:05:07<3:18:23,  6.81s/it]nalising
+Testing:  29% 707/2454 [1:05:13<3:15:50,  6.73s/it]nalising
+Testing:  29% 708/2454 [1:05:17<2:44:51,  5.67s/it]nalising
+Testing:  29% 709/2454 [1:05:23<2:52:56,  5.95s/it]nalising
+Testing:  29% 710/2454 [1:05:27<2:32:29,  5.25s/it]nalising
+Testing:  29% 711/2454 [1:05:34<2:46:35,  5.73s/it]nalising
+Testing:  29% 712/2454 [1:05:39<2:45:12,  5.69s/it]nalising
+Testing:  29% 713/2454 [1:05:45<2:43:47,  5.64s/it]nalising
+Testing:  29% 714/2454 [1:05:50<2:35:44,  5.37s/it]nalising
+Testing:  29% 715/2454 [1:05:55<2:32:54,  5.28s/it]nalising
+Testing:  29% 716/2454 [1:06:05<3:15:29,  6.75s/it]nalising
+Testing:  29% 717/2454 [1:06:08<2:46:25,  5.75s/it]nalising
+Testing:  29% 718/2454 [1:06:18<3:18:06,  6.85s/it]nalising
+Testing:  29% 719/2454 [1:06:24<3:11:53,  6.64s/it]nalising
+Testing:  29% 720/2454 [1:06:27<2:43:26,  5.66s/it]nalising
+Testing:  29% 721/2454 [1:06:30<2:21:40,  4.91s/it]nalising
+Testing:  29% 722/2454 [1:06:40<3:00:38,  6.26s/it]nalising
+Testing:  29% 723/2454 [1:06:45<2:53:51,  6.03s/it]nalising
+Testing:  30% 724/2454 [1:06:48<2:26:55,  5.10s/it]nalising
+Testing:  30% 725/2454 [1:06:52<2:16:04,  4.72s/it]nalising
+Testing:  30% 726/2454 [1:06:56<2:13:45,  4.64s/it]nalising
+Testing:  30% 727/2454 [1:07:03<2:34:07,  5.35s/it]nalising
+Testing:  30% 728/2454 [1:07:05<2:04:51,  4.34s/it]nalising
+Testing:  30% 729/2454 [1:07:09<1:55:52,  4.03s/it]nalising
+Testing:  30% 730/2454 [1:07:18<2:44:27,  5.72s/it]nalising
+Testing:  30% 731/2454 [1:07:22<2:24:25,  5.03s/it]nalising
+Testing:  30% 732/2454 [1:07:26<2:21:04,  4.92s/it]nalising
+Testing:  30% 733/2454 [1:07:30<2:10:33,  4.55s/it]nalising
+Testing:  30% 734/2454 [1:07:37<2:33:38,  5.36s/it]nalising
+Testing:  30% 735/2454 [1:07:44<2:41:31,  5.64s/it]nalising
+Testing:  30% 736/2454 [1:07:49<2:37:09,  5.49s/it]nalising
+Testing:  30% 737/2454 [1:07:54<2:32:05,  5.31s/it]nalising
+Testing:  30% 738/2454 [1:07:56<2:03:32,  4.32s/it]nalising
+Testing:  30% 739/2454 [1:07:59<1:57:27,  4.11s/it]nalising
+Testing:  30% 740/2454 [1:08:06<2:22:13,  4.98s/it]nalising
+Testing:  30% 741/2454 [1:08:11<2:17:50,  4.83s/it]nalising
+Testing:  30% 742/2454 [1:08:15<2:12:12,  4.63s/it]nalising
+Testing:  30% 743/2454 [1:08:20<2:19:27,  4.89s/it]nalising
+Testing:  30% 744/2454 [1:08:28<2:39:39,  5.60s/it]nalising
+Testing:  30% 745/2454 [1:08:30<2:13:50,  4.70s/it]nalising
+Testing:  30% 746/2454 [1:08:34<2:02:13,  4.29s/it]nalising
+Testing:  30% 747/2454 [1:08:47<3:17:21,  6.94s/it]nalising
+Testing:  30% 748/2454 [1:08:51<2:55:14,  6.16s/it]nalising
+Testing:  31% 749/2454 [1:08:59<3:06:45,  6.57s/it]nalising
+Testing:  31% 750/2454 [1:09:04<2:52:49,  6.09s/it]nalising
+Testing:  31% 751/2454 [1:09:07<2:26:34,  5.16s/it]nalising
+Testing:  31% 752/2454 [1:09:09<2:05:42,  4.43s/it]nalising
+Testing:  31% 753/2454 [1:09:12<1:54:03,  4.02s/it]nalising
+Testing:  31% 754/2454 [1:09:15<1:40:03,  3.53s/it]nalising
+Testing:  31% 755/2454 [1:09:26<2:44:12,  5.80s/it]nalising
+Testing:  31% 756/2454 [1:09:30<2:26:24,  5.17s/it]nalising
+Testing:  31% 757/2454 [1:09:33<2:13:20,  4.71s/it]nalising
+Testing:  31% 758/2454 [1:09:35<1:51:12,  3.93s/it]nalising
+Testing:  31% 759/2454 [1:09:41<2:07:17,  4.51s/it]nalising
+Testing:  31% 760/2454 [1:09:49<2:32:59,  5.42s/it]nalising
+Testing:  31% 761/2454 [1:09:53<2:19:19,  4.94s/it]nalising
+Testing:  31% 762/2454 [1:10:01<2:49:23,  6.01s/it]nalising
+Testing:  31% 763/2454 [1:10:10<3:10:10,  6.75s/it]nalising
+Testing:  31% 764/2454 [1:10:15<3:02:49,  6.49s/it]nalising
+Testing:  31% 765/2454 [1:10:19<2:37:15,  5.59s/it]nalising
+Testing:  31% 766/2454 [1:10:27<2:55:19,  6.23s/it]nalising
+Testing:  31% 767/2454 [1:10:37<3:25:44,  7.32s/it]nalising
+Testing:  31% 768/2454 [1:10:40<2:54:28,  6.21s/it]nalising
+Testing:  31% 769/2454 [1:10:48<3:11:29,  6.82s/it]nalising
+Testing:  31% 770/2454 [1:10:58<3:36:03,  7.70s/it]nalising
+Testing:  31% 771/2454 [1:11:01<2:54:01,  6.20s/it]nalising
+Testing:  31% 772/2454 [1:11:05<2:36:42,  5.59s/it]nalising
+Testing:  31% 773/2454 [1:11:10<2:32:20,  5.44s/it]nalising
+Testing:  32% 774/2454 [1:11:13<2:08:30,  4.59s/it]nalising
+Testing:  32% 775/2454 [1:11:15<1:48:22,  3.87s/it]nalising
+Testing:  32% 776/2454 [1:11:22<2:17:04,  4.90s/it]nalising
+Testing:  32% 777/2454 [1:11:29<2:35:58,  5.58s/it]nalising
+Testing:  32% 778/2454 [1:11:36<2:48:22,  6.03s/it]nalising
+Testing:  32% 779/2454 [1:11:40<2:29:23,  5.35s/it]nalising
+Testing:  32% 780/2454 [1:11:46<2:32:30,  5.47s/it]nalising
+Testing:  32% 781/2454 [1:11:49<2:14:43,  4.83s/it]nalising
+Testing:  32% 782/2454 [1:11:55<2:22:15,  5.10s/it]nalising
+Testing:  32% 783/2454 [1:12:00<2:19:37,  5.01s/it]nalising
+Testing:  32% 784/2454 [1:12:03<2:04:07,  4.46s/it]nalising
+Testing:  32% 785/2454 [1:12:06<1:53:50,  4.09s/it]nalising
+Testing:  32% 786/2454 [1:12:12<2:10:02,  4.68s/it]nalising
+Testing:  32% 787/2454 [1:12:16<2:04:49,  4.49s/it]nalising
+Testing:  32% 788/2454 [1:12:22<2:14:34,  4.85s/it]nalising
+Testing:  32% 789/2454 [1:12:26<2:03:49,  4.46s/it]nalising
+Testing:  32% 790/2454 [1:12:30<2:03:07,  4.44s/it]nalising
+Testing:  32% 791/2454 [1:12:34<1:57:17,  4.23s/it]nalising
+Testing:  32% 792/2454 [1:12:41<2:26:37,  5.29s/it]nalising
+Testing:  32% 793/2454 [1:12:44<2:02:51,  4.44s/it]nalising
+Testing:  32% 794/2454 [1:12:51<2:28:22,  5.36s/it]nalising
+Testing:  32% 795/2454 [1:12:56<2:22:08,  5.14s/it]nalising
+Testing:  32% 796/2454 [1:12:59<2:06:59,  4.60s/it]nalising
+Testing:  32% 797/2454 [1:13:03<1:58:35,  4.29s/it]nalising
+Testing:  33% 798/2454 [1:13:12<2:33:46,  5.57s/it]nalising
+Testing:  33% 799/2454 [1:13:14<2:11:13,  4.76s/it]nalising
+Testing:  33% 800/2454 [1:13:26<3:07:01,  6.78s/it]nalising
+Testing:  33% 801/2454 [1:13:31<2:56:21,  6.40s/it]nalising
+Testing:  33% 802/2454 [1:13:39<3:02:09,  6.62s/it]nalising
+Testing:  33% 803/2454 [1:13:46<3:09:02,  6.87s/it]nalising
+Testing:  33% 804/2454 [1:13:54<3:20:52,  7.30s/it]nalising
+Testing:  33% 805/2454 [1:13:57<2:46:25,  6.06s/it]nalising
+Testing:  33% 806/2454 [1:14:00<2:15:58,  4.95s/it]nalising
+Testing:  33% 807/2454 [1:14:03<2:01:11,  4.41s/it]nalising
+Testing:  33% 808/2454 [1:14:10<2:18:23,  5.04s/it]nalising
+Testing:  33% 809/2454 [1:14:15<2:19:23,  5.08s/it]nalising
+Testing:  33% 810/2454 [1:14:23<2:43:48,  5.98s/it]nalising
+Testing:  33% 811/2454 [1:14:28<2:39:50,  5.84s/it]nalising
+Testing:  33% 812/2454 [1:14:36<2:57:28,  6.48s/it]nalising
+Testing:  33% 813/2454 [1:14:45<3:16:56,  7.20s/it]nalising
+Testing:  33% 814/2454 [1:14:56<3:44:32,  8.22s/it]nalising
+Testing:  33% 815/2454 [1:14:59<3:05:13,  6.78s/it]nalising
+Testing:  33% 816/2454 [1:15:03<2:41:59,  5.93s/it]nalising
+Testing:  33% 817/2454 [1:15:07<2:21:21,  5.18s/it]nalising
+Testing:  33% 818/2454 [1:15:08<1:54:38,  4.20s/it]nalising
+Testing:  33% 819/2454 [1:15:21<2:59:41,  6.59s/it]nalising
+Testing:  33% 820/2454 [1:15:27<2:59:54,  6.61s/it]nalising
+Testing:  33% 821/2454 [1:15:33<2:54:39,  6.42s/it]nalising
+Testing:  33% 822/2454 [1:15:39<2:48:51,  6.21s/it]nalising
+Testing:  34% 823/2454 [1:15:44<2:37:27,  5.79s/it]nalising
+Testing:  34% 824/2454 [1:15:52<2:56:05,  6.48s/it]nalising
+Testing:  34% 825/2454 [1:15:59<3:02:13,  6.71s/it]nalising
+Testing:  34% 826/2454 [1:16:04<2:48:09,  6.20s/it]nalising
+Testing:  34% 827/2454 [1:16:08<2:29:06,  5.50s/it]nalising
+Testing:  34% 828/2454 [1:16:14<2:35:48,  5.75s/it]nalising
+Testing:  34% 829/2454 [1:16:21<2:40:29,  5.93s/it]nalising
+Testing:  34% 830/2454 [1:16:28<2:49:03,  6.25s/it]nalising
+Testing:  34% 831/2454 [1:16:41<3:43:31,  8.26s/it]nalising
+Testing:  34% 832/2454 [1:16:44<3:03:33,  6.79s/it]nalising
+Testing:  34% 833/2454 [1:16:58<4:01:32,  8.94s/it]nalising
+Testing:  34% 834/2454 [1:17:04<3:35:48,  7.99s/it]nalising
+Testing:  34% 835/2454 [1:17:08<3:08:58,  7.00s/it]nalising
+Testing:  34% 836/2454 [1:17:11<2:33:50,  5.70s/it]nalising
+Testing:  34% 837/2454 [1:17:15<2:20:21,  5.21s/it]nalising
+Testing:  34% 838/2454 [1:17:29<3:31:20,  7.85s/it]nalising
+Testing:  34% 839/2454 [1:17:35<3:19:12,  7.40s/it]nalising
+Testing:  34% 840/2454 [1:17:44<3:25:54,  7.65s/it]nalising
+Testing:  34% 841/2454 [1:17:49<3:07:35,  6.98s/it]nalising
+Testing:  34% 842/2454 [1:17:52<2:36:04,  5.81s/it]nalising
+Testing:  34% 843/2454 [1:17:56<2:17:29,  5.12s/it]nalising
+Testing:  34% 844/2454 [1:18:02<2:26:26,  5.46s/it]nalising
+Testing:  34% 845/2454 [1:18:08<2:30:14,  5.60s/it]nalising
+Testing:  34% 846/2454 [1:18:14<2:30:58,  5.63s/it]nalising
+Testing:  35% 847/2454 [1:18:19<2:27:35,  5.51s/it]nalising
+Testing:  35% 848/2454 [1:18:25<2:29:14,  5.58s/it]nalising
+Testing:  35% 849/2454 [1:18:26<1:59:53,  4.48s/it]nalising
+Testing:  35% 850/2454 [1:18:32<2:05:27,  4.69s/it]nalising
+Testing:  35% 851/2454 [1:18:36<2:05:23,  4.69s/it]nalising
+Testing:  35% 852/2454 [1:18:42<2:10:27,  4.89s/it]nalising
+Testing:  35% 853/2454 [1:18:47<2:13:43,  5.01s/it]nalising
+Testing:  35% 854/2454 [1:18:51<2:01:59,  4.57s/it]nalising
+Testing:  35% 855/2454 [1:18:58<2:23:42,  5.39s/it]nalising
+Testing:  35% 856/2454 [1:19:01<2:08:23,  4.82s/it]nalising
+Testing:  35% 857/2454 [1:19:04<1:50:21,  4.15s/it]nalising
+Testing:  35% 858/2454 [1:19:11<2:13:20,  5.01s/it]nalising
+Testing:  35% 859/2454 [1:19:15<2:05:19,  4.71s/it]nalising
+Testing:  35% 860/2454 [1:19:18<1:54:54,  4.33s/it]nalising
+Testing:  35% 861/2454 [1:19:25<2:14:52,  5.08s/it]nalising
+Testing:  35% 862/2454 [1:19:30<2:10:51,  4.93s/it]nalising
+Testing:  35% 863/2454 [1:19:35<2:08:46,  4.86s/it]nalising
+Testing:  35% 864/2454 [1:19:41<2:18:55,  5.24s/it]nalising
+Testing:  35% 865/2454 [1:19:46<2:20:34,  5.31s/it]nalising
+Testing:  35% 866/2454 [1:19:48<1:56:31,  4.40s/it]nalising
+Testing:  35% 867/2454 [1:19:54<2:03:23,  4.67s/it]nalising
+Testing:  35% 868/2454 [1:19:59<2:10:11,  4.93s/it]nalising
+Testing:  35% 869/2454 [1:20:02<1:54:30,  4.33s/it]nalising
+Testing:  35% 870/2454 [1:20:07<2:00:18,  4.56s/it]nalising
+Testing:  35% 871/2454 [1:20:10<1:46:20,  4.03s/it]nalising
+Testing:  36% 872/2454 [1:20:14<1:49:04,  4.14s/it]nalising
+Testing:  36% 873/2454 [1:20:21<2:11:42,  5.00s/it]nalising
+Testing:  36% 874/2454 [1:20:26<2:08:55,  4.90s/it]nalising
+Testing:  36% 875/2454 [1:20:34<2:32:23,  5.79s/it]nalising
+Testing:  36% 876/2454 [1:20:38<2:19:42,  5.31s/it]nalising
+Testing:  36% 877/2454 [1:20:46<2:42:51,  6.20s/it]nalising
+Testing:  36% 878/2454 [1:20:51<2:29:02,  5.67s/it]nalising
+Testing:  36% 879/2454 [1:20:53<2:02:14,  4.66s/it]nalising
+Testing:  36% 880/2454 [1:20:57<1:52:04,  4.27s/it]nalising
+Testing:  36% 881/2454 [1:21:06<2:32:11,  5.81s/it]nalising
+Testing:  36% 882/2454 [1:21:16<3:07:04,  7.14s/it]nalising
+Testing:  36% 883/2454 [1:21:24<3:14:05,  7.41s/it]nalising
+Testing:  36% 884/2454 [1:21:28<2:42:43,  6.22s/it]nalising
+Testing:  36% 885/2454 [1:21:34<2:45:29,  6.33s/it]nalising
+Testing:  36% 886/2454 [1:21:41<2:46:22,  6.37s/it]nalising
+Testing:  36% 887/2454 [1:21:45<2:33:52,  5.89s/it]nalising
+Testing:  36% 888/2454 [1:21:55<3:02:54,  7.01s/it]nalising
+Testing:  36% 889/2454 [1:22:06<3:33:26,  8.18s/it]nalising
+Testing:  36% 890/2454 [1:22:12<3:17:13,  7.57s/it]nalising
+Testing:  36% 891/2454 [1:22:19<3:10:12,  7.30s/it]nalising
+Testing:  36% 892/2454 [1:22:24<2:54:03,  6.69s/it]nalising
+Testing:  36% 893/2454 [1:22:29<2:39:29,  6.13s/it]nalising
+Testing:  36% 894/2454 [1:22:33<2:24:16,  5.55s/it]nalising
+Testing:  36% 895/2454 [1:22:37<2:13:11,  5.13s/it]nalising
+Testing:  37% 896/2454 [1:22:43<2:21:11,  5.44s/it]nalising
+Testing:  37% 897/2454 [1:22:48<2:13:11,  5.13s/it]nalising
+Testing:  37% 898/2454 [1:22:51<1:55:00,  4.43s/it]nalising
+Testing:  37% 899/2454 [1:22:58<2:15:37,  5.23s/it]nalising
+Testing:  37% 900/2454 [1:23:06<2:42:05,  6.26s/it]nalising
+Testing:  37% 901/2454 [1:23:16<3:07:48,  7.26s/it]nalising
+Testing:  37% 902/2454 [1:23:21<2:48:34,  6.52s/it]nalising
+Testing:  37% 903/2454 [1:23:24<2:23:12,  5.54s/it]nalising
+Testing:  37% 904/2454 [1:23:28<2:09:14,  5.00s/it]nalising
+Testing:  37% 905/2454 [1:23:31<1:58:31,  4.59s/it]nalising
+Testing:  37% 906/2454 [1:23:37<2:06:20,  4.90s/it]nalising
+Testing:  37% 907/2454 [1:23:45<2:28:35,  5.76s/it]nalising
+Testing:  37% 908/2454 [1:23:48<2:07:53,  4.96s/it]nalising
+Testing:  37% 909/2454 [1:23:51<1:50:39,  4.30s/it]nalising
+Testing:  37% 910/2454 [1:23:54<1:44:22,  4.06s/it]nalising
+Testing:  37% 911/2454 [1:24:06<2:42:18,  6.31s/it]nalising
+Testing:  37% 912/2454 [1:24:12<2:41:21,  6.28s/it]nalising
+Testing:  37% 913/2454 [1:24:17<2:31:45,  5.91s/it]nalising
+Testing:  37% 914/2454 [1:24:21<2:17:46,  5.37s/it]nalising
+Testing:  37% 915/2454 [1:24:24<2:01:14,  4.73s/it]nalising
+Testing:  37% 916/2454 [1:24:30<2:07:16,  4.97s/it]nalising
+Testing:  37% 917/2454 [1:24:36<2:18:47,  5.42s/it]nalising
+Testing:  37% 918/2454 [1:24:40<2:07:23,  4.98s/it]nalising
+Testing:  37% 919/2454 [1:24:53<3:10:06,  7.43s/it]nalising
+Testing:  37% 920/2454 [1:24:56<2:33:11,  5.99s/it]nalising
+Testing:  38% 921/2454 [1:24:59<2:08:40,  5.04s/it]nalising
+Testing:  38% 922/2454 [1:25:04<2:09:35,  5.08s/it]nalising
+Testing:  38% 923/2454 [1:25:07<1:57:06,  4.59s/it]nalising
+Testing:  38% 924/2454 [1:25:16<2:27:41,  5.79s/it]nalising
+Testing:  38% 925/2454 [1:25:19<2:07:05,  4.99s/it]nalising
+Testing:  38% 926/2454 [1:25:22<1:50:23,  4.33s/it]nalising
+Testing:  38% 927/2454 [1:25:25<1:43:11,  4.05s/it]nalising
+Testing:  38% 928/2454 [1:25:29<1:39:37,  3.92s/it]nalising
+Testing:  38% 929/2454 [1:25:35<1:57:35,  4.63s/it]nalising
+Testing:  38% 930/2454 [1:25:43<2:23:29,  5.65s/it]nalising
+Testing:  38% 931/2454 [1:25:49<2:21:55,  5.59s/it]nalising
+Testing:  38% 932/2454 [1:25:52<2:07:29,  5.03s/it]nalising
+Testing:  38% 933/2454 [1:26:05<3:01:26,  7.16s/it]nalising
+Testing:  38% 934/2454 [1:26:09<2:41:10,  6.36s/it]nalising
+Testing:  38% 935/2454 [1:26:13<2:19:26,  5.51s/it]nalising
+Testing:  38% 936/2454 [1:26:17<2:13:35,  5.28s/it]nalising
+Testing:  38% 937/2454 [1:26:22<2:08:42,  5.09s/it]nalising
+Testing:  38% 938/2454 [1:26:28<2:15:38,  5.37s/it]nalising
+Testing:  38% 939/2454 [1:26:40<3:04:22,  7.30s/it]nalising
+Testing:  38% 940/2454 [1:26:53<3:45:37,  8.94s/it]nalising
+Testing:  38% 941/2454 [1:26:57<3:11:10,  7.58s/it]nalising
+Testing:  38% 942/2454 [1:27:02<2:53:02,  6.87s/it]nalising
+Testing:  38% 943/2454 [1:27:06<2:28:09,  5.88s/it]nalising
+Testing:  38% 944/2454 [1:27:10<2:15:16,  5.37s/it]nalising
+Testing:  39% 945/2454 [1:27:17<2:28:31,  5.91s/it]nalising
+Testing:  39% 946/2454 [1:27:20<2:05:09,  4.98s/it]nalising
+Testing:  39% 947/2454 [1:27:25<2:03:22,  4.91s/it]nalising
+Testing:  39% 948/2454 [1:27:28<1:50:35,  4.41s/it]nalising
+Testing:  39% 949/2454 [1:27:37<2:27:26,  5.88s/it]nalising
+Testing:  39% 950/2454 [1:27:40<2:06:10,  5.03s/it]nalising
+Testing:  39% 951/2454 [1:27:43<1:50:36,  4.42s/it]nalising
+Testing:  39% 952/2454 [1:27:53<2:31:19,  6.04s/it]nalising
+Testing:  39% 953/2454 [1:27:56<2:04:33,  4.98s/it]nalising
+Testing:  39% 954/2454 [1:28:00<2:00:33,  4.82s/it]nalising
+Testing:  39% 955/2454 [1:28:07<2:18:09,  5.53s/it]nalising
+Testing:  39% 956/2454 [1:28:15<2:37:30,  6.31s/it]nalising
+Testing:  39% 957/2454 [1:28:22<2:36:00,  6.25s/it]nalising
+Testing:  39% 958/2454 [1:28:25<2:18:00,  5.53s/it]nalising
+Testing:  39% 959/2454 [1:28:30<2:08:41,  5.16s/it]nalising
+Testing:  39% 960/2454 [1:28:34<2:03:36,  4.96s/it]nalising
+Testing:  39% 961/2454 [1:28:42<2:27:16,  5.92s/it]nalising
+Testing:  39% 962/2454 [1:28:47<2:16:00,  5.47s/it]nalising
+Testing:  39% 963/2454 [1:28:53<2:22:44,  5.74s/it]nalising
+Testing:  39% 964/2454 [1:28:58<2:19:25,  5.61s/it]nalising
+Testing:  39% 965/2454 [1:29:06<2:31:19,  6.10s/it]nalising
+Testing:  39% 966/2454 [1:29:11<2:26:45,  5.92s/it]nalising
+Testing:  39% 967/2454 [1:29:19<2:43:39,  6.60s/it]nalising
+Testing:  39% 968/2454 [1:29:28<2:57:46,  7.18s/it]nalising
+Testing:  39% 969/2454 [1:29:33<2:39:32,  6.45s/it]nalising
+Testing:  40% 970/2454 [1:29:40<2:49:35,  6.86s/it]nalising
+Testing:  40% 971/2454 [1:29:46<2:39:14,  6.44s/it]nalising
+Testing:  40% 972/2454 [1:29:50<2:24:42,  5.86s/it]nalising
+Testing:  40% 973/2454 [1:29:53<2:00:33,  4.88s/it]nalising
+Testing:  40% 974/2454 [1:29:58<2:00:33,  4.89s/it]nalising
+Testing:  40% 975/2454 [1:30:02<1:56:44,  4.74s/it]nalising
+Testing:  40% 976/2454 [1:30:15<2:56:16,  7.16s/it]nalising
+Testing:  40% 977/2454 [1:30:20<2:39:35,  6.48s/it]nalising
+Testing:  40% 978/2454 [1:30:24<2:20:03,  5.69s/it]nalising
+Testing:  40% 979/2454 [1:30:28<2:07:17,  5.18s/it]nalising
+Testing:  40% 980/2454 [1:30:36<2:26:54,  5.98s/it]nalising
+Testing:  40% 981/2454 [1:30:39<2:09:57,  5.29s/it]nalising
+Testing:  40% 982/2454 [1:30:46<2:19:10,  5.67s/it]nalising
+Testing:  40% 983/2454 [1:30:51<2:13:45,  5.46s/it]nalising
+Testing:  40% 984/2454 [1:31:00<2:43:13,  6.66s/it]nalising
+Testing:  40% 985/2454 [1:31:04<2:23:58,  5.88s/it]nalising
+Testing:  40% 986/2454 [1:31:08<2:06:09,  5.16s/it]nalising
+Testing:  40% 987/2454 [1:31:11<1:51:46,  4.57s/it]nalising
+Testing:  40% 988/2454 [1:31:19<2:15:59,  5.57s/it]nalising
+Testing:  40% 989/2454 [1:31:22<1:54:18,  4.68s/it]nalising
+Testing:  40% 990/2454 [1:31:25<1:47:31,  4.41s/it]nalising
+Testing:  40% 991/2454 [1:31:30<1:46:09,  4.35s/it]nalising
+Testing:  40% 992/2454 [1:31:35<1:54:19,  4.69s/it]nalising
+Testing:  40% 993/2454 [1:31:39<1:48:53,  4.47s/it]nalising
+Testing:  41% 994/2454 [1:31:45<1:56:20,  4.78s/it]nalising
+Testing:  41% 995/2454 [1:31:51<2:10:54,  5.38s/it]nalising
+Testing:  41% 996/2454 [1:31:59<2:28:49,  6.12s/it]nalising
+Testing:  41% 997/2454 [1:32:03<2:12:09,  5.44s/it]nalising
+Testing:  41% 998/2454 [1:32:07<2:01:39,  5.01s/it]nalising
+Testing:  41% 999/2454 [1:32:12<2:02:34,  5.05s/it]nalising
+Testing:  41% 1000/2454 [1:32:16<1:53:05,  4.67s/it]alising
+Testing:  41% 1001/2454 [1:32:20<1:46:16,  4.39s/it]alising
+Testing:  41% 1002/2454 [1:32:25<1:55:53,  4.79s/it]alising
+Testing:  41% 1003/2454 [1:32:32<2:05:50,  5.20s/it]alising
+Testing:  41% 1004/2454 [1:32:37<2:09:02,  5.34s/it]alising
+Testing:  41% 1005/2454 [1:32:45<2:23:14,  5.93s/it]alising
+Testing:  41% 1006/2454 [1:32:48<2:06:25,  5.24s/it]alising
+Testing:  41% 1007/2454 [1:32:53<2:05:38,  5.21s/it]alising
+Testing:  41% 1008/2454 [1:33:02<2:30:30,  6.25s/it]alising
+Testing:  41% 1009/2454 [1:33:08<2:29:56,  6.23s/it]alising
+Testing:  41% 1010/2454 [1:33:12<2:12:18,  5.50s/it]alising
+Testing:  41% 1011/2454 [1:33:17<2:05:52,  5.23s/it]alising
+Testing:  41% 1012/2454 [1:33:20<1:51:03,  4.62s/it]alising
+Testing:  41% 1013/2454 [1:33:27<2:10:01,  5.41s/it]alising
+Testing:  41% 1014/2454 [1:33:30<1:55:10,  4.80s/it]alising
+Testing:  41% 1015/2454 [1:33:34<1:49:33,  4.57s/it]alising
+Testing:  41% 1016/2454 [1:33:39<1:51:32,  4.65s/it]alising
+Testing:  41% 1017/2454 [1:33:42<1:40:08,  4.18s/it]alising
+Testing:  41% 1018/2454 [1:33:49<2:00:21,  5.03s/it]alising
+Testing:  42% 1019/2454 [1:33:55<2:02:18,  5.11s/it]alising
+Testing:  42% 1020/2454 [1:33:58<1:50:40,  4.63s/it]alising
+Testing:  42% 1021/2454 [1:34:02<1:46:58,  4.48s/it]alising
+Testing:  42% 1022/2454 [1:34:08<1:54:58,  4.82s/it]alising
+Testing:  42% 1023/2454 [1:34:11<1:45:19,  4.42s/it]alising
+Testing:  42% 1024/2454 [1:34:16<1:45:00,  4.41s/it]alising
+Testing:  42% 1025/2454 [1:34:19<1:39:45,  4.19s/it]alising
+Testing:  42% 1026/2454 [1:34:24<1:43:51,  4.36s/it]alising
+Testing:  42% 1027/2454 [1:34:27<1:29:36,  3.77s/it]alising
+Testing:  42% 1028/2454 [1:34:30<1:24:06,  3.54s/it]alising
+Testing:  42% 1029/2454 [1:34:34<1:27:07,  3.67s/it]alising
+Testing:  42% 1030/2454 [1:34:41<1:50:31,  4.66s/it]alising
+Testing:  42% 1031/2454 [1:34:44<1:43:16,  4.35s/it]alising
+Testing:  42% 1032/2454 [1:34:51<2:00:15,  5.07s/it]alising
+Testing:  42% 1033/2454 [1:34:58<2:12:02,  5.58s/it]alising
+Testing:  42% 1034/2454 [1:35:13<3:19:39,  8.44s/it]alising
+Testing:  42% 1035/2454 [1:35:20<3:08:22,  7.97s/it]alising
+Testing:  42% 1036/2454 [1:35:28<3:10:37,  8.07s/it]alising
+Testing:  42% 1037/2454 [1:35:33<2:48:48,  7.15s/it]alising
+Testing:  42% 1038/2454 [1:35:41<2:54:08,  7.38s/it]alising
+Testing:  42% 1039/2454 [1:35:46<2:39:53,  6.78s/it]alising
+Testing:  42% 1040/2454 [1:35:52<2:35:54,  6.62s/it]alising
+Testing:  42% 1041/2454 [1:36:04<3:10:29,  8.09s/it]alising
+Testing:  42% 1042/2454 [1:36:11<3:03:02,  7.78s/it]alising
+Testing:  43% 1043/2454 [1:36:14<2:28:36,  6.32s/it]alising
+Testing:  43% 1044/2454 [1:36:20<2:26:17,  6.23s/it]alising
+Testing:  43% 1045/2454 [1:36:26<2:22:09,  6.05s/it]alising
+Testing:  43% 1046/2454 [1:36:33<2:29:41,  6.38s/it]alising
+Testing:  43% 1047/2454 [1:36:47<3:25:47,  8.78s/it]alising
+Testing:  43% 1048/2454 [1:36:51<2:49:43,  7.24s/it]alising
+Testing:  43% 1049/2454 [1:36:58<2:48:09,  7.18s/it]alising
+Testing:  43% 1050/2454 [1:37:04<2:41:18,  6.89s/it]alising
+Testing:  43% 1051/2454 [1:37:10<2:33:01,  6.54s/it]alising
+Testing:  43% 1052/2454 [1:37:15<2:24:32,  6.19s/it]alising
+Testing:  43% 1053/2454 [1:37:22<2:32:28,  6.53s/it]alising
+Testing:  43% 1054/2454 [1:37:27<2:20:09,  6.01s/it]alising
+Testing:  43% 1055/2454 [1:37:30<1:54:56,  4.93s/it]alising
+Testing:  43% 1056/2454 [1:37:35<1:55:56,  4.98s/it]alising
+Testing:  43% 1057/2454 [1:37:39<1:50:50,  4.76s/it]alising
+Testing:  43% 1058/2454 [1:37:44<1:51:09,  4.78s/it]alising
+Testing:  43% 1059/2454 [1:37:49<1:51:29,  4.80s/it]alising
+Testing:  43% 1060/2454 [1:37:56<2:09:05,  5.56s/it]alising
+Testing:  43% 1061/2454 [1:38:00<1:58:12,  5.09s/it]alising
+Testing:  43% 1062/2454 [1:38:04<1:53:45,  4.90s/it]alising
+Testing:  43% 1063/2454 [1:38:10<1:56:09,  5.01s/it]alising
+Testing:  43% 1064/2454 [1:38:14<1:48:18,  4.67s/it]alising
+Testing:  43% 1065/2454 [1:38:19<1:49:58,  4.75s/it]alising
+Testing:  43% 1066/2454 [1:38:22<1:42:40,  4.44s/it]alising
+Testing:  43% 1067/2454 [1:38:26<1:37:20,  4.21s/it]alising
+Testing:  44% 1068/2454 [1:38:31<1:39:36,  4.31s/it]alising
+Testing:  44% 1069/2454 [1:38:35<1:40:56,  4.37s/it]alising
+Testing:  44% 1070/2454 [1:38:39<1:35:28,  4.14s/it]alising
+Testing:  44% 1071/2454 [1:38:52<2:37:12,  6.82s/it]alising
+Testing:  44% 1072/2454 [1:38:56<2:18:44,  6.02s/it]alising
+Testing:  44% 1073/2454 [1:38:59<1:59:36,  5.20s/it]alising
+Testing:  44% 1074/2454 [1:39:03<1:53:34,  4.94s/it]alising
+Testing:  44% 1075/2454 [1:39:08<1:53:14,  4.93s/it]alising
+Testing:  44% 1076/2454 [1:39:13<1:53:54,  4.96s/it]alising
+Testing:  44% 1077/2454 [1:39:19<1:55:20,  5.03s/it]alising
+Testing:  44% 1078/2454 [1:39:25<2:01:39,  5.30s/it]alising
+Testing:  44% 1079/2454 [1:39:27<1:42:16,  4.46s/it]alising
+Testing:  44% 1080/2454 [1:39:30<1:30:02,  3.93s/it]alising
+Testing:  44% 1081/2454 [1:39:34<1:31:12,  3.99s/it]alising
+Testing:  44% 1082/2454 [1:39:37<1:22:17,  3.60s/it]alising
+Testing:  44% 1083/2454 [1:39:40<1:24:37,  3.70s/it]alising
+Testing:  44% 1084/2454 [1:39:44<1:20:58,  3.55s/it]alising
+Testing:  44% 1085/2454 [1:39:50<1:36:38,  4.24s/it]alising
+Testing:  44% 1086/2454 [1:39:55<1:44:25,  4.58s/it]alising
+Testing:  44% 1087/2454 [1:40:08<2:41:18,  7.08s/it]alising
+Testing:  44% 1088/2454 [1:40:12<2:24:39,  6.35s/it]alising
+Testing:  44% 1089/2454 [1:40:19<2:25:21,  6.39s/it]alising
+Testing:  44% 1090/2454 [1:40:23<2:06:52,  5.58s/it]alising
+Testing:  44% 1091/2454 [1:40:28<2:01:54,  5.37s/it]alising
+Testing:  44% 1092/2454 [1:40:31<1:46:26,  4.69s/it]alising
+Testing:  45% 1093/2454 [1:40:35<1:42:16,  4.51s/it]alising
+Testing:  45% 1094/2454 [1:40:39<1:38:16,  4.34s/it]alising
+Testing:  45% 1095/2454 [1:40:45<1:55:01,  5.08s/it]alising
+Testing:  45% 1096/2454 [1:40:49<1:46:39,  4.71s/it]alising
+Testing:  45% 1097/2454 [1:40:54<1:47:08,  4.74s/it]alising
+Testing:  45% 1098/2454 [1:41:02<2:05:53,  5.57s/it]alising
+Testing:  45% 1099/2454 [1:41:04<1:42:23,  4.53s/it]alising
+Testing:  45% 1100/2454 [1:41:09<1:48:28,  4.81s/it]alising
+Testing:  45% 1101/2454 [1:41:12<1:36:15,  4.27s/it]alising
+Testing:  45% 1102/2454 [1:41:17<1:37:53,  4.34s/it]alising
+Testing:  45% 1103/2454 [1:41:19<1:25:17,  3.79s/it]alising
+Testing:  45% 1104/2454 [1:41:30<2:12:11,  5.88s/it]alising
+Testing:  45% 1105/2454 [1:41:41<2:45:08,  7.34s/it]alising
+Testing:  45% 1106/2454 [1:41:44<2:16:52,  6.09s/it]alising
+Testing:  45% 1107/2454 [1:41:48<2:04:16,  5.54s/it]alising
+Testing:  45% 1108/2454 [1:41:53<1:58:19,  5.27s/it]alising
+Testing:  45% 1109/2454 [1:41:59<2:04:01,  5.53s/it]alising
+Testing:  45% 1110/2454 [1:42:04<1:58:08,  5.27s/it]alising
+Testing:  45% 1111/2454 [1:42:09<1:59:42,  5.35s/it]alising
+Testing:  45% 1112/2454 [1:42:12<1:42:10,  4.57s/it]alising
+Testing:  45% 1113/2454 [1:42:17<1:44:25,  4.67s/it]alising
+Testing:  45% 1114/2454 [1:42:21<1:42:09,  4.57s/it]alising
+Testing:  45% 1115/2454 [1:42:28<1:58:49,  5.32s/it]alising
+Testing:  45% 1116/2454 [1:42:32<1:47:27,  4.82s/it]alising
+Testing:  46% 1117/2454 [1:42:38<1:54:08,  5.12s/it]alising
+Testing:  46% 1118/2454 [1:42:40<1:35:05,  4.27s/it]alising
+Testing:  46% 1119/2454 [1:42:44<1:31:21,  4.11s/it]alising
+Testing:  46% 1120/2454 [1:42:52<1:58:23,  5.33s/it]alising
+Testing:  46% 1121/2454 [1:42:58<2:02:37,  5.52s/it]alising
+Testing:  46% 1122/2454 [1:43:04<2:07:28,  5.74s/it]alising
+Testing:  46% 1123/2454 [1:43:12<2:20:44,  6.34s/it]alising
+Testing:  46% 1124/2454 [1:43:16<2:04:16,  5.61s/it]alising
+Testing:  46% 1125/2454 [1:43:22<2:08:50,  5.82s/it]alising
+Testing:  46% 1126/2454 [1:43:28<2:12:33,  5.99s/it]alising
+Testing:  46% 1127/2454 [1:43:40<2:52:58,  7.82s/it]alising
+Testing:  46% 1128/2454 [1:43:47<2:43:36,  7.40s/it]alising
+Testing:  46% 1129/2454 [1:43:52<2:26:34,  6.64s/it]alising
+Testing:  46% 1130/2454 [1:43:54<1:57:31,  5.33s/it]alising
+Testing:  46% 1131/2454 [1:44:00<2:03:58,  5.62s/it]alising
+Testing:  46% 1132/2454 [1:44:04<1:50:47,  5.03s/it]alising
+Testing:  46% 1133/2454 [1:44:10<1:57:27,  5.33s/it]alising
+Testing:  46% 1134/2454 [1:44:19<2:18:23,  6.29s/it]alising
+Testing:  46% 1135/2454 [1:44:24<2:11:24,  5.98s/it]alising
+Testing:  46% 1136/2454 [1:44:39<3:09:56,  8.65s/it]alising
+Testing:  46% 1137/2454 [1:44:42<2:35:35,  7.09s/it]alising
+Testing:  46% 1138/2454 [1:44:58<3:32:43,  9.70s/it]alising
+Testing:  46% 1139/2454 [1:45:02<2:56:25,  8.05s/it]alising
+Testing:  46% 1140/2454 [1:45:10<2:55:33,  8.02s/it]alising
+Testing:  46% 1141/2454 [1:45:17<2:46:59,  7.63s/it]alising
+Testing:  47% 1142/2454 [1:45:24<2:42:00,  7.41s/it]alising
+Testing:  47% 1143/2454 [1:45:31<2:43:49,  7.50s/it]alising
+Testing:  47% 1144/2454 [1:45:37<2:30:08,  6.88s/it]alising
+Testing:  47% 1145/2454 [1:45:42<2:18:25,  6.34s/it]alising
+Testing:  47% 1146/2454 [1:45:48<2:18:26,  6.35s/it]alising
+Testing:  47% 1147/2454 [1:45:51<1:57:01,  5.37s/it]alising
+Testing:  47% 1148/2454 [1:45:55<1:46:55,  4.91s/it]alising
+Testing:  47% 1149/2454 [1:46:02<1:58:20,  5.44s/it]alising
+Testing:  47% 1150/2454 [1:46:08<2:02:43,  5.65s/it]alising
+Testing:  47% 1151/2454 [1:46:12<1:49:09,  5.03s/it]alising
+Testing:  47% 1152/2454 [1:46:23<2:29:33,  6.89s/it]alising
+Testing:  47% 1153/2454 [1:46:28<2:15:07,  6.23s/it]alising
+Testing:  47% 1154/2454 [1:46:30<1:52:19,  5.18s/it]alising
+Testing:  47% 1155/2454 [1:46:36<1:55:10,  5.32s/it]alising
+Testing:  47% 1156/2454 [1:46:41<1:55:34,  5.34s/it]alising
+Testing:  47% 1157/2454 [1:46:45<1:46:35,  4.93s/it]alising
+Testing:  47% 1158/2454 [1:46:50<1:46:41,  4.94s/it]alising
+Testing:  47% 1159/2454 [1:46:55<1:45:30,  4.89s/it]alising
+Testing:  47% 1160/2454 [1:46:59<1:41:20,  4.70s/it]alising
+Testing:  47% 1161/2454 [1:47:03<1:37:32,  4.53s/it]alising
+Testing:  47% 1162/2454 [1:47:06<1:21:54,  3.80s/it]alising
+Testing:  47% 1163/2454 [1:47:11<1:31:41,  4.26s/it]alising
+Testing:  47% 1164/2454 [1:47:14<1:27:21,  4.06s/it]alising
+Testing:  47% 1165/2454 [1:47:19<1:28:55,  4.14s/it]alising
+Testing:  48% 1166/2454 [1:47:25<1:40:12,  4.67s/it]alising
+Testing:  48% 1167/2454 [1:47:29<1:38:49,  4.61s/it]alising
+Testing:  48% 1168/2454 [1:47:34<1:38:41,  4.60s/it]alising
+Testing:  48% 1169/2454 [1:47:38<1:36:54,  4.52s/it]alising
+Testing:  48% 1170/2454 [1:47:43<1:41:35,  4.75s/it]alising
+Testing:  48% 1171/2454 [1:47:54<2:21:59,  6.64s/it]alising
+Testing:  48% 1172/2454 [1:48:00<2:14:35,  6.30s/it]alising
+Testing:  48% 1173/2454 [1:48:04<2:01:03,  5.67s/it]alising
+Testing:  48% 1174/2454 [1:48:10<1:59:48,  5.62s/it]alising
+Testing:  48% 1175/2454 [1:48:15<2:00:09,  5.64s/it]alising
+Testing:  48% 1176/2454 [1:48:22<2:06:30,  5.94s/it]alising
+Testing:  48% 1177/2454 [1:48:27<2:03:33,  5.81s/it]alising
+Testing:  48% 1178/2454 [1:48:31<1:46:11,  4.99s/it]alising
+Testing:  48% 1179/2454 [1:48:39<2:07:09,  5.98s/it]alising
+Testing:  48% 1180/2454 [1:48:45<2:07:18,  6.00s/it]alising
+Testing:  48% 1181/2454 [1:48:53<2:20:56,  6.64s/it]alising
+Testing:  48% 1182/2454 [1:49:01<2:26:37,  6.92s/it]alising
+Testing:  48% 1183/2454 [1:49:06<2:19:09,  6.57s/it]alising
+Testing:  48% 1184/2454 [1:49:09<1:57:24,  5.55s/it]alising
+Testing:  48% 1185/2454 [1:49:15<1:58:20,  5.60s/it]alising
+Testing:  48% 1186/2454 [1:49:20<1:53:00,  5.35s/it]alising
+Testing:  48% 1187/2454 [1:49:28<2:10:03,  6.16s/it]alising
+Testing:  48% 1188/2454 [1:49:31<1:49:12,  5.18s/it]alising
+Testing:  48% 1189/2454 [1:49:35<1:43:09,  4.89s/it]alising
+Testing:  48% 1190/2454 [1:49:39<1:39:46,  4.74s/it]alising
+Testing:  49% 1191/2454 [1:49:54<2:41:43,  7.68s/it]alising
+Testing:  49% 1192/2454 [1:49:59<2:25:40,  6.93s/it]alising
+Testing:  49% 1193/2454 [1:50:01<1:55:39,  5.50s/it]alising
+Testing:  49% 1194/2454 [1:50:05<1:45:55,  5.04s/it]alising
+Testing:  49% 1195/2454 [1:50:10<1:44:01,  4.96s/it]alising
+Testing:  49% 1196/2454 [1:50:13<1:32:13,  4.40s/it]alising
+Testing:  49% 1197/2454 [1:50:18<1:33:53,  4.48s/it]alising
+Testing:  49% 1198/2454 [1:50:21<1:26:11,  4.12s/it]alising
+Testing:  49% 1199/2454 [1:50:24<1:19:23,  3.80s/it]alising
+Testing:  49% 1200/2454 [1:50:29<1:23:15,  3.98s/it]alising
+Testing:  49% 1201/2454 [1:50:34<1:30:29,  4.33s/it]alising
+Testing:  49% 1202/2454 [1:50:39<1:37:06,  4.65s/it]alising
+Testing:  49% 1203/2454 [1:50:44<1:41:03,  4.85s/it]alising
+Testing:  49% 1204/2454 [1:50:52<1:57:57,  5.66s/it]alising
+Testing:  49% 1205/2454 [1:50:59<2:06:25,  6.07s/it]alising
+Testing:  49% 1206/2454 [1:51:02<1:48:07,  5.20s/it]alising
+Testing:  49% 1207/2454 [1:51:11<2:11:45,  6.34s/it]alising
+Testing:  49% 1208/2454 [1:51:16<2:00:24,  5.80s/it]alising
+Testing:  49% 1209/2454 [1:51:19<1:41:23,  4.89s/it]alising
+Testing:  49% 1210/2454 [1:51:26<1:59:03,  5.74s/it]alising
+Testing:  49% 1211/2454 [1:51:34<2:09:30,  6.25s/it]alising
+Testing:  49% 1212/2454 [1:51:42<2:24:42,  6.99s/it]alising
+Testing:  49% 1213/2454 [1:51:56<3:04:28,  8.92s/it]alising
+Testing:  49% 1214/2454 [1:52:01<2:40:26,  7.76s/it]alising
+Testing:  50% 1215/2454 [1:52:15<3:17:14,  9.55s/it]alising
+Testing:  50% 1216/2454 [1:52:18<2:41:24,  7.82s/it]alising
+Testing:  50% 1217/2454 [1:52:21<2:11:39,  6.39s/it]alising
+Testing:  50% 1218/2454 [1:52:25<1:57:00,  5.68s/it]alising
+Testing:  50% 1219/2454 [1:52:30<1:51:25,  5.41s/it]alising
+Testing:  50% 1220/2454 [1:52:36<1:52:40,  5.48s/it]alising
+Testing:  50% 1221/2454 [1:52:41<1:51:38,  5.43s/it]alising
+Testing:  50% 1222/2454 [1:52:46<1:48:27,  5.28s/it]alising
+Testing:  50% 1223/2454 [1:52:51<1:43:40,  5.05s/it]finalising
+Testing:  50% 1225/2454 [1:52:55<1:16:04,  3.71s/it]finalising
+Testing:  50% 1226/2454 [1:52:59<1:15:39,  3.70s/it]finalising
+Testing:  50% 1227/2454 [1:53:07<1:41:07,  4.94s/it]finalising
+Testing:  50% 1228/2454 [1:53:10<1:33:42,  4.59s/it]finalising
+Testing:  50% 1229/2454 [1:53:16<1:37:54,  4.80s/it]finalising
+Testing:  50% 1230/2454 [1:53:29<2:26:56,  7.20s/it]finalising
+Testing:  50% 1231/2454 [1:53:34<2:19:08,  6.83s/it]finalising
+Testing:  50% 1232/2454 [1:53:38<1:55:53,  5.69s/it]finalising
+Testing:  50% 1233/2454 [1:53:47<2:19:56,  6.88s/it]finalising
+Testing:  50% 1234/2454 [1:54:02<3:10:10,  9.35s/it]finalising
+Testing:  50% 1235/2454 [1:54:09<2:54:23,  8.58s/it]finalising
+Testing:  50% 1236/2454 [1:54:14<2:29:07,  7.35s/it]finalising
+Testing:  50% 1237/2454 [1:54:18<2:13:01,  6.56s/it]finalising
+Testing:  50% 1238/2454 [1:54:25<2:13:38,  6.59s/it]finalising
+Testing:  50% 1239/2454 [1:54:30<2:01:37,  6.01s/it]finalising
+Testing:  51% 1240/2454 [1:54:36<2:03:38,  6.11s/it]finalising
+Testing:  51% 1241/2454 [1:54:42<2:01:57,  6.03s/it]finalising
+Testing:  51% 1242/2454 [1:54:57<3:00:17,  8.93s/it]finalising
+Testing:  51% 1243/2454 [1:55:02<2:34:37,  7.66s/it]finalising
+Testing:  51% 1244/2454 [1:55:08<2:24:57,  7.19s/it]finalising
+Testing:  51% 1245/2454 [1:55:12<2:05:38,  6.24s/it]finalising
+Testing:  51% 1246/2454 [1:55:17<1:54:16,  5.68s/it]finalising
+Testing:  51% 1247/2454 [1:55:20<1:42:36,  5.10s/it]finalising
+Testing:  51% 1248/2454 [1:55:25<1:38:05,  4.88s/it]finalising
+Testing:  51% 1249/2454 [1:55:30<1:37:28,  4.85s/it]finalising
+Testing:  51% 1250/2454 [1:55:34<1:36:31,  4.81s/it]finalising
+Testing:  51% 1251/2454 [1:55:37<1:24:38,  4.22s/it]finalising
+Testing:  51% 1252/2454 [1:55:51<2:24:05,  7.19s/it]finalising
+Testing:  51% 1253/2454 [1:55:53<1:54:13,  5.71s/it]finalising
+Testing:  51% 1254/2454 [1:56:03<2:16:02,  6.80s/it]finalising
+Testing:  51% 1255/2454 [1:56:06<1:54:59,  5.75s/it]finalising
+Testing:  51% 1256/2454 [1:56:08<1:31:59,  4.61s/it]finalising
+Testing:  51% 1257/2454 [1:56:18<2:02:54,  6.16s/it]finalising
+Testing:  51% 1258/2454 [1:56:23<1:56:23,  5.84s/it]finalising
+Testing:  51% 1259/2454 [1:56:28<1:49:56,  5.52s/it]finalising
+Testing:  51% 1260/2454 [1:56:34<1:56:15,  5.84s/it]finalising
+Testing:  51% 1261/2454 [1:56:40<1:53:08,  5.69s/it]finalising
+Testing:  51% 1262/2454 [1:56:44<1:46:10,  5.34s/it]finalising
+Testing:  51% 1263/2454 [1:56:52<2:00:34,  6.07s/it]finalising
+Testing:  52% 1264/2454 [1:57:04<2:37:43,  7.95s/it]finalising
+Testing:  52% 1265/2454 [1:57:12<2:37:40,  7.96s/it]finalising
+Testing:  52% 1266/2454 [1:57:18<2:22:52,  7.22s/it]finalising
+Testing:  52% 1267/2454 [1:57:24<2:15:49,  6.87s/it]finalising
+Testing:  52% 1268/2454 [1:57:28<2:00:15,  6.08s/it]finalising
+Testing:  52% 1269/2454 [1:57:32<1:50:05,  5.57s/it]finalising
+Testing:  52% 1270/2454 [1:57:41<2:07:38,  6.47s/it]finalising
+Testing:  52% 1271/2454 [1:57:46<1:56:52,  5.93s/it]finalising
+Testing:  52% 1272/2454 [1:57:50<1:44:47,  5.32s/it]finalising
+Testing:  52% 1273/2454 [1:57:53<1:34:29,  4.80s/it]finalising
+Testing:  52% 1274/2454 [1:57:56<1:24:28,  4.30s/it]finalising
+Testing:  52% 1275/2454 [1:58:00<1:20:39,  4.10s/it]finalising
+Testing:  52% 1276/2454 [1:58:07<1:37:39,  4.97s/it]finalising
+Testing:  52% 1277/2454 [1:58:12<1:36:48,  4.94s/it]finalising
+Testing:  52% 1278/2454 [1:58:19<1:49:13,  5.57s/it]finalising
+Testing:  52% 1279/2454 [1:58:24<1:46:10,  5.42s/it]finalising
+Testing:  52% 1280/2454 [1:58:32<2:01:37,  6.22s/it]finalising
+Testing:  52% 1281/2454 [1:58:34<1:39:04,  5.07s/it]finalising
+Testing:  52% 1282/2454 [1:58:40<1:44:57,  5.37s/it]finalising
+Testing:  52% 1283/2454 [1:58:45<1:37:53,  5.02s/it]finalising
+Testing:  52% 1284/2454 [1:58:49<1:35:08,  4.88s/it]finalising
+Testing:  52% 1285/2454 [1:58:59<2:02:53,  6.31s/it]finalising
+Testing:  52% 1286/2454 [1:59:13<2:48:38,  8.66s/it]finalising
+Testing:  52% 1287/2454 [1:59:16<2:17:20,  7.06s/it]finalising
+Testing:  52% 1288/2454 [1:59:22<2:06:53,  6.53s/it]finalising
+Testing:  53% 1289/2454 [1:59:32<2:27:29,  7.60s/it]finalising
+Testing:  53% 1290/2454 [1:59:35<2:04:08,  6.40s/it]finalising
+Testing:  53% 1291/2454 [1:59:44<2:18:34,  7.15s/it]finalising
+Testing:  53% 1292/2454 [1:59:47<1:53:50,  5.88s/it]finalising
+Testing:  53% 1293/2454 [1:59:52<1:50:42,  5.72s/it]finalising
+Testing:  53% 1294/2454 [1:59:57<1:43:20,  5.34s/it]finalising
+Testing:  53% 1295/2454 [2:00:05<1:57:51,  6.10s/it]finalising
+Testing:  53% 1296/2454 [2:00:13<2:12:16,  6.85s/it]finalising
+Testing:  53% 1297/2454 [2:00:17<1:55:41,  6.00s/it]finalising
+Testing:  53% 1298/2454 [2:00:26<2:09:02,  6.70s/it]finalising
+Testing:  53% 1299/2454 [2:00:30<1:52:25,  5.84s/it]finalising
+Testing:  53% 1300/2454 [2:00:35<1:51:25,  5.79s/it]finalising
+Testing:  53% 1301/2454 [2:00:49<2:35:34,  8.10s/it]finalising
+Testing:  53% 1302/2454 [2:00:51<2:03:09,  6.41s/it]finalising
+Testing:  53% 1303/2454 [2:00:53<1:37:42,  5.09s/it]finalising
+Testing:  53% 1304/2454 [2:00:59<1:43:36,  5.41s/it]finalising
+Testing:  53% 1305/2454 [2:01:02<1:29:05,  4.65s/it]finalising
+Testing:  53% 1306/2454 [2:01:06<1:22:16,  4.30s/it]finalising
+Testing:  53% 1307/2454 [2:01:09<1:17:02,  4.03s/it]finalising
+Testing:  53% 1308/2454 [2:01:12<1:09:18,  3.63s/it]finalising
+Testing:  53% 1309/2454 [2:01:16<1:11:03,  3.72s/it]finalising
+Testing:  53% 1310/2454 [2:01:22<1:27:47,  4.60s/it]finalising
+Testing:  53% 1311/2454 [2:01:27<1:28:27,  4.64s/it]finalising
+Testing:  53% 1312/2454 [2:01:31<1:25:05,  4.47s/it]finalising
+Testing:  54% 1313/2454 [2:01:42<1:59:48,  6.30s/it]finalising
+Testing:  54% 1314/2454 [2:01:46<1:48:20,  5.70s/it]finalising
+Testing:  54% 1315/2454 [2:02:00<2:33:00,  8.06s/it]finalising
+Testing:  54% 1316/2454 [2:02:03<2:03:30,  6.51s/it]finalising
+Testing:  54% 1317/2454 [2:02:06<1:47:37,  5.68s/it]finalising
+Testing:  54% 1318/2454 [2:02:11<1:41:05,  5.34s/it]finalising
+Testing:  54% 1319/2454 [2:02:21<2:06:24,  6.68s/it]finalising
+Testing:  54% 1320/2454 [2:02:28<2:08:17,  6.79s/it]finalising
+Testing:  54% 1321/2454 [2:02:32<1:54:13,  6.05s/it]finalising
+Testing:  54% 1322/2454 [2:02:38<1:55:07,  6.10s/it]finalising
+Testing:  54% 1323/2454 [2:02:43<1:47:51,  5.72s/it]finalising
+Testing:  54% 1324/2454 [2:02:48<1:45:26,  5.60s/it]finalising
+Testing:  54% 1325/2454 [2:02:53<1:37:08,  5.16s/it]finalising
+Testing:  54% 1326/2454 [2:02:58<1:38:52,  5.26s/it]finalising
+Testing:  54% 1327/2454 [2:03:01<1:28:19,  4.70s/it]finalising
+Testing:  54% 1328/2454 [2:03:05<1:22:37,  4.40s/it]finalising
+Testing:  54% 1329/2454 [2:03:09<1:20:49,  4.31s/it]finalising
+Testing:  54% 1330/2454 [2:03:14<1:22:16,  4.39s/it]finalising
+Testing:  54% 1331/2454 [2:03:17<1:17:41,  4.15s/it]finalising
+Testing:  54% 1332/2454 [2:03:22<1:19:27,  4.25s/it]finalising
+Testing:  54% 1333/2454 [2:03:29<1:37:46,  5.23s/it]finalising
+Testing:  54% 1334/2454 [2:03:34<1:31:41,  4.91s/it]finalising
+Testing:  54% 1335/2454 [2:03:39<1:36:36,  5.18s/it]finalising
+Testing:  54% 1336/2454 [2:03:43<1:30:22,  4.85s/it]finalising
+Testing:  54% 1337/2454 [2:03:48<1:25:40,  4.60s/it]finalising
+Testing:  55% 1338/2454 [2:03:53<1:31:18,  4.91s/it]finalising
+Testing:  55% 1339/2454 [2:03:57<1:25:45,  4.62s/it]finalising
+Testing:  55% 1340/2454 [2:04:04<1:36:16,  5.19s/it]finalising
+Testing:  55% 1341/2454 [2:04:07<1:28:27,  4.77s/it]finalising
+Testing:  55% 1342/2454 [2:04:12<1:28:18,  4.76s/it]finalising
+Testing:  55% 1343/2454 [2:04:26<2:19:16,  7.52s/it]finalising
+Testing:  55% 1344/2454 [2:04:33<2:17:09,  7.41s/it]finalising
+Testing:  55% 1345/2454 [2:04:37<1:54:06,  6.17s/it]finalising
+Testing:  55% 1346/2454 [2:04:43<1:55:38,  6.26s/it]finalising
+Testing:  55% 1347/2454 [2:04:47<1:44:31,  5.67s/it]finalising
+Testing:  55% 1348/2454 [2:04:51<1:31:59,  4.99s/it]finalising
+Testing:  55% 1349/2454 [2:04:52<1:13:55,  4.01s/it]finalising
+Testing:  55% 1350/2454 [2:04:55<1:08:07,  3.70s/it]finalising
+Testing:  55% 1351/2454 [2:05:01<1:19:45,  4.34s/it]finalising
+Testing:  55% 1352/2454 [2:05:06<1:20:01,  4.36s/it]finalising
+Testing:  55% 1353/2454 [2:05:11<1:28:03,  4.80s/it]finalising
+Testing:  55% 1354/2454 [2:05:15<1:22:59,  4.53s/it]finalising
+Testing:  55% 1355/2454 [2:05:19<1:17:19,  4.22s/it]finalising
+Testing:  55% 1356/2454 [2:05:27<1:36:12,  5.26s/it]finalising
+Testing:  55% 1357/2454 [2:05:36<1:58:17,  6.47s/it]finalising
+Testing:  55% 1358/2454 [2:05:44<2:05:34,  6.87s/it]finalising
+Testing:  55% 1359/2454 [2:05:56<2:36:38,  8.58s/it]finalising
+Testing:  55% 1360/2454 [2:06:00<2:08:22,  7.04s/it]finalising
+Testing:  55% 1361/2454 [2:06:07<2:11:07,  7.20s/it]finalising
+Testing:  56% 1362/2454 [2:06:10<1:46:10,  5.83s/it]finalising
+Testing:  56% 1363/2454 [2:06:23<2:23:58,  7.92s/it]finalising
+Testing:  56% 1364/2454 [2:06:29<2:12:45,  7.31s/it]finalising
+Testing:  56% 1365/2454 [2:06:37<2:17:05,  7.55s/it]finalising
+Testing:  56% 1366/2454 [2:06:43<2:07:47,  7.05s/it]finalising
+Testing:  56% 1367/2454 [2:06:45<1:44:30,  5.77s/it]finalising
+Testing:  56% 1368/2454 [2:06:50<1:38:04,  5.42s/it]finalising
+Testing:  56% 1369/2454 [2:06:58<1:53:16,  6.26s/it]finalising
+Testing:  56% 1370/2454 [2:07:04<1:52:44,  6.24s/it]finalising
+Testing:  56% 1371/2454 [2:07:07<1:34:46,  5.25s/it]finalising
+Testing:  56% 1372/2454 [2:07:10<1:22:37,  4.58s/it]finalising
+Testing:  56% 1373/2454 [2:07:16<1:28:27,  4.91s/it]finalising
+Testing:  56% 1374/2454 [2:07:22<1:34:15,  5.24s/it]finalising
+Testing:  56% 1375/2454 [2:07:31<1:55:50,  6.44s/it]finalising
+Testing:  56% 1376/2454 [2:07:40<2:06:58,  7.07s/it]finalising
+Testing:  56% 1377/2454 [2:07:44<1:51:44,  6.23s/it]finalising
+Testing:  56% 1378/2454 [2:07:46<1:30:14,  5.03s/it]finalising
+Testing:  56% 1379/2454 [2:07:50<1:21:27,  4.55s/it]finalising
+Testing:  56% 1380/2454 [2:08:04<2:12:02,  7.38s/it]finalising
+Testing:  56% 1381/2454 [2:08:07<1:50:30,  6.18s/it]finalising
+Testing:  56% 1382/2454 [2:08:10<1:31:34,  5.13s/it]finalising
+Testing:  56% 1383/2454 [2:08:15<1:31:22,  5.12s/it]finalising
+Testing:  56% 1384/2454 [2:08:21<1:34:45,  5.31s/it]finalising
+Testing:  56% 1385/2454 [2:08:27<1:39:09,  5.57s/it]finalising
+Testing:  56% 1386/2454 [2:08:33<1:43:27,  5.81s/it]finalising
+Testing:  57% 1387/2454 [2:08:37<1:35:15,  5.36s/it]finalising
+Testing:  57% 1388/2454 [2:08:42<1:29:17,  5.03s/it]finalising
+Testing:  57% 1389/2454 [2:08:45<1:20:26,  4.53s/it]finalising
+Testing:  57% 1390/2454 [2:08:49<1:14:41,  4.21s/it]finalising
+Testing:  57% 1391/2454 [2:08:52<1:09:21,  3.91s/it]finalising
+Testing:  57% 1392/2454 [2:09:01<1:35:22,  5.39s/it]finalising
+Testing:  57% 1393/2454 [2:09:07<1:39:17,  5.62s/it]finalising
+Testing:  57% 1394/2454 [2:09:14<1:49:55,  6.22s/it]finalising
+Testing:  57% 1395/2454 [2:09:18<1:38:10,  5.56s/it]finalising
+Testing:  57% 1396/2454 [2:09:23<1:34:31,  5.36s/it]finalising
+Testing:  57% 1397/2454 [2:09:29<1:37:56,  5.56s/it]finalising
+Testing:  57% 1398/2454 [2:09:37<1:49:27,  6.22s/it]finalising
+Testing:  57% 1399/2454 [2:09:43<1:48:31,  6.17s/it]finalising
+Testing:  57% 1400/2454 [2:09:49<1:46:18,  6.05s/it]finalising
+Testing:  57% 1401/2454 [2:09:55<1:48:19,  6.17s/it]finalising
+Testing:  57% 1402/2454 [2:10:01<1:45:25,  6.01s/it]finalising
+Testing:  57% 1403/2454 [2:10:08<1:49:58,  6.28s/it]finalising
+Testing:  57% 1404/2454 [2:10:13<1:42:58,  5.88s/it]finalising
+Testing:  57% 1405/2454 [2:10:17<1:36:04,  5.50s/it]finalising
+Testing:  57% 1406/2454 [2:10:21<1:27:28,  5.01s/it]finalising
+Testing:  57% 1407/2454 [2:10:25<1:19:19,  4.55s/it]finalising
+Testing:  57% 1408/2454 [2:10:30<1:24:21,  4.84s/it]finalising
+Testing:  57% 1409/2454 [2:10:35<1:24:32,  4.85s/it]finalising
+Testing:  57% 1410/2454 [2:10:39<1:17:49,  4.47s/it]finalising
+Testing:  57% 1411/2454 [2:10:42<1:13:48,  4.25s/it]finalising
+Testing:  58% 1412/2454 [2:10:50<1:32:13,  5.31s/it]finalising
+Testing:  58% 1413/2454 [2:11:03<2:08:40,  7.42s/it]finalising
+Testing:  58% 1414/2454 [2:11:07<1:53:19,  6.54s/it]finalising
+Testing:  58% 1415/2454 [2:11:09<1:29:42,  5.18s/it]finalising
+Testing:  58% 1416/2454 [2:11:14<1:26:30,  5.00s/it]finalising
+Testing:  58% 1417/2454 [2:11:19<1:27:32,  5.07s/it]finalising
+Testing:  58% 1418/2454 [2:11:25<1:31:33,  5.30s/it]finalising
+Testing:  58% 1419/2454 [2:11:30<1:31:57,  5.33s/it]finalising
+Testing:  58% 1420/2454 [2:11:34<1:26:06,  5.00s/it]finalising
+Testing:  58% 1421/2454 [2:11:39<1:24:47,  4.93s/it]finalising
+Testing:  58% 1422/2454 [2:11:46<1:32:27,  5.38s/it]finalising
+Testing:  58% 1423/2454 [2:11:52<1:40:02,  5.82s/it]finalising
+Testing:  58% 1424/2454 [2:12:01<1:52:31,  6.55s/it]finalising
+Testing:  58% 1425/2454 [2:12:04<1:36:47,  5.64s/it]finalising
+Testing:  58% 1426/2454 [2:12:12<1:48:08,  6.31s/it]finalising
+Testing:  58% 1427/2454 [2:12:15<1:31:48,  5.36s/it]finalising
+Testing:  58% 1428/2454 [2:12:20<1:28:18,  5.16s/it]finalising
+Testing:  58% 1429/2454 [2:12:22<1:14:36,  4.37s/it]finalising
+Testing:  58% 1430/2454 [2:12:27<1:16:40,  4.49s/it]finalising
+Testing:  58% 1431/2454 [2:12:30<1:06:43,  3.91s/it]finalising
+Testing:  58% 1432/2454 [2:12:39<1:32:25,  5.43s/it]finalising
+Testing:  58% 1433/2454 [2:12:44<1:29:07,  5.24s/it]finalising
+Testing:  58% 1434/2454 [2:12:47<1:20:53,  4.76s/it]finalising
+Testing:  58% 1435/2454 [2:12:53<1:24:54,  5.00s/it]finalising
+Testing:  59% 1436/2454 [2:12:59<1:33:19,  5.50s/it]finalising
+Testing:  59% 1437/2454 [2:13:05<1:34:17,  5.56s/it]finalising
+Testing:  59% 1438/2454 [2:13:10<1:29:19,  5.27s/it]finalising
+Testing:  59% 1439/2454 [2:13:14<1:24:47,  5.01s/it]finalising
+Testing:  59% 1440/2454 [2:13:18<1:20:33,  4.77s/it]finalising
+Testing:  59% 1441/2454 [2:13:23<1:18:28,  4.65s/it]finalising
+Testing:  59% 1442/2454 [2:13:26<1:10:02,  4.15s/it]finalising
+Testing:  59% 1443/2454 [2:13:31<1:13:59,  4.39s/it]finalising
+Testing:  59% 1444/2454 [2:13:34<1:08:47,  4.09s/it]finalising
+Testing:  59% 1445/2454 [2:13:36<1:00:39,  3.61s/it]finalising
+Testing:  59% 1446/2454 [2:13:41<1:06:04,  3.93s/it]finalising
+Testing:  59% 1447/2454 [2:13:47<1:16:02,  4.53s/it]finalising
+Testing:  59% 1448/2454 [2:13:51<1:12:25,  4.32s/it]finalising
+Testing:  59% 1449/2454 [2:13:54<1:04:49,  3.87s/it]finalising
+Testing:  59% 1450/2454 [2:13:58<1:06:19,  3.96s/it]finalising
+Testing:  59% 1451/2454 [2:14:05<1:22:00,  4.91s/it]finalising
+Testing:  59% 1452/2454 [2:14:09<1:17:05,  4.62s/it]finalising
+Testing:  59% 1453/2454 [2:14:12<1:09:14,  4.15s/it]finalising
+Testing:  59% 1454/2454 [2:14:16<1:08:53,  4.13s/it]finalising
+Testing:  59% 1455/2454 [2:14:20<1:06:38,  4.00s/it]finalising
+Testing:  59% 1456/2454 [2:14:25<1:12:14,  4.34s/it]finalising
+Testing:  59% 1457/2454 [2:14:30<1:14:14,  4.47s/it]finalising
+Testing:  59% 1458/2454 [2:14:34<1:12:16,  4.35s/it]finalising
+Testing:  59% 1459/2454 [2:14:38<1:12:12,  4.35s/it]finalising
+Testing:  59% 1460/2454 [2:14:42<1:10:40,  4.27s/it]finalising
+Testing:  60% 1461/2454 [2:14:49<1:23:35,  5.05s/it]finalising
+Testing:  60% 1462/2454 [2:14:51<1:09:07,  4.18s/it]finalising
+Testing:  60% 1463/2454 [2:14:56<1:09:54,  4.23s/it]finalising
+Testing:  60% 1464/2454 [2:15:06<1:41:34,  6.16s/it]finalising
+Testing:  60% 1465/2454 [2:15:09<1:25:30,  5.19s/it]finalising
+Testing:  60% 1466/2454 [2:15:14<1:22:45,  5.03s/it]finalising
+Testing:  60% 1467/2454 [2:15:23<1:41:29,  6.17s/it]finalising
+Testing:  60% 1468/2454 [2:15:27<1:31:15,  5.55s/it]finalising
+Testing:  60% 1469/2454 [2:15:28<1:11:08,  4.33s/it]finalising
+Testing:  60% 1470/2454 [2:15:32<1:08:06,  4.15s/it]finalising
+Testing:  60% 1471/2454 [2:15:37<1:12:39,  4.43s/it]finalising
+Testing:  60% 1472/2454 [2:15:41<1:10:55,  4.33s/it]finalising
+Testing:  60% 1473/2454 [2:15:47<1:15:56,  4.64s/it]finalising
+Testing:  60% 1474/2454 [2:15:51<1:16:29,  4.68s/it]finalising
+Testing:  60% 1475/2454 [2:15:56<1:15:53,  4.65s/it]finalising
+Testing:  60% 1476/2454 [2:16:02<1:23:51,  5.14s/it]finalising
+Testing:  60% 1477/2454 [2:16:14<1:57:50,  7.24s/it]finalising
+Testing:  60% 1478/2454 [2:16:17<1:37:32,  6.00s/it]finalising
+Testing:  60% 1479/2454 [2:16:22<1:29:04,  5.48s/it]finalising
+Testing:  60% 1480/2454 [2:16:26<1:22:24,  5.08s/it]finalising
+Testing:  60% 1481/2454 [2:16:30<1:17:19,  4.77s/it]finalising
+Testing:  60% 1482/2454 [2:16:36<1:21:25,  5.03s/it]finalising
+Testing:  60% 1483/2454 [2:16:43<1:34:11,  5.82s/it]finalising
+Testing:  60% 1484/2454 [2:16:46<1:18:59,  4.89s/it]finalising
+Testing:  61% 1485/2454 [2:16:53<1:32:04,  5.70s/it]finalising
+Testing:  61% 1486/2454 [2:16:57<1:19:52,  4.95s/it]finalising
+Testing:  61% 1487/2454 [2:17:01<1:18:24,  4.86s/it]finalising
+Testing:  61% 1488/2454 [2:17:07<1:22:00,  5.09s/it]finalising
+Testing:  61% 1489/2454 [2:17:13<1:28:29,  5.50s/it]finalising
+Testing:  61% 1490/2454 [2:17:23<1:50:18,  6.87s/it]finalising
+Testing:  61% 1491/2454 [2:17:31<1:52:37,  7.02s/it]finalising
+Testing:  61% 1492/2454 [2:17:34<1:33:01,  5.80s/it]finalising
+Testing:  61% 1493/2454 [2:17:39<1:27:49,  5.48s/it]finalising
+Testing:  61% 1494/2454 [2:17:47<1:43:00,  6.44s/it]finalising
+Testing:  61% 1495/2454 [2:17:53<1:38:04,  6.14s/it]finalising
+Testing:  61% 1496/2454 [2:17:59<1:38:00,  6.14s/it]finalising
+Testing:  61% 1497/2454 [2:18:04<1:34:05,  5.90s/it]finalising
+Testing:  61% 1498/2454 [2:18:08<1:21:59,  5.15s/it]finalising
+Testing:  61% 1499/2454 [2:18:11<1:11:35,  4.50s/it]finalising
+Testing:  61% 1500/2454 [2:18:18<1:27:06,  5.48s/it]finalising
+Testing:  61% 1501/2454 [2:18:23<1:24:05,  5.29s/it]finalising
+Testing:  61% 1502/2454 [2:18:28<1:20:19,  5.06s/it]finalising
+Testing:  61% 1503/2454 [2:18:34<1:28:25,  5.58s/it]finalising
+Testing:  61% 1504/2454 [2:18:37<1:13:52,  4.67s/it]finalising
+Testing:  61% 1505/2454 [2:18:45<1:28:37,  5.60s/it]finalising
+Testing:  61% 1506/2454 [2:18:51<1:31:00,  5.76s/it]finalising
+Testing:  61% 1507/2454 [2:18:54<1:16:33,  4.85s/it]finalising
+Testing:  61% 1508/2454 [2:18:59<1:21:04,  5.14s/it]finalising
+Testing:  61% 1509/2454 [2:19:05<1:23:23,  5.29s/it]finalising
+Testing:  62% 1510/2454 [2:19:14<1:39:51,  6.35s/it]finalising
+Testing:  62% 1511/2454 [2:19:21<1:44:31,  6.65s/it]finalising
+Testing:  62% 1512/2454 [2:19:26<1:35:18,  6.07s/it]finalising
+Testing:  62% 1513/2454 [2:19:32<1:37:08,  6.19s/it]finalising
+Testing:  62% 1514/2454 [2:19:37<1:30:18,  5.76s/it]finalising
+Testing:  62% 1515/2454 [2:19:42<1:25:52,  5.49s/it]finalising
+Testing:  62% 1516/2454 [2:19:46<1:17:36,  4.96s/it]finalising
+Testing:  62% 1517/2454 [2:19:54<1:31:58,  5.89s/it]finalising
+Testing:  62% 1518/2454 [2:19:57<1:18:05,  5.01s/it]finalising
+Testing:  62% 1519/2454 [2:19:59<1:04:49,  4.16s/it]finalising
+Testing:  62% 1520/2454 [2:20:02<58:25,  3.75s/it]  finalising
+Testing:  62% 1521/2454 [2:20:05<55:49,  3.59s/it]  finalising
+Testing:  62% 1522/2454 [2:20:09<57:36,  3.71s/it]  finalising
+Testing:  62% 1523/2454 [2:20:14<1:05:46,  4.24s/it]finalising
+Testing:  62% 1524/2454 [2:20:21<1:15:04,  4.84s/it]finalising
+Testing:  62% 1525/2454 [2:20:34<1:53:35,  7.34s/it]finalising
+Testing:  62% 1526/2454 [2:20:41<1:54:14,  7.39s/it]finalising
+Testing:  62% 1527/2454 [2:20:48<1:50:27,  7.15s/it]finalising
+Testing:  62% 1528/2454 [2:20:56<1:54:25,  7.41s/it]finalising
+Testing:  62% 1529/2454 [2:21:02<1:48:26,  7.03s/it]finalising
+Testing:  62% 1530/2454 [2:21:14<2:10:55,  8.50s/it]finalising
+Testing:  62% 1531/2454 [2:21:18<1:50:27,  7.18s/it]finalising
+Testing:  62% 1532/2454 [2:21:22<1:35:41,  6.23s/it]finalising
+Testing:  62% 1533/2454 [2:21:30<1:44:16,  6.79s/it]finalising
+Testing:  63% 1534/2454 [2:21:36<1:37:35,  6.37s/it]finalising
+Testing:  63% 1535/2454 [2:21:40<1:27:24,  5.71s/it]finalising
+Testing:  63% 1536/2454 [2:21:43<1:17:23,  5.06s/it]finalising
+Testing:  63% 1537/2454 [2:21:47<1:10:07,  4.59s/it]finalising
+Testing:  63% 1538/2454 [2:21:50<1:04:17,  4.21s/it]finalising
+Testing:  63% 1539/2454 [2:21:56<1:09:41,  4.57s/it]finalising
+Testing:  63% 1540/2454 [2:21:59<1:06:20,  4.36s/it]finalising
+Testing:  63% 1541/2454 [2:22:02<57:56,  3.81s/it]  finalising
+Testing:  63% 1542/2454 [2:22:09<1:12:29,  4.77s/it]finalising
+Testing:  63% 1543/2454 [2:22:16<1:24:45,  5.58s/it]finalising
+Testing:  63% 1544/2454 [2:22:21<1:22:02,  5.41s/it]finalising
+Testing:  63% 1545/2454 [2:22:27<1:21:47,  5.40s/it]finalising
+Testing:  63% 1546/2454 [2:22:33<1:26:27,  5.71s/it]finalising
+Testing:  63% 1547/2454 [2:22:36<1:11:41,  4.74s/it]finalising
+Testing:  63% 1548/2454 [2:22:39<1:06:21,  4.39s/it]finalising
+Testing:  63% 1549/2454 [2:22:45<1:11:10,  4.72s/it]finalising
+Testing:  63% 1550/2454 [2:22:48<1:05:46,  4.37s/it]finalising
+Testing:  63% 1551/2454 [2:22:57<1:26:46,  5.77s/it]finalising
+Testing:  63% 1552/2454 [2:23:01<1:18:49,  5.24s/it]finalising
+Testing:  63% 1553/2454 [2:23:06<1:14:52,  4.99s/it]finalising
+Testing:  63% 1554/2454 [2:23:10<1:13:11,  4.88s/it]finalising
+Testing:  63% 1555/2454 [2:23:19<1:28:35,  5.91s/it]finalising
+Testing:  63% 1556/2454 [2:23:23<1:22:59,  5.55s/it]finalising
+Testing:  63% 1557/2454 [2:23:26<1:08:50,  4.60s/it]finalising
+Testing:  63% 1558/2454 [2:23:30<1:05:56,  4.42s/it]finalising
+Testing:  64% 1559/2454 [2:23:36<1:13:20,  4.92s/it]finalising
+Testing:  64% 1560/2454 [2:23:39<1:02:46,  4.21s/it]finalising
+Testing:  64% 1561/2454 [2:23:42<1:00:23,  4.06s/it]finalising
+Testing:  64% 1562/2454 [2:23:47<1:03:14,  4.25s/it]finalising
+Testing:  64% 1563/2454 [2:23:52<1:06:41,  4.49s/it]finalising
+Testing:  64% 1564/2454 [2:24:00<1:23:19,  5.62s/it]finalising
+Testing:  64% 1565/2454 [2:24:07<1:30:00,  6.07s/it]finalising
+Testing:  64% 1566/2454 [2:24:12<1:24:44,  5.73s/it]finalising
+Testing:  64% 1567/2454 [2:24:17<1:19:08,  5.35s/it]finalising
+Testing:  64% 1568/2454 [2:24:22<1:18:45,  5.33s/it]finalising
+Testing:  64% 1569/2454 [2:24:27<1:17:13,  5.24s/it]finalising
+Testing:  64% 1570/2454 [2:24:31<1:13:19,  4.98s/it]finalising
+Testing:  64% 1571/2454 [2:24:37<1:15:09,  5.11s/it]finalising
+Testing:  64% 1572/2454 [2:24:43<1:20:49,  5.50s/it]finalising
+Testing:  64% 1573/2454 [2:24:46<1:10:11,  4.78s/it]finalising
+Testing:  64% 1574/2454 [2:24:51<1:10:29,  4.81s/it]finalising
+Testing:  64% 1575/2454 [2:24:56<1:08:47,  4.70s/it]finalising
+Testing:  64% 1576/2454 [2:25:01<1:13:39,  5.03s/it]finalising
+Testing:  64% 1577/2454 [2:25:05<1:05:00,  4.45s/it]finalising
+Testing:  64% 1578/2454 [2:25:08<1:01:01,  4.18s/it]finalising
+Testing:  64% 1579/2454 [2:25:15<1:14:00,  5.08s/it]finalising
+Testing:  64% 1580/2454 [2:25:21<1:16:54,  5.28s/it]finalising
+Testing:  64% 1581/2454 [2:25:33<1:45:01,  7.22s/it]finalising
+Testing:  64% 1582/2454 [2:25:38<1:35:55,  6.60s/it]finalising
+Testing:  65% 1583/2454 [2:25:46<1:43:00,  7.10s/it]finalising
+Testing:  65% 1584/2454 [2:25:53<1:41:42,  7.01s/it]finalising
+Testing:  65% 1585/2454 [2:25:56<1:25:09,  5.88s/it]finalising
+Testing:  65% 1586/2454 [2:26:02<1:25:58,  5.94s/it]finalising
+Testing:  65% 1587/2454 [2:26:08<1:22:55,  5.74s/it]finalising
+Testing:  65% 1588/2454 [2:26:17<1:39:13,  6.87s/it]finalising
+Testing:  65% 1589/2454 [2:26:22<1:30:28,  6.28s/it]finalising
+Testing:  65% 1590/2454 [2:26:27<1:25:56,  5.97s/it]finalising
+Testing:  65% 1591/2454 [2:26:38<1:46:32,  7.41s/it]finalising
+Testing:  65% 1592/2454 [2:26:47<1:52:27,  7.83s/it]finalising
+Testing:  65% 1593/2454 [2:26:49<1:28:33,  6.17s/it]finalising
+Testing:  65% 1594/2454 [2:26:57<1:36:21,  6.72s/it]finalising
+Testing:  65% 1595/2454 [2:27:06<1:47:07,  7.48s/it]finalising
+Testing:  65% 1596/2454 [2:27:12<1:39:53,  6.99s/it]finalising
+Testing:  65% 1597/2454 [2:27:17<1:31:13,  6.39s/it]finalising
+Testing:  65% 1598/2454 [2:27:23<1:27:48,  6.16s/it]finalising
+Testing:  65% 1599/2454 [2:27:27<1:21:11,  5.70s/it]finalising
+Testing:  65% 1600/2454 [2:27:34<1:26:34,  6.08s/it]finalising
+Testing:  65% 1601/2454 [2:27:47<1:52:50,  7.94s/it]finalising
+Testing:  65% 1602/2454 [2:27:52<1:40:17,  7.06s/it]finalising
+Testing:  65% 1603/2454 [2:27:59<1:41:29,  7.16s/it]finalising
+Testing:  65% 1604/2454 [2:28:01<1:20:13,  5.66s/it]finalising
+Testing:  65% 1605/2454 [2:28:09<1:30:05,  6.37s/it]finalising
+Testing:  65% 1606/2454 [2:28:16<1:31:50,  6.50s/it]finalising
+Testing:  65% 1607/2454 [2:28:22<1:28:41,  6.28s/it]finalising
+Testing:  66% 1608/2454 [2:28:24<1:11:04,  5.04s/it]finalising
+Testing:  66% 1609/2454 [2:28:32<1:23:58,  5.96s/it]finalising
+Testing:  66% 1610/2454 [2:28:35<1:12:33,  5.16s/it]finalising
+Testing:  66% 1611/2454 [2:28:41<1:15:43,  5.39s/it]finalising
+Testing:  66% 1612/2454 [2:28:55<1:48:51,  7.76s/it]finalising
+Testing:  66% 1613/2454 [2:28:57<1:26:32,  6.17s/it]finalising
+Testing:  66% 1614/2454 [2:29:01<1:17:09,  5.51s/it]finalising
+Testing:  66% 1615/2454 [2:29:03<1:02:49,  4.49s/it]finalising
+Testing:  66% 1616/2454 [2:29:07<58:00,  4.15s/it]  finalising
+Testing:  66% 1617/2454 [2:29:19<1:34:22,  6.77s/it]finalising
+Testing:  66% 1618/2454 [2:29:25<1:28:54,  6.38s/it]finalising
+Testing:  66% 1619/2454 [2:29:29<1:20:55,  5.82s/it]finalising
+Testing:  66% 1620/2454 [2:29:33<1:12:48,  5.24s/it]finalising
+Testing:  66% 1621/2454 [2:29:47<1:49:08,  7.86s/it]finalising
+Testing:  66% 1622/2454 [2:29:53<1:42:10,  7.37s/it]finalising
+Testing:  66% 1623/2454 [2:29:59<1:34:34,  6.83s/it]finalising
+Testing:  66% 1624/2454 [2:30:05<1:31:26,  6.61s/it]finalising
+Testing:  66% 1625/2454 [2:30:09<1:19:18,  5.74s/it]finalising
+Testing:  66% 1626/2454 [2:30:13<1:12:20,  5.24s/it]finalising
+Testing:  66% 1627/2454 [2:30:16<1:01:32,  4.46s/it]finalising
+Testing:  66% 1628/2454 [2:30:21<1:04:33,  4.69s/it]finalising
+Testing:  66% 1629/2454 [2:30:25<1:02:17,  4.53s/it]finalising
+Testing:  66% 1630/2454 [2:30:28<56:36,  4.12s/it]  finalising
+Testing:  66% 1631/2454 [2:30:32<54:58,  4.01s/it]  finalising
+Testing:  67% 1632/2454 [2:30:35<49:27,  3.61s/it]  finalising
+Testing:  67% 1633/2454 [2:30:43<1:09:34,  5.08s/it]finalising
+Testing:  67% 1634/2454 [2:30:47<1:05:51,  4.82s/it]finalising
+Testing:  67% 1635/2454 [2:30:52<1:03:33,  4.66s/it]finalising
+Testing:  67% 1636/2454 [2:30:58<1:11:44,  5.26s/it]finalising
+Testing:  67% 1637/2454 [2:31:02<1:07:04,  4.93s/it]finalising
+Testing:  67% 1638/2454 [2:31:07<1:04:56,  4.78s/it]finalising
+Testing:  67% 1639/2454 [2:31:18<1:30:59,  6.70s/it]finalising
+Testing:  67% 1640/2454 [2:31:22<1:22:01,  6.05s/it]finalising
+Testing:  67% 1641/2454 [2:31:27<1:13:50,  5.45s/it]finalising
+Testing:  67% 1642/2454 [2:31:31<1:11:28,  5.28s/it]finalising
+Testing:  67% 1643/2454 [2:31:37<1:10:59,  5.25s/it]finalising
+Testing:  67% 1644/2454 [2:31:43<1:14:42,  5.53s/it]finalising
+Testing:  67% 1645/2454 [2:31:57<1:48:54,  8.08s/it]finalising
+Testing:  67% 1646/2454 [2:32:05<1:47:43,  8.00s/it]finalising
+Testing:  67% 1647/2454 [2:32:07<1:25:29,  6.36s/it]finalising
+Testing:  67% 1648/2454 [2:32:11<1:16:15,  5.68s/it]finalising
+Testing:  67% 1649/2454 [2:32:14<1:02:32,  4.66s/it]finalising
+Testing:  67% 1650/2454 [2:32:20<1:08:20,  5.10s/it]finalising
+Testing:  67% 1651/2454 [2:32:23<1:01:05,  4.56s/it]finalising
+Testing:  67% 1652/2454 [2:32:28<1:01:06,  4.57s/it]finalising
+Testing:  67% 1653/2454 [2:32:33<1:02:27,  4.68s/it]finalising
+Testing:  67% 1654/2454 [2:32:38<1:05:01,  4.88s/it]finalising
+Testing:  67% 1655/2454 [2:32:45<1:13:31,  5.52s/it]finalising
+Testing:  67% 1656/2454 [2:32:49<1:09:50,  5.25s/it]finalising
+Testing:  68% 1657/2454 [2:32:55<1:08:51,  5.18s/it]finalising
+Testing:  68% 1658/2454 [2:32:57<59:26,  4.48s/it]  finalising
+Testing:  68% 1659/2454 [2:33:01<54:46,  4.13s/it]  finalising
+Testing:  68% 1660/2454 [2:33:07<1:02:54,  4.75s/it]finalising
+Testing:  68% 1661/2454 [2:33:14<1:11:10,  5.39s/it]finalising
+Testing:  68% 1662/2454 [2:33:18<1:06:46,  5.06s/it]finalising
+Testing:  68% 1663/2454 [2:33:22<1:01:55,  4.70s/it]finalising
+Testing:  68% 1664/2454 [2:33:25<57:12,  4.35s/it]  finalising
+Testing:  68% 1665/2454 [2:33:30<58:40,  4.46s/it]  finalising
+Testing:  68% 1666/2454 [2:33:36<1:04:53,  4.94s/it]finalising
+Testing:  68% 1667/2454 [2:33:43<1:13:41,  5.62s/it]finalising
+Testing:  68% 1668/2454 [2:33:48<1:08:42,  5.24s/it]finalising
+Testing:  68% 1669/2454 [2:33:57<1:22:43,  6.32s/it]finalising
+Testing:  68% 1670/2454 [2:34:01<1:16:33,  5.86s/it]finalising
+Testing:  68% 1671/2454 [2:34:07<1:14:27,  5.71s/it]finalising
+Testing:  68% 1672/2454 [2:34:12<1:12:30,  5.56s/it]finalising
+Testing:  68% 1673/2454 [2:34:17<1:11:38,  5.50s/it]finalising
+Testing:  68% 1674/2454 [2:34:26<1:24:58,  6.54s/it]finalising
+Testing:  68% 1675/2454 [2:34:31<1:18:33,  6.05s/it]finalising
+Testing:  68% 1676/2454 [2:34:34<1:04:00,  4.94s/it]finalising
+Testing:  68% 1677/2454 [2:34:38<1:03:10,  4.88s/it]finalising
+Testing:  68% 1678/2454 [2:34:45<1:08:28,  5.29s/it]finalising
+Testing:  68% 1679/2454 [2:34:52<1:18:03,  6.04s/it]finalising
+Testing:  68% 1680/2454 [2:34:58<1:16:56,  5.96s/it]finalising
+Testing:  69% 1681/2454 [2:35:03<1:13:37,  5.72s/it]finalising
+Testing:  69% 1682/2454 [2:35:06<1:02:08,  4.83s/it]finalising
+Testing:  69% 1683/2454 [2:35:12<1:07:47,  5.28s/it]finalising
+Testing:  69% 1684/2454 [2:35:18<1:09:41,  5.43s/it]finalising
+Testing:  69% 1685/2454 [2:35:22<1:03:12,  4.93s/it]finalising
+Testing:  69% 1686/2454 [2:35:36<1:39:29,  7.77s/it]finalising
+Testing:  69% 1687/2454 [2:35:41<1:26:57,  6.80s/it]finalising
+Testing:  69% 1688/2454 [2:35:44<1:12:13,  5.66s/it]finalising
+Testing:  69% 1689/2454 [2:35:46<59:25,  4.66s/it]  finalising
+Testing:  69% 1690/2454 [2:35:50<55:17,  4.34s/it]  finalising
+Testing:  69% 1691/2454 [2:35:54<55:35,  4.37s/it]  finalising
+Testing:  69% 1692/2454 [2:36:05<1:18:12,  6.16s/it]finalising
+Testing:  69% 1693/2454 [2:36:14<1:30:45,  7.16s/it]finalising
+Testing:  69% 1694/2454 [2:36:21<1:30:58,  7.18s/it]finalising
+Testing:  69% 1695/2454 [2:36:26<1:22:41,  6.54s/it]finalising
+Testing:  69% 1696/2454 [2:36:34<1:26:18,  6.83s/it]finalising
+Testing:  69% 1697/2454 [2:36:40<1:25:08,  6.75s/it]finalising
+Testing:  69% 1698/2454 [2:36:55<1:53:30,  9.01s/it]finalising
+Testing:  69% 1699/2454 [2:36:57<1:28:22,  7.02s/it]finalising
+Testing:  69% 1700/2454 [2:36:59<1:08:26,  5.45s/it]finalising
+Testing:  69% 1701/2454 [2:37:04<1:08:47,  5.48s/it]finalising
+Testing:  69% 1702/2454 [2:37:06<55:38,  4.44s/it]  finalising
+Testing:  69% 1703/2454 [2:37:13<1:02:10,  4.97s/it]finalising
+Testing:  69% 1704/2454 [2:37:16<57:54,  4.63s/it]  finalising
+Testing:  69% 1705/2454 [2:37:19<49:05,  3.93s/it]  finalising
+Testing:  70% 1706/2454 [2:37:21<44:16,  3.55s/it]  finalising
+Testing:  70% 1707/2454 [2:37:30<1:01:57,  4.98s/it]finalising
+Testing:  70% 1708/2454 [2:37:34<59:15,  4.77s/it]  finalising
+Testing:  70% 1709/2454 [2:37:37<51:04,  4.11s/it]  finalising
+Testing:  70% 1710/2454 [2:37:39<45:14,  3.65s/it]  finalising
+Testing:  70% 1711/2454 [2:37:44<49:59,  4.04s/it]  finalising
+Testing:  70% 1712/2454 [2:37:50<58:06,  4.70s/it]  finalising
+Testing:  70% 1713/2454 [2:38:02<1:22:44,  6.70s/it]finalising
+Testing:  70% 1714/2454 [2:38:10<1:27:59,  7.13s/it]finalising
+Testing:  70% 1715/2454 [2:38:13<1:14:24,  6.04s/it]finalising
+Testing:  70% 1716/2454 [2:38:18<1:09:12,  5.63s/it]finalising
+Testing:  70% 1717/2454 [2:38:25<1:16:08,  6.20s/it]finalising
+Testing:  70% 1718/2454 [2:38:29<1:07:23,  5.49s/it]finalising
+Testing:  70% 1719/2454 [2:38:33<1:00:09,  4.91s/it]finalising
+Testing:  70% 1720/2454 [2:38:37<57:52,  4.73s/it]  finalising
+Testing:  70% 1721/2454 [2:38:41<54:59,  4.50s/it]  finalising
+Testing:  70% 1722/2454 [2:38:51<1:15:28,  6.19s/it]finalising
+Testing:  70% 1723/2454 [2:39:02<1:30:59,  7.47s/it]finalising
+Testing:  70% 1724/2454 [2:39:07<1:21:03,  6.66s/it]finalising
+Testing:  70% 1725/2454 [2:39:15<1:27:53,  7.23s/it]finalising
+Testing:  70% 1726/2454 [2:39:20<1:20:10,  6.61s/it]finalising
+Testing:  70% 1727/2454 [2:39:25<1:11:40,  5.91s/it]finalising
+Testing:  70% 1728/2454 [2:39:33<1:22:06,  6.79s/it]finalising
+Testing:  70% 1729/2454 [2:39:37<1:08:54,  5.70s/it]finalising
+Testing:  70% 1730/2454 [2:39:39<57:58,  4.80s/it]  finalising
+Testing:  71% 1731/2454 [2:39:45<1:00:55,  5.06s/it]finalising
+Testing:  71% 1732/2454 [2:39:51<1:05:56,  5.48s/it]finalising
+Testing:  71% 1733/2454 [2:40:06<1:38:06,  8.16s/it]finalising
+Testing:  71% 1734/2454 [2:40:09<1:20:32,  6.71s/it]finalising
+Testing:  71% 1735/2454 [2:40:14<1:14:07,  6.19s/it]finalising
+Testing:  71% 1736/2454 [2:40:21<1:15:32,  6.31s/it]finalising
+Testing:  71% 1737/2454 [2:40:29<1:24:12,  7.05s/it]finalising
+Testing:  71% 1738/2454 [2:40:35<1:17:30,  6.50s/it]finalising
+Testing:  71% 1739/2454 [2:40:40<1:11:34,  6.01s/it]finalising
+Testing:  71% 1740/2454 [2:40:53<1:39:39,  8.37s/it]finalising
+Testing:  71% 1741/2454 [2:41:04<1:46:27,  8.96s/it]finalising
+Testing:  71% 1742/2454 [2:41:07<1:27:30,  7.37s/it]finalising
+Testing:  71% 1743/2454 [2:41:13<1:20:14,  6.77s/it]finalising
+Testing:  71% 1744/2454 [2:41:16<1:07:19,  5.69s/it]finalising
+Testing:  71% 1745/2454 [2:41:22<1:09:47,  5.91s/it]finalising
+Testing:  71% 1746/2454 [2:41:30<1:15:15,  6.38s/it]finalising
+Testing:  71% 1747/2454 [2:41:36<1:14:04,  6.29s/it]finalising
+Testing:  71% 1748/2454 [2:41:43<1:15:08,  6.39s/it]finalising
+Testing:  71% 1749/2454 [2:41:51<1:24:06,  7.16s/it]finalising
+Testing:  71% 1750/2454 [2:41:55<1:11:18,  6.08s/it]finalising
+Testing:  71% 1751/2454 [2:42:01<1:11:57,  6.14s/it]finalising
+Testing:  71% 1752/2454 [2:42:08<1:12:37,  6.21s/it]finalising
+Testing:  71% 1753/2454 [2:42:10<58:55,  5.04s/it]  finalising
+Testing:  71% 1754/2454 [2:42:13<51:30,  4.42s/it]  finalising
+Testing:  72% 1755/2454 [2:42:26<1:20:40,  6.92s/it]finalising
+Testing:  72% 1756/2454 [2:42:37<1:36:22,  8.28s/it]finalising
+Testing:  72% 1757/2454 [2:42:41<1:21:20,  7.00s/it]finalising
+Testing:  72% 1758/2454 [2:42:53<1:37:04,  8.37s/it]finalising
+Testing:  72% 1759/2454 [2:42:55<1:13:57,  6.39s/it]finalising
+Testing:  72% 1760/2454 [2:42:59<1:05:43,  5.68s/it]finalising
+Testing:  72% 1761/2454 [2:43:08<1:17:16,  6.69s/it]finalising
+Testing:  72% 1762/2454 [2:43:13<1:14:06,  6.43s/it]finalising
+Testing:  72% 1763/2454 [2:43:17<1:05:16,  5.67s/it]finalising
+Testing:  72% 1764/2454 [2:43:24<1:08:24,  5.95s/it]finalising
+Testing:  72% 1765/2454 [2:43:30<1:07:05,  5.84s/it]finalising
+Testing:  72% 1766/2454 [2:43:35<1:06:48,  5.83s/it]finalising
+Testing:  72% 1767/2454 [2:43:40<1:01:15,  5.35s/it]finalising
+Testing:  72% 1768/2454 [2:43:43<55:21,  4.84s/it]  finalising
+Testing:  72% 1769/2454 [2:43:46<48:24,  4.24s/it]  finalising
+Testing:  72% 1770/2454 [2:43:57<1:10:11,  6.16s/it]finalising
+Testing:  72% 1771/2454 [2:44:05<1:18:13,  6.87s/it]finalising
+Testing:  72% 1772/2454 [2:44:18<1:38:32,  8.67s/it]finalising
+Testing:  72% 1773/2454 [2:44:22<1:23:45,  7.38s/it]finalising
+Testing:  72% 1774/2454 [2:44:32<1:30:59,  8.03s/it]finalising
+Testing:  72% 1775/2454 [2:44:36<1:16:38,  6.77s/it]finalising
+Testing:  72% 1776/2454 [2:44:41<1:10:05,  6.20s/it]finalising
+Testing:  72% 1777/2454 [2:44:46<1:08:22,  6.06s/it]finalising
+Testing:  72% 1778/2454 [2:44:56<1:19:18,  7.04s/it]finalising
+Testing:  72% 1779/2454 [2:45:04<1:22:13,  7.31s/it]finalising
+Testing:  73% 1780/2454 [2:45:16<1:38:06,  8.73s/it]finalising
+Testing:  73% 1781/2454 [2:45:19<1:18:20,  6.98s/it]finalising
+Testing:  73% 1782/2454 [2:45:25<1:14:54,  6.69s/it]finalising
+Testing:  73% 1783/2454 [2:45:33<1:19:11,  7.08s/it]finalising
+Testing:  73% 1784/2454 [2:45:39<1:15:14,  6.74s/it]finalising
+Testing:  73% 1785/2454 [2:45:45<1:15:07,  6.74s/it]finalising
+Testing:  73% 1786/2454 [2:45:48<1:00:33,  5.44s/it]finalising
+Testing:  73% 1787/2454 [2:45:50<49:03,  4.41s/it]  finalising
+Testing:  73% 1788/2454 [2:45:55<50:21,  4.54s/it]  finalising
+Testing:  73% 1789/2454 [2:46:03<1:02:02,  5.60s/it]finalising
+Testing:  73% 1790/2454 [2:46:06<55:31,  5.02s/it]  finalising
+Testing:  73% 1791/2454 [2:46:10<49:33,  4.49s/it]  finalising
+Testing:  73% 1792/2454 [2:46:16<56:18,  5.10s/it]  finalising
+Testing:  73% 1793/2454 [2:46:21<57:01,  5.18s/it]  finalising
+Testing:  73% 1794/2454 [2:46:24<47:57,  4.36s/it]  finalising
+Testing:  73% 1795/2454 [2:46:29<49:58,  4.55s/it]  finalising
+Testing:  73% 1796/2454 [2:46:32<45:46,  4.17s/it]  finalising
+Testing:  73% 1797/2454 [2:46:37<47:39,  4.35s/it]  finalising
+Testing:  73% 1798/2454 [2:46:42<49:57,  4.57s/it]  finalising
+Testing:  73% 1799/2454 [2:46:46<47:13,  4.33s/it]  finalising
+Testing:  73% 1800/2454 [2:46:51<49:20,  4.53s/it]  finalising
+Testing:  73% 1801/2454 [2:46:55<49:21,  4.54s/it]  finalising
+Testing:  73% 1802/2454 [2:47:00<50:46,  4.67s/it]  finalising
+Testing:  73% 1803/2454 [2:47:07<55:41,  5.13s/it]  finalising
+Testing:  74% 1804/2454 [2:47:13<59:52,  5.53s/it]  finalising
+Testing:  74% 1805/2454 [2:47:21<1:09:12,  6.40s/it]finalising
+Testing:  74% 1806/2454 [2:47:32<1:21:06,  7.51s/it]finalising
+Testing:  74% 1807/2454 [2:47:40<1:24:24,  7.83s/it]finalising
+Testing:  74% 1808/2454 [2:47:47<1:21:06,  7.53s/it]finalising
+Testing:  74% 1809/2454 [2:47:55<1:23:39,  7.78s/it]finalising
+Testing:  74% 1810/2454 [2:48:00<1:13:28,  6.85s/it]finalising
+Testing:  74% 1811/2454 [2:48:05<1:07:20,  6.28s/it]finalising
+Testing:  74% 1812/2454 [2:48:08<58:08,  5.43s/it]  finalising
+Testing:  74% 1813/2454 [2:48:12<52:57,  4.96s/it]  finalising
+Testing:  74% 1814/2454 [2:48:19<58:24,  5.48s/it]  finalising
+Testing:  74% 1815/2454 [2:48:25<1:00:30,  5.68s/it]finalising
+Testing:  74% 1816/2454 [2:48:28<52:17,  4.92s/it]  finalising
+Testing:  74% 1817/2454 [2:48:34<54:30,  5.13s/it]  finalising
+Testing:  74% 1818/2454 [2:48:40<57:44,  5.45s/it]  finalising
+Testing:  74% 1819/2454 [2:48:44<52:38,  4.97s/it]  finalising
+Testing:  74% 1820/2454 [2:48:47<46:00,  4.35s/it]  finalising
+Testing:  74% 1821/2454 [2:48:57<1:05:08,  6.18s/it]finalising
+Testing:  74% 1822/2454 [2:49:06<1:14:11,  7.04s/it]finalising
+Testing:  74% 1823/2454 [2:49:13<1:14:04,  7.04s/it]finalising
+Testing:  74% 1824/2454 [2:49:16<58:38,  5.59s/it]  finalising
+Testing:  74% 1825/2454 [2:49:22<1:02:54,  6.00s/it]finalising
+Testing:  74% 1826/2454 [2:49:27<59:04,  5.64s/it]  finalising
+Testing:  74% 1827/2454 [2:49:34<1:01:56,  5.93s/it]finalising
+Testing:  74% 1828/2454 [2:49:36<50:58,  4.89s/it]  finalising
+Testing:  75% 1829/2454 [2:49:42<54:42,  5.25s/it]  finalising
+Testing:  75% 1830/2454 [2:49:47<51:10,  4.92s/it]  finalising
+Testing:  75% 1831/2454 [2:49:52<52:41,  5.07s/it]  finalising
+Testing:  75% 1832/2454 [2:50:02<1:08:47,  6.64s/it]finalising
+Testing:  75% 1833/2454 [2:50:05<56:01,  5.41s/it]  finalising
+Testing:  75% 1834/2454 [2:50:09<50:27,  4.88s/it]  finalising
+Testing:  75% 1835/2454 [2:50:12<44:41,  4.33s/it]  finalising
+Testing:  75% 1836/2454 [2:50:23<1:05:34,  6.37s/it]finalising
+Testing:  75% 1837/2454 [2:50:29<1:05:29,  6.37s/it]finalising
+Testing:  75% 1838/2454 [2:50:32<55:04,  5.36s/it]  finalising
+Testing:  75% 1839/2454 [2:50:36<50:22,  4.91s/it]  finalising
+Testing:  75% 1840/2454 [2:50:46<1:07:10,  6.57s/it]finalising
+Testing:  75% 1841/2454 [2:50:51<1:00:15,  5.90s/it]finalising
+Testing:  75% 1842/2454 [2:50:57<1:01:23,  6.02s/it]finalising
+Testing:  75% 1843/2454 [2:51:02<57:30,  5.65s/it]  finalising
+Testing:  75% 1844/2454 [2:51:05<51:17,  5.05s/it]  finalising
+Testing:  75% 1845/2454 [2:51:12<55:07,  5.43s/it]  finalising
+Testing:  75% 1846/2454 [2:51:20<1:04:32,  6.37s/it]finalising
+Testing:  75% 1847/2454 [2:51:24<56:13,  5.56s/it]  finalising
+Testing:  75% 1848/2454 [2:51:28<52:36,  5.21s/it]  finalising
+Testing:  75% 1849/2454 [2:51:37<1:02:35,  6.21s/it]finalising
+Testing:  75% 1850/2454 [2:51:41<55:04,  5.47s/it]  finalising
+Testing:  75% 1851/2454 [2:51:49<1:02:14,  6.19s/it]finalising
+Testing:  75% 1852/2454 [2:51:53<55:27,  5.53s/it]  finalising
+Testing:  76% 1853/2454 [2:51:59<57:58,  5.79s/it]  finalising
+Testing:  76% 1854/2454 [2:52:03<51:35,  5.16s/it]  finalising
+Testing:  76% 1855/2454 [2:52:07<49:18,  4.94s/it]  finalising
+Testing:  76% 1856/2454 [2:52:11<46:28,  4.66s/it]  finalising
+Testing:  76% 1857/2454 [2:52:14<41:36,  4.18s/it]  finalising
+Testing:  76% 1858/2454 [2:52:17<38:20,  3.86s/it]  finalising
+Testing:  76% 1859/2454 [2:52:20<35:27,  3.58s/it]  finalising
+Testing:  76% 1860/2454 [2:52:23<34:18,  3.46s/it]  finalising
+Testing:  76% 1861/2454 [2:52:29<41:59,  4.25s/it]  finalising
+Testing:  76% 1862/2454 [2:52:34<44:16,  4.49s/it]  finalising
+Testing:  76% 1863/2454 [2:52:40<46:00,  4.67s/it]  finalising
+Testing:  76% 1864/2454 [2:52:54<1:14:12,  7.55s/it]finalising
+Testing:  76% 1865/2454 [2:52:58<1:04:13,  6.54s/it]finalising
+Testing:  76% 1866/2454 [2:53:03<1:00:03,  6.13s/it]finalising
+Testing:  76% 1867/2454 [2:53:10<1:01:18,  6.27s/it]finalising
+Testing:  76% 1868/2454 [2:53:15<57:58,  5.94s/it]  finalising
+Testing:  76% 1869/2454 [2:53:22<1:01:33,  6.31s/it]finalising
+Testing:  76% 1870/2454 [2:53:25<52:18,  5.37s/it]  finalising
+Testing:  76% 1871/2454 [2:53:29<47:57,  4.94s/it]  finalising
+Testing:  76% 1872/2454 [2:53:33<43:30,  4.48s/it]  finalising
+Testing:  76% 1873/2454 [2:53:43<59:20,  6.13s/it]  finalising
+Testing:  76% 1874/2454 [2:53:47<52:52,  5.47s/it]  finalising
+Testing:  76% 1875/2454 [2:53:50<48:11,  4.99s/it]  finalising
+Testing:  76% 1876/2454 [2:53:57<52:06,  5.41s/it]  finalising
+Testing:  76% 1877/2454 [2:54:00<46:43,  4.86s/it]  finalising
+Testing:  77% 1878/2454 [2:54:05<45:26,  4.73s/it]  finalising
+Testing:  77% 1879/2454 [2:54:11<48:31,  5.06s/it]  finalising
+Testing:  77% 1880/2454 [2:54:15<45:48,  4.79s/it]  finalising
+Testing:  77% 1881/2454 [2:54:23<54:17,  5.68s/it]  finalising
+Testing:  77% 1882/2454 [2:54:26<47:34,  4.99s/it]  finalising
+Testing:  77% 1883/2454 [2:54:29<40:41,  4.28s/it]  finalising
+Testing:  77% 1884/2454 [2:54:32<38:45,  4.08s/it]  finalising
+Testing:  77% 1885/2454 [2:54:36<38:33,  4.07s/it]  finalising
+Testing:  77% 1886/2454 [2:54:42<42:56,  4.54s/it]  finalising
+Testing:  77% 1887/2454 [2:54:44<36:15,  3.84s/it]  finalising
+Testing:  77% 1888/2454 [2:54:53<50:16,  5.33s/it]  finalising
+Testing:  77% 1889/2454 [2:54:57<47:13,  5.02s/it]  finalising
+Testing:  77% 1890/2454 [2:55:04<52:38,  5.60s/it]  finalising
+Testing:  77% 1891/2454 [2:55:08<47:36,  5.07s/it]  finalising
+Testing:  77% 1892/2454 [2:55:12<45:59,  4.91s/it]  finalising
+Testing:  77% 1893/2454 [2:55:19<49:25,  5.29s/it]  finalising
+Testing:  77% 1894/2454 [2:55:21<40:35,  4.35s/it]  finalising
+Testing:  77% 1895/2454 [2:55:29<51:58,  5.58s/it]  finalising
+Testing:  77% 1896/2454 [2:55:32<44:19,  4.77s/it]  finalising
+Testing:  77% 1897/2454 [2:55:43<1:01:01,  6.57s/it]finalising
+Testing:  77% 1898/2454 [2:55:50<1:02:39,  6.76s/it]finalising
+Testing:  77% 1899/2454 [2:55:57<1:03:59,  6.92s/it]finalising
+Testing:  77% 1900/2454 [2:56:08<1:15:07,  8.14s/it]finalising
+Testing:  77% 1901/2454 [2:56:12<1:01:34,  6.68s/it]finalising
+Testing:  78% 1902/2454 [2:56:21<1:07:52,  7.38s/it]finalising
+Testing:  78% 1903/2454 [2:56:24<56:29,  6.15s/it]  finalising
+Testing:  78% 1904/2454 [2:56:28<50:22,  5.49s/it]  finalising
+Testing:  78% 1905/2454 [2:56:32<47:31,  5.19s/it]  finalising
+Testing:  78% 1906/2454 [2:56:36<44:05,  4.83s/it]  finalising
+Testing:  78% 1907/2454 [2:56:40<41:54,  4.60s/it]  finalising
+Testing:  78% 1908/2454 [2:56:49<53:12,  5.85s/it]  finalising
+Testing:  78% 1909/2454 [2:56:52<45:18,  4.99s/it]  finalising
+Testing:  78% 1910/2454 [2:57:01<56:09,  6.19s/it]  finalising
+Testing:  78% 1911/2454 [2:57:06<53:20,  5.89s/it]  finalising
+Testing:  78% 1912/2454 [2:57:09<44:07,  4.88s/it]  finalising
+Testing:  78% 1913/2454 [2:57:17<51:24,  5.70s/it]  finalising
+Testing:  78% 1914/2454 [2:57:22<51:47,  5.75s/it]  finalising
+Testing:  78% 1915/2454 [2:57:30<55:53,  6.22s/it]  finalising
+Testing:  78% 1916/2454 [2:57:41<1:10:03,  7.81s/it]finalising
+Testing:  78% 1917/2454 [2:57:45<57:48,  6.46s/it]  finalising
+Testing:  78% 1918/2454 [2:57:49<53:26,  5.98s/it]  finalising
+Testing:  78% 1919/2454 [2:57:53<46:40,  5.23s/it]  finalising
+Testing:  78% 1920/2454 [2:58:00<52:42,  5.92s/it]  finalising
+Testing:  78% 1921/2454 [2:58:06<52:14,  5.88s/it]  finalising
+Testing:  78% 1922/2454 [2:58:12<51:29,  5.81s/it]  finalising
+Testing:  78% 1923/2454 [2:58:22<1:03:41,  7.20s/it]finalising
+Testing:  78% 1924/2454 [2:58:26<53:01,  6.00s/it]  finalising
+Testing:  78% 1925/2454 [2:58:28<44:33,  5.05s/it]  finalising
+Testing:  78% 1926/2454 [2:58:32<41:00,  4.66s/it]  finalising
+Testing:  79% 1927/2454 [2:58:35<37:26,  4.26s/it]  finalising
+Testing:  79% 1928/2454 [2:58:45<51:55,  5.92s/it]  finalising
+Testing:  79% 1929/2454 [2:58:49<47:29,  5.43s/it]  finalising
+Testing:  79% 1930/2454 [2:58:53<42:16,  4.84s/it]  finalising
+Testing:  79% 1931/2454 [2:58:56<38:01,  4.36s/it]  finalising
+Testing:  79% 1932/2454 [2:59:02<40:56,  4.71s/it]  finalising
+Testing:  79% 1933/2454 [2:59:09<46:46,  5.39s/it]  finalising
+Testing:  79% 1934/2454 [2:59:14<47:34,  5.49s/it]  finalising
+Testing:  79% 1935/2454 [2:59:18<41:30,  4.80s/it]  finalising
+Testing:  79% 1936/2454 [2:59:23<42:18,  4.90s/it]  finalising
+Testing:  79% 1937/2454 [2:59:28<42:34,  4.94s/it]  finalising
+Testing:  79% 1938/2454 [2:59:32<40:41,  4.73s/it]  finalising
+Testing:  79% 1939/2454 [2:59:38<42:43,  4.98s/it]  finalising
+Testing:  79% 1940/2454 [2:59:45<47:42,  5.57s/it]  finalising
+Testing:  79% 1941/2454 [2:59:51<48:43,  5.70s/it]  finalising
+Testing:  79% 1942/2454 [2:59:54<42:05,  4.93s/it]  finalising
+Testing:  79% 1943/2454 [2:59:58<39:12,  4.60s/it]  finalising
+Testing:  79% 1944/2454 [3:00:03<40:20,  4.75s/it]  finalising
+Testing:  79% 1945/2454 [3:00:06<38:06,  4.49s/it]  finalising
+Testing:  79% 1946/2454 [3:00:10<36:26,  4.30s/it]  finalising
+Testing:  79% 1947/2454 [3:00:22<55:22,  6.55s/it]  finalising
+Testing:  79% 1948/2454 [3:00:29<55:56,  6.63s/it]  finalising
+Testing:  79% 1949/2454 [3:00:38<1:01:54,  7.36s/it]finalising
+Testing:  79% 1950/2454 [3:00:42<53:54,  6.42s/it]  finalising
+Testing:  80% 1951/2454 [3:00:46<46:26,  5.54s/it]  finalising
+Testing:  80% 1952/2454 [3:00:51<46:51,  5.60s/it]  finalising
+Testing:  80% 1953/2454 [3:00:58<48:37,  5.82s/it]  finalising
+Testing:  80% 1954/2454 [3:01:06<55:34,  6.67s/it]  finalising
+Testing:  80% 1955/2454 [3:01:10<47:51,  5.75s/it]  finalising
+Testing:  80% 1956/2454 [3:01:15<45:59,  5.54s/it]  finalising
+Testing:  80% 1957/2454 [3:01:22<48:20,  5.84s/it]  finalising
+Testing:  80% 1958/2454 [3:01:26<44:40,  5.40s/it]  finalising
+Testing:  80% 1959/2454 [3:01:30<40:59,  4.97s/it]  finalising
+Testing:  80% 1960/2454 [3:01:33<35:28,  4.31s/it]  finalising
+Testing:  80% 1961/2454 [3:01:39<39:27,  4.80s/it]  finalising
+Testing:  80% 1962/2454 [3:01:42<34:38,  4.22s/it]  finalising
+Testing:  80% 1963/2454 [3:01:49<43:27,  5.31s/it]  finalising
+Testing:  80% 1964/2454 [3:01:54<42:07,  5.16s/it]  finalising
+Testing:  80% 1965/2454 [3:01:58<38:25,  4.71s/it]  finalising
+Testing:  80% 1966/2454 [3:02:07<48:55,  6.02s/it]  finalising
+Testing:  80% 1967/2454 [3:02:14<51:23,  6.33s/it]  finalising
+Testing:  80% 1968/2454 [3:02:18<46:13,  5.71s/it]  finalising
+Testing:  80% 1969/2454 [3:02:21<38:44,  4.79s/it]  finalising
+Testing:  80% 1970/2454 [3:02:25<36:35,  4.54s/it]  finalising
+Testing:  80% 1971/2454 [3:02:30<37:32,  4.66s/it]  finalising
+Testing:  80% 1972/2454 [3:02:37<43:37,  5.43s/it]  finalising
+Testing:  80% 1973/2454 [3:02:41<40:56,  5.11s/it]  finalising
+Testing:  80% 1974/2454 [3:02:48<44:37,  5.58s/it]  finalising
+Testing:  80% 1975/2454 [3:02:52<40:56,  5.13s/it]  finalising
+Testing:  81% 1976/2454 [3:02:59<45:41,  5.73s/it]  finalising
+Testing:  81% 1977/2454 [3:03:05<44:36,  5.61s/it]  finalising
+Testing:  81% 1978/2454 [3:03:14<54:11,  6.83s/it]  finalising
+Testing:  81% 1979/2454 [3:03:19<47:54,  6.05s/it]  finalising
+Testing:  81% 1980/2454 [3:03:27<53:13,  6.74s/it]  finalising
+Testing:  81% 1981/2454 [3:03:30<44:22,  5.63s/it]  finalising
+Testing:  81% 1982/2454 [3:03:33<37:17,  4.74s/it]  finalising
+Testing:  81% 1983/2454 [3:03:36<34:25,  4.38s/it]  finalising
+Testing:  81% 1984/2454 [3:03:41<34:55,  4.46s/it]  finalising
+Testing:  81% 1985/2454 [3:03:46<36:43,  4.70s/it]  finalising
+Testing:  81% 1986/2454 [3:03:51<36:26,  4.67s/it]  finalising
+Testing:  81% 1987/2454 [3:03:56<38:27,  4.94s/it]  finalising
+Testing:  81% 1988/2454 [3:04:10<59:44,  7.69s/it]  finalising
+Testing:  81% 1989/2454 [3:04:15<51:38,  6.66s/it]  finalising
+Testing:  81% 1990/2454 [3:04:22<54:11,  7.01s/it]  finalising
+Testing:  81% 1991/2454 [3:04:27<47:19,  6.13s/it]  finalising
+Testing:  81% 1992/2454 [3:04:31<43:36,  5.66s/it]  finalising
+Testing:  81% 1993/2454 [3:04:34<37:55,  4.94s/it]  finalising
+Testing:  81% 1994/2454 [3:04:41<42:25,  5.53s/it]  finalising
+Testing:  81% 1995/2454 [3:04:44<35:57,  4.70s/it]  finalising
+Testing:  81% 1996/2454 [3:04:48<34:01,  4.46s/it]  finalising
+Testing:  81% 1997/2454 [3:04:54<36:56,  4.85s/it]  finalising
+Testing:  81% 1998/2454 [3:04:59<37:40,  4.96s/it]  finalising
+Testing:  81% 1999/2454 [3:05:08<47:24,  6.25s/it]  finalising
+Testing:  81% 2000/2454 [3:05:13<43:09,  5.70s/it]  finalising
+Testing:  82% 2001/2454 [3:05:17<40:41,  5.39s/it]  finalising
+Testing:  82% 2002/2454 [3:05:20<33:56,  4.51s/it]  finalising
+Testing:  82% 2003/2454 [3:05:23<30:15,  4.03s/it]  finalising
+Testing:  82% 2004/2454 [3:05:28<33:14,  4.43s/it]  finalising
+Testing:  82% 2005/2454 [3:05:35<38:25,  5.13s/it]  finalising
+Testing:  82% 2006/2454 [3:05:43<44:33,  5.97s/it]  finalising
+Testing:  82% 2007/2454 [3:05:49<46:01,  6.18s/it]  finalising
+Testing:  82% 2008/2454 [3:05:54<43:26,  5.84s/it]  finalising
+Testing:  82% 2009/2454 [3:06:00<42:47,  5.77s/it]  finalising
+Testing:  82% 2010/2454 [3:06:03<36:20,  4.91s/it]  finalising
+Testing:  82% 2011/2454 [3:06:08<37:27,  5.07s/it]  finalising
+Testing:  82% 2012/2454 [3:06:13<36:50,  5.00s/it]  finalising
+Testing:  82% 2013/2454 [3:06:18<35:31,  4.83s/it]  finalising
+Testing:  82% 2014/2454 [3:06:20<29:37,  4.04s/it]  finalising
+Testing:  82% 2015/2454 [3:06:28<39:09,  5.35s/it]  finalising
+Testing:  82% 2016/2454 [3:06:32<34:40,  4.75s/it]  finalising
+Testing:  82% 2017/2454 [3:06:35<31:10,  4.28s/it]  finalising
+Testing:  82% 2018/2454 [3:06:39<32:08,  4.42s/it]  finalising
+Testing:  82% 2019/2454 [3:06:44<31:40,  4.37s/it]  finalising
+Testing:  82% 2020/2454 [3:06:49<33:15,  4.60s/it]  finalising
+Testing:  82% 2021/2454 [3:06:53<31:46,  4.40s/it]  finalising
+Testing:  82% 2022/2454 [3:06:59<34:34,  4.80s/it]  finalising
+Testing:  82% 2023/2454 [3:07:07<41:43,  5.81s/it]  finalising
+Testing:  82% 2024/2454 [3:07:12<41:31,  5.79s/it]  finalising
+Testing:  83% 2025/2454 [3:07:15<33:22,  4.67s/it]  finalising
+Testing:  83% 2026/2454 [3:07:19<32:16,  4.53s/it]  finalising
+Testing:  83% 2027/2454 [3:07:28<41:30,  5.83s/it]  finalising
+Testing:  83% 2028/2454 [3:07:33<41:02,  5.78s/it]  finalising
+Testing:  83% 2029/2454 [3:07:37<36:43,  5.18s/it]  finalising
+Testing:  83% 2030/2454 [3:07:44<40:57,  5.80s/it]  finalising
+Testing:  83% 2031/2454 [3:07:49<39:22,  5.59s/it]  finalising
+Testing:  83% 2032/2454 [3:07:55<39:20,  5.59s/it]  finalising
+Testing:  83% 2033/2454 [3:08:01<41:08,  5.86s/it]  finalising
+Testing:  83% 2034/2454 [3:08:16<58:27,  8.35s/it]  finalising
+Testing:  83% 2035/2454 [3:08:21<51:06,  7.32s/it]  finalising
+Testing:  83% 2036/2454 [3:08:25<44:35,  6.40s/it]  finalising
+Testing:  83% 2037/2454 [3:08:29<40:30,  5.83s/it]  finalising
+Testing:  83% 2038/2454 [3:08:34<38:21,  5.53s/it]  finalising
+Testing:  83% 2039/2454 [3:08:40<39:38,  5.73s/it]  finalising
+Testing:  83% 2040/2454 [3:08:45<38:10,  5.53s/it]  finalising
+Testing:  83% 2041/2454 [3:08:49<34:03,  4.95s/it]  finalising
+Testing:  83% 2042/2454 [3:08:55<35:37,  5.19s/it]  finalising
+Testing:  83% 2043/2454 [3:08:59<32:40,  4.77s/it]  finalising
+Testing:  83% 2044/2454 [3:09:09<43:24,  6.35s/it]  finalising
+Testing:  83% 2045/2454 [3:09:14<42:27,  6.23s/it]  finalising
+Testing:  83% 2046/2454 [3:09:22<44:00,  6.47s/it]  finalising
+Testing:  83% 2047/2454 [3:09:24<36:24,  5.37s/it]  finalising
+Testing:  83% 2048/2454 [3:09:31<39:15,  5.80s/it]  finalising
+Testing:  83% 2049/2454 [3:09:37<39:26,  5.84s/it]  finalising
+Testing:  84% 2050/2454 [3:09:42<37:02,  5.50s/it]  finalising
+Testing:  84% 2051/2454 [3:09:47<37:21,  5.56s/it]  finalising
+Testing:  84% 2052/2454 [3:09:51<33:47,  5.04s/it]  finalising
+Testing:  84% 2053/2454 [3:09:59<38:41,  5.79s/it]  finalising
+Testing:  84% 2054/2454 [3:10:06<41:27,  6.22s/it]  finalising
+Testing:  84% 2055/2454 [3:10:11<38:19,  5.76s/it]  finalising
+Testing:  84% 2056/2454 [3:10:16<37:44,  5.69s/it]  finalising
+Testing:  84% 2057/2454 [3:10:21<35:24,  5.35s/it]  finalising
+Testing:  84% 2058/2454 [3:10:24<31:49,  4.82s/it]  finalising
+Testing:  84% 2059/2454 [3:10:32<36:53,  5.60s/it]  finalising
+Testing:  84% 2060/2454 [3:10:38<37:12,  5.67s/it]  finalising
+Testing:  84% 2061/2454 [3:10:41<33:04,  5.05s/it]  finalising
+Testing:  84% 2062/2454 [3:10:57<53:43,  8.22s/it]  finalising
+Testing:  84% 2063/2454 [3:11:01<45:18,  6.95s/it]  finalising
+Testing:  84% 2064/2454 [3:11:06<41:23,  6.37s/it]  finalising
+Testing:  84% 2065/2454 [3:11:11<39:39,  6.12s/it]  finalising
+Testing:  84% 2066/2454 [3:11:16<36:13,  5.60s/it]  finalising
+Testing:  84% 2067/2454 [3:11:26<44:31,  6.90s/it]  finalising
+Testing:  84% 2068/2454 [3:11:31<41:57,  6.52s/it]  finalising
+Testing:  84% 2069/2454 [3:11:37<40:48,  6.36s/it]  finalising
+Testing:  84% 2070/2454 [3:11:41<34:40,  5.42s/it]  finalising
+Testing:  84% 2071/2454 [3:11:44<31:12,  4.89s/it]  finalising
+Testing:  84% 2072/2454 [3:11:48<28:56,  4.55s/it]  finalising
+Testing:  84% 2073/2454 [3:11:52<28:00,  4.41s/it]  finalising
+Testing:  85% 2074/2454 [3:12:00<35:11,  5.56s/it]  finalising
+Testing:  85% 2075/2454 [3:12:05<33:14,  5.26s/it]  finalising
+Testing:  85% 2076/2454 [3:12:07<27:15,  4.33s/it]  finalising
+Testing:  85% 2077/2454 [3:12:13<30:23,  4.84s/it]  finalising
+Testing:  85% 2078/2454 [3:12:19<32:53,  5.25s/it]  finalising
+Testing:  85% 2079/2454 [3:12:28<38:22,  6.14s/it]  finalising
+Testing:  85% 2080/2454 [3:12:32<34:55,  5.60s/it]  finalising
+Testing:  85% 2081/2454 [3:12:38<35:31,  5.71s/it]  finalising
+Testing:  85% 2082/2454 [3:12:42<32:00,  5.16s/it]  finalising
+Testing:  85% 2083/2454 [3:12:45<28:32,  4.61s/it]  finalising
+Testing:  85% 2084/2454 [3:12:55<38:24,  6.23s/it]  finalising
+Testing:  85% 2085/2454 [3:13:04<43:24,  7.06s/it]  finalising
+Testing:  85% 2086/2454 [3:13:10<40:34,  6.61s/it]  finalising
+Testing:  85% 2087/2454 [3:13:14<36:51,  6.02s/it]  finalising
+Testing:  85% 2088/2454 [3:13:27<49:23,  8.10s/it]  finalising
+Testing:  85% 2089/2454 [3:13:31<42:03,  6.91s/it]  finalising
+Testing:  85% 2090/2454 [3:13:37<40:24,  6.66s/it]  finalising
+Testing:  85% 2091/2454 [3:13:42<36:26,  6.02s/it]  finalising
+Testing:  85% 2092/2454 [3:13:45<30:33,  5.06s/it]  finalising
+Testing:  85% 2093/2454 [3:13:50<30:50,  5.13s/it]  finalising
+Testing:  85% 2094/2454 [3:13:55<29:58,  5.00s/it]  finalising
+Testing:  85% 2095/2454 [3:13:57<25:13,  4.22s/it]  finalising
+Testing:  85% 2096/2454 [3:14:04<30:14,  5.07s/it]  finalising
+Testing:  85% 2097/2454 [3:14:09<28:47,  4.84s/it]  finalising
+Testing:  85% 2098/2454 [3:14:11<24:22,  4.11s/it]  finalising
+Testing:  86% 2099/2454 [3:14:15<24:56,  4.21s/it]  finalising
+Testing:  86% 2100/2454 [3:14:19<24:03,  4.08s/it]  finalising
+Testing:  86% 2101/2454 [3:14:23<23:15,  3.95s/it]  finalising
+Testing:  86% 2102/2454 [3:14:29<26:51,  4.58s/it]  finalising
+Testing:  86% 2103/2454 [3:14:34<27:17,  4.67s/it]  finalising
+Testing:  86% 2104/2454 [3:14:37<24:22,  4.18s/it]  finalising
+Testing:  86% 2105/2454 [3:14:43<27:40,  4.76s/it]  finalising
+Testing:  86% 2106/2454 [3:14:50<31:11,  5.38s/it]  finalising
+Testing:  86% 2107/2454 [3:14:55<30:46,  5.32s/it]  finalising
+Testing:  86% 2108/2454 [3:14:59<28:37,  4.96s/it]  finalising
+Testing:  86% 2109/2454 [3:15:02<25:05,  4.36s/it]  finalising
+Testing:  86% 2110/2454 [3:15:10<31:08,  5.43s/it]  finalising
+Testing:  86% 2111/2454 [3:15:18<35:21,  6.18s/it]  finalising
+Testing:  86% 2112/2454 [3:15:21<30:09,  5.29s/it]  finalising
+Testing:  86% 2113/2454 [3:15:26<28:44,  5.06s/it]  finalising
+Testing:  86% 2114/2454 [3:15:30<28:14,  4.98s/it]  finalising
+Testing:  86% 2115/2454 [3:15:37<30:08,  5.33s/it]  finalising
+Testing:  86% 2116/2454 [3:15:46<37:05,  6.58s/it]  finalising
+Testing:  86% 2117/2454 [3:15:57<44:18,  7.89s/it]  finalising
+Testing:  86% 2118/2454 [3:16:02<39:31,  7.06s/it]  finalising
+Testing:  86% 2119/2454 [3:16:08<37:02,  6.63s/it]  finalising
+Testing:  86% 2120/2454 [3:16:16<39:56,  7.17s/it]  finalising
+Testing:  86% 2121/2454 [3:16:22<36:59,  6.66s/it]  finalising
+Testing:  86% 2122/2454 [3:16:27<34:22,  6.21s/it]  finalising
+Testing:  87% 2123/2454 [3:16:32<31:56,  5.79s/it]  finalising
+Testing:  87% 2124/2454 [3:16:39<35:02,  6.37s/it]  finalising
+Testing:  87% 2125/2454 [3:16:44<32:14,  5.88s/it]  finalising
+Testing:  87% 2126/2454 [3:16:57<44:03,  8.06s/it]  finalising
+Testing:  87% 2127/2454 [3:17:01<37:27,  6.87s/it]  finalising
+Testing:  87% 2128/2454 [3:17:05<31:53,  5.87s/it]  finalising
+Testing:  87% 2129/2454 [3:17:12<33:13,  6.13s/it]  finalising
+Testing:  87% 2130/2454 [3:17:17<32:24,  6.00s/it]  finalising
+Testing:  87% 2131/2454 [3:17:28<39:56,  7.42s/it]  finalising
+Testing:  87% 2132/2454 [3:17:37<41:38,  7.76s/it]  finalising
+Testing:  87% 2133/2454 [3:17:48<47:44,  8.92s/it]  finalising
+Testing:  87% 2134/2454 [3:17:52<39:44,  7.45s/it]  finalising
+Testing:  87% 2135/2454 [3:17:58<36:52,  6.94s/it]  finalising
+Testing:  87% 2136/2454 [3:18:02<32:44,  6.18s/it]  finalising
+Testing:  87% 2137/2454 [3:18:07<29:29,  5.58s/it]  finalising
+Testing:  87% 2138/2454 [3:18:12<28:29,  5.41s/it]  finalising
+Testing:  87% 2139/2454 [3:18:18<30:28,  5.80s/it]  finalising
+Testing:  87% 2140/2454 [3:18:29<38:06,  7.28s/it]  finalising
+Testing:  87% 2141/2454 [3:18:36<38:20,  7.35s/it]  finalising
+Testing:  87% 2142/2454 [3:18:51<48:51,  9.39s/it]  finalising
+Testing:  87% 2143/2454 [3:19:02<51:27,  9.93s/it]  finalising
+Testing:  87% 2144/2454 [3:19:07<43:33,  8.43s/it]  finalising
+Testing:  87% 2145/2454 [3:19:10<35:58,  6.98s/it]  finalising
+Testing:  87% 2146/2454 [3:19:15<32:44,  6.38s/it]  finalising
+Testing:  87% 2147/2454 [3:19:18<26:58,  5.27s/it]  finalising
+Testing:  88% 2148/2454 [3:19:24<27:44,  5.44s/it]  finalising
+Testing:  88% 2149/2454 [3:19:34<34:05,  6.71s/it]  finalising
+Testing:  88% 2150/2454 [3:19:37<29:08,  5.75s/it]  finalising
+Testing:  88% 2151/2454 [3:19:45<32:29,  6.43s/it]  finalising
+Testing:  88% 2152/2454 [3:19:48<26:28,  5.26s/it]  finalising
+Testing:  88% 2153/2454 [3:19:51<23:01,  4.59s/it]  finalising
+Testing:  88% 2154/2454 [3:19:54<21:06,  4.22s/it]  finalising
+Testing:  88% 2155/2454 [3:20:03<28:37,  5.75s/it]  finalising
+Testing:  88% 2156/2454 [3:20:12<32:26,  6.53s/it]  finalising
+Testing:  88% 2157/2454 [3:20:23<39:30,  7.98s/it]  finalising
+Testing:  88% 2158/2454 [3:20:28<35:40,  7.23s/it]  finalising
+Testing:  88% 2159/2454 [3:20:34<32:52,  6.69s/it]  finalising
+Testing:  88% 2160/2454 [3:20:37<27:09,  5.54s/it]  finalising
+Testing:  88% 2161/2454 [3:20:40<23:26,  4.80s/it]  finalising
+Testing:  88% 2162/2454 [3:20:44<22:14,  4.57s/it]  finalising
+Testing:  88% 2163/2454 [3:20:53<28:47,  5.94s/it]  finalising
+Testing:  88% 2164/2454 [3:20:55<23:41,  4.90s/it]  finalising
+Testing:  88% 2165/2454 [3:21:08<35:03,  7.28s/it]  finalising
+Testing:  88% 2166/2454 [3:21:19<39:55,  8.32s/it]  finalising
+Testing:  88% 2167/2454 [3:21:26<37:18,  7.80s/it]  finalising
+Testing:  88% 2168/2454 [3:21:31<33:39,  7.06s/it]  finalising
+Testing:  88% 2169/2454 [3:21:41<38:08,  8.03s/it]  finalising
+Testing:  88% 2170/2454 [3:21:45<31:28,  6.65s/it]  finalising
+Testing:  88% 2171/2454 [3:21:52<32:26,  6.88s/it]  finalising
+Testing:  89% 2172/2454 [3:22:02<36:12,  7.70s/it]  finalising
+Testing:  89% 2173/2454 [3:22:16<44:48,  9.57s/it]  finalising
+Testing:  89% 2174/2454 [3:22:21<38:23,  8.23s/it]  finalising
+Testing:  89% 2175/2454 [3:22:25<32:02,  6.89s/it]  finalising
+Testing:  89% 2176/2454 [3:22:28<27:48,  6.00s/it]  finalising
+Testing:  89% 2177/2454 [3:22:32<24:10,  5.24s/it]  finalising
+Testing:  89% 2178/2454 [3:22:37<23:55,  5.20s/it]  finalising
+Testing:  89% 2179/2454 [3:22:42<23:17,  5.08s/it]  finalising
+Testing:  89% 2180/2454 [3:22:45<19:59,  4.38s/it]  finalising
+Testing:  89% 2181/2454 [3:22:54<26:26,  5.81s/it]  finalising
+Testing:  89% 2182/2454 [3:23:01<28:48,  6.36s/it]  finalising
+Testing:  89% 2183/2454 [3:23:10<31:10,  6.90s/it]  finalising
+Testing:  89% 2184/2454 [3:23:14<27:50,  6.19s/it]  finalising
+Testing:  89% 2185/2454 [3:23:19<26:02,  5.81s/it]  finalising
+Testing:  89% 2186/2454 [3:23:22<22:37,  5.07s/it]  finalising
+Testing:  89% 2187/2454 [3:23:26<20:50,  4.68s/it]  finalising
+Testing:  89% 2188/2454 [3:23:38<29:49,  6.73s/it]  finalising
+Testing:  89% 2189/2454 [3:23:42<26:35,  6.02s/it]  finalising
+Testing:  89% 2190/2454 [3:23:47<24:50,  5.64s/it]  finalising
+Testing:  89% 2191/2454 [3:23:49<20:26,  4.67s/it]  finalising
+Testing:  89% 2192/2454 [3:23:57<24:56,  5.71s/it]  finalising
+Testing:  89% 2193/2454 [3:24:00<21:34,  4.96s/it]  finalising
+Testing:  89% 2194/2454 [3:24:03<17:51,  4.12s/it]  finalising
+Testing:  89% 2195/2454 [3:24:09<20:11,  4.68s/it]  finalising
+Testing:  89% 2196/2454 [3:24:16<23:30,  5.47s/it]  finalising
+Testing:  90% 2197/2454 [3:24:19<20:42,  4.83s/it]  finalising
+Testing:  90% 2198/2454 [3:24:25<22:01,  5.16s/it]  finalising
+Testing:  90% 2199/2454 [3:24:38<31:31,  7.42s/it]  finalising
+Testing:  90% 2200/2454 [3:24:46<32:46,  7.74s/it]  finalising
+Testing:  90% 2201/2454 [3:24:51<28:33,  6.77s/it]  finalising
+Testing:  90% 2202/2454 [3:25:00<31:52,  7.59s/it]  finalising
+Testing:  90% 2203/2454 [3:25:11<35:08,  8.40s/it]  finalising
+Testing:  90% 2204/2454 [3:25:15<29:35,  7.10s/it]  finalising
+Testing:  90% 2205/2454 [3:25:20<26:45,  6.45s/it]  finalising
+Testing:  90% 2206/2454 [3:25:23<23:19,  5.64s/it]  finalising
+Testing:  90% 2207/2454 [3:25:29<22:49,  5.54s/it]  finalising
+Testing:  90% 2208/2454 [3:25:32<19:21,  4.72s/it]  finalising
+Testing:  90% 2209/2454 [3:25:38<20:51,  5.11s/it]  finalising
+Testing:  90% 2210/2454 [3:25:44<22:46,  5.60s/it]  finalising
+Testing:  90% 2211/2454 [3:25:48<20:23,  5.03s/it]  finalising
+Testing:  90% 2212/2454 [3:25:51<17:55,  4.44s/it]  finalising
+Testing:  90% 2213/2454 [3:25:59<21:29,  5.35s/it]  finalising
+Testing:  90% 2214/2454 [3:26:03<20:16,  5.07s/it]  finalising
+Testing:  90% 2215/2454 [3:26:08<19:34,  4.92s/it]  finalising
+Testing:  90% 2216/2454 [3:26:12<19:29,  4.92s/it]  finalising
+Testing:  90% 2217/2454 [3:26:17<18:58,  4.80s/it]  finalising
+Testing:  90% 2218/2454 [3:26:26<23:50,  6.06s/it]  finalising
+Testing:  90% 2219/2454 [3:26:31<22:11,  5.67s/it]  finalising
+Testing:  90% 2220/2454 [3:26:35<20:42,  5.31s/it]  finalising
+Testing:  91% 2221/2454 [3:26:40<19:58,  5.15s/it]  finalising
+Testing:  91% 2222/2454 [3:26:44<18:54,  4.89s/it]  finalising
+Testing:  91% 2223/2454 [3:26:49<18:13,  4.73s/it]  finalising
+Testing:  91% 2224/2454 [3:26:54<18:17,  4.77s/it]  finalising
+Testing:  91% 2225/2454 [3:26:59<18:35,  4.87s/it]  finalising
+Testing:  91% 2226/2454 [3:27:06<21:23,  5.63s/it]  finalising
+Testing:  91% 2227/2454 [3:27:11<20:24,  5.40s/it]  finalising
+Testing:  91% 2228/2454 [3:27:13<16:16,  4.32s/it]  finalising
+Testing:  91% 2229/2454 [3:27:16<14:46,  3.94s/it]  finalising
+Testing:  91% 2230/2454 [3:27:20<14:58,  4.01s/it]  finalising
+Testing:  91% 2231/2454 [3:27:22<12:16,  3.30s/it]  finalising
+Testing:  91% 2232/2454 [3:27:25<12:40,  3.43s/it]  finalising
+Testing:  91% 2233/2454 [3:27:29<13:27,  3.65s/it]  finalising
+Testing:  91% 2234/2454 [3:27:42<22:53,  6.24s/it]  finalising
+Testing:  91% 2235/2454 [3:27:49<24:07,  6.61s/it]  finalising
+Testing:  91% 2236/2454 [3:27:52<19:53,  5.47s/it]  finalising
+Testing:  91% 2237/2454 [3:27:59<21:04,  5.83s/it]  finalising
+Testing:  91% 2238/2454 [3:28:06<22:12,  6.17s/it]  finalising
+Testing:  91% 2239/2454 [3:28:10<20:18,  5.67s/it]  finalising
+Testing:  91% 2240/2454 [3:28:15<18:49,  5.28s/it]  finalising
+Testing:  91% 2241/2454 [3:28:18<16:51,  4.75s/it]  finalising
+Testing:  91% 2242/2454 [3:28:22<16:23,  4.64s/it]  finalising
+Testing:  91% 2243/2454 [3:28:30<18:57,  5.39s/it]  finalising
+Testing:  91% 2244/2454 [3:28:33<16:57,  4.85s/it]  finalising
+Testing:  91% 2245/2454 [3:28:43<22:31,  6.46s/it]  finalising
+Testing:  92% 2246/2454 [3:28:52<25:05,  7.24s/it]  finalising
+Testing:  92% 2247/2454 [3:29:02<27:38,  8.01s/it]  finalising
+Testing:  92% 2248/2454 [3:29:09<26:02,  7.59s/it]  finalising
+Testing:  92% 2249/2454 [3:29:19<28:59,  8.49s/it]  finalising
+Testing:  92% 2250/2454 [3:29:26<26:29,  7.79s/it]  finalising
+Testing:  92% 2251/2454 [3:29:29<21:42,  6.42s/it]  finalising
+Testing:  92% 2252/2454 [3:29:35<21:03,  6.25s/it]  finalising
+Testing:  92% 2253/2454 [3:29:41<21:06,  6.30s/it]  finalising
+Testing:  92% 2254/2454 [3:29:50<23:09,  6.95s/it]  finalising
+Testing:  92% 2255/2454 [3:29:59<25:18,  7.63s/it]  finalising
+Testing:  92% 2256/2454 [3:30:06<25:01,  7.58s/it]  finalising
+Testing:  92% 2257/2454 [3:30:10<21:25,  6.53s/it]  finalising
+Testing:  92% 2258/2454 [3:30:14<18:50,  5.77s/it]  finalising
+Testing:  92% 2259/2454 [3:30:22<20:50,  6.41s/it]  finalising
+Testing:  92% 2260/2454 [3:30:28<19:46,  6.12s/it]  finalising
+Testing:  92% 2261/2454 [3:30:38<23:29,  7.30s/it]  finalising
+Testing:  92% 2262/2454 [3:30:41<19:20,  6.05s/it]  finalising
+Testing:  92% 2263/2454 [3:30:50<21:46,  6.84s/it]  finalising
+Testing:  92% 2264/2454 [3:30:52<17:06,  5.40s/it]  finalising
+Testing:  92% 2265/2454 [3:30:56<15:40,  4.98s/it]  finalising
+Testing:  92% 2266/2454 [3:31:02<17:16,  5.51s/it]  finalising
+Testing:  92% 2267/2454 [3:31:08<17:21,  5.57s/it]  finalising
+Testing:  92% 2268/2454 [3:31:13<16:27,  5.31s/it]  finalising
+Testing:  92% 2269/2454 [3:31:19<17:31,  5.69s/it]  finalising
+Testing:  93% 2270/2454 [3:31:23<15:17,  4.99s/it]  finalising
+Testing:  93% 2271/2454 [3:31:27<14:18,  4.69s/it]  finalising
+Testing:  93% 2272/2454 [3:31:32<14:58,  4.94s/it]  finalising
+Testing:  93% 2273/2454 [3:31:36<13:38,  4.52s/it]  finalising
+Testing:  93% 2274/2454 [3:31:41<14:14,  4.74s/it]  finalising
+Testing:  93% 2275/2454 [3:31:50<18:04,  6.06s/it]  finalising
+Testing:  93% 2276/2454 [3:31:57<19:01,  6.41s/it]  finalising
+Testing:  93% 2277/2454 [3:32:03<18:07,  6.14s/it]  finalising
+Testing:  93% 2278/2454 [3:32:08<17:33,  5.99s/it]  finalising
+Testing:  93% 2279/2454 [3:32:15<18:16,  6.26s/it]  finalising
+Testing:  93% 2280/2454 [3:32:21<17:40,  6.10s/it]  finalising
+Testing:  93% 2281/2454 [3:32:24<14:43,  5.11s/it]  finalising
+Testing:  93% 2282/2454 [3:32:29<14:19,  5.00s/it]  finalising
+Testing:  93% 2283/2454 [3:32:33<13:25,  4.71s/it]  finalising
+Testing:  93% 2284/2454 [3:32:37<12:57,  4.57s/it]  finalising
+Testing:  93% 2285/2454 [3:32:43<14:15,  5.06s/it]  finalising
+Testing:  93% 2286/2454 [3:32:47<13:02,  4.66s/it]  finalising
+Testing:  93% 2287/2454 [3:32:51<12:27,  4.47s/it]  finalising
+Testing:  93% 2288/2454 [3:32:56<12:47,  4.62s/it]  finalising
+Testing:  93% 2289/2454 [3:33:10<20:23,  7.42s/it]  finalising
+Testing:  93% 2290/2454 [3:33:13<16:59,  6.22s/it]  finalising
+Testing:  93% 2291/2454 [3:33:20<17:36,  6.48s/it]  finalising
+Testing:  93% 2292/2454 [3:33:24<15:16,  5.66s/it]  finalising
+Testing:  93% 2293/2454 [3:33:27<13:18,  4.96s/it]  finalising
+Testing:  93% 2294/2454 [3:33:31<12:05,  4.53s/it]  finalising
+Testing:  94% 2295/2454 [3:33:33<10:18,  3.89s/it]  finalising
+Testing:  94% 2296/2454 [3:33:36<09:31,  3.61s/it]  finalising
+Testing:  94% 2297/2454 [3:33:50<17:45,  6.79s/it]  finalising
+Testing:  94% 2298/2454 [3:33:57<17:48,  6.85s/it]  finalising
+Testing:  94% 2299/2454 [3:34:02<15:35,  6.03s/it]  finalising
+Testing:  94% 2300/2454 [3:34:10<17:20,  6.76s/it]  finalising
+Testing:  94% 2301/2454 [3:34:12<13:30,  5.30s/it]  finalising
+Testing:  94% 2302/2454 [3:34:15<11:51,  4.68s/it]  finalising
+Testing:  94% 2303/2454 [3:34:20<11:37,  4.62s/it]  finalising
+Testing:  94% 2304/2454 [3:34:23<10:56,  4.38s/it]  finalising
+Testing:  94% 2305/2454 [3:34:29<11:29,  4.63s/it]  finalising
+Testing:  94% 2306/2454 [3:34:32<10:43,  4.35s/it]  finalising
+Testing:  94% 2307/2454 [3:34:37<10:43,  4.37s/it]  finalising
+Testing:  94% 2308/2454 [3:34:40<09:57,  4.10s/it]  finalising
+Testing:  94% 2309/2454 [3:34:43<08:55,  3.69s/it]  finalising
+Testing:  94% 2310/2454 [3:34:46<08:36,  3.59s/it]  finalising
+Testing:  94% 2311/2454 [3:34:56<13:12,  5.54s/it]  finalising
+Testing:  94% 2312/2454 [3:35:00<12:01,  5.08s/it]  finalising
+Testing:  94% 2313/2454 [3:35:06<12:33,  5.34s/it]  finalising
+Testing:  94% 2314/2454 [3:35:14<14:05,  6.04s/it]  finalising
+Testing:  94% 2315/2454 [3:35:20<13:42,  5.91s/it]  finalising
+Testing:  94% 2316/2454 [3:35:25<12:57,  5.63s/it]  finalising
+Testing:  94% 2317/2454 [3:35:28<11:31,  5.05s/it]  finalising
+Testing:  94% 2318/2454 [3:35:32<10:39,  4.70s/it]  finalising
+Testing:  94% 2319/2454 [3:35:39<11:44,  5.22s/it]  finalising
+Testing:  95% 2320/2454 [3:35:50<15:29,  6.93s/it]  finalising
+Testing:  95% 2321/2454 [3:35:55<14:19,  6.46s/it]  finalising
+Testing:  95% 2322/2454 [3:35:59<12:23,  5.63s/it]  finalising
+Testing:  95% 2323/2454 [3:36:04<12:01,  5.51s/it]  finalising
+Testing:  95% 2324/2454 [3:36:08<11:10,  5.16s/it]  finalising
+Testing:  95% 2325/2454 [3:36:14<11:23,  5.30s/it]  finalising
+Testing:  95% 2326/2454 [3:36:19<11:28,  5.38s/it]  finalising
+Testing:  95% 2327/2454 [3:36:23<10:18,  4.87s/it]  finalising
+Testing:  95% 2328/2454 [3:36:26<09:16,  4.42s/it]  finalising
+Testing:  95% 2329/2454 [3:36:33<10:27,  5.02s/it]  finalising
+Testing:  95% 2330/2454 [3:36:38<10:29,  5.08s/it]  finalising
+Testing:  95% 2331/2454 [3:36:46<12:20,  6.02s/it]  finalising
+Testing:  95% 2332/2454 [3:36:50<10:36,  5.22s/it]  finalising
+Testing:  95% 2333/2454 [3:36:57<11:57,  5.93s/it]  finalising
+Testing:  95% 2334/2454 [3:37:02<11:03,  5.53s/it]  finalising
+Testing:  95% 2335/2454 [3:37:06<10:05,  5.09s/it]  finalising
+Testing:  95% 2336/2454 [3:37:10<09:34,  4.86s/it]  finalising
+Testing:  95% 2337/2454 [3:37:16<10:02,  5.15s/it]  finalising
+Testing:  95% 2338/2454 [3:37:22<10:24,  5.39s/it]  finalising
+Testing:  95% 2339/2454 [3:37:25<08:59,  4.69s/it]  finalising
+Testing:  95% 2340/2454 [3:37:28<08:05,  4.26s/it]  finalising
+Testing:  95% 2341/2454 [3:37:32<07:57,  4.22s/it]  finalising
+Testing:  95% 2342/2454 [3:37:37<08:10,  4.38s/it]  finalising
+Testing:  95% 2343/2454 [3:37:46<10:34,  5.71s/it]  finalising
+Testing:  96% 2344/2454 [3:37:50<09:37,  5.25s/it]  finalising
+Testing:  96% 2345/2454 [3:37:56<09:58,  5.49s/it]  finalising
+Testing:  96% 2346/2454 [3:38:00<09:01,  5.01s/it]  finalising
+Testing:  96% 2347/2454 [3:38:03<07:36,  4.26s/it]  finalising
+Testing:  96% 2348/2454 [3:38:05<06:47,  3.84s/it]  finalising
+Testing:  96% 2349/2454 [3:38:19<12:00,  6.86s/it]  finalising
+Testing:  96% 2350/2454 [3:38:23<10:18,  5.94s/it]  finalising
+Testing:  96% 2351/2454 [3:38:29<10:14,  5.96s/it]  finalising
+Testing:  96% 2352/2454 [3:38:35<10:09,  5.98s/it]  finalising
+Testing:  96% 2353/2454 [3:38:38<08:24,  5.00s/it]  finalising
+Testing:  96% 2354/2454 [3:38:44<09:04,  5.44s/it]  finalising
+Testing:  96% 2355/2454 [3:38:52<10:08,  6.15s/it]  finalising
+Testing:  96% 2356/2454 [3:39:00<10:54,  6.68s/it]  finalising
+Testing:  96% 2357/2454 [3:39:05<10:02,  6.21s/it]  finalising
+Testing:  96% 2358/2454 [3:39:10<09:17,  5.81s/it]  finalising
+Testing:  96% 2359/2454 [3:39:14<08:09,  5.15s/it]  finalising
+Testing:  96% 2360/2454 [3:39:22<09:23,  5.99s/it]  finalising
+Testing:  96% 2361/2454 [3:39:28<09:21,  6.03s/it]  finalising
+Testing:  96% 2362/2454 [3:39:33<09:03,  5.91s/it]  finalising
+Testing:  96% 2363/2454 [3:39:38<08:07,  5.36s/it]  finalising
+Testing:  96% 2364/2454 [3:39:45<09:12,  6.14s/it]  finalising
+Testing:  96% 2365/2454 [3:39:53<09:54,  6.68s/it]  finalising
+Testing:  96% 2366/2454 [3:40:01<10:20,  7.05s/it]  finalising
+Testing:  96% 2367/2454 [3:40:10<10:56,  7.54s/it]  finalising
+Testing:  96% 2368/2454 [3:40:13<08:47,  6.14s/it]  finalising
+Testing:  97% 2369/2454 [3:40:15<06:58,  4.93s/it]  finalising
+Testing:  97% 2370/2454 [3:40:22<07:54,  5.64s/it]  finalising
+Testing:  97% 2371/2454 [3:40:30<08:31,  6.16s/it]  finalising
+Testing:  97% 2372/2454 [3:40:33<07:23,  5.41s/it]  finalising
+Testing:  97% 2373/2454 [3:40:43<08:55,  6.61s/it]  finalising
+Testing:  97% 2374/2454 [3:40:50<08:58,  6.74s/it]  finalising
+Testing:  97% 2375/2454 [3:40:58<09:17,  7.05s/it]  finalising
+Testing:  97% 2376/2454 [3:41:13<12:20,  9.49s/it]  finalising
+Testing:  97% 2377/2454 [3:41:26<13:43, 10.69s/it]  finalising
+Testing:  97% 2378/2454 [3:41:30<10:45,  8.49s/it]  finalising
+Testing:  97% 2379/2454 [3:41:36<09:44,  7.79s/it]  finalising
+Testing:  97% 2380/2454 [3:41:40<08:26,  6.85s/it]  finalising
+Testing:  97% 2381/2454 [3:41:47<08:10,  6.72s/it]  finalising
+Testing:  97% 2382/2454 [3:41:50<06:42,  5.59s/it]  finalising
+Testing:  97% 2383/2454 [3:41:54<06:16,  5.30s/it]  finalising
+Testing:  97% 2384/2454 [3:42:00<06:14,  5.34s/it]  finalising
+Testing:  97% 2385/2454 [3:42:05<06:02,  5.26s/it]  finalising
+Testing:  97% 2386/2454 [3:42:08<05:18,  4.69s/it]  finalising
+Testing:  97% 2387/2454 [3:42:16<06:22,  5.70s/it]  finalising
+Testing:  97% 2388/2454 [3:42:27<07:58,  7.26s/it]  finalising
+Testing:  97% 2389/2454 [3:42:31<06:46,  6.25s/it]  finalising
+Testing:  97% 2390/2454 [3:42:46<09:28,  8.88s/it]  finalising
+Testing:  97% 2391/2454 [3:42:48<07:09,  6.81s/it]  finalising
+Testing:  97% 2392/2454 [3:42:53<06:18,  6.10s/it]  finalising
+Testing:  98% 2393/2454 [3:42:58<05:57,  5.86s/it]  finalising
+Testing:  98% 2394/2454 [3:43:01<04:56,  4.95s/it]  finalising
+Testing:  98% 2395/2454 [3:43:07<05:08,  5.23s/it]  finalising
+Testing:  98% 2396/2454 [3:43:12<05:09,  5.34s/it]  finalising
+Testing:  98% 2397/2454 [3:43:19<05:27,  5.75s/it]  finalising
+Testing:  98% 2398/2454 [3:43:23<05:00,  5.37s/it]  finalising
+Testing:  98% 2399/2454 [3:43:26<04:11,  4.57s/it]  finalising
+Testing:  98% 2400/2454 [3:43:31<04:06,  4.56s/it]  finalising
+Testing:  98% 2401/2454 [3:43:38<04:43,  5.34s/it]  finalising
+Testing:  98% 2402/2454 [3:43:47<05:36,  6.47s/it]  finalising
+Testing:  98% 2403/2454 [3:43:50<04:36,  5.42s/it]  finalising
+Testing:  98% 2404/2454 [3:44:03<06:26,  7.72s/it]  finalising
+Testing:  98% 2405/2454 [3:44:09<05:58,  7.32s/it]  finalising
+Testing:  98% 2406/2454 [3:44:12<04:45,  5.95s/it]  finalising
+Testing:  98% 2407/2454 [3:44:15<04:03,  5.19s/it]  finalising
+Testing:  98% 2408/2454 [3:44:26<05:10,  6.76s/it]  finalising
+Testing:  98% 2409/2454 [3:44:31<04:38,  6.18s/it]  finalising
+Testing:  98% 2410/2454 [3:44:37<04:38,  6.32s/it]  finalising
+Testing:  98% 2411/2454 [3:44:40<03:48,  5.31s/it]  finalising
+Testing:  98% 2412/2454 [3:44:45<03:29,  5.00s/it]  finalising
+Testing:  98% 2413/2454 [3:44:51<03:42,  5.43s/it]  finalising
+Testing:  98% 2414/2454 [3:44:56<03:27,  5.18s/it]  finalising
+Testing:  98% 2415/2454 [3:45:00<03:14,  4.98s/it]  finalising
+Testing:  98% 2416/2454 [3:45:05<03:13,  5.10s/it]  finalising
+Testing:  98% 2417/2454 [3:45:09<02:47,  4.52s/it]  finalising
+Testing:  99% 2418/2454 [3:45:13<02:44,  4.56s/it]  finalising
+Testing:  99% 2419/2454 [3:45:19<02:53,  4.96s/it]  finalising
+Testing:  99% 2420/2454 [3:45:27<03:21,  5.93s/it]  finalising
+Testing:  99% 2421/2454 [3:45:32<02:57,  5.39s/it]  finalising
+Testing:  99% 2422/2454 [3:45:36<02:39,  4.97s/it]  finalising
+Testing:  99% 2423/2454 [3:45:39<02:22,  4.59s/it]  finalising
+Testing:  99% 2424/2454 [3:45:42<02:02,  4.09s/it]  finalising
+Testing:  99% 2425/2454 [3:45:46<01:52,  3.89s/it]  finalising
+Testing:  99% 2426/2454 [3:45:50<01:50,  3.96s/it]  finalising
+Testing:  99% 2427/2454 [3:45:53<01:42,  3.80s/it]  finalising
+Testing:  99% 2428/2454 [3:45:58<01:46,  4.10s/it]  finalising
+Testing:  99% 2429/2454 [3:46:03<01:47,  4.31s/it]  finalising
+Testing:  99% 2430/2454 [3:46:08<01:48,  4.53s/it]  finalising
+Testing:  99% 2431/2454 [3:46:15<01:59,  5.21s/it]  finalising
+Testing:  99% 2432/2454 [3:46:17<01:37,  4.43s/it]  finalising
+Testing:  99% 2433/2454 [3:46:28<02:16,  6.51s/it]  finalising
+Testing:  99% 2434/2454 [3:46:36<02:13,  6.69s/it]  finalising
+Testing:  99% 2435/2454 [3:46:40<01:53,  5.97s/it]  finalising
+Testing:  99% 2436/2454 [3:46:45<01:41,  5.61s/it]  finalising
+Testing:  99% 2437/2454 [3:46:56<02:02,  7.23s/it]  finalising
+Testing:  99% 2438/2454 [3:47:01<01:44,  6.52s/it]  finalising
+Testing:  99% 2439/2454 [3:47:13<02:03,  8.24s/it]  finalising
+Testing:  99% 2440/2454 [3:47:18<01:41,  7.28s/it]  finalising
+Testing:  99% 2441/2454 [3:47:22<01:23,  6.39s/it]  finalising
+Testing: 100% 2442/2454 [3:47:27<01:11,  6.00s/it]  finalising
+Testing: 100% 2443/2454 [3:47:32<01:01,  5.61s/it]  finalising
+Testing: 100% 2444/2454 [3:47:37<00:54,  5.46s/it]  finalising
+Testing: 100% 2445/2454 [3:47:45<00:55,  6.19s/it]  finalising
+Testing: 100% 2446/2454 [3:47:53<00:54,  6.79s/it]  finalising
+Testing: 100% 2447/2454 [3:47:57<00:42,  6.03s/it]  finalising
+Testing: 100% 2448/2454 [3:48:04<00:36,  6.06s/it]  finalising
+Testing: 100% 2449/2454 [3:48:12<00:33,  6.66s/it]  finalising
+Testing: 100% 2450/2454 [3:48:15<00:22,  5.74s/it]  finalising
+Testing: 100% 2451/2454 [3:48:27<00:22,  7.65s/it]  finalising
+Testing: 100% 2452/2454 [3:48:30<00:12,  6.16s/it]  finalising
+Testing: 100% 2453/2454 [3:48:37<00:06,  6.52s/it]  finalising
+Testing: 100% 2454/2454 [3:48:40<00:00,  5.32s/it]  finalising
+Testing: 100% 2454/2454 [3:48:58<00:00,  5.60s/it]------------------------------(BP = 0.975 ratio = 0.975 hyp_len = 54710 ref_len = 56085)0)
+Testing: 100% 2454/2454 [3:48:58<00:00,  5.60s/it]------------------------------(BP = 0.975 ratio = 0.975 hyp_len = 54710 ref_len = 56085)0)

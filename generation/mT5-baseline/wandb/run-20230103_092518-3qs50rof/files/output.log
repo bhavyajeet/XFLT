@@ -1,0 +1,659 @@
+01/03/2023 09:25:27 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+01/03/2023 09:25:27 AM [INFO] test dataset is already present.
+01/03/2023 09:25:27 AM [CRITICAL] test : script unification to Devanagari is enabled.
+01/03/2023 09:25:27 AM [INFO] test dataset count : 7425
+Testing: 0it [00:00, ?it/s]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+Testing: 0it [00:00, ?it/s]finalising
+Testing:   0%|                                          | 1/619 [00:03<35:50,  3.48s/it]finalising
+Testing:   0%|▏                                         | 2/619 [00:06<33:00,  3.21s/it]finalising
+Testing:   0%|▏                                       | 3/619 [00:16<1:05:19,  6.36s/it]finalising
+Testing:   1%|▎                                         | 4/619 [00:19<51:18,  5.01s/it]finalising
+Testing:   1%|▎                                       | 5/619 [00:29<1:08:21,  6.68s/it]finalising
+Testing:   1%|▍                                       | 6/619 [00:38<1:17:52,  7.62s/it]finalising
+Testing:   1%|▍                                       | 7/619 [00:41<1:02:37,  6.14s/it]finalising
+Testing:   1%|▌                                       | 8/619 [00:49<1:06:36,  6.54s/it]finalising
+Testing:   1%|▌                                       | 9/619 [00:58<1:16:54,  7.56s/it]finalising
+Testing:   2%|▋                                      | 10/619 [01:02<1:03:58,  6.30s/it]finalising
+Testing:   2%|▋                                        | 11/619 [01:06<58:06,  5.73s/it]finalising
+Testing:   2%|▊                                        | 12/619 [01:10<51:34,  5.10s/it]finalising
+Testing:   2%|▊                                      | 13/619 [01:20<1:05:00,  6.44s/it]finalising
+Testing:   2%|▉                                        | 14/619 [01:23<55:40,  5.52s/it]finalising
+Testing:   2%|▉                                        | 15/619 [01:27<51:00,  5.07s/it]finalising
+Testing:   3%|█                                        | 16/619 [01:30<43:37,  4.34s/it]finalising
+Testing:   3%|█▏                                       | 17/619 [01:39<58:50,  5.87s/it]finalising
+Testing:   3%|█▏                                       | 18/619 [01:42<49:46,  4.97s/it]finalising
+Testing:   3%|█▎                                       | 19/619 [01:46<46:39,  4.67s/it]finalising
+
+Testing:   3%|█▎                                       | 20/619 [01:49<43:19,  4.34s/it]finalising
+Testing:   3%|█▍                                       | 21/619 [01:52<38:15,  3.84s/it]finalising
+Testing:   4%|█▍                                       | 22/619 [01:55<36:48,  3.70s/it]finalising
+
+Testing:   4%|█▌                                       | 23/619 [01:59<35:15,  3.55s/it]finalising
+Testing:   4%|█▌                                       | 24/619 [02:02<34:55,  3.52s/it]finalising
+Testing:   4%|█▋                                       | 25/619 [02:05<33:29,  3.38s/it]finalising
+Testing:   4%|█▋                                       | 26/619 [02:15<51:34,  5.22s/it]finalising
+Testing:   4%|█▊                                       | 27/619 [02:18<45:29,  4.61s/it]finalising
+Testing:   5%|█▊                                       | 28/619 [02:21<40:29,  4.11s/it]finalising
+Testing:   5%|█▉                                       | 29/619 [02:24<39:04,  3.97s/it]finalising
+Testing:   5%|█▉                                       | 30/619 [02:28<36:48,  3.75s/it]finalising
+Testing:   5%|██                                       | 31/619 [02:31<34:22,  3.51s/it]finalising
+Testing:   5%|██                                       | 32/619 [02:35<35:19,  3.61s/it]finalising
+Testing:   5%|██▏                                      | 33/619 [02:38<35:06,  3.59s/it]finalising
+Testing:   5%|██▎                                      | 34/619 [02:42<35:12,  3.61s/it]finalising
+Testing:   6%|██▎                                      | 35/619 [02:45<34:36,  3.56s/it]finalising
+Testing:   6%|██▍                                      | 36/619 [02:49<36:51,  3.79s/it]finalising
+Testing:   6%|██▍                                      | 37/619 [02:59<52:50,  5.45s/it]finalising
+Testing:   6%|██▌                                      | 38/619 [03:02<46:30,  4.80s/it]finalising
+Testing:   6%|██▌                                      | 39/619 [03:05<40:42,  4.21s/it]finalising
+Testing:   6%|██▋                                      | 40/619 [03:08<37:17,  3.86s/it]finalising
+Testing:   7%|██▋                                      | 41/619 [03:17<53:10,  5.52s/it]finalising
+Testing:   7%|██▋                                    | 42/619 [03:27<1:04:02,  6.66s/it]finalising
+Testing:   7%|██▊                                      | 43/619 [03:30<54:21,  5.66s/it]finalising
+Testing:   7%|██▊                                    | 44/619 [03:39<1:04:57,  6.78s/it]finalising
+Testing:   7%|██▉                                      | 45/619 [03:43<55:51,  5.84s/it]finalising
+Testing:   7%|███                                      | 46/619 [03:47<50:58,  5.34s/it]finalising
+Testing:   8%|███                                      | 47/619 [03:50<44:53,  4.71s/it]finalising
+Testing:   8%|███▏                                     | 48/619 [03:54<41:58,  4.41s/it]finalising
+Testing:   8%|███▏                                     | 49/619 [04:04<56:36,  5.96s/it]finalising
+Testing:   8%|███▏                                   | 50/619 [04:13<1:06:37,  7.03s/it]finalising
+Testing:   8%|███▏                                   | 51/619 [04:23<1:13:28,  7.76s/it]finalising
+Testing:   8%|███▎                                   | 52/619 [04:26<1:00:20,  6.39s/it]finalising
+Testing:   9%|███▌                                     | 53/619 [04:29<51:31,  5.46s/it]finalising
+Testing:   9%|███▌                                     | 54/619 [04:33<46:19,  4.92s/it]finalising
+Testing:   9%|███▋                                     | 55/619 [04:36<41:43,  4.44s/it]finalising
+Testing:   9%|███▋                                     | 56/619 [04:45<55:17,  5.89s/it]finalising
+Testing:   9%|███▌                                   | 57/619 [04:55<1:05:20,  6.98s/it]finalising
+Testing:   9%|███▋                                   | 58/619 [05:05<1:15:03,  8.03s/it]finalising
+Testing:  10%|███▋                                   | 59/619 [05:10<1:03:48,  6.84s/it]finalising
+Testing:  10%|███▉                                     | 60/619 [05:13<52:56,  5.68s/it]finalising
+Testing:  10%|████                                     | 61/619 [05:16<47:18,  5.09s/it]finalising
+Testing:  10%|████                                     | 62/619 [05:20<43:21,  4.67s/it]finalising
+Testing:  10%|████▏                                    | 63/619 [05:23<39:57,  4.31s/it]finalising
+Testing:  10%|████▏                                    | 64/619 [05:27<37:24,  4.04s/it]finalising
+Testing:  11%|████▎                                    | 65/619 [05:31<38:09,  4.13s/it]finalising
+Testing:  11%|████▎                                    | 66/619 [05:34<34:33,  3.75s/it]finalising
+Testing:  11%|████▍                                    | 67/619 [05:43<49:55,  5.43s/it]finalising
+Testing:  11%|████▌                                    | 68/619 [05:47<44:46,  4.88s/it]finalising
+Testing:  11%|████▌                                    | 69/619 [05:51<42:49,  4.67s/it]finalising
+Testing:  11%|████▋                                    | 70/619 [05:55<39:45,  4.35s/it]finalising
+Testing:  11%|████▋                                    | 71/619 [06:04<53:43,  5.88s/it]finalising
+Testing:  12%|████▌                                  | 72/619 [06:14<1:03:14,  6.94s/it]finalising
+Testing:  12%|████▊                                    | 73/619 [06:17<52:47,  5.80s/it]finalising
+Testing:  12%|████▉                                    | 74/619 [06:22<51:15,  5.64s/it]finalising
+Testing:  12%|████▉                                    | 75/619 [06:27<48:10,  5.31s/it]finalising
+Testing:  12%|█████                                    | 76/619 [06:31<45:04,  4.98s/it]finalising
+Testing:  12%|█████                                    | 77/619 [06:34<40:47,  4.52s/it]finalising
+Testing:  13%|█████▏                                   | 78/619 [06:37<37:01,  4.11s/it]finalising
+Testing:  13%|█████▏                                   | 79/619 [06:41<34:46,  3.86s/it]finalising
+Testing:  13%|█████▎                                   | 80/619 [06:46<37:29,  4.17s/it]finalising
+Testing:  13%|█████▎                                   | 81/619 [06:50<37:34,  4.19s/it]finalising
+Testing:  13%|█████▍                                   | 82/619 [06:59<52:00,  5.81s/it]finalising
+Testing:  13%|█████▏                                 | 83/619 [07:09<1:02:04,  6.95s/it]finalising
+Testing:  14%|█████▌                                   | 84/619 [07:11<49:54,  5.60s/it]finalising
+Testing:  14%|█████▋                                   | 85/619 [07:15<44:09,  4.96s/it]finalising
+Testing:  14%|█████▋                                   | 86/619 [07:19<40:33,  4.57s/it]finalising
+Testing:  14%|█████▊                                   | 87/619 [07:28<53:34,  6.04s/it]finalising
+Testing:  14%|█████▌                                 | 88/619 [07:37<1:02:21,  7.05s/it]finalising
+Testing:  14%|█████▉                                   | 89/619 [07:43<57:58,  6.56s/it]finalising
+Testing:  15%|█████▉                                   | 90/619 [07:47<51:36,  5.85s/it]finalising
+Testing:  15%|█████▋                                 | 91/619 [07:57<1:01:08,  6.95s/it]finalising
+Testing:  15%|██████                                   | 92/619 [08:00<51:49,  5.90s/it]finalising
+Testing:  15%|██████▏                                  | 93/619 [08:05<48:44,  5.56s/it]finalising
+Testing:  15%|██████▏                                  | 94/619 [08:14<58:40,  6.70s/it]finalising
+Testing:  15%|█████▉                                 | 95/619 [08:23<1:05:21,  7.48s/it]finalising
+Testing:  16%|██████▍                                  | 97/619 [08:32<51:31,  5.92s/it]finalising
+Testing:  16%|██████▏                                | 98/619 [08:42<1:00:35,  6.98s/it]finalising
+Testing:  16%|██████▏                                | 99/619 [08:51<1:06:39,  7.69s/it]finalising
+Testing:  16%|██████▏                               | 100/619 [09:00<1:10:47,  8.18s/it]finalising
+Testing:  16%|██████▏                               | 101/619 [09:04<1:00:04,  6.96s/it]finalising
+Testing:  16%|██████▌                                 | 102/619 [09:07<49:20,  5.73s/it]finalising
+Testing:  17%|██████▋                                 | 103/619 [09:11<45:15,  5.26s/it]finalising
+Testing:  17%|██████▋                                 | 104/619 [09:16<44:34,  5.19s/it]finalising
+Testing:  17%|██████▊                                 | 105/619 [09:20<40:23,  4.71s/it]finalising
+Testing:  17%|██████▊                                 | 106/619 [09:23<35:11,  4.12s/it]finalising
+Testing:  17%|██████▉                                 | 107/619 [09:26<33:53,  3.97s/it]finalising
+Testing:  17%|██████▉                                 | 108/619 [09:29<31:29,  3.70s/it]finalising
+Testing:  18%|███████                                 | 109/619 [09:38<43:38,  5.13s/it]finalising
+Testing:  18%|███████                                 | 110/619 [09:42<39:43,  4.68s/it]finalising
+Testing:  18%|███████▏                                | 111/619 [09:51<51:50,  6.12s/it]finalising
+Testing:  18%|███████▏                                | 112/619 [09:54<44:38,  5.28s/it]finalising
+Testing:  18%|███████▎                                | 113/619 [10:04<54:43,  6.49s/it]finalising
+Testing:  18%|███████▎                                | 114/619 [10:07<47:55,  5.69s/it]finalising
+Testing:  19%|███████▍                                | 115/619 [10:17<57:34,  6.85s/it]finalising
+Testing:  19%|███████▍                                | 116/619 [10:24<57:31,  6.86s/it]finalising
+Testing:  19%|███████▌                                | 117/619 [10:28<49:15,  5.89s/it]finalising
+Testing:  19%|███████▋                                | 118/619 [10:30<41:29,  4.97s/it]finalising
+Testing:  19%|███████▋                                | 119/619 [10:40<52:45,  6.33s/it]finalising
+Testing:  19%|███████▊                                | 120/619 [10:44<48:03,  5.78s/it]finalising
+Testing:  20%|███████▊                                | 121/619 [10:54<56:46,  6.84s/it]finalising
+Testing:  20%|███████▉                                | 122/619 [10:57<48:23,  5.84s/it]finalising
+Testing:  20%|███████▉                                | 123/619 [11:07<57:11,  6.92s/it]finalising
+Testing:  20%|████████                                | 124/619 [11:11<51:30,  6.24s/it]finalising
+Testing:  20%|████████                                | 125/619 [11:15<44:20,  5.39s/it]finalising
+Testing:  20%|████████▏                               | 126/619 [11:18<39:59,  4.87s/it]finalising
+Testing:  21%|████████▏                               | 127/619 [11:28<50:54,  6.21s/it]finalising
+Testing:  21%|████████▎                               | 128/619 [11:33<48:10,  5.89s/it]finalising
+Testing:  21%|████████▎                               | 129/619 [11:36<41:22,  5.07s/it]finalising
+Testing:  21%|████████▍                               | 130/619 [11:39<36:41,  4.50s/it]finalising
+Testing:  21%|████████▍                               | 131/619 [11:44<38:04,  4.68s/it]finalising
+Testing:  21%|████████▌                               | 132/619 [11:47<33:49,  4.17s/it]finalising
+Testing:  21%|████████▌                               | 133/619 [11:58<48:51,  6.03s/it]finalising
+Testing:  22%|████████▋                               | 134/619 [12:03<46:05,  5.70s/it]finalising
+Testing:  22%|████████▋                               | 135/619 [12:13<57:36,  7.14s/it]finalising
+Testing:  22%|████████▎                             | 136/619 [12:24<1:05:43,  8.16s/it]finalising
+Testing:  22%|████████▊                               | 137/619 [12:26<52:20,  6.52s/it]finalising
+Testing:  22%|████████▉                               | 138/619 [12:29<44:17,  5.52s/it]finalising
+Testing:  22%|████████▉                               | 139/619 [12:35<44:40,  5.58s/it]finalising
+Testing:  23%|█████████                               | 140/619 [12:38<38:41,  4.85s/it]finalising
+Testing:  23%|█████████                               | 141/619 [12:41<34:25,  4.32s/it]finalising
+Testing:  23%|█████████▏                              | 142/619 [12:44<30:38,  3.85s/it]finalising
+Testing:  23%|█████████▏                              | 143/619 [12:50<34:42,  4.38s/it]finalising
+Testing:  23%|█████████▎                              | 144/619 [12:53<31:01,  3.92s/it]finalising
+Testing:  23%|█████████▎                              | 145/619 [12:58<33:56,  4.30s/it]finalising
+Testing:  24%|█████████▍                              | 146/619 [13:01<30:23,  3.86s/it]finalising
+Testing:  24%|█████████▍                              | 147/619 [13:06<33:47,  4.30s/it]finalising
+Testing:  24%|█████████▌                              | 148/619 [13:15<46:01,  5.86s/it]finalising
+Testing:  24%|█████████▋                              | 149/619 [13:25<54:36,  6.97s/it]finalising
+Testing:  24%|█████████▋                              | 150/619 [13:28<45:13,  5.79s/it]finalising
+Testing:  24%|█████████▊                              | 151/619 [13:32<39:57,  5.12s/it]finalising
+Testing:  25%|█████████▊                              | 152/619 [13:35<35:10,  4.52s/it]finalising
+Testing:  25%|█████████▉                              | 153/619 [13:40<36:09,  4.66s/it]finalising
+Testing:  25%|█████████▉                              | 154/619 [13:42<31:26,  4.06s/it]finalising
+Testing:  25%|██████████                              | 155/619 [13:52<44:12,  5.72s/it]finalising
+Testing:  25%|██████████                              | 155/619 [13:52<44:12,  5.72s/it]finalising
+Testing:  25%|██████████                              | 156/619 [13:56<39:20,  5.10s/it]finalising
+Testing:  25%|██████████▏                             | 157/619 [13:59<34:34,  4.49s/it]finalising
+Testing:  26%|██████████▏                             | 158/619 [14:08<46:10,  6.01s/it]finalising
+Testing:  26%|██████████▎                             | 159/619 [14:19<56:28,  7.37s/it]finalising
+Testing:  26%|██████████▎                             | 160/619 [14:23<49:01,  6.41s/it]finalising
+Testing:  26%|██████████▍                             | 161/619 [14:26<41:18,  5.41s/it]finalising
+Testing:  26%|██████████▍                             | 162/619 [14:30<36:56,  4.85s/it]finalising
+Testing:  26%|██████████▌                             | 163/619 [14:33<33:06,  4.36s/it]finalising
+Testing:  26%|██████████▌                             | 164/619 [14:36<30:41,  4.05s/it]finalising
+Testing:  27%|██████████▋                             | 165/619 [14:40<29:10,  3.86s/it]finalising
+Testing:  27%|██████████▋                             | 166/619 [14:49<42:26,  5.62s/it]finalising
+Testing:  27%|██████████▊                             | 167/619 [14:54<39:25,  5.23s/it]finalising
+Testing:  27%|██████████▊                             | 168/619 [14:59<40:04,  5.33s/it]finalising
+Testing:  27%|██████████▉                             | 169/619 [15:02<34:07,  4.55s/it]finalising
+Testing:  27%|██████████▉                             | 170/619 [15:05<31:34,  4.22s/it]finalising
+Testing:  28%|███████████                             | 171/619 [15:09<29:55,  4.01s/it]finalising
+Testing:  28%|███████████                             | 172/619 [15:13<30:11,  4.05s/it]finalising
+Testing:  28%|███████████▏                            | 173/619 [15:16<27:08,  3.65s/it]finalising
+Testing:  28%|███████████▏                            | 174/619 [15:20<28:02,  3.78s/it]finalising
+Testing:  28%|███████████▎                            | 175/619 [15:23<26:53,  3.63s/it]finalising
+Testing:  28%|███████████▎                            | 176/619 [15:26<26:17,  3.56s/it]finalising
+Testing:  29%|███████████▍                            | 177/619 [15:31<27:22,  3.72s/it]finalising
+Testing:  29%|███████████▌                            | 178/619 [15:40<39:57,  5.44s/it]finalising
+Testing:  29%|███████████▌                            | 179/619 [15:43<35:00,  4.77s/it]finalising
+Testing:  29%|███████████▋                            | 180/619 [15:48<34:01,  4.65s/it]finalising
+Testing:  29%|███████████▋                            | 181/619 [15:50<29:56,  4.10s/it]finalising
+Testing:  29%|███████████▊                            | 182/619 [15:54<28:56,  3.97s/it]finalising
+Testing:  30%|███████████▊                            | 183/619 [15:57<26:27,  3.64s/it]finalising
+Testing:  30%|███████████▉                            | 184/619 [16:00<25:16,  3.49s/it]finalising
+Testing:  30%|███████████▉                            | 184/619 [16:00<25:16,  3.49s/it]finalising
+Testing:  30%|███████████▉                            | 185/619 [16:10<38:49,  5.37s/it]finalising
+Testing:  30%|████████████                            | 186/619 [16:21<50:19,  6.97s/it]finalising
+Testing:  30%|████████████                            | 187/619 [16:26<47:31,  6.60s/it]finalising
+Testing:  30%|████████████▏                           | 188/619 [16:36<53:32,  7.45s/it]finalising
+Testing:  31%|████████████▏                           | 189/619 [16:39<43:42,  6.10s/it]finalising
+Testing:  31%|████████████▎                           | 190/619 [16:48<50:32,  7.07s/it]finalising
+Testing:  31%|████████████▎                           | 191/619 [16:52<44:46,  6.28s/it]finalising
+Testing:  31%|████████████▍                           | 192/619 [17:01<48:46,  6.85s/it]finalising
+Testing:  31%|████████████▍                           | 193/619 [17:05<43:04,  6.07s/it]finalising
+Testing:  31%|████████████▌                           | 194/619 [17:08<37:44,  5.33s/it]finalising
+Testing:  32%|████████████▌                           | 195/619 [17:12<33:40,  4.77s/it]finalising
+Testing:  32%|████████████▋                           | 196/619 [17:16<33:04,  4.69s/it]finalising
+Testing:  32%|████████████▋                           | 197/619 [17:26<43:00,  6.12s/it]finalising
+Testing:  32%|████████████▊                           | 198/619 [17:29<36:28,  5.20s/it]finalising
+Testing:  32%|████████████▊                           | 199/619 [17:32<32:05,  4.58s/it]finalising
+Testing:  32%|████████████▉                           | 200/619 [17:42<42:27,  6.08s/it]finalising
+Testing:  32%|████████████▉                           | 201/619 [17:45<36:48,  5.28s/it]finalising
+Testing:  33%|█████████████                           | 202/619 [17:55<45:33,  6.55s/it]finalising
+Testing:  33%|█████████████                           | 203/619 [17:59<40:15,  5.81s/it]finalising
+Testing:  33%|█████████████▏                          | 204/619 [18:02<35:42,  5.16s/it]finalising
+Testing:  33%|█████████████▏                          | 205/619 [18:06<32:23,  4.69s/it]finalising
+Testing:  33%|█████████████▎                          | 206/619 [18:09<28:08,  4.09s/it]finalising
+Testing:  33%|█████████████▍                          | 207/619 [18:12<27:04,  3.94s/it]finalising
+Testing:  34%|█████████████▍                          | 208/619 [18:22<38:37,  5.64s/it]finalising
+Testing:  34%|█████████████▌                          | 209/619 [18:31<46:12,  6.76s/it]finalising
+Testing:  34%|█████████████▌                          | 210/619 [18:35<40:12,  5.90s/it]finalising
+Testing:  34%|█████████████▋                          | 211/619 [18:45<47:39,  7.01s/it]finalising
+Testing:  34%|█████████████▋                          | 212/619 [18:49<41:58,  6.19s/it]finalising
+Testing:  34%|█████████████▊                          | 213/619 [18:57<44:42,  6.61s/it]finalising
+Testing:  35%|█████████████▊                          | 214/619 [19:07<52:40,  7.80s/it]finalising
+Testing:  35%|█████████████▉                          | 215/619 [19:11<43:40,  6.49s/it]finalising
+Testing:  35%|█████████████▉                          | 216/619 [19:20<49:32,  7.38s/it]finalising
+Testing:  35%|██████████████                          | 217/619 [19:30<53:54,  8.05s/it]finalising
+Testing:  35%|██████████████                          | 218/619 [19:33<43:27,  6.50s/it]finalising
+Testing:  35%|██████████████▏                         | 219/619 [19:35<35:54,  5.39s/it]finalising
+Testing:  36%|██████████████▏                         | 220/619 [19:39<31:54,  4.80s/it]finalising
+Testing:  36%|██████████████▎                         | 221/619 [19:43<30:38,  4.62s/it]finalising
+Testing:  36%|██████████████▎                         | 222/619 [19:53<40:34,  6.13s/it]finalising
+Testing:  36%|██████████████▍                         | 223/619 [19:56<35:18,  5.35s/it]finalising
+Testing:  36%|██████████████▍                         | 224/619 [20:01<33:42,  5.12s/it]finalising
+Testing:  36%|██████████████▌                         | 225/619 [20:05<31:31,  4.80s/it]finalising
+Testing:  37%|██████████████▌                         | 226/619 [20:07<26:25,  4.03s/it]finalising
+Testing:  37%|██████████████▋                         | 227/619 [20:16<36:47,  5.63s/it]finalising
+Testing:  37%|██████████████▋                         | 228/619 [20:21<34:09,  5.24s/it]finalising
+Testing:  37%|██████████████▊                         | 229/619 [20:26<33:46,  5.20s/it]finalising
+Testing:  37%|██████████████▊                         | 230/619 [20:35<41:50,  6.45s/it]finalising
+Testing:  37%|██████████████▉                         | 231/619 [20:45<47:32,  7.35s/it]finalising
+Testing:  37%|██████████████▉                         | 232/619 [20:48<39:40,  6.15s/it]finalising
+Testing:  38%|███████████████                         | 233/619 [20:57<45:59,  7.15s/it]finalising
+Testing:  38%|███████████████                         | 234/619 [21:01<38:35,  6.01s/it]finalising
+Testing:  38%|███████████████▏                        | 235/619 [21:04<33:43,  5.27s/it]finalising
+Testing:  38%|███████████████▎                        | 236/619 [21:14<41:38,  6.52s/it]finalising
+Testing:  38%|███████████████▎                        | 237/619 [21:17<35:56,  5.65s/it]finalising
+Testing:  38%|███████████████▍                        | 238/619 [21:27<43:01,  6.78s/it]finalising
+Testing:  39%|███████████████▍                        | 239/619 [21:30<35:52,  5.66s/it]finalising
+Testing:  39%|███████████████▌                        | 240/619 [21:39<42:48,  6.78s/it]finalising
+Testing:  39%|███████████████▌                        | 241/619 [21:49<47:51,  7.60s/it]finalising
+Testing:  39%|███████████████▋                        | 242/619 [21:51<38:34,  6.14s/it]finalising
+Testing:  39%|███████████████▋                        | 243/619 [21:55<34:05,  5.44s/it]finalising
+Testing:  39%|███████████████▊                        | 244/619 [21:59<30:19,  4.85s/it]finalising
+Testing:  40%|███████████████▊                        | 245/619 [22:02<27:53,  4.48s/it]finalising
+Testing:  40%|███████████████▉                        | 246/619 [22:13<39:17,  6.32s/it]finalising
+Testing:  40%|███████████████▉                        | 246/619 [22:13<39:17,  6.32s/it]finalising
+Testing:  40%|███████████████▉                        | 247/619 [22:22<44:50,  7.23s/it]finalising
+Testing:  40%|████████████████                        | 248/619 [22:26<38:20,  6.20s/it]finalising
+Testing:  40%|████████████████                        | 249/619 [22:35<44:02,  7.14s/it]finalising
+Testing:  40%|████████████████▏                       | 250/619 [22:39<36:23,  5.92s/it]finalising
+Testing:  41%|████████████████▏                       | 251/619 [22:42<31:02,  5.06s/it]finalising
+Testing:  41%|████████████████▎                       | 252/619 [22:45<27:34,  4.51s/it]finalising
+Testing:  41%|████████████████▎                       | 253/619 [22:54<36:19,  5.95s/it]finalising
+Testing:  41%|████████████████▍                       | 254/619 [22:58<31:42,  5.21s/it]finalising
+Testing:  41%|████████████████▍                       | 255/619 [23:01<28:28,  4.69s/it]finalising
+Testing:  41%|████████████████▌                       | 256/619 [23:06<29:35,  4.89s/it]finalising
+Testing:  42%|████████████████▌                       | 257/619 [23:10<27:29,  4.56s/it]finalising
+Testing:  42%|████████████████▋                       | 258/619 [23:14<25:07,  4.18s/it]finalising
+Testing:  42%|████████████████▋                       | 259/619 [23:16<22:22,  3.73s/it]finalising
+Testing:  42%|████████████████▊                       | 260/619 [23:21<23:25,  3.91s/it]finalising
+Testing:  42%|████████████████▊                       | 261/619 [23:24<22:35,  3.79s/it]finalising
+Testing:  42%|████████████████▉                       | 262/619 [23:29<24:15,  4.08s/it]finalising
+Testing:  42%|████████████████▉                       | 263/619 [23:32<21:55,  3.70s/it]finalising
+Testing:  43%|█████████████████                       | 264/619 [23:35<21:54,  3.70s/it]finalising
+Testing:  43%|█████████████████                       | 265/619 [23:45<32:08,  5.45s/it]finalising
+Testing:  43%|█████████████████▏                      | 266/619 [23:49<29:52,  5.08s/it]finalising
+Testing:  43%|█████████████████▎                      | 267/619 [23:52<26:19,  4.49s/it]finalising
+Testing:  43%|█████████████████▎                      | 268/619 [24:02<35:06,  6.00s/it]finalising
+Testing:  43%|█████████████████▍                      | 269/619 [24:11<41:10,  7.06s/it]finalising
+Testing:  44%|█████████████████▍                      | 270/619 [24:15<34:51,  5.99s/it]finalising
+Testing:  44%|█████████████████▌                      | 271/619 [24:24<41:15,  7.11s/it]finalising
+Testing:  44%|█████████████████▌                      | 272/619 [24:28<34:39,  5.99s/it]finalising
+Testing:  44%|█████████████████▌                      | 272/619 [24:28<34:39,  5.99s/it]finalising
+Testing:  44%|█████████████████▋                      | 273/619 [24:39<42:38,  7.40s/it]finalising
+Testing:  44%|█████████████████▋                      | 274/619 [24:41<34:27,  5.99s/it]finalising
+Testing:  44%|█████████████████▊                      | 275/619 [24:52<41:55,  7.31s/it]finalising
+Testing:  45%|█████████████████▊                      | 276/619 [24:56<36:24,  6.37s/it]finalising
+Testing:  45%|█████████████████▉                      | 277/619 [25:06<42:12,  7.40s/it]finalising
+Testing:  45%|█████████████████▉                      | 278/619 [25:10<36:17,  6.39s/it]finalising
+Testing:  45%|██████████████████                      | 279/619 [25:19<41:39,  7.35s/it]finalising
+Testing:  45%|██████████████████                      | 280/619 [25:22<34:26,  6.10s/it]finalising
+Testing:  45%|██████████████████▏                     | 281/619 [25:26<30:32,  5.42s/it]finalising
+Testing:  46%|██████████████████▏                     | 282/619 [25:36<37:18,  6.64s/it]finalising
+Testing:  46%|██████████████████▎                     | 283/619 [25:39<31:24,  5.61s/it]finalising
+Testing:  46%|██████████████████▎                     | 283/619 [25:39<31:24,  5.61s/it]finalising
+Testing:  46%|██████████████████▎                     | 284/619 [25:49<38:07,  6.83s/it]finalising
+Testing:  46%|██████████████████▍                     | 285/619 [25:53<33:58,  6.10s/it]finalising
+Testing:  46%|██████████████████▍                     | 286/619 [25:57<30:37,  5.52s/it]finalising
+Testing:  46%|██████████████████▌                     | 287/619 [26:01<27:02,  4.89s/it]finalising
+Testing:  47%|██████████████████▌                     | 288/619 [26:05<25:55,  4.70s/it]finalising
+Testing:  47%|██████████████████▋                     | 289/619 [26:09<24:23,  4.44s/it]finalising
+Testing:  47%|██████████████████▋                     | 290/619 [26:12<22:27,  4.10s/it]finalising
+Testing:  47%|██████████████████▊                     | 291/619 [26:16<21:54,  4.01s/it]finalising
+Testing:  47%|██████████████████▊                     | 292/619 [26:25<30:48,  5.65s/it]finalising
+Testing:  47%|██████████████████▉                     | 293/619 [26:34<36:28,  6.71s/it]finalising
+Testing:  47%|██████████████████▉                     | 294/619 [26:37<30:19,  5.60s/it]finalising
+Testing:  48%|███████████████████                     | 295/619 [26:47<36:21,  6.73s/it]finalising
+Testing:  48%|███████████████████▏                    | 296/619 [26:51<32:10,  5.98s/it]finalising
+Testing:  48%|███████████████████▏                    | 297/619 [26:55<28:53,  5.38s/it]finalising
+Testing:  48%|███████████████████▎                    | 298/619 [26:58<24:51,  4.65s/it]finalising
+Testing:  48%|███████████████████▎                    | 299/619 [27:07<32:18,  6.06s/it]finalising
+Testing:  48%|███████████████████▍                    | 300/619 [27:11<28:48,  5.42s/it]finalising
+Testing:  49%|███████████████████▍                    | 301/619 [27:15<26:48,  5.06s/it]finalising
+Testing:  49%|███████████████████▌                    | 302/619 [27:26<35:40,  6.75s/it]finalising
+Testing:  49%|███████████████████▌                    | 303/619 [27:34<36:47,  6.99s/it]finalising
+Testing:  49%|███████████████████▋                    | 304/619 [27:37<31:18,  5.96s/it]finalising
+Testing:  49%|███████████████████▋                    | 304/619 [27:37<31:18,  5.96s/it]finalising
+Testing:  49%|███████████████████▋                    | 305/619 [27:47<36:48,  7.03s/it]finalising
+Testing:  49%|███████████████████▊                    | 306/619 [27:53<36:06,  6.92s/it]finalising
+Testing:  50%|███████████████████▊                    | 307/619 [27:57<30:00,  5.77s/it]finalising
+Testing:  50%|███████████████████▉                    | 308/619 [28:01<27:54,  5.38s/it]finalising
+Testing:  50%|███████████████████▉                    | 309/619 [28:04<24:38,  4.77s/it]finalising
+Testing:  50%|████████████████████                    | 310/619 [28:14<31:40,  6.15s/it]finalising
+Testing:  50%|████████████████████                    | 311/619 [28:17<26:53,  5.24s/it]finalising
+Testing:  50%|████████████████████▏                   | 312/619 [28:21<24:39,  4.82s/it]finalising
+Testing:  51%|████████████████████▏                   | 313/619 [28:23<21:25,  4.20s/it]finalising
+Testing:  51%|████████████████████▎                   | 314/619 [28:27<19:43,  3.88s/it]finalising
+Testing:  51%|████████████████████▎                   | 315/619 [28:31<20:06,  3.97s/it]finalising
+Testing:  51%|████████████████████▍                   | 316/619 [28:40<28:24,  5.62s/it]finalising
+Testing:  51%|████████████████████▍                   | 317/619 [28:50<34:07,  6.78s/it]finalising
+Testing:  51%|████████████████████▌                   | 318/619 [28:53<29:02,  5.79s/it]finalising
+Testing:  52%|█████▋     | 319/619 [29:03<34:41,  6.94s/it]                             finalising
+Testing:  52%|█████▋     | 320/619 [29:07<29:44,  5.97s/it]                             finalising
+Testing:  52%|█████▋     | 321/619 [29:11<27:25,  5.52s/it]finalising                   finalising
+Testing:  52%|█████▋     | 322/619 [29:14<24:13,  4.89s/it]finalising                   finalising
+Testing:  52%|█████▋     | 323/619 [29:18<21:32,  4.37s/it]finalising                   finalising
+Testing:  52%|█████▊     | 324/619 [29:22<21:12,  4.31s/it]finalising                   finalising
+Testing:  53%|█████▊     | 325/619 [29:31<28:37,  5.84s/it]finalising                   finalising
+Testing:  53%|█████▊     | 326/619 [29:34<23:57,  4.91s/it]finalising                   finalising
+Testing:  53%|█████▊     | 327/619 [29:37<21:23,  4.39s/it]finalising                   finalising
+Testing:  53%|█████▊     | 328/619 [29:42<21:31,  4.44s/it]finalising                   finalising
+Testing:  53%|█████▊     | 329/619 [29:44<18:57,  3.92s/it]finalising                   finalising
+Testing:  53%|█████▊     | 330/619 [29:54<26:48,  5.57s/it]finalising                   finalising
+Testing:  53%|█████▉     | 331/619 [29:57<23:52,  4.97s/it]finalising                   finalising
+Testing:  54%|█████▉     | 332/619 [30:05<27:41,  5.79s/it]finalising                   finalising
+Testing:  54%|█████▉     | 333/619 [30:11<27:17,  5.73s/it]finalising                   finalising
+Testing:  54%|█████▉     | 334/619 [30:14<23:54,  5.03s/it]finalising                   finalising
+Testing:  54%|█████▉     | 335/619 [30:18<22:21,  4.72s/it]finalising                   finalising
+Testing:  54%|█████▉     | 336/619 [30:22<20:30,  4.35s/it]finalising                   finalising
+Testing:  54%|█████▉     | 337/619 [30:24<18:11,  3.87s/it]finalising                   finalising
+Testing:  55%|██████     | 338/619 [30:27<16:53,  3.61s/it]finalising                   finalising
+Testing:  55%|██████     | 339/619 [30:37<25:03,  5.37s/it]finalising                   finalising
+Testing:  55%|██████     | 340/619 [30:46<30:38,  6.59s/it]finalising                   finalising
+Testing:  55%|██████     | 341/619 [30:50<26:59,  5.83s/it]finalising                   finalising
+Testing:  55%|██████     | 342/619 [31:01<33:27,  7.25s/it]finalising                   finalising
+Testing:  55%|██████     | 343/619 [31:06<30:16,  6.58s/it]finalising                   finalising
+Testing:  56%|██████     | 344/619 [31:16<35:24,  7.73s/it]finalising                   finalising
+Testing:  56%|██████▏    | 345/619 [31:20<29:34,  6.48s/it]finalising                   finalising
+Testing:  56%|██████▏    | 346/619 [31:23<25:35,  5.62s/it]finalising                   finalising
+Testing:  56%|██████▏    | 347/619 [31:27<22:33,  4.97s/it]finalising                   finalising
+Testing:  56%|██████▏    | 348/619 [31:30<20:21,  4.51s/it]finalising                   finalising
+Testing:  56%|██████▏    | 349/619 [31:40<26:55,  5.98s/it]finalising                   finalising
+Testing:  57%|██████▏    | 350/619 [31:43<23:15,  5.19s/it]finalising                   finalising
+Testing:  57%|██████▏    | 351/619 [31:46<20:08,  4.51s/it]finalising                   finalising
+Testing:  57%|██████▎    | 352/619 [31:55<26:31,  5.96s/it]finalising                   finalising
+Testing:  57%|██████▎    | 353/619 [31:59<22:47,  5.14s/it]finalising                   finalising
+Testing:  57%|██████▎    | 354/619 [32:01<19:31,  4.42s/it]finalising                   finalising
+Testing:  57%|██████▎    | 355/619 [32:04<17:35,  4.00s/it]finalising                   finalising
+Testing:  58%|██████▎    | 356/619 [32:14<24:42,  5.64s/it]finalising                   finalising
+Testing:  58%|██████▎    | 357/619 [32:20<25:42,  5.89s/it]finalising                   finalising
+Testing:  58%|██████▎    | 358/619 [32:25<24:01,  5.52s/it]finalising                   finalising
+Testing:  58%|██████▍    | 359/619 [32:28<21:24,  4.94s/it]finalising                   finalising
+Testing:  58%|██████▍    | 360/619 [32:32<19:41,  4.56s/it]finalising                   finalising
+Testing:  58%|██████▍    | 361/619 [32:36<18:34,  4.32s/it]finalising                   finalising
+Testing:  58%|██████▍    | 362/619 [32:40<18:19,  4.28s/it]finalising                   finalising
+Testing:  59%|██████▍    | 363/619 [32:43<16:58,  3.98s/it]finalising                   finalising
+Testing:  59%|██████▍    | 364/619 [32:48<17:08,  4.03s/it]finalising                   finalising
+Testing:  59%|██████▍    | 365/619 [32:57<24:13,  5.72s/it]finalising                   finalising
+Testing:  59%|██████▌    | 366/619 [33:01<21:12,  5.03s/it]finalising                   finalising
+Testing:  59%|██████▌    | 367/619 [33:05<20:11,  4.81s/it]finalising                   finalising
+Testing:  59%|██████▌    | 368/619 [33:09<19:15,  4.60s/it]finalising                   finalising
+Testing:  60%|██████▌    | 369/619 [33:13<18:21,  4.41s/it]finalising                   finalising
+Testing:  60%|██████▌    | 370/619 [33:17<18:00,  4.34s/it]finalising                   finalising
+Testing:  60%|██████▌    | 371/619 [33:20<16:22,  3.96s/it]finalising                   finalising
+Testing:  60%|██████▌    | 372/619 [33:24<15:54,  3.86s/it]finalising                   finalising
+Testing:  60%|██████▋    | 373/619 [33:27<15:23,  3.75s/it]finalising                   finalising
+Testing:  60%|██████▋    | 374/619 [33:31<14:37,  3.58s/it]finalising                   finalising
+Testing:  61%|██████▋    | 375/619 [33:34<14:06,  3.47s/it]finalising                   finalising
+Testing:  61%|██████▋    | 376/619 [33:43<21:23,  5.28s/it]finalising                   finalising
+Testing:  61%|██████▋    | 377/619 [33:46<18:14,  4.52s/it]finalising                   finalising
+Testing:  61%|██████▋    | 378/619 [33:55<24:06,  6.00s/it]finalising                   finalising
+Testing:  61%|██████▋    | 379/619 [34:05<28:06,  7.03s/it]finalising                   finalising
+Testing:  61%|██████▊    | 380/619 [34:15<32:02,  8.04s/it]finalising                   finalising
+Testing:  62%|██████▊    | 381/619 [34:20<28:05,  7.08s/it]finalising                   finalising
+Testing:  62%|██████▊    | 382/619 [34:24<24:08,  6.11s/it]finalising                   finalising
+Testing:  62%|██████▊    | 383/619 [34:27<20:49,  5.29s/it]finalising                   finalising
+Testing:  62%|██████▊    | 384/619 [34:30<17:55,  4.58s/it]finalising                   finalising
+Testing:  62%|██████▊    | 385/619 [34:40<23:44,  6.09s/it]finalising                   finalising
+Testing:  62%|██████▊    | 386/619 [34:44<20:48,  5.36s/it]finalising                   finalising
+Testing:  63%|██████▉    | 387/619 [34:47<18:30,  4.79s/it]finalising                   finalising
+Testing:  63%|██████▉    | 388/619 [34:50<15:49,  4.11s/it]finalising                   finalising
+Testing:  63%|██████▉    | 389/619 [34:52<14:13,  3.71s/it]finalising                   finalising
+Testing:  63%|██████▉    | 390/619 [34:55<13:28,  3.53s/it]finalising                   finalising
+Testing:  63%|██████▉    | 391/619 [35:05<20:20,  5.35s/it]finalising                   finalising
+Testing:  63%|██████▉    | 392/619 [35:08<17:19,  4.58s/it]finalising                   finalising
+Testing:  63%|██████▉    | 393/619 [35:11<15:48,  4.20s/it]finalising                   finalising
+Testing:  64%|███████    | 394/619 [35:15<15:08,  4.04s/it]finalising                   finalising
+Testing:  64%|███████    | 395/619 [35:18<13:52,  3.72s/it]finalising                   finalising
+Testing:  64%|███████    | 396/619 [35:27<20:11,  5.43s/it]finalising                   finalising
+Testing:  64%|███████    | 397/619 [35:30<16:52,  4.56s/it]finalising                   finalising
+Testing:  64%|███████    | 398/619 [35:33<15:13,  4.13s/it]finalising                   finalising
+Testing:  64%|███████    | 399/619 [35:36<14:00,  3.82s/it]finalising                   finalising
+Testing:  65%|███████    | 400/619 [35:41<14:54,  4.08s/it]finalising                   finalising
+Testing:  65%|███████▏   | 401/619 [35:44<13:42,  3.77s/it]finalising                   finalising
+Testing:  65%|███████▏   | 402/619 [35:48<14:25,  3.99s/it]finalising                   finalising
+Testing:  65%|███████▏   | 403/619 [35:52<14:28,  4.02s/it]finalising                   finalising
+Testing:  65%|███████▏   | 404/619 [35:56<13:57,  3.90s/it]finalising                   finalising
+Testing:  65%|███████▏   | 405/619 [35:59<13:22,  3.75s/it]finalising                   finalising
+Testing:  66%|███████▏   | 406/619 [36:03<12:54,  3.63s/it]finalising                   finalising
+Testing:  66%|███████▏   | 407/619 [36:07<13:56,  3.95s/it]finalising                   finalising
+Testing:  66%|███████▎   | 408/619 [36:11<14:02,  4.00s/it]finalising                   finalising
+Testing:  66%|███████▎   | 409/619 [36:16<14:18,  4.09s/it]finalising                   finalising
+Testing:  66%|███████▎   | 410/619 [36:19<13:20,  3.83s/it]finalising                   finalising
+Testing:  66%|███████▎   | 411/619 [36:23<13:59,  4.03s/it]finalising                   finalising
+Testing:  67%|███████▎   | 412/619 [36:33<19:38,  5.69s/it]finalising                   finalising
+Testing:  67%|███████▎   | 413/619 [36:38<18:26,  5.37s/it]finalising                   finalising
+Testing:  67%|███████▎   | 414/619 [36:42<16:50,  4.93s/it]finalising                   finalising
+Testing:  67%|███████▎   | 415/619 [36:46<15:48,  4.65s/it]finalising                   finalising
+Testing:  67%|███████▍   | 416/619 [36:51<16:43,  4.94s/it]finalising                   finalising
+Testing:  67%|███████▍   | 417/619 [37:00<21:03,  6.25s/it]finalising                   finalising
+Testing:  68%|███████▍   | 418/619 [37:04<18:02,  5.39s/it]finalising                   finalising
+Testing:  68%|███████▍   | 419/619 [37:09<17:27,  5.24s/it]finalising                   finalising
+Testing:  68%|███████▍   | 420/619 [37:13<16:27,  4.96s/it]finalising                   finalising
+Testing:  68%|███████▍   | 421/619 [37:17<15:11,  4.60s/it]finalising                   finalising
+Testing:  68%|███████▍   | 422/619 [37:20<13:36,  4.15s/it]finalising                   finalising
+Testing:  68%|███████▌   | 423/619 [37:24<13:03,  4.00s/it]finalising                   finalising
+Testing:  68%|███████▌   | 424/619 [37:27<12:21,  3.80s/it]finalising                   finalising
+Testing:  69%|███████▌   | 425/619 [37:30<11:48,  3.65s/it]finalising                   finalising
+Testing:  69%|███████▌   | 426/619 [37:36<14:09,  4.40s/it]finalising                   finalising
+Testing:  69%|███████▌   | 427/619 [37:46<18:56,  5.92s/it]finalising                   finalising
+Testing:  69%|███████▌   | 428/619 [37:55<22:13,  6.98s/it]finalising                   finalising
+Testing:  69%|███████▌   | 429/619 [37:59<18:35,  5.87s/it]finalising                   finalising
+Testing:  69%|███████▋   | 430/619 [38:03<16:59,  5.40s/it]finalising                   finalising
+Testing:  70%|███████▋   | 431/619 [38:12<20:41,  6.60s/it]finalising                   finalising
+Testing:  70%|███████▋   | 432/619 [38:17<18:25,  5.91s/it]finalising                   finalising
+Testing:  70%|███████▋   | 433/619 [38:21<16:37,  5.36s/it]finalising                   finalising
+Testing:  70%|███████▋   | 434/619 [38:24<14:44,  4.78s/it]finalising                   finalising
+Testing:  70%|███████▋   | 435/619 [38:28<13:26,  4.38s/it]finalising                   finalising
+Testing:  70%|███████▋   | 436/619 [38:37<18:01,  5.91s/it]finalising                   finalising
+Testing:  71%|███████▊   | 437/619 [38:42<17:17,  5.70s/it]finalising                   finalising
+Testing:  71%|███████▊   | 438/619 [38:45<14:47,  4.91s/it]finalising                   finalising
+Testing:  71%|███████▊   | 439/619 [38:49<13:57,  4.65s/it]finalising                   finalising
+Testing:  71%|███████▊   | 440/619 [38:52<12:27,  4.18s/it]finalising                   finalising
+Testing:  71%|███████▊   | 441/619 [38:56<12:05,  4.08s/it]finalising                   finalising
+Testing:  71%|███████▊   | 442/619 [39:06<16:44,  5.67s/it]finalising                   finalising
+Testing:  72%|███████▊   | 443/619 [39:15<19:55,  6.79s/it]finalising                   finalising
+Testing:  72%|███████▉   | 444/619 [39:19<17:02,  5.85s/it]finalising                   finalising
+Testing:  72%|███████▉   | 445/619 [39:22<14:31,  5.01s/it]finalising                   finalising
+Testing:  72%|███████▉   | 446/619 [39:27<14:52,  5.16s/it]finalising                   finalising
+Testing:  72%|███████▉   | 447/619 [39:30<12:40,  4.42s/it]finalising                   finalising
+Testing:  72%|███████▉   | 448/619 [39:34<11:57,  4.20s/it]finalising                   finalising
+Testing:  73%|███████▉   | 449/619 [39:37<11:28,  4.05s/it]finalising                   finalising
+Testing:  73%|███████▉   | 450/619 [39:41<10:51,  3.86s/it]finalising                   finalising
+Testing:  73%|████████   | 451/619 [39:45<11:09,  3.99s/it]finalising                   finalising
+Testing:  73%|████████   | 452/619 [39:48<10:19,  3.71s/it]finalising                   finalising
+Testing:  73%|████████   | 453/619 [39:58<15:02,  5.44s/it]finalising                   finalising
+Testing:  73%|████████   | 454/619 [40:02<14:10,  5.15s/it]finalising                   finalising
+Testing:  74%|████████   | 455/619 [40:05<12:06,  4.43s/it]finalising                   finalising
+Testing:  74%|████████   | 456/619 [40:07<10:38,  3.91s/it]finalising                   finalising
+Testing:  74%|████████   | 457/619 [40:13<11:45,  4.36s/it]finalising                   finalising
+Testing:  74%|████████▏  | 458/619 [40:16<10:30,  3.92s/it]finalising                   finalising
+Testing:  74%|████████▏  | 459/619 [40:19<09:48,  3.68s/it]finalising                   finalising
+Testing:  74%|████████▏  | 460/619 [40:23<09:45,  3.68s/it]finalising                   finalising
+Testing:  74%|████████▏  | 461/619 [40:27<09:59,  3.80s/it]finalising                   finalising
+Testing:  75%|████████▏  | 462/619 [40:30<09:44,  3.72s/it]finalising                   finalising
+Testing:  75%|████████▏  | 463/619 [40:40<14:10,  5.45s/it]finalising                   finalising
+Testing:  75%|████████▏  | 464/619 [40:50<18:02,  6.98s/it]finalising                   finalising
+Testing:  75%|████████▎  | 465/619 [40:53<15:03,  5.87s/it]finalising                   finalising
+Testing:  75%|████████▎  | 466/619 [40:57<13:22,  5.24s/it]finalising                   finalising
+Testing:  75%|████████▎  | 467/619 [41:01<12:01,  4.75s/it]finalising                   finalising
+Testing:  76%|████████▎  | 468/619 [41:11<16:22,  6.51s/it]finalising                   finalising
+Testing:  76%|████████▎  | 469/619 [41:22<19:08,  7.66s/it]finalising                   finalising
+Testing:  76%|████████▎  | 470/619 [41:26<16:33,  6.67s/it]finalising                   finalising
+Testing:  76%|████████▎  | 471/619 [41:29<13:39,  5.54s/it]finalising                   finalising
+Testing:  76%|████████▍  | 472/619 [41:32<11:35,  4.73s/it]finalising                   finalising
+Testing:  76%|████████▍  | 473/619 [41:35<10:27,  4.30s/it]finalising                   finalising
+Testing:  77%|████████▍  | 474/619 [41:38<09:10,  3.80s/it]finalising                   finalising
+Testing:  77%|████████▍  | 475/619 [41:41<08:25,  3.51s/it]finalising                   finalising
+Testing:  77%|████████▍  | 476/619 [41:50<12:36,  5.29s/it]finalising                   finalising
+Testing:  77%|████████▍  | 477/619 [41:54<11:14,  4.75s/it]finalising                   finalising
+Testing:  77%|████████▍  | 478/619 [41:57<10:03,  4.28s/it]finalising                   finalising
+Testing:  77%|████████▌  | 479/619 [42:01<09:57,  4.27s/it]finalising                   finalising
+Testing:  78%|████████▌  | 480/619 [42:06<10:04,  4.35s/it]finalising                   finalising
+Testing:  78%|████████▌  | 481/619 [42:09<09:08,  3.97s/it]finalising                   finalising
+Testing:  78%|████████▌  | 482/619 [42:18<12:52,  5.64s/it]finalising                   finalising
+Testing:  78%|████████▌  | 483/619 [42:22<11:28,  5.06s/it]finalising                   finalising
+Testing:  78%|████████▌  | 484/619 [42:31<14:19,  6.37s/it]finalising                   finalising
+Testing:  78%|████████▌  | 485/619 [42:36<13:08,  5.88s/it]finalising                   finalising
+Testing:  79%|████████▋  | 486/619 [42:42<13:11,  5.95s/it]finalising                   finalising
+Testing:  79%|████████▋  | 487/619 [42:46<11:23,  5.18s/it]finalising                   finalising
+Testing:  79%|████████▋  | 487/619 [42:46<11:23,  5.18s/it]finalising                   finalising
+Testing:  79%|████████▋  | 488/619 [42:49<09:50,  4.50s/it]finalising                   finalising
+Testing:  79%|████████▋  | 489/619 [42:58<12:55,  5.96s/it]finalising                   finalising
+Testing:  79%|████████▋  | 490/619 [43:08<15:11,  7.06s/it]finalising                   finalising
+Testing:  79%|████████▋  | 491/619 [43:11<13:05,  6.13s/it]finalising                   finalising
+Testing:  79%|████████▋  | 492/619 [43:15<11:03,  5.23s/it]finalising                   finalising
+Testing:  80%|████████▊  | 493/619 [43:18<10:00,  4.77s/it]finalising                   finalising
+Testing:  80%|████████▊  | 494/619 [43:22<09:07,  4.38s/it]finalising                   finalising
+Testing:  80%|████████▊  | 495/619 [43:25<08:21,  4.04s/it]finalising                   finalising
+Testing:  80%|████████▊  | 496/619 [43:28<07:51,  3.83s/it]finalising                   finalising
+Testing:  80%|████████▊  | 497/619 [43:34<08:42,  4.28s/it]finalising                   finalising
+Testing:  80%|████████▊  | 498/619 [43:37<08:01,  3.98s/it]finalising                   finalising
+Testing:  81%|████████▊  | 499/619 [43:48<12:04,  6.03s/it]finalising                   finalising
+Testing:  81%|████████▉  | 500/619 [43:52<10:49,  5.46s/it]finalising                   finalising
+Testing:  81%|████████▉  | 501/619 [43:56<09:56,  5.06s/it]finalising                   finalising
+Testing:  81%|████████▉  | 502/619 [44:07<13:10,  6.76s/it]finalising                   finalising
+Testing:  81%|████████▉  | 503/619 [44:16<14:25,  7.46s/it]finalising                   finalising
+Testing:  81%|████████▉  | 504/619 [44:20<12:40,  6.61s/it]finalising                   finalising
+Testing:  82%|████████▉  | 505/619 [44:25<11:14,  5.92s/it]finalising                   finalising
+Testing:  82%|████████▉  | 506/619 [44:28<09:48,  5.21s/it]finalising                   finalising
+Testing:  82%|█████████  | 507/619 [44:33<09:23,  5.03s/it]finalising                   finalising
+Testing:  82%|█████████  | 508/619 [44:37<08:39,  4.68s/it]finalising                   finalising
+Testing:  82%|█████████  | 509/619 [44:47<11:44,  6.41s/it]finalising                   finalising
+Testing:  82%|█████████  | 510/619 [44:51<09:55,  5.47s/it]finalising                   finalising
+Testing:  83%|█████████  | 511/619 [45:00<11:59,  6.66s/it]finalising                   finalising
+Testing:  83%|█████████  | 512/619 [45:03<10:11,  5.71s/it]finalising                   finalising
+Testing:  83%|█████████  | 513/619 [45:14<12:34,  7.12s/it]finalising                   finalising
+Testing:  83%|█████████▏ | 514/619 [45:18<10:58,  6.27s/it]finalising                   finalising
+Testing:  83%|█████████▏ | 515/619 [45:22<09:42,  5.61s/it]finalising                   finalising
+Testing:  83%|█████████▏ | 516/619 [45:26<08:55,  5.20s/it]finalising                   finalising
+Testing:  84%|█████████▏ | 517/619 [45:29<07:40,  4.52s/it]finalising                   finalising
+Testing:  84%|█████████▏ | 518/619 [45:39<10:06,  6.01s/it]finalising                   finalising
+Testing:  84%|█████████▏ | 519/619 [45:43<09:10,  5.51s/it]finalising                   finalising
+Testing:  84%|█████████▏ | 520/619 [45:49<09:15,  5.61s/it]finalising                   finalising
+Testing:  84%|█████████▎ | 521/619 [45:53<08:30,  5.21s/it]finalising                   finalising
+Testing:  84%|█████████▎ | 522/619 [45:57<07:35,  4.70s/it]finalising                   finalising
+Testing:  84%|█████████▎ | 523/619 [46:03<08:16,  5.17s/it]finalising                   finalising
+Testing:  85%|█████████▎ | 524/619 [46:08<07:49,  4.94s/it]finalising                   finalising
+Testing:  85%|█████████▎ | 525/619 [46:17<09:52,  6.30s/it]finalising                   finalising
+Testing:  85%|█████████▎ | 526/619 [46:26<11:10,  7.21s/it]finalising                   finalising
+Testing:  85%|█████████▎ | 527/619 [46:30<09:17,  6.06s/it]finalising                   finalising
+Testing:  85%|█████████▍ | 528/619 [46:34<08:30,  5.61s/it]finalising                   finalising
+Testing:  85%|█████████▍ | 529/619 [46:44<10:11,  6.79s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 530/619 [46:47<08:14,  5.56s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 531/619 [46:50<07:05,  4.83s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 531/619 [46:50<07:05,  4.83s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 532/619 [46:53<06:17,  4.34s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 533/619 [46:57<05:58,  4.16s/it]finalising                   finalising
+Testing:  86%|█████████▍ | 534/619 [47:01<05:58,  4.21s/it]finalising                   finalising
+Testing:  86%|█████████▌ | 535/619 [47:05<05:54,  4.22s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 536/619 [47:09<05:40,  4.10s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 537/619 [47:13<05:36,  4.11s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 538/619 [47:16<05:04,  3.76s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 539/619 [47:24<06:38,  4.98s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 540/619 [47:30<07:10,  5.45s/it]finalising                   finalising
+Testing:  87%|█████████▌ | 541/619 [47:40<08:34,  6.59s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 542/619 [47:49<09:31,  7.42s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 543/619 [47:53<08:15,  6.52s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 544/619 [48:03<09:13,  7.38s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 544/619 [48:03<09:13,  7.38s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 545/619 [48:07<07:53,  6.40s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 546/619 [48:17<09:00,  7.40s/it]finalising                   finalising
+Testing:  88%|█████████▋ | 547/619 [48:20<07:14,  6.03s/it]finalising                   finalising
+Testing:  89%|█████████▋ | 548/619 [48:29<08:18,  7.02s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 549/619 [48:32<06:58,  5.98s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 550/619 [48:37<06:19,  5.50s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 551/619 [48:47<07:53,  6.97s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 552/619 [48:51<06:39,  5.96s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 553/619 [48:54<05:41,  5.18s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 553/619 [48:54<05:41,  5.18s/it]finalising                   finalising
+Testing:  89%|█████████▊ | 554/619 [48:57<04:51,  4.48s/it]finalising                   finalising
+Testing:  90%|█████████▊ | 555/619 [49:02<04:49,  4.52s/it]finalising                   finalising
+Testing:  90%|█████████▉ | 556/619 [49:05<04:28,  4.26s/it]finalising                   finalising
+Testing:  90%|█████████▉ | 557/619 [49:09<04:12,  4.08s/it]finalising                   finalising
+Testing:  90%|█████████▉ | 558/619 [49:12<03:49,  3.76s/it]finalising                   finalising
+Testing:  90%|█████████▉ | 559/619 [49:15<03:35,  3.60s/it]finalising                   finalising
+Testing:  90%|█████████▉ | 560/619 [49:25<05:16,  5.36s/it]finalising                   finalising
+Testing:  91%|█████████▉ | 561/619 [49:29<04:51,  5.03s/it]finalising                   finalising
+Testing:  91%|█████████▉ | 562/619 [49:32<04:12,  4.43s/it]finalising                   finalising
+Testing:  91%|██████████ | 563/619 [49:36<03:57,  4.24s/it]finalising                   finalising
+Testing:  91%|██████████ | 564/619 [49:39<03:35,  3.91s/it]finalising                   finalising
+Testing:  91%|██████████ | 565/619 [49:42<03:17,  3.65s/it]finalising                   finalising
+Testing:  91%|██████████ | 566/619 [49:47<03:38,  4.12s/it]finalising                   finalising
+Testing:  92%|██████████ | 567/619 [49:50<03:18,  3.82s/it]finalising                   finalising
+Testing:  92%|██████████ | 568/619 [49:54<03:09,  3.72s/it]finalising                   finalising
+Testing:  92%|██████████ | 569/619 [49:57<03:04,  3.70s/it]finalising                   finalising
+Testing:  92%|██████████▏| 570/619 [50:00<02:46,  3.41s/it]finalising                   finalising
+Testing:  92%|██████████▏| 571/619 [50:04<02:50,  3.54s/it]finalising                   finalising
+Testing:  92%|██████████▏| 572/619 [50:08<02:56,  3.76s/it]finalising                   finalising
+Testing:  93%|██████████▏| 573/619 [50:18<04:12,  5.48s/it]finalising                   finalising
+Testing:  93%|██████████▏| 574/619 [50:23<04:02,  5.39s/it]finalising                   finalising
+Testing:  93%|██████████▏| 575/619 [50:27<03:45,  5.12s/it]finalising                   finalising
+Testing:  93%|██████████▏| 576/619 [50:32<03:39,  5.09s/it]finalising                   finalising
+Testing:  93%|██████████▎| 577/619 [50:38<03:42,  5.30s/it]finalising                   finalising
+Testing:  93%|██████████▎| 578/619 [50:42<03:20,  4.90s/it]finalising                   finalising
+Testing:  94%|██████████▎| 579/619 [50:46<03:00,  4.52s/it]finalising                   finalising
+Testing:  94%|██████████▎| 580/619 [50:49<02:41,  4.15s/it]finalising                   finalising
+Testing:  94%|██████████▎| 581/619 [50:52<02:27,  3.89s/it]finalising                   finalising
+Testing:  94%|██████████▎| 582/619 [50:57<02:30,  4.07s/it]finalising                   finalising
+Testing:  94%|██████████▎| 583/619 [51:01<02:31,  4.20s/it]finalising                   finalising
+Testing:  94%|██████████▍| 584/619 [51:12<03:31,  6.05s/it]finalising                   finalising
+Testing:  95%|██████████▍| 585/619 [51:15<02:59,  5.27s/it]finalising                   finalising
+Testing:  95%|██████████▍| 586/619 [51:26<03:47,  6.90s/it]finalising                   finalising
+Testing:  95%|██████████▍| 587/619 [51:30<03:18,  6.21s/it]finalising                   finalising
+Testing:  95%|██████████▍| 588/619 [51:35<03:01,  5.84s/it]finalising                   finalising
+Testing:  95%|██████████▍| 589/619 [51:39<02:38,  5.28s/it]finalising                   finalising
+Testing:  95%|██████████▍| 590/619 [51:46<02:44,  5.66s/it]finalising                   finalising
+Testing:  95%|██████████▌| 591/619 [51:50<02:21,  5.04s/it]finalising                   finalising
+Testing:  96%|██████████▌| 592/619 [51:54<02:09,  4.81s/it]finalising                   finalising
+Testing:  96%|██████████▌| 593/619 [52:04<02:48,  6.49s/it]finalising                   finalising
+Testing:  96%|██████████▌| 594/619 [52:10<02:38,  6.34s/it]finalising                   finalising
+Testing:  96%|██████████▌| 595/619 [52:20<02:54,  7.26s/it]finalising                   finalising
+Testing:  96%|██████████▌| 596/619 [52:24<02:29,  6.52s/it]finalising                   finalising
+Testing:  96%|██████████▌| 597/619 [52:27<01:57,  5.33s/it]finalising                   finalising
+Testing:  97%|██████████▋| 598/619 [52:32<01:51,  5.33s/it]finalising                   finalising
+Testing:  97%|██████████▋| 599/619 [52:36<01:39,  4.97s/it]finalising                   finalising
+Testing:  97%|██████████▋| 600/619 [52:40<01:26,  4.54s/it]finalising                   finalising
+Testing:  97%|██████████▋| 601/619 [52:43<01:13,  4.06s/it]finalising                   finalising
+Testing:  97%|██████████▋| 602/619 [52:46<01:04,  3.78s/it]finalising                   finalising
+Testing:  97%|██████████▋| 603/619 [52:51<01:06,  4.17s/it]finalising                   finalising
+Testing:  98%|██████████▋| 604/619 [53:01<01:26,  5.74s/it]finalising                   finalising
+Testing:  98%|██████████▊| 605/619 [53:05<01:13,  5.27s/it]finalising                   finalising
+Testing:  98%|██████████▊| 606/619 [53:09<01:02,  4.84s/it]finalising                   finalising
+Testing:  98%|██████████▊| 607/619 [53:12<00:51,  4.31s/it]finalising                   finalising
+Testing:  98%|██████████▊| 608/619 [53:15<00:44,  4.08s/it]finalising                   finalising
+Testing:  98%|██████████▊| 609/619 [53:20<00:42,  4.22s/it]finalising                   finalising
+Testing:  99%|██████████▊| 610/619 [53:22<00:33,  3.71s/it]finalising                   finalising
+Testing:  99%|██████████▊| 611/619 [53:26<00:30,  3.78s/it]finalising                   finalising
+Testing:  99%|██████████▉| 612/619 [53:29<00:23,  3.39s/it]finalising                   finalising
+Testing:  99%|██████████▉| 613/619 [53:32<00:20,  3.38s/it]finalising                   finalising
+Testing:  99%|██████████▉| 614/619 [53:36<00:17,  3.54s/it]finalising                   finalising
+Testing:  99%|██████████▉| 615/619 [53:39<00:13,  3.28s/it]finalising                   finalising
+Testing: 100%|██████████▉| 616/619 [53:42<00:10,  3.34s/it]finalising                   finalising
+Testing: 100%|██████████▉| 617/619 [53:44<00:06,  3.03s/it]finalising                   finalising
+Testing: 100%|██████████▉| 618/619 [53:54<00:05,  5.03s/it]finalising                   finalising
+Testing: 100%|███████████| 619/619 [53:58<00:00,  4.63s/it]====================this is called ========================
+01/03/2023 10:23:29 AM [INFO] pa : epoch : 22 | BLEU = 24.68 48.3/29.5/19.2/13.6 (BP = 1.000 ratio = 1.220 hyp_len = 8294 ref_len = 6796)
+01/03/2023 10:23:30 AM [INFO] or : epoch : 22 | BLEU = 45.59 67.2/49.4/39.8/32.7 (BP = 1.000 ratio = 1.021 hyp_len = 3288 ref_len = 3221))
+01/03/2023 10:23:30 AM [INFO] or : epoch : 22 | BLEU = 45.59 67.2/49.4/39.8/32.7 (BP = 1.000 ratio = 1.021 hyp_len = 3288 ref_len = 3221))
+01/03/2023 10:23:30 AM [INFO] epoch : 22 - average_test_loss : 0.805839
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'as_overall_test_bleu': 9.866167362269415,
+ 'avg_test_loss': tensor(0.8058, device='cuda:0'),
+ 'bn_overall_test_bleu': 61.37570260806655,
+ 'en_overall_test_bleu': 46.39490636214547,
+ 'gu_overall_test_bleu': 22.10172417022759,
+ 'hi_overall_test_bleu': 42.21896466049648,
+ 'kn_overall_test_bleu': 10.178507672714046,
+ 'ml_overall_test_bleu': 24.48463027214896,
+ 'mr_overall_test_bleu': 24.888824347446167,
+ 'or_overall_test_bleu': 45.59197319784591,
+ 'pa_overall_test_bleu': 24.677566789764263,
+ 'ta_overall_test_bleu': 15.87640979620437,
+ 'te_overall_test_bleu': 12.975950626498458}
+--------------------------------------------------------------------------------
+Testing: 100%|███████████| 619/619 [58:02<00:00,  5.63s/it]
+01/03/2023 10:23:30 AM [DEBUG] testing done.

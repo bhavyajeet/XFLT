@@ -2,6 +2,7 @@
  Tail only cross lingual hallucination evaluation
 """
 
+from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 from scipy.spatial import distance
 import numpy as np 
@@ -38,7 +39,7 @@ def generate_embeddings(text):
     """
 
     #print({x : tokenizer.encode(x, add_special_tokens=False, add_prefix_space=True) for x in text.split()})
-    input_encoded = tokenizer(text,is_split_into_words=False, return_tensors="pt")
+    input_encoded = tokenizer(text,is_split_into_words=False, return_tensors="pt", truncation=True, max_length=512)
     #print(input_encoded)
 
     tokens = tokenizer.convert_ids_to_tokens(input_encoded["input_ids"].tolist()[0])
@@ -70,25 +71,19 @@ def compute_distances(emb1,emb2,dis):
 if __name__ == "__main__":
     start = time.time()
 
-    #root = "/Users/rahulmehta/Desktop/MultiSent/datasets/datasets_v2.7/"
-    # root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script"
-    # output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-all-' + DISTANCE + '/'
-
     # Generate reference scores
-    root = "/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/ref"
-    output_path = f'/Users/rahulmehta/Desktop/MultiSent/hallucination/datasets/results-new/results-all-' + DISTANCE + '/'
+    root = "/scratch/model_outputs/towork/ref/"
+    output_path = f'/scratch/model_outputs/towork/results-all-' + DISTANCE + '/'
 
 
     for subdir, dirs, files in os.walk(root):
         lang = subdir[subdir.rfind('/')+1:]
+        print ('=========')
         print(subdir)
         print(lang)
+        print ('=========')
 
-        #lang = subdir[-2:]
-        # print(lang)
         j=0
-        # if len(lang)>2:
-        #     continue
 
         results_all = []
         if lang in ['7/','']:    
@@ -96,9 +91,9 @@ if __name__ == "__main__":
         else:
         #if lang in ['hi']:
             with open(root + '/' + lang + '/test.jsonl') as f,open(output_path  + lang + '-coverage-temp.jsonl','a') as fp:
-                for line in f:
+                for line in tqdm(f,total=4292):
                     j+=1
-                    print(j)
+                    #print(j)
                     # if j>100:
                     #     break
 
@@ -106,6 +101,7 @@ if __name__ == "__main__":
                     data = json.loads(line)
                     f = []
                     facts_list = data['facts']
+                    ref_sent = data['ref_sentence']
 
 
                     text2 = data['generated_sentence']
@@ -133,7 +129,22 @@ if __name__ == "__main__":
 
 
                     #start2 = time.time()
+
+                    #print (fact)
+                    #print (text2)
+                    #print ("--"*10)
+
+
                     embf,tokensf,subword_ids,word_list = generate_embeddings(fact)
+
+                    #print (word_list)
+                    #print (len(word_list))
+                    #print (len(subword_ids))
+                    #print (tokensf)
+                    embf = embf[1:-1]
+                    #print (embf.shape)
+                    #print (subword_ids)
+                    #print (subword_ids)
 
                     embt,tokenst,_,_= generate_embeddings(text2)
                     #end2 = time.time()
@@ -147,7 +158,7 @@ if __name__ == "__main__":
                     #print(fact_idx)
 
                     # words 
-                    words = [tokensf[i] for i in fact_idx]
+                    words = [tokensf[i+1] for i in fact_idx]
                     #print(words)
 
                     # distances 
@@ -159,9 +170,12 @@ if __name__ == "__main__":
               
                     #results['entity_name'] = data['entity_name']
                     results['facts'] = data['facts']
-                    results['sentence'] = data['generated_sentence']
+                    results['sentence'] = data['generated_sentence'].translate(str.maketrans('', '', string.punctuation))
+                    results['ref_sentence'] = data['ref_sentence']
 
                     results['scores'] = min_pairs
+
+                    #print (results)
 
                     results_all.append(results)
 

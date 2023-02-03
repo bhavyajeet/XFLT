@@ -1,0 +1,1 @@
+{"val_loss": 2.561742067337036, "_runtime": 48, "_timestamp": 1674400721, "_step": 64, "avg_val_loss": 2.5206992626190186, "loss": 4.400379180908203, "avg_train_loss": 11.72418212890625, "_wandb": {"runtime": 50}}

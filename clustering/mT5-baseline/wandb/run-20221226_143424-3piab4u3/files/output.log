@@ -1,0 +1,40 @@
+12/26/2022 02:34:33 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+{'test.jsonl'} files are missing, creating the files..
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/main.py", line 575, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/main.py", line 421, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 538, in run_evaluation
+    dataloaders, max_batches = self.evaluation_loop.get_evaluation_dataloaders(max_batches)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 54, in get_evaluation_dataloaders
+    self.trainer.reset_test_dataloader(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py", line 330, in reset_test_dataloader
+    self._reset_eval_dataloader(model, 'test')
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py", line 238, in _reset_eval_dataloader
+    dataloaders = self.request_dataloader(getattr(model, loader_name))
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py", line 341, in request_dataloader
+    dataloader = dataloader_fx()
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/main.py", line 324, in test_dataloader
+    self.config_args.logger)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/main.py", line 279, in _intiate_dataset_merging
+    merge_dataset_across_languages(dataset_dir, languages, dataset_type, os.path.join(final_dir_path, "%s.jsonl" % dataset_type))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/utils.py", line 90, in merge_dataset_across_languages
+    final_res.extend(load_jsonl(file_path))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/utils.py", line 64, in load_jsonl
+    with open(file_path, encoding='utf-8') as dfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/XAlign/datasets/as/test.jsonl'

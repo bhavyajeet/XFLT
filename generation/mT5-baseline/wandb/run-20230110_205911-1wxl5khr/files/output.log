@@ -1,0 +1,155 @@
+01/10/2023 08:59:20 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+{'test.jsonl'} files are missing, creating the files..
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+01/10/2023 08:59:21 PM [CRITICAL] test : script unification to Devanagari is enabled.
+01/10/2023 08:59:21 PM [INFO] test dataset count : 1487
+Testing: 0it [00:00, ?it/s]finalising
+Testing:   1%|▍                                                            | 1/124 [00:03<06:47,  3.32s/it]finalising
+Testing:   2%|▉                                                            | 2/124 [00:05<05:46,  2.84s/it]finalising
+Testing:   2%|█▍                                                           | 3/124 [00:10<07:47,  3.86s/it]finalising
+Testing:   3%|█▉                                                           | 4/124 [00:15<07:55,  3.96s/it]finalising
+Testing:   4%|██▍                                                          | 5/124 [00:17<06:28,  3.26s/it]finalising
+Testing:   5%|██▉                                                          | 6/124 [00:21<07:12,  3.66s/it]finalising
+Testing:   6%|███▍                                                         | 7/124 [00:25<07:06,  3.65s/it]finalising
+Testing:   6%|███▉                                                         | 8/124 [00:27<06:31,  3.37s/it]finalising
+Testing:   7%|████▍                                                        | 9/124 [00:30<05:47,  3.02s/it]finalising
+Testing:   8%|████▊                                                       | 10/124 [00:33<05:54,  3.11s/it]finalising
+Testing:   9%|█████▎                                                      | 11/124 [00:39<07:39,  4.07s/it]finalising
+Testing:  10%|█████▊                                                      | 12/124 [00:42<07:05,  3.80s/it]finalising
+Testing:  10%|██████▎                                                     | 13/124 [00:48<08:12,  4.43s/it]finalising
+Testing:  11%|███▎                         | 14/124 [00:52<07:36,  4.15s/it]                               finalising
+Testing:  12%|███▌                         | 15/124 [00:55<07:14,  3.99s/it]finalising
+Testing:  13%|███▋                         | 16/124 [00:59<06:50,  3.80s/it]finalising
+Testing:  14%|███▉                         | 17/124 [01:02<06:35,  3.70s/it]finalising
+Testing:  15%|████▏                        | 18/124 [01:07<07:08,  4.04s/it]finalising
+Testing:  15%|████▍                        | 19/124 [01:12<07:28,  4.27s/it]finalising
+Testing:  16%|████▋                        | 20/124 [01:15<06:57,  4.02s/it]finalising
+Testing:  17%|████▉                        | 21/124 [01:19<06:48,  3.96s/it]finalising
+Testing:  18%|█████▏                       | 22/124 [01:22<06:05,  3.58s/it]finalising
+
+Testing:  19%|█████▍                       | 23/124 [01:25<05:41,  3.38s/it]finalising
+Testing:  19%|█████▌                       | 24/124 [01:28<05:21,  3.22s/it]finalising
+Testing:  20%|█████▊                       | 25/124 [01:31<05:37,  3.41s/it]finalising
+Testing:  21%|██████                       | 26/124 [01:35<05:48,  3.56s/it]finalising
+Testing:  22%|██████▎                      | 27/124 [01:39<05:44,  3.55s/it]finalising
+Testing:  23%|██████▌                      | 28/124 [01:42<05:40,  3.55s/it]finalising
+Testing:  23%|██████▊                      | 29/124 [01:46<05:40,  3.59s/it]finalising
+Testing:  24%|███████                      | 30/124 [01:50<06:00,  3.83s/it]finalising
+Testing:  25%|███████▎                     | 31/124 [01:53<05:31,  3.57s/it]finalising
+Testing:  26%|███████▍                     | 32/124 [01:58<05:43,  3.73s/it]finalising
+Testing:  27%|███████▋                     | 33/124 [02:00<05:06,  3.37s/it]finalising
+Testing:  27%|███████▉                     | 34/124 [02:04<05:16,  3.52s/it]finalising
+Testing:  28%|████████▏                    | 35/124 [02:08<05:35,  3.77s/it]finalising
+Testing:  29%|████████▍                    | 36/124 [02:11<05:01,  3.42s/it]finalising
+Testing:  30%|████████▋                    | 37/124 [02:14<04:47,  3.30s/it]finalising
+Testing:  31%|████████▉                    | 38/124 [02:17<04:41,  3.28s/it]finalising
+
+Testing:  31%|█████████                    | 39/124 [02:19<04:13,  2.98s/it]finalising
+Testing:  32%|█████████▎                   | 40/124 [02:22<04:05,  2.92s/it]finalising
+Testing:  33%|█████████▌                   | 41/124 [02:25<03:59,  2.88s/it]finalising
+Testing:  34%|█████████▊                   | 42/124 [02:27<03:43,  2.72s/it]finalising
+
+Testing:  35%|██████████                   | 43/124 [02:32<04:23,  3.26s/it]finalising
+Testing:  35%|██████████▎                  | 44/124 [02:34<03:59,  2.99s/it]finalising
+Testing:  36%|██████████▌                  | 45/124 [02:38<04:25,  3.36s/it]finalising
+Testing:  37%|██████████▊                  | 46/124 [02:41<04:15,  3.28s/it]finalising
+Testing:  38%|██████████▉                  | 47/124 [02:44<03:48,  2.97s/it]finalising
+Testing:  39%|███████████▏                 | 48/124 [02:46<03:36,  2.85s/it]finalising
+Testing:  40%|███████████▍                 | 49/124 [02:50<03:42,  2.96s/it]finalising
+Testing:  40%|███████████▋                 | 50/124 [02:53<03:58,  3.22s/it]finalising
+Testing:  41%|███████████▉                 | 51/124 [02:55<03:30,  2.89s/it]finalising
+Testing:  42%|████████████▏                | 52/124 [03:00<04:04,  3.39s/it]finalising
+Testing:  43%|████████████▍                | 53/124 [03:04<04:09,  3.51s/it]finalising
+Testing:  44%|████████████▋                | 54/124 [03:09<04:32,  3.89s/it]finalising
+Testing:  44%|████████████▊                | 55/124 [03:12<04:18,  3.74s/it]finalising
+Testing:  45%|█████████████                | 56/124 [03:16<04:24,  3.90s/it]finalising
+Testing:  46%|█████████████▎               | 57/124 [03:18<03:39,  3.28s/it]finalising
+Testing:  47%|█████████████▌               | 58/124 [03:23<04:18,  3.91s/it]finalising
+Testing:  48%|█████████████▊               | 59/124 [03:27<04:06,  3.80s/it]finalising
+Testing:  48%|██████████████               | 60/124 [03:33<04:35,  4.31s/it]finalising
+Testing:  49%|██████████████▎              | 61/124 [03:37<04:36,  4.39s/it]finalising
+Testing:  50%|██████████████▌              | 62/124 [03:41<04:21,  4.21s/it]finalising
+Testing:  51%|██████████████▋              | 63/124 [03:45<04:23,  4.32s/it]finalising
+Testing:  52%|██████████████▉              | 64/124 [03:49<04:01,  4.02s/it]finalising
+Testing:  52%|███████████████▏             | 65/124 [03:52<03:43,  3.79s/it]finalising
+Testing:  53%|███████████████▍             | 66/124 [03:55<03:24,  3.52s/it]finalising
+Testing:  54%|███████████████▋             | 67/124 [03:58<03:09,  3.32s/it]finalising
+Testing:  55%|███████████████▉             | 68/124 [04:05<04:03,  4.35s/it]finalising
+Testing:  56%|████████████████▏            | 69/124 [04:09<04:01,  4.38s/it]finalising
+Testing:  56%|████████████████▎            | 70/124 [04:14<04:01,  4.47s/it]finalising
+Testing:  57%|████████████████▌            | 71/124 [04:16<03:20,  3.79s/it]finalising
+Testing:  58%|████████████████▊            | 72/124 [04:18<02:56,  3.40s/it]finalising
+Testing:  59%|█████████████████            | 73/124 [04:23<03:19,  3.91s/it]finalising
+Testing:  60%|█████████████████▎           | 74/124 [04:27<03:06,  3.73s/it]finalising
+Testing:  60%|█████████████████▌           | 75/124 [04:30<02:48,  3.44s/it]finalising
+Testing:  61%|█████████████████▊           | 76/124 [04:34<02:55,  3.66s/it]finalising
+Testing:  62%|██████████████████           | 77/124 [04:39<03:14,  4.14s/it]finalising
+Testing:  63%|██████████████████▏          | 78/124 [04:42<02:58,  3.88s/it]finalising
+Testing:  64%|██████████████████▍          | 79/124 [04:45<02:34,  3.44s/it]finalising
+Testing:  65%|██████████████████▋          | 80/124 [04:50<02:50,  3.87s/it]finalising
+Testing:  65%|██████████████████▉          | 81/124 [04:52<02:30,  3.49s/it]finalising
+Testing:  66%|███████████████████▏         | 82/124 [04:56<02:35,  3.71s/it]finalising
+Testing:  67%|███████████████████▍         | 83/124 [04:59<02:13,  3.26s/it]finalising
+Testing:  68%|███████████████████▋         | 84/124 [05:03<02:27,  3.69s/it]finalising
+Testing:  69%|███████████████████▉         | 85/124 [05:08<02:33,  3.93s/it]finalising
+Testing:  69%|████████████████████         | 86/124 [05:12<02:29,  3.92s/it]finalising
+Testing:  70%|████████████████████▎        | 87/124 [05:14<02:12,  3.59s/it]finalising
+Testing:  71%|████████████████████▌        | 88/124 [05:18<02:08,  3.57s/it]finalising
+Testing:  72%|████████████████████▊        | 89/124 [05:20<01:47,  3.07s/it]finalising
+Testing:  73%|█████████████████████        | 90/124 [05:23<01:48,  3.19s/it]finalising
+Testing:  73%|█████████████████████▎       | 91/124 [05:28<01:58,  3.58s/it]finalising
+Testing:  74%|█████████████████████▌       | 92/124 [05:32<02:00,  3.77s/it]finalising
+Testing:  75%|█████████████████████▊       | 93/124 [05:36<02:00,  3.87s/it]finalising
+Testing:  76%|█████████████████████▉       | 94/124 [05:40<01:51,  3.73s/it]finalising
+Testing:  77%|██████████████████████▏      | 95/124 [05:44<01:57,  4.05s/it]finalising
+Testing:  78%|██████████████████████▋      | 97/124 [05:51<01:41,  3.75s/it]finalising
+Testing:  79%|██████████████████████▉      | 98/124 [05:54<01:30,  3.47s/it]finalising
+Testing:  80%|███████████████████████▏     | 99/124 [05:57<01:27,  3.49s/it]finalising
+Testing:  81%|██████████████████████▌     | 100/124 [06:02<01:30,  3.78s/it]finalising
+Testing:  81%|██████████████████████▊     | 101/124 [06:06<01:29,  3.89s/it]finalising
+Testing:  82%|███████████████████████     | 102/124 [06:08<01:14,  3.38s/it]finalising
+Testing:  83%|███████████████████████▎    | 103/124 [06:12<01:13,  3.52s/it]finalising
+Testing:  84%|███████████████████████▍    | 104/124 [06:16<01:12,  3.60s/it]finalising
+Testing:  85%|███████████████████████▋    | 105/124 [06:20<01:12,  3.82s/it]finalising
+Testing:  85%|███████████████████████▉    | 106/124 [06:23<01:04,  3.56s/it]finalising
+Testing:  86%|████████████████████████▏   | 107/124 [06:26<00:57,  3.41s/it]finalising
+Testing:  87%|████████████████████████▍   | 108/124 [06:31<01:01,  3.85s/it]finalising
+Testing:  88%|████████████████████████▌   | 109/124 [06:35<00:57,  3.81s/it]finalising
+Testing:  89%|████████████████████████▊   | 110/124 [06:39<00:55,  3.95s/it]finalising
+Testing:  90%|█████████████████████████   | 111/124 [06:44<00:55,  4.28s/it]finalising
+Testing:  90%|█████████████████████████▎  | 112/124 [06:48<00:49,  4.10s/it]finalising
+Testing:  91%|█████████████████████████▌  | 113/124 [06:52<00:44,  4.07s/it]finalising
+Testing:  92%|█████████████████████████▋  | 114/124 [06:56<00:40,  4.06s/it]finalising
+Testing:  93%|█████████████████████████▉  | 115/124 [06:59<00:35,  3.93s/it]finalising
+Testing:  94%|██████████████████████████▏ | 116/124 [07:05<00:36,  4.56s/it]finalising
+Testing:  94%|██████████████████████████▍ | 117/124 [07:10<00:31,  4.46s/it]finalising
+Testing:  95%|██████████████████████████▋ | 118/124 [07:13<00:25,  4.22s/it]finalising
+Testing:  96%|██████████████████████████▊ | 119/124 [07:20<00:25,  5.00s/it]finalising
+Testing:  97%|███████████████████████████ | 120/124 [07:24<00:18,  4.52s/it]finalising
+Testing:  98%|███████████████████████████▎| 121/124 [07:26<00:11,  3.84s/it]finalising
+Testing:  98%|███████████████████████████▌| 122/124 [07:30<00:07,  3.85s/it]finalising
+Testing:  98%|███████████████████████████▌| 122/124 [07:30<00:07,  3.85s/it]finalising
+Testing:  99%|███████████████████████████▊| 123/124 [07:33<00:03,  3.59s/it]finalising
+Testing: 100%|████████████████████████████| 124/124 [07:35<00:00,  3.16s/it]====================this is called ========================
+01/10/2023 09:07:43 PM [INFO] as : epoch : 22 | BLEU = 7.17 39.6/14.2/7.2/4.0 (BP = 0.638 ratio = 0.690 hyp_len = 5084 ref_len = 7367)4376)
+01/10/2023 09:07:43 PM [INFO] as : epoch : 22 | BLEU = 7.17 39.6/14.2/7.2/4.0 (BP = 0.638 ratio = 0.690 hyp_len = 5084 ref_len = 7367)4376)
+01/10/2023 09:07:43 PM [INFO] bn : epoch : 22 | BLEU = 0.37 12.5/0.2/0.1/0.1 (BP = 1.000 ratio = 1.212 hyp_len = 240 ref_len = 198)
+01/10/2023 09:07:43 PM [INFO] mr : epoch : 22 | BLEU = 1.73 17.1/1.5/0.8/0.4 (BP = 1.000 ratio = 1.061 hyp_len = 35 ref_len = 33)
+01/10/2023 09:07:43 PM [INFO] ta : epoch : 22 | BLEU = 7.70 36.7/17.9/3.8/2.1 (BP = 0.905 ratio = 0.909 hyp_len = 30 ref_len = 33)
+01/10/2023 09:07:43 PM [INFO] te : epoch : 22 | BLEU = 3.64 39.3/3.8/2.1/1.1 (BP = 0.836 ratio = 0.848 hyp_len = 28 ref_len = 33)
+01/10/2023 09:07:44 PM [INFO] en : epoch : 22 | BLEU = 69.80 80.6/69.0/66.7/64.0 (BP = 1.000 ratio = 1.000 hyp_len = 31 ref_len = 31)
+01/10/2023 09:07:44 PM [INFO] epoch : 22 - average_test_loss : 1.040317
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'as_overall_test_bleu': 7.171266031669892,
+ 'avg_test_loss': tensor(1.0403, device='cuda:0'),
+ 'bn_overall_test_bleu': 0.37340301334344644,
+ 'en_overall_test_bleu': 69.79507156272533,
+ 'mr_overall_test_bleu': 1.7334343569875237,
+ 'or_overall_test_bleu': 27.032699058398613,
+ 'ta_overall_test_bleu': 7.700833903137861,
+ 'te_overall_test_bleu': 3.6377409004064187}
+--------------------------------------------------------------------------------
+Testing: 100%|████████████████████████████| 124/124 [08:22<00:00,  4.05s/it]
+01/10/2023 09:07:44 PM [DEBUG] testing done.

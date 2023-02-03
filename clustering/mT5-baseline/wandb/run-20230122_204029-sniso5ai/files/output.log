@@ -1,0 +1,35 @@
+01/22/2023 08:40:36 PM [CRITICAL] val : script unification to Devanagari is enabled.
+01/22/2023 08:40:36 PM [INFO] val dataset count : 159
+Validation sanity check:  50%|██████████████              | 1/2 [00:00<00:00,  6.26it/s]01/22/2023 08:40:37 PM [INFO] epoch : 0 - average_val_loss : 29.397732
+01/22/2023 08:40:37 PM [CRITICAL] train : script unification to Devanagari is enabled.
+01/22/2023 08:40:37 PM [INFO] train dataset count : 799
+Epoch 0:   2%|▎                 | 1/60 [00:00<00:54,  1.09it/s, loss=28.560, v_num=o5ai]
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  97%|█████████████████▍| 58/60 [00:34<00:01,  1.67it/s, loss=5.787, v_num=o5ai]
+Validating:  90%|████████████████████████████████████    | 9/10 [00:00<00:00, 14.57it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 49 < 64; dropping {'avg_val_loss': 2.4497883319854736, 'epoch': 0}.
+Epoch 0: 100%|█| 60/60 [00:39<00:00,  1.51it/s, loss=5.787, v_num=o5ai, avg_val_loss=2.401/22/2023 08:41:17 PM [INFO] epoch : 0 - average_train_loss : 10.540167
+Epoch 0: 100%|█| 60/60 [00:39<00:00,  1.51it/s, loss=5.787, v_num=o5ai, avg_val_loss=2.4
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 49 < 65; dropping {'avg_train_loss': 10.540166854858398, 'epoch': 0}.
+01/22/2023 08:41:19 PM [DEBUG] training done.

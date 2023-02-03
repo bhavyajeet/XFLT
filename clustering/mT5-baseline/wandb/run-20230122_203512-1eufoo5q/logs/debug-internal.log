@@ -1,0 +1,206 @@
+2023-01-22 20:35:14,161 INFO    MainThread:20889 [internal.py:wandb_internal():89] W&B internal server running at pid: 20889, started at: 2023-01-22 20:35:14.160141
+2023-01-22 20:35:14,164 INFO    WriterThread:20889 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/run-1eufoo5q.wandb
+2023-01-22 20:35:14,165 DEBUG   HandlerThread:20889 [handler.py:handle_request():126] handle_request: check_version
+2023-01-22 20:35:14,169 DEBUG   SenderThread:20889 [sender.py:send():185] send: header
+2023-01-22 20:35:14,169 DEBUG   SenderThread:20889 [sender.py:send_request():199] send_request: check_version
+2023-01-22 20:35:14,316 DEBUG   SenderThread:20889 [sender.py:send():185] send: run
+2023-01-22 20:35:14,329 INFO    SenderThread:20889 [sender.py:_maybe_setup_resume():428] checking resume status for None/multilingual-data-to-text-generation/1eufoo5q
+2023-01-22 20:35:15,091 INFO    SenderThread:20889 [dir_watcher.py:__init__():169] watching files in: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files
+2023-01-22 20:35:15,091 INFO    SenderThread:20889 [sender.py:_start_run_threads():749] run started: 1eufoo5q with start time 1674399912
+2023-01-22 20:35:15,098 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:15,099 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:15,105 DEBUG   HandlerThread:20889 [handler.py:handle_request():126] handle_request: run_start
+2023-01-22 20:35:16,097 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:19,882 DEBUG   HandlerThread:20889 [meta.py:__init__():40] meta init
+2023-01-22 20:35:19,882 DEBUG   HandlerThread:20889 [meta.py:__init__():54] meta init done
+2023-01-22 20:35:19,882 DEBUG   HandlerThread:20889 [meta.py:probe():211] probe
+2023-01-22 20:35:19,891 DEBUG   HandlerThread:20889 [meta.py:_setup_git():201] setup git
+2023-01-22 20:35:19,938 DEBUG   HandlerThread:20889 [meta.py:_setup_git():208] setup git done
+2023-01-22 20:35:19,938 DEBUG   HandlerThread:20889 [meta.py:_save_pip():58] save pip
+2023-01-22 20:35:19,940 DEBUG   HandlerThread:20889 [meta.py:_save_pip():72] save pip done
+2023-01-22 20:35:19,940 DEBUG   HandlerThread:20889 [meta.py:_save_conda():79] save conda
+2023-01-22 20:35:20,103 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/requirements.txt
+2023-01-22 20:35:20,105 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/conda-environment.yaml
+2023-01-22 20:35:21,103 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:23,105 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:25,115 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:27,117 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:29,119 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:31,122 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:33,124 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:35,126 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:37,129 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:37,129 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/conda-environment.yaml
+2023-01-22 20:35:37,176 DEBUG   HandlerThread:20889 [meta.py:_save_conda():87] save conda done
+2023-01-22 20:35:37,176 DEBUG   HandlerThread:20889 [meta.py:probe():249] probe done
+2023-01-22 20:35:37,192 DEBUG   HandlerThread:20889 [handler.py:handle_request():126] handle_request: stop_status
+2023-01-22 20:35:37,193 DEBUG   SenderThread:20889 [sender.py:send_request():199] send_request: stop_status
+2023-01-22 20:35:37,533 DEBUG   SenderThread:20889 [sender.py:send():185] send: config
+2023-01-22 20:35:37,534 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,534 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,539 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,540 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,540 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,541 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,542 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,542 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,544 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,544 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,544 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,545 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,546 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,546 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,547 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,548 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,548 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,549 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,550 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,550 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,551 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,551 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,552 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,553 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,553 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,554 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,555 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,556 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,556 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,557 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,558 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,558 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,559 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,560 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,560 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,561 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,562 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,562 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,564 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,564 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,564 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,565 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,565 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,565 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,566 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,567 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,567 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,568 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,568 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,568 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,569 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,569 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,569 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,570 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,570 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,571 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,571 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,572 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,572 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,573 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,573 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,573 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,574 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,574 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,575 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,575 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,576 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,576 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,577 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,577 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,577 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,578 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,578 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,578 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,579 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,580 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,580 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,580 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,581 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:37,581 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:37,582 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:37,582 DEBUG   SenderThread:20889 [sender.py:send():185] send: files
+2023-01-22 20:35:37,582 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2023-01-22 20:35:38,016 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:38,017 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:38,020 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:38,130 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:38,130 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-metadata.json
+2023-01-22 20:35:38,567 INFO    Thread-11 :20889 [upload_job.py:push():137] Uploaded file /tmp/tmp5va_yk95wandb/3g913rb7-wandb-metadata.json
+2023-01-22 20:35:38,701 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:38,702 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:38,704 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:39,131 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:39,132 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:39,357 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:39,358 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:39,359 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:39,993 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:39,994 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:39,999 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:40,132 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:40,852 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:40,853 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:40,855 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:41,134 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:41,135 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:41,494 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:41,494 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:41,496 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:42,135 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:42,166 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:42,167 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:42,171 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:42,911 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:42,911 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:42,913 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:43,136 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:43,136 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:43,701 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:43,702 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:43,704 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:44,137 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:44,588 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:44,588 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:44,589 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:45,138 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:45,139 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/config.yaml
+2023-01-22 20:35:45,139 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:45,206 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:45,206 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:45,208 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:45,860 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:45,860 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:45,862 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:46,139 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:46,536 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:46,536 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:46,539 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:47,141 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:47,142 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:47,224 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:47,224 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:47,225 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:47,888 DEBUG   SenderThread:20889 [sender.py:send():185] send: history
+2023-01-22 20:35:47,888 DEBUG   SenderThread:20889 [sender.py:send():185] send: summary
+2023-01-22 20:35:47,890 INFO    SenderThread:20889 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-22 20:35:48,143 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json
+2023-01-22 20:35:49,174 INFO    Thread-8  :20889 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log
+2023-01-22 20:35:49,197 DEBUG   SenderThread:20889 [sender.py:send():185] send: stats
+2023-01-22 20:35:52,538 DEBUG   HandlerThread:20889 [handler.py:handle_request():126] handle_request: stop_status
+2023-01-22 20:35:52,538 DEBUG   SenderThread:20889 [sender.py:send_request():199] send_request: stop_status
+2023-01-22 20:36:02,019 WARNING MainThread:20889 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-01-22 20:36:02,717 WARNING MainThread:20889 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-01-22 20:36:02,717 ERROR   MainThread:20889 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-01-22 20:36:02,883 INFO    SenderThread:20889 [sender.py:finish():986] shutting down sender
+2023-01-22 20:36:02,883 INFO    SenderThread:20889 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-01-22 20:36:02,885 INFO    HandlerThread:20889 [handler.py:finish():683] shutting down handler
+2023-01-22 20:36:03,178 INFO    SenderThread:20889 [dir_watcher.py:finish():313] scan: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files
+2023-01-22 20:36:03,178 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-metadata.json wandb-metadata.json
+2023-01-22 20:36:03,179 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/requirements.txt requirements.txt
+2023-01-22 20:36:03,179 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/conda-environment.yaml conda-environment.yaml
+2023-01-22 20:36:03,185 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/config.yaml config.yaml
+2023-01-22 20:36:03,187 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/wandb-summary.json wandb-summary.json
+2023-01-22 20:36:03,188 INFO    SenderThread:20889 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/files/output.log output.log
+2023-01-22 20:36:03,195 INFO    SenderThread:20889 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-22 20:36:03,200 INFO    SenderThread:20889 [file_pusher.py:join():182] waiting for file pusher
+2023-01-22 20:36:03,208 INFO    WriterThread:20889 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/clustering/mT5-baseline/wandb/run-20230122_203512-1eufoo5q/run-1eufoo5q.wandb
+2023-01-22 20:36:03,304 INFO    MainThread:20889 [internal.py:handle_exit():76] Internal process exited

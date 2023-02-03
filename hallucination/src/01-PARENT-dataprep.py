@@ -1,9 +1,10 @@
 ## Use mT5 generated output and prepare dataset in training format
+import string
 import os 
 import json
 
-INPUT_PATH = '/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/'
-OUTPUT_REF_PATH = '/Users/rahulmehta/Desktop/MultiSent/datasets/17Dec2022/model_outputs/inference-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-unified-script/ref'
+INPUT_PATH = '/scratch/model_outputs/towork/'
+OUTPUT_REF_PATH = '/scratch/model_outputs/towork/ref/'
 
 GENERATED_FILE = 'test-predicted-epoch-22.txt'
 REF_FILE = 'test-ref.txt'
@@ -39,15 +40,19 @@ FACT_FILE = 'test-src.txt'
 #             json.dump(d,fp,ensure_ascii=False)
 #             fp.write('\n')
 
+langlist = {'marathi':'mr','malayalam':'ml'}
 
-with open(INPUT_PATH + FACT_FILE) as f, open(INPUT_PATH + REF_FILE) as r:       
-    for line,g_line in zip(f,r):
-        print(line)
-        generated_sent = g_line.replace("\n","").replace("।","")
+with open(INPUT_PATH + FACT_FILE) as f, open(INPUT_PATH + REF_FILE) as r, open (INPUT_PATH+GENERATED_FILE) as g:       
+    for line,r_line,g_line in zip(f,r,g):
+        #print(line)
+        generated_sent = g_line.replace("\n","").replace("।"," ")
         src_list = line.replace("\n","").split(" ") 
         lang = src_list[1][0:2]
-        fact = src_list[5:]
+        if src_list[1].lower().strip() in langlist:
+            lang = langlist[src_list[1].lower().strip()]
+        fact = src_list[4:]
 
+        ref_sent  = r_line.replace("\n","").replace("।"," ")
         # fact_list = 
         # for word in fact:
 
@@ -59,8 +64,10 @@ with open(INPUT_PATH + FACT_FILE) as f, open(INPUT_PATH + REF_FILE) as r:
         #print(new_fact)
 
         d = {}
+        ref_sent = ref_sent.translate(str.maketrans('', '', string.punctuation))
         d["facts"] = new_fact
         d["generated_sentence"] = generated_sent
+        d["ref_sentence"] = ref_sent
         #print(d)
 
         if not os.path.exists(OUTPUT_REF_PATH  + lang):
@@ -72,7 +79,3 @@ with open(INPUT_PATH + FACT_FILE) as f, open(INPUT_PATH + REF_FILE) as r:
 
         
         
-
-
-        
-

@@ -1,0 +1,36 @@
+01/22/2023 08:48:01 PM [CRITICAL] val : script unification to Devanagari is enabled.
+01/22/2023 08:48:01 PM [INFO] val dataset count : 159
+Validation sanity check:  50%|██████████████              | 1/2 [00:00<00:00,  6.14it/s]01/22/2023 08:48:01 PM [INFO] epoch : 0 - average_val_loss : 30.172794
+01/22/2023 08:48:02 PM [CRITICAL] train : script unification to Devanagari is enabled.
+01/22/2023 08:48:02 PM [INFO] train dataset count : 799
+Epoch 0:   2%|▎                 | 1/60 [00:00<00:50,  1.16it/s, loss=30.366, v_num=z0p1]
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  97%|█████████████████▍| 58/60 [00:34<00:01,  1.66it/s, loss=5.860, v_num=z0p1]
+Validating:  70%|████████████████████████████            | 7/10 [00:00<00:00, 18.69it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 49 < 64; dropping {'avg_val_loss': 2.5206992626190186, 'epoch': 0}.
+
+Validating:  90%|████████████████████████████████████    | 9/10 [00:00<00:00, 11.93it/s]
+Epoch 0: 100%|█| 60/60 [00:39<00:00,  1.50it/s, loss=5.860, v_num=z0p1, avg_val_loss=2.501/22/2023 08:48:41 PM [INFO] epoch : 0 - average_train_loss : 11.724182
+Epoch 0: 100%|█| 60/60 [00:39<00:00,  1.50it/s, loss=5.860, v_num=z0p1, avg_val_loss=2.5
+01/22/2023 08:48:43 PM [DEBUG] training done.

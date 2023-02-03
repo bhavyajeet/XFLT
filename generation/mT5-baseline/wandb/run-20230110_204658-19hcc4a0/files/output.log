@@ -1,0 +1,79 @@
+01/10/2023 08:47:07 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+{'test.jsonl'} files are missing, creating the files..
+01/10/2023 08:47:07 PM [CRITICAL] test : script unification to Devanagari is enabled.
+01/10/2023 08:47:07 PM [INFO] test dataset count : 639
+Testing: 0it [00:00, ?it/s]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+Testing: 0it [00:00, ?it/s]finalising
+Testing:   2%|▍                        | 1/54 [00:04<03:39,  4.13s/it]finalising
+Testing:   4%|▉                        | 2/54 [00:09<04:09,  4.81s/it]finalising
+Testing:   6%|█▍                       | 3/54 [00:13<03:44,  4.40s/it]finalising
+Testing:   7%|█▊                       | 4/54 [00:17<03:39,  4.39s/it]finalising
+Testing:   9%|██▎                      | 5/54 [00:21<03:24,  4.18s/it]finalising
+Testing:  11%|██▊                      | 6/54 [00:25<03:11,  3.99s/it]finalising
+Testing:  13%|███▏                     | 7/54 [00:29<03:19,  4.24s/it]finalising
+Testing:  15%|███▋                     | 8/54 [00:35<03:35,  4.69s/it]finalising
+Testing:  17%|████▏                    | 9/54 [00:43<04:23,  5.85s/it]finalising
+Testing:  19%|████▍                   | 10/54 [00:47<03:52,  5.29s/it]finalising
+Testing:  20%|████▉                   | 11/54 [00:53<03:45,  5.24s/it]finalising
+Testing:  22%|█████▎                  | 12/54 [00:58<03:36,  5.15s/it]finalising
+Testing:  24%|█████▊                  | 13/54 [01:02<03:20,  4.89s/it]finalising
+Testing:  26%|██████▏                 | 14/54 [01:06<03:10,  4.75s/it]finalising
+Testing:  28%|██████▋                 | 15/54 [01:10<02:51,  4.39s/it]finalising
+Testing:  30%|███████                 | 16/54 [01:15<02:55,  4.62s/it]finalising
+
+Testing:  31%|███████▌                | 17/54 [01:20<02:56,  4.77s/it]finalising
+Testing:  33%|████████                | 18/54 [01:24<02:45,  4.60s/it]finalising
+Testing:  35%|████████▍               | 19/54 [01:31<03:01,  5.18s/it]finalising
+Testing:  37%|████████▉               | 20/54 [01:34<02:38,  4.67s/it]finalising
+Testing:  39%|█████████▎              | 21/54 [01:38<02:19,  4.24s/it]finalising
+Testing:  41%|█████████▊              | 22/54 [01:41<02:04,  3.88s/it]finalising
+
+Testing:  43%|██████████▏             | 23/54 [01:45<02:01,  3.91s/it]finalising
+Testing:  44%|██████████▋             | 24/54 [01:48<01:56,  3.89s/it]finalising
+Testing:  46%|███████████             | 25/54 [01:52<01:51,  3.86s/it]finalising
+Testing:  48%|███████████▌            | 26/54 [01:56<01:46,  3.79s/it]finalising
+Testing:  50%|████████████            | 27/54 [01:59<01:38,  3.63s/it]finalising
+Testing:  52%|████████████▍           | 28/54 [02:04<01:40,  3.88s/it]finalising
+Testing:  54%|████████████▉           | 29/54 [02:07<01:36,  3.87s/it]finalising
+Testing:  56%|█████████████▎          | 30/54 [02:11<01:34,  3.92s/it]finalising
+Testing:  57%|█████████████▊          | 31/54 [02:16<01:35,  4.17s/it]finalising
+Testing:  59%|██████████████▏         | 32/54 [02:23<01:46,  4.86s/it]finalising
+Testing:  61%|██████████████▋         | 33/54 [02:28<01:47,  5.13s/it]finalising
+Testing:  63%|███████████████         | 34/54 [02:35<01:48,  5.43s/it]finalising
+Testing:  65%|███████████████▌        | 35/54 [02:40<01:43,  5.45s/it]finalising
+Testing:  67%|████████████████        | 36/54 [02:46<01:39,  5.54s/it]finalising
+Testing:  69%|████████████████▍       | 37/54 [02:51<01:31,  5.37s/it]finalising
+Testing:  70%|████████████████▉       | 38/54 [02:54<01:16,  4.80s/it]finalising
+Testing:  72%|█████████████████▎      | 39/54 [02:59<01:11,  4.75s/it]finalising
+Testing:  74%|█████████████████▊      | 40/54 [03:04<01:06,  4.74s/it]finalising
+Testing:  76%|██████████████████▏     | 41/54 [03:07<00:57,  4.41s/it]finalising
+Testing:  78%|██████████████████▋     | 42/54 [03:13<00:57,  4.78s/it]finalising
+Testing:  80%|███████████████████     | 43/54 [03:18<00:54,  4.94s/it]finalising
+Testing:  81%|███████████████████▌    | 44/54 [03:23<00:49,  4.97s/it]finalising
+Testing:  83%|████████████████████    | 45/54 [03:27<00:40,  4.47s/it]finalising
+Testing:  85%|████████████████████▍   | 46/54 [03:31<00:35,  4.49s/it]finalising
+Testing:  87%|████████████████████▉   | 47/54 [03:36<00:31,  4.57s/it]finalising
+Testing:  89%|█████████████████████▎  | 48/54 [03:39<00:25,  4.25s/it]finalising
+Testing:  91%|█████████████████████▊  | 49/54 [03:44<00:22,  4.45s/it]finalising
+Testing:  93%|██████████████████████▏ | 50/54 [03:48<00:17,  4.35s/it]finalising
+Testing:  94%|██████████████████████▋ | 51/54 [03:55<00:15,  5.04s/it]finalising
+Testing:  96%|███████████████████████ | 52/54 [03:59<00:09,  4.78s/it]finalising
+Testing:  98%|███████████████████████▌| 53/54 [04:05<00:05,  5.18s/it]finalising
+
+Testing: 100%|████████████████████████| 54/54 [04:07<00:00,  4.09s/it]====================this is called ========================
+01/10/2023 08:51:36 PM [INFO] kn : epoch : 22 | BLEU = 0.75 34.1/10.8/5.0/2.7 (BP = 0.089 ratio = 0.293 hyp_len = 2671 ref_len = 9127)
+01/10/2023 08:51:36 PM [INFO] or : epoch : 22 | BLEU = 5.34 66.5/41.7/29.0/20.5 (BP = 0.149 ratio = 0.344 hyp_len = 3841 ref_len = 11153)
+01/10/2023 08:51:36 PM [INFO] as : epoch : 22 | BLEU = 2.24 47.7/19.2/9.7/5.6 (BP = 0.150 ratio = 0.345 hyp_len = 1597 ref_len = 4632)
+01/10/2023 08:51:36 PM [INFO] en : epoch : 22 | BLEU = 24.24 54.2/40.9/30.0/16.7 (BP = 0.747 ratio = 0.774 hyp_len = 216 ref_len = 279)
+01/10/2023 08:51:36 PM [INFO] epoch : 22 - average_test_loss : 1.618245
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'as_overall_test_bleu': 2.2386066373720257,
+ 'avg_test_loss': tensor(1.6182, device='cuda:0'),
+ 'en_overall_test_bleu': 24.23601775585894,
+ 'kn_overall_test_bleu': 0.7511533394774755,
+ 'or_overall_test_bleu': 5.336609752000413}
+--------------------------------------------------------------------------------
+Testing: 100%|████████████████████████| 54/54 [04:28<00:00,  4.97s/it]
+01/10/2023 08:51:36 PM [DEBUG] testing done.

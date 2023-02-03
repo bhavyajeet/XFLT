@@ -1,0 +1,157 @@
+2023-01-10 20:22:39,364 INFO    MainThread:26875 [internal.py:wandb_internal():89] W&B internal server running at pid: 26875, started at: 2023-01-10 20:22:39.363333
+2023-01-10 20:22:39,368 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: check_version
+2023-01-10 20:22:39,368 INFO    WriterThread:26875 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/run-3rbna35z.wandb
+2023-01-10 20:22:39,372 DEBUG   SenderThread:26875 [sender.py:send():185] send: header
+2023-01-10 20:22:39,373 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: check_version
+2023-01-10 20:22:39,544 DEBUG   SenderThread:26875 [sender.py:send():185] send: run
+2023-01-10 20:22:39,559 INFO    SenderThread:26875 [sender.py:_maybe_setup_resume():428] checking resume status for None/multilingual-data-to-text-generation/3rbna35z
+2023-01-10 20:22:40,293 INFO    SenderThread:26875 [dir_watcher.py:__init__():169] watching files in: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files
+2023-01-10 20:22:40,293 INFO    SenderThread:26875 [sender.py:_start_run_threads():749] run started: 3rbna35z with start time 1673362357
+2023-01-10 20:22:40,346 DEBUG   SenderThread:26875 [sender.py:send():185] send: summary
+2023-01-10 20:22:40,347 INFO    SenderThread:26875 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-10 20:22:40,356 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: run_start
+2023-01-10 20:22:41,299 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-summary.json
+2023-01-10 20:22:45,473 DEBUG   HandlerThread:26875 [meta.py:__init__():40] meta init
+2023-01-10 20:22:45,474 DEBUG   HandlerThread:26875 [meta.py:__init__():54] meta init done
+2023-01-10 20:22:45,474 DEBUG   HandlerThread:26875 [meta.py:probe():211] probe
+2023-01-10 20:22:45,483 DEBUG   HandlerThread:26875 [meta.py:_setup_git():201] setup git
+2023-01-10 20:22:45,528 DEBUG   HandlerThread:26875 [meta.py:_setup_git():208] setup git done
+2023-01-10 20:22:45,528 DEBUG   HandlerThread:26875 [meta.py:_save_pip():58] save pip
+2023-01-10 20:22:45,531 DEBUG   HandlerThread:26875 [meta.py:_save_pip():72] save pip done
+2023-01-10 20:22:45,531 DEBUG   HandlerThread:26875 [meta.py:_save_conda():79] save conda
+2023-01-10 20:22:46,305 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log
+2023-01-10 20:22:46,307 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/requirements.txt
+2023-01-10 20:22:46,308 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/conda-environment.yaml
+2023-01-10 20:22:48,307 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log
+2023-01-10 20:22:52,311 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log
+2023-01-10 20:22:54,312 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log
+2023-01-10 20:22:56,015 DEBUG   HandlerThread:26875 [meta.py:_save_conda():87] save conda done
+2023-01-10 20:22:56,016 DEBUG   HandlerThread:26875 [meta.py:probe():249] probe done
+2023-01-10 20:22:56,026 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: stop_status
+2023-01-10 20:22:56,026 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: stop_status
+2023-01-10 20:22:56,035 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:56,314 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/conda-environment.yaml
+2023-01-10 20:22:56,315 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_created():217] file/dir created: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-metadata.json
+2023-01-10 20:22:56,358 DEBUG   SenderThread:26875 [sender.py:send():185] send: config
+2023-01-10 20:22:56,359 DEBUG   SenderThread:26875 [sender.py:send():185] send: telemetry
+2023-01-10 20:22:56,359 DEBUG   SenderThread:26875 [sender.py:send():185] send: exit
+2023-01-10 20:22:56,359 INFO    SenderThread:26875 [sender.py:send_exit():294] handling exit code: 1
+2023-01-10 20:22:56,360 INFO    SenderThread:26875 [sender.py:send_exit():296] handling runtime: 15
+2023-01-10 20:22:56,365 INFO    SenderThread:26875 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-10 20:22:56,365 INFO    SenderThread:26875 [sender.py:send_exit():306] send defer
+2023-01-10 20:22:56,366 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:56,366 DEBUG   SenderThread:26875 [sender.py:send():185] send: files
+2023-01-10 20:22:56,366 INFO    SenderThread:26875 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2023-01-10 20:22:56,368 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,368 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 0
+2023-01-10 20:22:56,369 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,369 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 0
+2023-01-10 20:22:56,369 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 1
+2023-01-10 20:22:56,370 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,371 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 1
+2023-01-10 20:22:56,474 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:56,475 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,476 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 1
+2023-01-10 20:22:56,476 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 2
+2023-01-10 20:22:56,476 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:56,477 DEBUG   SenderThread:26875 [sender.py:send():185] send: stats
+2023-01-10 20:22:56,479 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,479 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 2
+2023-01-10 20:22:56,480 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,480 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 2
+2023-01-10 20:22:56,480 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 3
+2023-01-10 20:22:56,481 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,481 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 3
+2023-01-10 20:22:56,482 DEBUG   SenderThread:26875 [sender.py:send():185] send: summary
+2023-01-10 20:22:56,483 INFO    SenderThread:26875 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-01-10 20:22:56,484 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,484 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 3
+2023-01-10 20:22:56,484 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 4
+2023-01-10 20:22:56,485 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,485 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 4
+2023-01-10 20:22:56,485 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,485 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 4
+2023-01-10 20:22:56,581 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:56,856 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 5
+2023-01-10 20:22:56,856 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:56,858 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:56,858 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 5
+2023-01-10 20:22:56,858 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:56,858 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 5
+2023-01-10 20:22:56,858 INFO    SenderThread:26875 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-01-10 20:22:56,960 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,315 INFO    Thread-8  :26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/config.yaml
+2023-01-10 20:22:57,317 INFO    SenderThread:26875 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-summary.json
+2023-01-10 20:22:57,317 INFO    SenderThread:26875 [dir_watcher.py:finish():313] scan: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files
+2023-01-10 20:22:57,318 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-metadata.json wandb-metadata.json
+2023-01-10 20:22:57,318 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/requirements.txt requirements.txt
+2023-01-10 20:22:57,318 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/conda-environment.yaml conda-environment.yaml
+2023-01-10 20:22:57,319 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/config.yaml config.yaml
+2023-01-10 20:22:57,326 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-summary.json wandb-summary.json
+2023-01-10 20:22:57,334 INFO    Thread-11 :26875 [upload_job.py:push():137] Uploaded file /tmp/tmppzwfqg_mwandb/10kbyeem-wandb-metadata.json
+2023-01-10 20:22:57,340 INFO    SenderThread:26875 [dir_watcher.py:finish():327] scan save: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log output.log
+2023-01-10 20:22:57,344 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 6
+2023-01-10 20:22:57,345 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,352 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:57,352 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 6
+2023-01-10 20:22:57,353 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:57,353 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 6
+2023-01-10 20:22:57,354 INFO    SenderThread:26875 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-10 20:22:57,448 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,448 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,551 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,551 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,654 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,655 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,758 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,758 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,861 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,862 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:57,965 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:57,965 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,068 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:58,068 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,171 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:58,172 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,275 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:58,275 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,289 INFO    Thread-14 :26875 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/config.yaml
+2023-01-10 20:22:58,292 INFO    Thread-12 :26875 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/requirements.txt
+2023-01-10 20:22:58,298 INFO    Thread-15 :26875 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/wandb-summary.json
+2023-01-10 20:22:58,298 INFO    Thread-13 :26875 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/conda-environment.yaml
+2023-01-10 20:22:58,334 INFO    Thread-16 :26875 [upload_job.py:push():137] Uploaded file /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/files/output.log
+2023-01-10 20:22:58,378 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:58,379 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,482 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:58,482 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:58,534 INFO    Thread-7  :26875 [sender.py:transition_state():319] send defer: 7
+2023-01-10 20:22:58,535 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:58,536 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 7
+2023-01-10 20:22:58,536 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:58,536 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 7
+2023-01-10 20:22:58,585 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:59,155 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 8
+2023-01-10 20:22:59,156 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:59,157 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:59,157 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 8
+2023-01-10 20:22:59,158 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:59,158 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 8
+2023-01-10 20:22:59,158 INFO    SenderThread:26875 [sender.py:transition_state():319] send defer: 9
+2023-01-10 20:22:59,160 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: defer
+2023-01-10 20:22:59,160 INFO    HandlerThread:26875 [handler.py:handle_request_defer():143] handle defer: 9
+2023-01-10 20:22:59,160 DEBUG   SenderThread:26875 [sender.py:send():185] send: final
+2023-01-10 20:22:59,161 DEBUG   SenderThread:26875 [sender.py:send():185] send: footer
+2023-01-10 20:22:59,161 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: defer
+2023-01-10 20:22:59,161 INFO    SenderThread:26875 [sender.py:send_request_defer():315] handle sender defer: 9
+2023-01-10 20:22:59,259 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: poll_exit
+2023-01-10 20:22:59,259 DEBUG   SenderThread:26875 [sender.py:send_request():199] send_request: poll_exit
+2023-01-10 20:22:59,260 INFO    SenderThread:26875 [file_pusher.py:join():182] waiting for file pusher
+2023-01-10 20:22:59,930 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: get_summary
+2023-01-10 20:22:59,933 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: sampled_history
+2023-01-10 20:22:59,934 DEBUG   HandlerThread:26875 [handler.py:handle_request():126] handle_request: shutdown
+2023-01-10 20:22:59,935 INFO    HandlerThread:26875 [handler.py:finish():683] shutting down handler
+2023-01-10 20:23:00,161 INFO    WriterThread:26875 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/run-20230110_202237-3rbna35z/run-3rbna35z.wandb
+2023-01-10 20:23:00,928 INFO    SenderThread:26875 [sender.py:finish():986] shutting down sender
+2023-01-10 20:23:00,928 INFO    SenderThread:26875 [file_pusher.py:finish():177] shutting down file pusher
+2023-01-10 20:23:00,928 INFO    SenderThread:26875 [file_pusher.py:join():182] waiting for file pusher
+2023-01-10 20:23:00,932 INFO    MainThread:26875 [internal.py:handle_exit():76] Internal process exited

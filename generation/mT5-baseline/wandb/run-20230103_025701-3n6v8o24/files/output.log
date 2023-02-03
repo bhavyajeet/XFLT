@@ -1,0 +1,34 @@
+01/03/2023 02:57:11 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+{'test.jsonl'} files are missing, creating the files..
+01/03/2023 02:57:11 AM [CRITICAL] test : script unification to Devanagari is enabled.
+01/03/2023 02:57:11 AM [INFO] test dataset count : 7425
+Testing: 0it [00:00, ?it/s]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+Testing: 0it [00:00, ?it/s]finalising
+Testing:   0%|▏                                                                                                                                   | 1/619 [00:03<37:25,  3.63s/it]finalising
+Testing:   0%|▍                                                                                                                                   | 2/619 [00:06<34:57,  3.40s/it]finalising
+Testing:   0%|▋                                                                                                                                 | 3/619 [00:17<1:08:15,  6.65s/it]finalising
+Testing:   1%|▊                                                                                                                                   | 4/619 [00:20<53:29,  5.22s/it]finalising
+
+Testing:   1%|█                                                                                                                                 | 5/619 [00:31<1:13:44,  7.21s/it]finalising
+Testing:   1%|█▎                                                                                                                                | 6/619 [00:41<1:25:52,  8.41s/it]finalising
+Testing:   1%|█▍                                                                                                                                | 7/619 [00:44<1:07:01,  6.57s/it]finalising
+Testing:   1%|█▋                                                                                                                                | 8/619 [00:51<1:07:39,  6.64s/it]finalising
+Testing:   1%|█▉                                                                                                                                | 9/619 [01:01<1:17:23,  7.61s/it]finalising
+Testing:   2%|██                                                                                                                               | 10/619 [01:04<1:04:32,  6.36s/it]finalising
+Testing:   2%|██▎                                                                                                                                | 11/619 [01:09<58:56,  5.82s/it]finalising
+Testing:   2%|██▌                                                                                                                                | 12/619 [01:13<52:36,  5.20s/it]finalising
+Testing:   2%|██▋                                                                                                                              | 13/619 [01:22<1:06:22,  6.57s/it]finalising
+Testing:   2%|██▉                                                                                                                                | 14/619 [01:26<56:51,  5.64s/it]finalising
+Testing:   2%|███▏                                                                                                                               | 15/619 [01:30<52:16,  5.19s/it]finalising
+Testing:   3%|███▍                                                                                                                               | 16/619 [01:33<44:50,  4.46s/it]finalising
+Testing:   3%|███▌                                                                                                                             | 17/619 [01:42<1:00:21,  6.02s/it]finalising
+
+Testing:   3%|███▊                                                                                                                               | 18/619 [01:45<51:07,  5.10s/it]finalising
+Testing:   3%|████                                                                                                                               | 19/619 [01:49<48:03,  4.81s/it]finalising
+Testing:   3%|████▏                                                                                                                              | 20/619 [01:53<44:44,  4.48s/it]finalising
+
+Testing:   3%|████▍                                                                                                                              | 21/619 [01:56<39:37,  3.98s/it]finalising
+Testing:   4%|████▋                                                                                                                              | 22/619 [02:00<38:10,  3.84s/it]finalising
+Testing:   4%|████▊                                                                                                                              | 23/619 [02:03<36:37,  3.69s/it]finalising
