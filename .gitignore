@@ -1,0 +1,9 @@
+datasets
+dataset_ordered.zip
+generation/mT5-baseline/wandb
+generation/mT5-baseline/*.log
+generation/mT5-baseline/model_outputs
+clustering/mT5-baseline/wandb
+clustering/mT5-baseline/model_outputs
+generation/mT5-baseline/__pycache__
+clustering/mT5-baseline/__pycache__
