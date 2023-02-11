@@ -22,13 +22,13 @@ EPOCHS=30
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=200
-TGT_MAX_SEQ_LENGTH=200
+SRC_MAX_SEQ_LENGTH=250
+TGT_MAX_SEQ_LENGTH=250
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
 
-ONLINE_SYNC=1  #control w&b online syncronization, 0 means inactive
+ONLINE_SYNC=0  #control w&b online syncronization, 0 means inactive
 
 DATASET_DIR=$SCRATCH_DIR/datasets
 

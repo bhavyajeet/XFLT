@@ -121,6 +121,9 @@ class ModelWrapper(pl.LightningModule):
         return list(map(str.strip, gen_text))
 
     def _generative_step(self, batch):
+        #print (len(batch))
+        #print (batch[0].size())
+        #print ("periwal ----"*20)
         generated_ids = self.model.generate(
             batch[0],
             attention_mask=batch[1],
@@ -128,6 +131,7 @@ class ModelWrapper(pl.LightningModule):
             num_beams=self.config_args.eval_beams,
             max_length=self.config_args.tgt_max_seq_len,
             length_penalty=self.config_args.length_penalty,
+            tokenizer = self.tokenizer
         )
 
         preds = self.ids_to_clean_text(generated_ids)
