@@ -22,7 +22,7 @@ def get_embedding(tokens):
         states = model(**tokenized_facts).hidden_states
         output = torch.stack([states[i] for i in range(len(states))])
         output = output.squeeze()
-        final_hidden_state = output[-4, :, ...]
+        final_hidden_state = torch.mean(output[-4:, :, ...], dim=0)
         #print(final_hidden_state.shape)
         return final_hidden_state
         #return embeddings['last_hidden_state'] #tokenized_facts['attention_mask']
@@ -50,3 +50,5 @@ en = time.time()
 print(en-st)
 print(get_similarity('islam', sample_in, F.pairwise_distance))
 print(time.time()-en)
+
+
