@@ -1,0 +1,11 @@
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+02/13/2023 10:06:38 PM [CRITICAL] val: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+{'val.jsonl'} files are missing, creating the files..
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+02/13/2023 10:07:08 PM [CRITICAL] val : script unification to Devanagari for some languages is enabled.
+02/13/2023 10:07:08 PM [INFO] val dataset count : 54165
+Validation sanity check:  50%|██████████████              | 1/2 [00:00<00:00,  2.89it/s]02/13/2023 10:07:08 PM [INFO] epoch : 0 - average_val_loss : 30.598307
+02/13/2023 10:07:08 PM [CRITICAL] train: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
