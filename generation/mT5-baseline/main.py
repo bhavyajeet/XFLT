@@ -3,6 +3,7 @@ import time
 import random
 import json
 from argparse import ArgumentParser
+import similarity
 
 import numpy as np
 import torch
@@ -131,7 +132,8 @@ class ModelWrapper(pl.LightningModule):
             num_beams=self.config_args.eval_beams,
             max_length=self.config_args.tgt_max_seq_len,
             length_penalty=self.config_args.length_penalty,
-            tokenizer = self.tokenizer
+            tokenizer = self.tokenizer,
+            sim_func = similarity.get_similarity,
         )
 
         preds = self.ids_to_clean_text(generated_ids)
