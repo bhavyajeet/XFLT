@@ -1,0 +1,143 @@
+============ as ============
+as overlap: 0.9830747531734838 overlap: 1394 after uni: 1418 preuni: 1457
+bn overlap: 0.589247311827957 overlap: 1370 after uni: 2325 preuni: 2425
+gu overlap: 0.6626360338573156 overlap: 1096 after uni: 1654 preuni: 1391
+hi overlap: 0.3733453670276775 overlap: 1241 after uni: 3324 preuni: 5261
+kn overlap: 0.47820343461030385 overlap: 1086 after uni: 2271 preuni: 3285
+ml overlap: 0.3005449591280654 overlap: 1103 after uni: 3670 preuni: 5799
+mr overlap: 0.6535038932146829 overlap: 1175 after uni: 1798 preuni: 3233
+or overlap: 0.6452947259565667 overlap: 1248 after uni: 1934 preuni: 454
+pa overlap: 0.30484988452655887 overlap: 924 after uni: 3031 preuni: 3053
+ta overlap: 0.1766176062204943 overlap: 636 after uni: 3601 preuni: 6622
+te overlap: 0.4161392405063291 overlap: 1052 after uni: 2528 preuni: 3866
+0.5075870190954032
+============ bn ============
+as overlap: 0.9647390691114246 overlap: 1368 after uni: 1418 preuni: 1457
+bn overlap: 0.9643010752688173 overlap: 2242 after uni: 2325 preuni: 2425
+gu overlap: 0.9274486094316807 overlap: 1534 after uni: 1654 preuni: 1391
+hi overlap: 0.5484356197352587 overlap: 1823 after uni: 3324 preuni: 5261
+kn overlap: 0.6917657419638925 overlap: 1571 after uni: 2271 preuni: 3285
+ml overlap: 0.4419618528610354 overlap: 1622 after uni: 3670 preuni: 5799
+mr overlap: 0.9043381535038932 overlap: 1626 after uni: 1798 preuni: 3233
+or overlap: 0.9048603929679421 overlap: 1750 after uni: 1934 preuni: 454
+pa overlap: 0.4625536126690861 overlap: 1402 after uni: 3031 preuni: 3053
+ta overlap: 0.2957511802277145 overlap: 1065 after uni: 3601 preuni: 6622
+te overlap: 0.6143196202531646 overlap: 1553 after uni: 2528 preuni: 3866
+0.7018613570903555
+============ gu ============
+as overlap: 0.9170792079207921 overlap: 741 after uni: 808 preuni: 1457
+bn overlap: 0.7428180574555403 overlap: 1086 after uni: 1462 preuni: 2425
+gu overlap: 0.9784386617100371 overlap: 1316 after uni: 1345 preuni: 1391
+hi overlap: 0.4474804826117814 overlap: 1261 after uni: 2818 preuni: 5261
+kn overlap: 0.6167633104902478 overlap: 1170 after uni: 1897 preuni: 3285
+ml overlap: 0.35815924916742353 overlap: 1183 after uni: 3303 preuni: 5799
+mr overlap: 0.876099706744868 overlap: 1195 after uni: 1364 preuni: 3233
+or overlap: 0.8307567127746135 overlap: 1021 after uni: 1229 preuni: 454
+pa overlap: 0.38531114327062227 overlap: 1065 after uni: 2764 preuni: 3053
+ta overlap: 0.24449594438006952 overlap: 844 after uni: 3452 preuni: 6622
+te overlap: 0.5420645748067303 overlap: 1192 after uni: 2199 preuni: 3866
+0.6308606410302479
+============ hi ============
+as overlap: 0.9733185102834908 overlap: 1751 after uni: 1799 preuni: 1457
+bn overlap: 0.9067151835924578 overlap: 2741 after uni: 3023 preuni: 2425
+gu overlap: 0.978624866405415 overlap: 2747 after uni: 2807 preuni: 1391
+hi overlap: 0.9624624624624625 overlap: 4487 after uni: 4662 preuni: 5261
+kn overlap: 0.9192307692307692 overlap: 3107 after uni: 3380 preuni: 3285
+ml overlap: 0.7321353949017969 overlap: 3504 after uni: 4786 preuni: 5799
+mr overlap: 0.9471016788089959 overlap: 2990 after uni: 3157 preuni: 3233
+or overlap: 0.9553744664338378 overlap: 2462 after uni: 2577 preuni: 454
+pa overlap: 0.7573919636087946 overlap: 2997 after uni: 3957 preuni: 3053
+ta overlap: 0.5894982497082847 overlap: 2526 after uni: 4285 preuni: 6622
+te overlap: 0.8853829557713053 overlap: 3283 after uni: 3708 preuni: 3866
+0.8733851364734192
+============ kn ============
+as overlap: 0.9393305439330544 overlap: 898 after uni: 956 preuni: 1457
+bn overlap: 0.8350111856823266 overlap: 1493 after uni: 1788 preuni: 2425
+gu overlap: 0.9557522123893806 overlap: 1512 after uni: 1582 preuni: 1391
+hi overlap: 0.6380746683122493 overlap: 2068 after uni: 3241 preuni: 5261
+kn overlap: 0.9536641472231351 overlap: 2902 after uni: 3043 preuni: 3285
+ml overlap: 0.5754789272030651 overlap: 2253 after uni: 3915 preuni: 5799
+mr overlap: 0.9352806414662085 overlap: 1633 after uni: 1746 preuni: 3233
+or overlap: 0.9149659863945578 overlap: 1345 after uni: 1470 preuni: 454
+pa overlap: 0.5500523194977328 overlap: 1577 after uni: 2867 preuni: 3053
+ta overlap: 0.42720763723150357 overlap: 1611 after uni: 3771 preuni: 6622
+te overlap: 0.7791304347826087 overlap: 2240 after uni: 2875 preuni: 3866
+0.7730862458287112
+============ ml ============
+as overlap: 0.9554263565891473 overlap: 986 after uni: 1032 preuni: 1457
+bn overlap: 0.8733153638814016 overlap: 1620 after uni: 1855 preuni: 2425
+gu overlap: 0.9565217391304348 overlap: 1474 after uni: 1541 preuni: 1391
+hi overlap: 0.7713331308836927 overlap: 2540 after uni: 3293 preuni: 5261
+kn overlap: 0.9139953088350273 overlap: 2338 after uni: 2558 preuni: 3285
+ml overlap: 0.9488173710740597 overlap: 4894 after uni: 5158 preuni: 5799
+mr overlap: 0.9423412929528246 overlap: 1618 after uni: 1717 preuni: 3233
+or overlap: 0.928380187416332 overlap: 1387 after uni: 1494 preuni: 454
+pa overlap: 0.7066715010877448 overlap: 1949 after uni: 2758 preuni: 3053
+ta overlap: 0.6290732609198059 overlap: 2722 after uni: 4327 preuni: 6622
+te overlap: 0.8837535014005602 overlap: 2524 after uni: 2856 preuni: 3866
+0.8645117285610028
+============ mr ============
+as overlap: 0.9282934963868816 overlap: 1670 after uni: 1799 preuni: 1457
+bn overlap: 0.8316242143565994 overlap: 2514 after uni: 3023 preuni: 2425
+gu overlap: 0.9372996081225508 overlap: 2631 after uni: 2807 preuni: 1391
+hi overlap: 0.6381381381381381 overlap: 2975 after uni: 4662 preuni: 5261
+kn overlap: 0.7727810650887574 overlap: 2612 after uni: 3380 preuni: 3285
+ml overlap: 0.5434600919348098 overlap: 2601 after uni: 4786 preuni: 5799
+mr overlap: 0.987012987012987 overlap: 3116 after uni: 3157 preuni: 3233
+or overlap: 0.8797050834303454 overlap: 2267 after uni: 2577 preuni: 454
+pa overlap: 0.555724033358605 overlap: 2199 after uni: 3957 preuni: 3053
+ta overlap: 0.3822637106184364 overlap: 1638 after uni: 4285 preuni: 6622
+te overlap: 0.7144012944983819 overlap: 2649 after uni: 3708 preuni: 3866
+0.7427912475405903
+============ or ============
+as overlap: 0.7032967032967034 overlap: 128 after uni: 182 preuni: 1457
+bn overlap: 0.38761061946902653 overlap: 219 after uni: 565 preuni: 2425
+gu overlap: 0.6491803278688525 overlap: 198 after uni: 305 preuni: 1391
+hi overlap: 0.16175653140633686 overlap: 291 after uni: 1799 preuni: 5261
+kn overlap: 0.288117770767613 overlap: 274 after uni: 951 preuni: 3285
+ml overlap: 0.12505316886431306 overlap: 294 after uni: 2351 preuni: 5799
+mr overlap: 0.5391061452513967 overlap: 193 after uni: 358 preuni: 3233
+or overlap: 0.9189873417721519 overlap: 363 after uni: 395 preuni: 454
+pa overlap: 0.15204981837052414 overlap: 293 after uni: 1927 preuni: 3053
+ta overlap: 0.0974304068522484 overlap: 273 after uni: 2802 preuni: 6622
+te overlap: 0.22572815533980584 overlap: 279 after uni: 1236 preuni: 3866
+0.38621063538717926
+============ pa ============
+as overlap: 0.9012875536480687 overlap: 420 after uni: 466 preuni: 1457
+bn overlap: 0.7531512605042017 overlap: 717 after uni: 952 preuni: 2425
+gu overlap: 0.9272727272727272 overlap: 663 after uni: 715 preuni: 1391
+hi overlap: 0.6443850267379679 overlap: 1446 after uni: 2244 preuni: 5261
+kn overlap: 0.8226277372262774 overlap: 1127 after uni: 1370 preuni: 3285
+ml overlap: 0.568075117370892 overlap: 1573 after uni: 2769 preuni: 5799
+mr overlap: 0.8898847631241997 overlap: 695 after uni: 781 preuni: 3233
+or overlap: 0.8841145833333334 overlap: 679 after uni: 768 preuni: 454
+pa overlap: 0.9302894415002039 overlap: 2282 after uni: 2453 preuni: 3053
+ta overlap: 0.4573268921095008 overlap: 1420 after uni: 3105 preuni: 6622
+te overlap: 0.7838494231936854 overlap: 1291 after uni: 1647 preuni: 3866
+0.7783876841837324
+============ ta ============
+as overlap: 0.9340796019900498 overlap: 751 after uni: 804 preuni: 1457
+bn overlap: 0.84946908182386 overlap: 1360 after uni: 1601 preuni: 2425
+gu overlap: 0.9476843910806175 overlap: 1105 after uni: 1166 preuni: 1391
+hi overlap: 0.7497494153023722 overlap: 2244 after uni: 2993 preuni: 5261
+kn overlap: 0.8967828418230563 overlap: 2007 after uni: 2238 preuni: 3285
+ml overlap: 0.7370813397129187 overlap: 3081 after uni: 4180 preuni: 5799
+mr overlap: 0.9350553505535055 overlap: 1267 after uni: 1355 preuni: 3233
+or overlap: 0.9230164964650432 overlap: 1175 after uni: 1273 preuni: 454
+pa overlap: 0.6834828101644245 overlap: 1829 after uni: 2676 preuni: 3053
+ta overlap: 0.932490854672431 overlap: 5608 after uni: 6014 preuni: 6622
+te overlap: 0.8652849740932642 overlap: 2171 after uni: 2509 preuni: 3866
+0.859470650698322
+============ te ============
+as overlap: 0.9443911792905082 overlap: 985 after uni: 1043 preuni: 1457
+bn overlap: 0.8592889334001002 overlap: 1716 after uni: 1997 preuni: 2425
+gu overlap: 0.9614485981308412 overlap: 1646 after uni: 1712 preuni: 1391
+hi overlap: 0.7059496567505721 overlap: 2468 after uni: 3496 preuni: 5261
+kn overlap: 0.8814102564102564 overlap: 2475 after uni: 2808 preuni: 3285
+ml overlap: 0.6421795183653612 overlap: 2640 after uni: 4111 preuni: 5799
+mr overlap: 0.9482846902201741 overlap: 1852 after uni: 1953 preuni: 3233
+or overlap: 0.9300126103404792 overlap: 1475 after uni: 1586 preuni: 454
+pa overlap: 0.631768953068592 overlap: 1925 after uni: 3047 preuni: 3053
+ta overlap: 0.5062845651080945 overlap: 2014 after uni: 3978 preuni: 6622
+te overlap: 0.9652640497034736 overlap: 3418 after uni: 3541 preuni: 3866
+0.8160257282534956
