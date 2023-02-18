@@ -1,8 +1,13 @@
+# Takes probabilities and creates val.csv file
+
+
 import pandas as pd 
 import json
+import sys
 
 languages = [ 'hi','en','bn','ta','te','mr','gu','kn','ml','pa','or','as' ]
-
+folder = sys.argv[1]
+#languages = ['en']
 finlist = []
 
 
@@ -15,7 +20,7 @@ for lang in languages:
     maxflen = 0
     thebigsent = ''
 
-    filename = 'val/' + lang + '_parawise.jsonl'
+    filename = folder + '/' + lang + '_parawise.jsonl'
     trainfile = open (filename)
 
     for datapt in trainfile.readlines():
@@ -54,4 +59,4 @@ for lang in languages:
 df = pd.DataFrame(finlist)
 print (yarc,farc)
 
-df.to_csv('val_all.csv',index=False,header=False)
+df.to_csv(folder + '/' + folder  + '_all.csv',index=False,header=False)

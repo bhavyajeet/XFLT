@@ -2,8 +2,7 @@ import sys
 import json
 from collections import defaultdict
 import matplotlib.pyplot as plt
-
-
+import os 
 
 
 def def_value():
@@ -18,6 +17,7 @@ def def_dict():
 
 filename = sys.argv[1]
 lang = sys.argv[2]
+folder = sys.argv[3]
 
 jsfile = open(filename)
 
@@ -103,10 +103,15 @@ print ("***** ", global_para_count, big_sent_count, " ****")
 
 
 plt.bar(list(freq_dict.keys()), freq_dict.values(), color='g')
-plt.savefig(lang+'.png')
 
 
-outfile = open(lang+ '_parawise.jsonl','w')
+if not os.path.exists(folder):
+    os.mkdir(folder)
+
+plt.savefig(folder + '/' +lang+'.png')
+
+
+outfile = open(folder + '/' + lang+ '_parawise.jsonl','w')
 
 
 for i in bbdict:
