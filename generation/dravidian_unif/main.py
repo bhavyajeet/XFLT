@@ -3,6 +3,7 @@ import time
 import random
 import json
 from argparse import ArgumentParser
+import similarity
 
 import numpy as np
 import torch
@@ -131,7 +132,8 @@ class ModelWrapper(pl.LightningModule):
             num_beams=self.config_args.eval_beams,
             max_length=self.config_args.tgt_max_seq_len,
             length_penalty=self.config_args.length_penalty,
-            tokenizer = self.tokenizer
+            #tokenizer = self.tokenizer,
+            #sim_func = similarity.get_similarity,
         )
 
         preds = self.ids_to_clean_text(generated_ids)
@@ -178,9 +180,13 @@ class ModelWrapper(pl.LightningModule):
 
     def _preprocess_text(self, text, lang):
         native_text = text
-        if self.config_args.enable_script_unification>0 and lang not in ['en','kn','ml','ta','te']:
+        if self.config_args.enable_script_unification>0 and lang!='en':
             # convert unified script to native langauge text
-            native_text = get_native_text_from_unified_script(text, lang)
+            if lang in ['kn','ml','te','ta']:
+                native_text = get_native_text_from_unified_script(text, lang,src_lang='ml')
+            else :
+                native_text = get_native_text_from_unified_script(text, lang,src_lang='hi')
+
 
         native_text = native_text.strip()
         # as input and predicted text are already space tokenized

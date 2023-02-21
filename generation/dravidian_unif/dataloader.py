@@ -48,9 +48,9 @@ class TextDataset(Dataset):
             # return unified script text
             if self.script_unification:
                 if lang in ['kn','ml','te','ta']:
-                    indic_tokenize.trivial_tokenize(self.lang_normalizer[lang].normalize(text.strip()), lang)
+                    return get_text_in_unified_script(text, self.lang_normalizer[lang], lang, 'ml')
                 else :
-                    return get_text_in_unified_script(text, self.lang_normalizer[lang], lang)
+                    return get_text_in_unified_script(text, self.lang_normalizer[lang], lang, 'hi')
             
             # return original text
             return " ".join(

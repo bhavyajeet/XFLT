@@ -135,5 +135,5 @@ def get_text_in_unified_script(text, normalizer, lang, target_lang = "hi"):
                 target_lang,
             ).replace(" ् ", "्")
 
-def get_native_text_from_unified_script(unified_text, lang):
-    return unicode_transliterate.UnicodeIndicTransliterator.transliterate(unified_text, "hi", lang)
+def get_native_text_from_unified_script(unified_text, lang, src_lang='hi'):
+    return unicode_transliterate.UnicodeIndicTransliterator.transliterate(unified_text, src_lang, lang)
