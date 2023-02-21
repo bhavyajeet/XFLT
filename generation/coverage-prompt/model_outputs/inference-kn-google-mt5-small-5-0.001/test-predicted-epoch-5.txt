@@ -1,0 +1,642 @@
+country_of_citizenship india date_of_birth 01 january 1979 occupation boxer
+award_received sangeet natak akademi award
+spouse boney kapoor
+award_received sahitya akademi award
+position_held member of the lok sabha
+award_received filmfare awards
+occupation actor
+award_received padma bhushan
+named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after tesla named_after
+award_received bharat ratna
+work_period_start 2008
+award_received academy award for best actor award_received academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award
+date_of_death 25 april 1844
+award_received icici institute of technology
+occupation singer
+cast_member miss india country_of_citizenship india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast_member miss india cast
+occupation badminton player sport badminton
+date_of_birth 07 december 1985 occupation film actor
+award_received cholmondeley award
+award_received bharat ratna
+after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by twists after_a_work_by
+date_of_birth 14 october 1894 date_of_death 03 september 1962 occupation poet
+award_received sahitya akademi award
+languages_spoken,_written_or_signed kannada occupation writer
+date_of_death 31 october 1975
+occupation writer
+date_of_birth 1867
+has_part bachchan family
+award_received academy award for best director
+date_of_birth 08 july 1949 date_of_death 02 september 2009 position_held chief minister of andhra pradesh
+award_received bharat ratna
+country_of_citizenship sweden
+field_of_work astronomy
+after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of knowledge after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by the archaeology of science after_a_work_by
+educated_at new york university
+member_of national academy of sciences
+educated_at massachusetts institute of technology educated_at massachusetts institute of technology
+position_held member of the lok sabha
+date_of_birth 08 december 1927 position_held chief minister of punjab
+cast_member friends occupation television actor
+award_received sahitya akademi award
+instrument voice occupation singer
+position_held member of the karnataka legislative assembly
+award_received sahitya akademi award
+after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by the sword of nicky after_a_work_by
+work_period_start 2002
+military_branch british army
+country_of_citizenship united kingdom
+occupation singer
+cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and waterfront kowalski cast_member and w
+author wealth of nations
+cast_member time
+award_received sahitya akademi award occupation author
+member_of_sports_team sunrisers hyderabad
+award_received bharat ratna
+educated_at new ham college educated_at new ham college
+place_of_birth london
+occupation judge
+award_received turing award
+award_received bharat ratna
+country_of_citizenship india instrument voice occupation singer
+cast_member the tin collectors cast_member the tin collectors
+instrument guitar
+father mahavir singh phogat
+occupation actor
+position_held member of rajya sabha
+after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_by jiy after_a_work_
+country_of_citizenship united kingdom position_held prime minister of the united states
+employer stanford university occupation university teacher
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+occupation film director
+educated_at princeton university
+cast_member crowborough cast_member crowborough cast_member crowborough cast_member crowborough cast_member crowborough cast_member crowborough
+occupation athletics competitor sport athletics
+award_received sahitya akademi award
+cast_member baaghi 3 occupation film actor
+award_received fellow of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament award_received fellow of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament award_received fellow of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament award_received fellow of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of the parliament of
+cast_member high school musical occupation film actor
+award_received bharat ratna
+award_received nobel peace prize
+country_of_citizenship india
+field_of_work poetry
+member_of_political_party samajwadi party
+award_received order of the order of australia
+occupation film director
+position_held president of the singapore
+performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl performer i kissed a girl
+date_of_birth 09 may 1908 date_of_death 08 july 1971
+award_received booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker prize nominated_for booker
+date_of_birth 29 july 1793 date_of_death 24 january 1852
+educated_at massachusetts institute of technology
+educated_at stowehurst college
+country_of_citizenship india
+place_of_birth hyderabad
+position_held prime minister of gujarat position_held prime minister of gujarat position_held prime minister of gujarat position_held prime minister of gujarat
+award_received padma bhushan
+educated_at harvard university
+award_received bafta award for best supporting actress award_received bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award for best supporting actress nominated_for bafta award
+spouse jaya bachchan
+date_of_death 09 march 1994
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+educated_at university of gottingen
+award_received jnanpith award
+award_received bharat ratna
+award_received bharat ratna
+country_of_citizenship france
+occupation writer
+award_received bharat ratna
+award_received companion of the order of the united states
+spouse maxa coppers spouse maxa coppers
+country_of_citizenship australia
+position_held minister of information and broadcasting
+spouse carolyn starr
+position_held president of sri lanka
+member_of royal society
+field_of_work physics occupation physicist
+occupation chief executive officer
+occupation actor
+award_received nobel prize in physics
+performer 30 u 30 performer 30 u 30 performer 30 u 30 performer 30 u 30 performer 30 u 30 performer 30 u 30 performer 30 u 30
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by in custody after_a_work_by
+award_received pour leopold medal award_received pour leopold medal award_received pour leopold medal award_received pour leopold medal
+performer dylan performer dylan
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+spouse shire yongqing
+position_held governor of andhra pradesh
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime minister of pakistan position_held prime
+spouse himmanshoo
+award_received academy award for best director
+member_of_sports_team india national cricket team occupation cricketer
+date_of_birth 01 august 1899 date_of_death 28 february 1936
+award_received bharat ratna
+date_of_birth 01 january 1934
+country_of_citizenship india
+date_of_birth 05 august 1958
+date_of_death 19 april 2011
+religion england
+date_of_birth 1904
+date_of_death 16 august 1973
+member_of_sports_team australia national cricket team occupation cricketer
+position_held member of rajya sabha
+date_of_death 07 october 1975
+date_of_birth 25 december 1964
+date_of_birth 18 november 1836
+member_of_sports_team pakistan national cricket team occupation cricketer
+occupation politician
+award_received filmfare award for best actor award_received filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award for best actor nominated_for filmfare award
+date_of_death 09 january 1899
+position_held minister of information and broadcasting
+date_of_birth 19 march 1955 date_of_death 30 april 2011 member_of_political_party indian national congress
+educated_at university of tubingen
+award_received sahitya akademi award
+date_of_death 1944
+date_of_birth 09 november 1887
+date_of_death 04 january 1989
+educated_at television institute of india
+date_of_birth 25 december 1876
+date_of_death 02 july 1777
+date_of_death 03 december 2013
+date_of_death 21 june 1940
+date_of_birth 04 june 1959 place_of_birth mumbai
+date_of_death 23 august 2018 place_of_death new delhi
+place_of_birth mysore
+award_received nobel peace prize
+date_of_death 01 july 1962
+date_of_birth 12 september 1897
+date_of_birth 1938
+occupation model
+date_of_death 04 july 1994
+place_of_birth bengaluru
+date_of_birth 21 february 1942
+date_of_birth 22 october 1866 date_of_death 03 february 1946 occupation novelist
+award_received sahitya akademi award
+occupation athletics competitor sport athletics
+occupation model
+date_of_birth 17 july 1827
+spouse jya bachchan
+date_of_death 03 november 1982
+award_received jnanpith award
+date_of_birth 07 january 1996 occupation television actor
+date_of_birth 17 march 1820 date_of_death 20 july 1897 occupation poet
+date_of_birth 13 august 1899
+occupation film director
+award_received national science institute of science
+occupation writer
+occupation journalist
+date_of_death 03 february 1468
+member_of royal swedish academy of sciences
+occupation cricketer
+date_of_death 02 march 1869
+date_of_death 05 november 1975
+date_of_death 06 january 1971
+date_of_birth 30 june 1893 date_of_death 24 march 1950 occupation economist
+date_of_birth 29 may 1988 occupation television actor
+country_of_citizenship india date_of_birth 02 october 1987 occupation actor
+date_of_birth 04 october 1884
+date_of_death 07 january 1893
+place_of_death london
+instrument voice occupation singer
+occupation politician
+occupation poet
+date_of_birth 1955
+date_of_birth 20 august 1946
+position_held sultan
+position_held sultan
+award_received academy award for best actor award_received academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award
+instrument voice occupation singer
+date_of_birth 15 april 1844 date_of_death 28 february 1916 occupation writer
+date_of_birth 07 october 1885
+date_of_birth 23 january 1850 date_of_death 14 january 1905 occupation physicist
+date_of_death 09 july 1856
+date_of_death 10 august 1945
+date_of_death 05 november 1944
+date_of_birth 30 august 1901
+award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry degree award_received henry
+date_of_birth 01 june 1796
+field_of_work biochemistry field_of_work biochemistry occupation biochemist
+occupation poet
+date_of_birth 21 december 1804
+date_of_birth 12 march 1953 head_of_government nepal position_held prime minister of nepal position_held prime minister of nepal position_held prime minister of nepal position_held prime minister of nepal position_held prime minister of nepal position_held prime minister of nepal position_held prime minister of nepal
+date_of_death 05 may 1821
+member_of indian academy of sciences
+member_of_political_party indian national congress
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+date_of_birth 20 december 1987 filmography miss supranational filmography occupation film actor
+award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year award_received bbc sports personality of the year
+date_of_death 06 march 2007
+date_of_death 21 june 1820
+date_of_death 20 august 1833
+occupation television actor
+occupation film director
+date_of_death 08 march 1957
+date_of_birth 25 march 1985 occupation television actor
+place_of_death bengaluru
+place_of_birth long beach
+country_of_citizenship south africa date_of_birth 17 february 1984 member_of_sports_team south africa national cricket team occupation cricketer
+country_of_citizenship south africa date_of_birth 17 february 1984 member_of_sports_team south africa national cricket team occupation cricketer
+date_of_birth 29 march 1998 occupation golfer
+award_received nobel peace prize
+date_of_birth 09 october 1927 occupation lawyer
+spouse richard burton
+member_of_political_party indian national congress
+field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work
+award_received sahitya akademi award
+occupation poet occupation novelist
+spouse deepak pandukone
+date_of_birth 15 april 1817 field_of_work mathematics
+after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by the rs of the day after_a_work_by
+date_of_birth 21 october 1873
+award_received nobel peace prize
+place_of_death monte carlo
+member_of_political_party labour party
+date_of_death 16 september 1920
+occupation professional wrestler sport professional wrestling
+country_of_citizenship australia date_of_birth 12 december 1986 place_of_birth perth
+educated_at harvard university
+date_of_death 15 april 1854
+date_of_birth 17 april 1912 date_of_death 10 april 1999 languages_spoken,_written_or_signed malayalam occupation writer
+date_of_birth 07 october 1914 date_of_death 30 october 1974 instrument voice occupation singer
+date_of_birth 10 april 1986
+date_of_birth 29 november 1913 date_of_death 01 august 2000 occupation writer
+date_of_birth 06 march 1475 date_of_death 18 april 1556 occupation poet
+date_of_birth 08 august 1981
+member_of_political_party pakistan muslim league
+date_of_death 28 february 1963
+family vanderbilt family has_part vanderbilt family
+date_of_death 11 march 1940
+occupation poet
+award_received nobel peace prize
+field_of_work chemistry
+genre carnatic music instrument voice occupation singer
+place_of_burial westminster abbey
+depicts saint main_subject saint
+convicted_of murder
+date_of_birth 16 january 1942 position_held member of the lok sabha
+date_of_birth 17 may 1865
+named_after bell
+date_of_death 03 january 2002 place_of_death bengaluru
+date_of_death 30 september 1945
+father margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margaret gasdon mother margar
+educated_at massachusetts institute of technology
+date_of_birth 25 february 1707
+after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after_a_work_by billy joel after
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received sahitya akademi award
+member_of national academy of sciences
+date_of_birth 19 april 1832 date_of_death 14 september 1916 occupation writer
+date_of_birth 15 january 1621 place_of_birth paris
+country_of_citizenship iraq position_held president of iraq
+date_of_birth 08 february 1897 place_of_birth hyderabad
+award_received nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry no
+country_of_citizenship india date_of_birth 11 december 1969 place_of_birth hyderabad
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+field_of_work philosophy
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+field_of_work botany occupation botanist
+educated_at university of mumbai
+date_of_birth 16 may 1818
+date_of_birth 30 june 1685 date_of_death 04 december 1732 occupation poet
+member_of_political_party independent labour party
+country_of_citizenship new york place_of_birth new york
+position_held minister of railways
+award_received nobel peace prize
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+educated_at university of cat
+member_of royal society
+member_of_sports_team india national cricket team occupation cricketer
+date_of_birth 20 march 1973 occupation golfer
+member_of_sports_team india national cricket team occupation cricketer
+member_of_political_party conservative party
+member_of american academy of arts and sciences
+date_of_birth 24 april 1845 date_of_death 29 december 1924 occupation poet
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+date_of_birth 30 april 1927 occupation judge
+date_of_birth 05 may 1988
+date_of_death 04 january 1965
+date_of_birth 21 september 1947
+educated_at stella maris college
+date_of_birth 01 march 1880
+field_of_work machine learning
+date_of_death 03 december 2016
+date_of_death 31 january 1954
+date_of_death 06 july 1954
+date_of_birth 06 january 1928
+date_of_death 21 february 1926
+date_of_death 28 august 1863
+date_of_death 23 july 2007
+date_of_death 12 january 2004
+date_of_birth 02 june 1850 date_of_death 11 january 1928 occupation poet occupation novelist
+member_of_sports_team australia national cricket team occupation cricketer
+date_of_birth 29 july 1949
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+occupation poet occupation writer
+date_of_birth 06 april 1888 date_of_death 16 september 1920 occupation poet occupation novelist
+country_of_citizenship india
+date_of_death 15 april 1990
+position_held member of rajya sabha
+member_of_political_party bharatiya janata party
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+educated_at newcastle university
+date_of_death 1821
+award_received nobel prize in chemistry field_of_work chemistry
+date_of_death 03 july 1920
+date_of_birth 06 december 1778
+award_received nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry no
+educated_at university of pennsylvania educated_at university of pennsylvania
+date_of_death 24 september 2004 place_of_birth mumbai
+educated_at university of bengaluru
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+field_of_work botany
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+instrument guitar
+date_of_death 09 april 1946
+member_of_sports_team india national cricket team occupation cricketer
+sibling fredrick
+date_of_birth 11 february 1915 date_of_death 20 september 2005
+date_of_death 28 july 1930
+award_received padma bhushan
+date_of_birth 20 june 1952 occupation poet
+date_of_birth 25 march 1967 date_of_death 31 july 2007 occupation military officer
+position_held member of the house of lords
+occupation novelist
+date_of_birth 26 december 1986 occupation actor
+date_of_birth 16 october 1977 occupation musician
+occupation actor
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+depicts aristotle
+educated_at university of columbia university employer columbia university field_of_work political science occupation university teacher
+award_received sahitya akademi award
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received bbc sports personality of the year award
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received nobel peace prize
+sport athletics
+date_of_birth 22 april 1974 place_of_birth new delhi
+date_of_birth 15 february 1564 place_of_birth pisa
+educated_at university of mysore
+date_of_birth 16 march 1929 date_of_death 13 july 1993 occupation writer
+award_received golden globe award
+field_of_work physics
+occupation politician
+member_of_sports_team warwickshire county cricket club occupation cricketer
+educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york university educated_at new york
+country_of_citizenship new york place_of_birth new york
+author the light of asia notable_work the light of asia
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+educated_at devon university
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+date_of_death 22 october 1986
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+date_of_birth 07 november 1878 date_of_death 27 october 1968
+date_of_birth 17 october 1932 occupation printer occupation printer
+head_of_government soviet union position_held prime minister of soviet union position_held prime minister of soviet union
+occupation mathematician
+occupation actor
+occupation writer
+date_of_birth 15 may 1993
+occupation poet
+place_of_death vienna
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+educated_at university of mississippi
+discoverer_or_inventor physics
+position_held chief minister of karnataka
+date_of_birth 16 june 1934
+country_of_citizenship india date_of_birth 22 june 1974 occupation athletics competitor sport athletics
+educated_at bangalore university
+award_received jnanpith award
+occupation astronaut
+date_of_birth 28 september 1947 head_of_government bangladesh position_held prime minister of bangladesh
+award_received nobel peace prize date_of_birth 10 august 1951 named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel peace prize named_after nobel
+country_of_citizenship india date_of_birth 19 august 1918 date_of_death 26 december 1999 position_held president of india
+member_of national academy of sciences
+performer fearless performer fearless
+award_received nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry no
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+country_of_citizenship india occupation model
+country_of_citizenship india date_of_birth 08 july 1948 occupation politician
+date_of_birth 07 june 1862 date_of_death 20 may 1947 occupation physicist
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+position_held member of rajya sabha
+date_of_birth 13 september 1876 date_of_death 08 march 1941
+date_of_birth 10 february 1909 date_of_death 15 august 2004 occupation poet
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+member_of_political_party bharatiya janata party
+member_of_political_party bharatiya janata party
+occupation television actor
+date_of_birth 19 december 1875 date_of_death 04 august 1948 occupation physicist
+award_received nobel prize in physician field_of_work physician
+cast_member niki sanders performer niki sanders
+date_of_birth 31 october 1943
+country_of_citizenship india head_of_state india position_held president of india
+occupation film actor
+member_of_sports_team delhi daredevils member_of_sports_team india national cricket team occupation cricketer
+member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team member_of_sports_team united states davis cup team
+date_of_death 18 january 1995
+cast_member ethan hunt
+field_of_work sociology occupation sociologist
+place_of_death mumbai
+occupation cricketer
+occupation writer
+position_held governor of karnataka
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+date_of_death 20 march 1956 place_of_death mumbai
+date_of_birth 19 december 1927
+country_of_citizenship australia date_of_birth 08 november 1976 member_of_sports_team new south wales cricket team occupation cricketer
+position_held chief executive officer
+award_received nobel prize in physician field_of_work physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for nobel prize in physician nominated_for
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received order of merit
+date_of_death 02 july 1961
+date_of_death 25 november 1884
+country_of_citizenship france date_of_birth 12 august 1954 occupation politician
+position_held vice president of india
+after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history after_a_work_by a study of history
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+country_of_citizenship india date_of_birth 28 september 1998 occupation beauty pageant contestant
+member_of_sports_team sunrisers hyderabad
+field_of_work chemistry occupation chemist
+date_of_death 05 may 2011
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+award_received ramon magsaysay award
+award_received jnanpith award
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+field_of_work sciences
+award_received padma vibhushan
+occupation sculptor
+date_of_birth 16 february 1959
+author pythagoras notable_work pythagoras
+date_of_death 22 november 2016 place_of_death chennai
+date_of_birth 27 november 1711 occupation astronomer
+country_of_citizenship india date_of_birth 23 november 1998 occupation beauty pageant contestant
+depicts newton depicts newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named_after newton named
+date_of_birth 13 january 1938 instrument voice occupation singer
+date_of_death 14 january 1955
+author pirigin notable_work pirigin
+date_of_birth 07 april 1920 place_of_birth varanasi
+spouse jada patrick
+field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematics field_of_work mathematic
+family mcmahon family has_part mcmahon family
+country_of_citizenship philippines head_of_government philippines position_held president of the philippines position_held president of the philippines
+occupation poet occupation novelist occupation writer occupation novelist occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation literary critic occupation
+date_of_birth 24 october 1775 date_of_death 30 may 1833 occupation politician
+award_received jnanpith award
+cast_member laaga chunari mein daag filmography abhishek bachchan filmography has_part bachchan family
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+date_of_death 27 february 1887
+date_of_birth 15 march 1958 date_of_death 13 november 2020 occupation journalist
+award_received nobel prize in physics field_of_work physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for
+date_of_death 30 december 2006
+date_of_death 07 march 1954
+filmography jennifer lopez filmography main_subject jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography named_after jennifer lopez filmography
+position_held minister of finance position_held minister of finance
+date_of_birth 19 july 1909 date_of_death 29 september 2004 occupation poet
+date_of_death 08 february 1835
+position_held governor of bombay
+languages_spoken,_written_or_signed french occupation poet occupation writer
+occupation politician
+date_of_birth 07 january 1975
+occupation economist
+award_received international order of the order of the british empire
+named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart's wonderland named_after stuart'
+award_received padma bhushan
+occupation poet
+award_received jnanpith award
+spouse brooklyn dench
+date_of_death 11 november 1994
+cast_member messi main_subject messi
+after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after_a_work_by robert croft after
+educated_at university of delhi
+date_of_birth 21 november 1981 place_of_birth australia
+award_received nobel peace prize
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+sport tennis
+date_of_birth 21 june 1941 place_of_birth mangalore
+award_received nobel prize in chemistry field_of_work chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for
+date_of_birth 23 april 1902 date_of_death 08 february 1998 occupation writer
+award_received academy award for best actor award_received academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award
+author iliad notable_work iliad
+award_received jnanpith award
+position_held mughal emperor
+occupation writer
+cast_member baazigar occupation film actor
+award_received sahitya akademi award
+date_of_birth 10 july 1856 date_of_death 07 january 1943 occupation engineer
+date_of_birth 22 january 1630 date_of_death 23 may 1711
+award_received jnanpith award
+award_received sahitya akademi award
+genre rock and roll hall of fame
+award_received lloyd prize award_received lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for lloyd prize nominated_for
+educated_at indian institute of science
+educated_at government college
+place_of_birth rosario
+date_of_death 01 february 1968
+award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'or award_received ballon d'
+date_of_death 08 may 1995
+occupation actor
+date_of_birth 18 august 1936 occupation poet
+date_of_birth 23 june 1889 date_of_death 05 march 1966 occupation writer
+award_received jnanpith award
+award_received padma vibhushan
+date_of_death 12 october 1966
+member_of royal society
+date_of_birth 09 october 1892 date_of_death 13 march 1975
+student_of thomas arnold
+named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro named_after figaro
+author harry potter and the order of the phoenix notable_work harry potter and the kingdom of the phoenix notable_work harry potter and the kingdom of the phoenix notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith notable_work harry potter and the faith and the faith notable_work harry potter and the
+field_of_work economics
+date_of_birth 1404 date_of_death 1404 position_held vijayanagara monarch
+cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member pardes cast_member
+after_a_work_by the last labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by the lost labyrinth after_a_work_by
+award_received padma bhushan
+award_received nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry no
+date_of_birth 14 march 1854 date_of_death 20 august 1915
+position_held member of the lok sabha
+member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers
+member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers
+member_of_sports_team mumbai indians
+position_held member of the lok sabha
+author rings of pembroke notable_work rings of pembroke
+occupation writer
+work_period_start 2009
+award_received jnanpith award
+author the botanics author the botanics author the botanics notable_work the botanics
+after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by man booker after_a_work_by
+author the god of small things
+award_received sahitya akademi award
+occupation poet
+award_received jnanpith award
+member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers member_of_sports_team perth scorchers
+award_received jnanpith award
+member_of royal society
+member_of_sports_team himachal pradesh cricket team occupation cricketer
+member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team sunrisers hyderabad member_of_sports_team
+member_of_political_party bharatiya janata party
+field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work physics field_of_work
+award_received sangeet natak akademi award award_received padma bhushan
+award_received sahitya akademi award
+has_part the pussycat dolls
+award_received massachusetts fellowship
+award_received jnanpith award
+date_of_birth 13 august 1899 date_of_death 29 april 1980 occupation film director
+award_received sahitya akademi award
+spouse akshay kumar
+cast_member a christmas the europeans cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member a a christmas cast_member
+award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of the sangeet natak akademi award_received fellow of
+award_received sangeet natak akademi award
+participant_in 2006 fifa world cup
+occupation film actor
+award_received sahitya akademi award
+award_received academy award for best actor award_received academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award
+member_of_political_party indian national congress
+date_of_death 02 april 1865
+author the persistence of memory
+award_received padma bhushan
+after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things after_a_work_by the god of small things
+award_received gandhi peace prize award_received gandhi peace prize award_received gandhi peace prize award_received gandhi peace prize
+position_held member of rajya sabha
+author the palace of art
+child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal child anilpiramal
+sibling vikram sara
+occupation translator
+award_received padma bhushan
+member_of_sports_team mumbai indians
+position_held member of the 17th lok sabha
+member_of_sports_team canada national association football team
+languages_spoken,_written_or_signed marathi occupation poet
+position_held member of rajya sabha
+author the road to wigan pier
+occupation poet occupation author
+occupation judge
+award_received fields medal award_received fields medal award_received fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for fields medal nominated_for
+position_held member of rajya sabha
+award_received bharat ratna
+discoverer_or_inventor potassium
+award_received sahitya akademi award
+occupation badminton player sport badminton
+position_held of maharashtra
+date_of_death 05 december 1950
+instrument voice occupation singer
+head_of_government india position_held prime minister of india
+member_of french academy of sciences
+instrument guitar occupation guitarist
+award_received sahitya akademi award
+date_of_birth 09 july 1930 date_of_death 23 december 2014 occupation film director
+position_held member of rajya sabha
+cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits cast_member all the dirty hits
+award_received padma vibhushan
+occupation actor
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+member_of_sports_team mumbai indians
+discoverer_or_inventor penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after penelope named_after
+occupation writer
+position_held president of israel
+field_of_work mathematics

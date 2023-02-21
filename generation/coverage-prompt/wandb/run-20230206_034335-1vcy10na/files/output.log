@@ -1,0 +1,15 @@
+02/06/2023 03:43:43 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/06/2023 03:43:43 AM [INFO] test dataset is already present.
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+02/06/2023 03:43:47 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/06/2023 03:43:47 AM [INFO] test dataset count : 30545
+Testing: 0it [00:00, ?it/s]6
+torch.Size([4, 63])
+Testing:   0%|                                       | 1/7637 [00:02<5:45:22,  2.71s/it]6
+torch.Size([4, 71])
+Testing:   0%|                                       | 2/7637 [00:05<5:56:20,  2.80s/it]6
+torch.Size([4, 52])
+Testing:   0%|                                       | 3/7637 [00:08<6:14:29,  2.94s/it]6
+torch.Size([4, 59])
+Testing:   0%|                                       | 4/7637 [00:10<5:34:41,  2.63s/it]6

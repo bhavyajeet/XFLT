@@ -1,0 +1,20 @@
+2023-02-14 04:00:59,486 INFO    MainThread:21524 [internal.py:wandb_internal():89] W&B internal server running at pid: 21524, started at: 2023-02-14 04:00:59.484863
+2023-02-14 04:00:59,490 INFO    WriterThread:21524 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_040057-24kmvwoz/run-24kmvwoz.wandb
+2023-02-14 04:00:59,493 DEBUG   HandlerThread:21524 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 04:01:04,984 DEBUG   HandlerThread:21524 [meta.py:__init__():40] meta init
+2023-02-14 04:01:04,985 DEBUG   HandlerThread:21524 [meta.py:__init__():54] meta init done
+2023-02-14 04:01:04,985 DEBUG   HandlerThread:21524 [meta.py:probe():211] probe
+2023-02-14 04:01:04,993 DEBUG   HandlerThread:21524 [meta.py:_setup_git():201] setup git
+2023-02-14 04:01:05,044 DEBUG   HandlerThread:21524 [meta.py:_setup_git():208] setup git done
+2023-02-14 04:01:05,045 DEBUG   HandlerThread:21524 [meta.py:_save_pip():58] save pip
+2023-02-14 04:01:05,046 DEBUG   HandlerThread:21524 [meta.py:_save_pip():72] save pip done
+2023-02-14 04:01:05,047 DEBUG   HandlerThread:21524 [meta.py:_save_conda():79] save conda
+2023-02-14 04:01:17,930 WARNING MainThread:21524 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 04:01:18,135 WARNING MainThread:21524 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 04:01:18,135 ERROR   MainThread:21524 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 04:01:18,143 DEBUG   HandlerThread:21524 [meta.py:_save_conda():87] save conda done
+2023-02-14 04:01:18,144 DEBUG   HandlerThread:21524 [meta.py:probe():249] probe done
+2023-02-14 04:01:18,155 INFO    HandlerThread:21524 [handler.py:finish():683] shutting down handler
+2023-02-14 04:01:18,503 INFO    WriterThread:21524 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_040057-24kmvwoz/run-24kmvwoz.wandb
+2023-02-14 04:01:18,505 INFO    SenderThread:21524 [sender.py:finish():986] shutting down sender
+2023-02-14 04:01:18,507 INFO    MainThread:21524 [internal.py:handle_exit():76] Internal process exited

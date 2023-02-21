@@ -1,0 +1,61 @@
+02/14/2023 01:56:13 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 01:56:13 AM [INFO] test dataset is already present.
+02/14/2023 01:56:18 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 01:56:18 AM [INFO] test dataset count : 36416
+Testing: 0it [00:00, ?it/s]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1139, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1807, in beam_search
+    print (sim_func('lol','lol lol lol',F.cosine_similarity))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 39, in get_similarity
+    token_embedding = get_embedding(tuple([token,]))[1:-1]
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 19, in get_embedding
+    tokenized_facts = tokenizer(tokens, padding=False, truncation=False, return_tensors="pt")
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 2385, in __call__
+    **kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 2570, in batch_encode_plus
+    **kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_fast.py", line 394, in _batch_encode_plus
+    raise TypeError(f"batch_text_or_text_pairs has to be a list (got {type(batch_text_or_text_pairs)})")
+TypeError: batch_text_or_text_pairs has to be a list (got <class 'tuple'>)

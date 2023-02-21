@@ -1,0 +1,19 @@
+2023-02-14 04:04:49,052 INFO    MainThread:13006 [internal.py:wandb_internal():89] W&B internal server running at pid: 13006, started at: 2023-02-14 04:04:49.051105
+2023-02-14 04:04:49,059 DEBUG   HandlerThread:13006 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 04:04:49,060 INFO    WriterThread:13006 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_040447-2n1qhsnw/run-2n1qhsnw.wandb
+2023-02-14 04:04:53,779 DEBUG   HandlerThread:13006 [meta.py:__init__():40] meta init
+2023-02-14 04:04:53,779 DEBUG   HandlerThread:13006 [meta.py:__init__():54] meta init done
+2023-02-14 04:04:53,780 DEBUG   HandlerThread:13006 [meta.py:probe():211] probe
+2023-02-14 04:04:53,788 DEBUG   HandlerThread:13006 [meta.py:_setup_git():201] setup git
+2023-02-14 04:04:53,842 DEBUG   HandlerThread:13006 [meta.py:_setup_git():208] setup git done
+2023-02-14 04:04:53,843 DEBUG   HandlerThread:13006 [meta.py:_save_pip():58] save pip
+2023-02-14 04:04:53,845 DEBUG   HandlerThread:13006 [meta.py:_save_pip():72] save pip done
+2023-02-14 04:04:53,846 DEBUG   HandlerThread:13006 [meta.py:_save_conda():79] save conda
+2023-02-14 04:05:08,577 DEBUG   HandlerThread:13006 [meta.py:_save_conda():87] save conda done
+2023-02-14 04:05:08,577 DEBUG   HandlerThread:13006 [meta.py:probe():249] probe done
+2023-02-14 04:05:54,284 WARNING MainThread:13006 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 04:05:54,462 WARNING MainThread:13006 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 04:05:54,462 ERROR   MainThread:13006 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 04:05:55,106 INFO    SenderThread:13006 [sender.py:finish():986] shutting down sender
+2023-02-14 04:05:55,379 INFO    WriterThread:13006 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_040447-2n1qhsnw/run-2n1qhsnw.wandb
+2023-02-14 04:05:55,382 INFO    MainThread:13006 [internal.py:handle_exit():76] Internal process exited

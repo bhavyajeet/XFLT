@@ -1,0 +1,244 @@
+02/14/2023 03:44:06 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 03:44:06 AM [INFO] test dataset is already present.
+02/14/2023 03:44:07 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 03:44:07 AM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Charles Charle Charlie चा Sir George  Eric Clar Charl', 'Matthew Matt Sir Mathe Mats Mat M  Michael Thomas', 'Ital T  Sir A Institution International Antonio Jordan He', 'Hin Bina Hi Heidhinaima Chris Her Him Ab']
+tensor([[0.3663, 0.4927, 0.4043, 0.3869, 0.4010, 0.3853, 0.8000, 0.3847, 0.3621,
+         0.4892],
+        [0.3779, 0.4129, 0.3165, 0.4040, 0.4591, 0.4732, 0.3472, 0.8000, 0.3222,
+         0.2912],
+        [0.5524, 0.3123, 0.8000, 0.4181, 0.2960, 0.3940, 0.3544, 0.3490, 0.3770,
+         0.3504],
+        [0.4790, 0.5853, 0.4310, 0.3795, 0.6570, 0.5143, 0.3594, 0.3562, 0.4350,
+         0.3587]], device='cuda:0')
+tensor([[-2.3922, -2.2658, -2.3541, -2.3715, -2.3575, -2.3731, -1.9584, -2.3737,
+         -2.3964, -2.2693],
+        [-2.3557, -2.3206, -2.4170, -2.3295, -2.2745, -2.2603, -2.3863, -1.9335,
+         -2.4114, -2.4423],
+        [-2.1817, -2.4219, -1.9341, -2.3160, -2.4382, -2.3401, -2.3798, -2.3851,
+         -2.3571, -2.3838],
+        [-2.2840, -2.1778, -2.3320, -2.3836, -2.1061, -2.2488, -2.4037, -2.4069,
+         -2.3281, -2.4044]], device='cuda:0')
+['Charles', 'Charle', 'Charlie', 'चा', 'Sir', 'Matthew', 'Matt', 'Sir', 'Mathe', 'Mats', 'Ital', 'T', '', 'Sir', 'A', 'Hin', 'Bina', 'Hi', 'Heid', 'hina']
+['Anthony Town Edward George James Henry John Thomas Charles', 'Walter  Thomas Quick William Michael Matthew K John Leonard', 'oos Ital Italóoriano Italonanoizo', 'ae Kaina Kaaadaanasna']
+tensor([[0.8000, 0.4076, 0.3866, 0.3815, 0.3853, 0.3963, 0.3911, 0.3993, 0.3927,
+         0.3663],
+        [0.3242, 0.8000, 0.2912, 0.3556, 0.2900, 0.3222, 0.3779, 0.3361, 0.2863,
+         0.3395],
+        [0.3104, 0.3742, 0.5524, 0.5524, 0.4149, 0.4336, 0.5524, 0.3510, 0.3795,
+         0.3883],
+        [0.4077, 0.3834, 0.4226, 0.5380, 0.4226, 0.4077, 0.3858, 0.3733, 0.3563,
+         0.3606]], device='cuda:0')
+tensor([[-1.9418, -2.3341, -2.3551, -2.3603, -2.3564, -2.3455, -2.3507, -2.3424,
+         -2.3491, -2.3755],
+        [-2.3626, -1.8868, -2.3956, -2.3311, -2.3968, -2.3646, -2.3089, -2.3507,
+         -2.4004, -2.3473],
+        [-2.4268, -2.3630, -2.1848, -2.1848, -2.3223, -2.3035, -2.1848, -2.3862,
+         -2.3577, -2.3489],
+        [-2.3019, -2.3263, -2.2870, -2.1717, -2.2870, -2.3019, -2.3238, -2.3363,
+         -2.3534, -2.3491]], device='cuda:0')
+['Charles', 'Charles Anthony', 'Charles Town', 'Charles Edward', 'Charles George', 'Matthew Walter', 'Matthew', 'Matthew Thomas', 'Matthew Quick', 'Matthew William', 'Italo', 'Italos', 'Ital', 'Sir Ital', 'Italó', 'Hina', 'Hine', 'Bina Ka', 'Hinina', 'hina Ka']
+['Ernest TownsendHughFrederick TownEdgar TownMillsNeil', 'KleinKenneth KleinClaude KleinCorneliveldettBryanell', 'de Deo  theple डी Victor di-', 'Ka Ka K Ware Kab Ka Ware Kal Kau Kada']
+tensor([[0.3898, 0.3866, 0.4164, 0.4110, 0.3970, 0.3866, 0.4225, 0.3866, 0.3999,
+         0.3999],
+        [0.3373, 0.3055, 0.3373, 0.3365, 0.3373, 0.3337, 0.4260, 0.4358, 0.3509,
+         0.3372],
+        [0.5039, 0.3886, 0.3104, 0.8000, 0.3447, 0.3925, 0.3988, 0.4424, 0.3937,
+         0.2637],
+        [0.4226, 0.4226, 0.3568, 0.4000, 0.4472, 0.4226, 0.4000, 0.3869, 0.4752,
+         0.4900]], device='cuda:0')
+tensor([[-2.3125, -2.3157, -2.2859, -2.2913, -2.3053, -2.3157, -2.2798, -2.3157,
+         -2.3024, -2.3024],
+        [-2.3198, -2.3517, -2.3198, -2.3207, -2.3198, -2.3235, -2.2312, -2.2213,
+         -2.3062, -2.3199],
+        [-2.2332, -2.3485, -2.4268, -1.9371, -2.3924, -2.3446, -2.3383, -2.2947,
+         -2.3435, -2.4734],
+        [-2.3031, -2.3031, -2.3689, -2.3257, -2.2785, -2.3031, -2.3257, -2.3389,
+         -2.2505, -2.2357]], device='cuda:0')
+['Charles Ernest', 'Charles Anthony Town', 'Charles Townsend', 'Charles Hugh', 'Charles Frederick', 'Matthew Walter Klein', 'Matthew Kenneth', 'Matthew Thomas Klein', 'Matthew Claude', 'Matthew William Klein', 'Italo de', 'Italo De', 'Italoo', 'Italo', 'Italo the', 'Hina Ka', 'Hine Ka', 'Hina K', 'Bina Ka Ware', 'Hina Kab']
+['Townsend ( Town Town  Po Jones  Jones', 'Klein Kleinveldveldveldvernellvernvedennial', 'zan Zazan Za ZanZa de ZamAlberto Zen', 'Waregameware Ware Wareoreure is ( Ware']
+tensor([[0.3866, 0.4164, 0.3402, 0.3866, 0.3866, 0.8000, 0.3704, 0.3715, 0.8000,
+         0.3715],
+        [0.3373, 0.3373, 0.4260, 0.4260, 0.4260, 0.3817, 0.3372, 0.3817, 0.3120,
+         0.3284],
+        [0.6399, 0.4649, 0.6399, 0.4649, 0.5432, 0.4649, 0.5039, 0.4256, 0.3806,
+         0.3670],
+        [0.4000, 0.3648, 0.4257, 0.4000, 0.4000, 0.3621, 0.4085, 0.3932, 0.2807,
+         0.4000]], device='cuda:0')
+tensor([[-2.3945, -2.3647, -2.4409, -2.3945, -2.3945, -1.9811, -2.4107, -2.4096,
+         -1.9811, -2.4096],
+        [-2.3355, -2.3355, -2.2469, -2.2469, -2.2469, -2.2911, -2.3356, -2.2911,
+         -2.3608, -2.3444],
+        [-2.1562, -2.3313, -2.1562, -2.3313, -2.2530, -2.3313, -2.2923, -2.3706,
+         -2.4156, -2.4292],
+        [-2.2868, -2.3220, -2.2611, -2.2868, -2.2868, -2.3247, -2.2784, -2.2936,
+         -2.4062, -2.2868]], device='cuda:0')
+['Charles Ernest Town', 'Charles Anthony Townsend', 'Charles Townsend (', 'Charles Hugh Town', 'Charles Frederick Town', 'Matthew Kenneth Klein', 'Matthew Claude Klein', 'Matthew Walter Kleinveld', 'Matthew Thomas Kleinveld', 'Matthew William Kleinveld', 'Italo dezan', 'Italo de Za', 'Italo Dezan', 'Italo De Za', 'Italo de Zan', 'Hina Ka Ware', 'Hina Kagame', 'Hina Kaware', 'Hine Ka Ware', 'Hina K Ware']
+['send (sendsend 7  born  6 07', 'ttveldtveldvernvedvernellell', '(n ( (n an hanni', '( is was  or ( is ( is is']
+tensor([[0.4164, 0.3402, 0.4164, 0.4164, 0.4177, 0.8000, 0.5270, 0.8000, 0.3657,
+         0.5524],
+        [0.3013, 0.3013, 0.4260, 0.3013, 0.4260, 0.3817, 0.3120, 0.3817, 0.3372,
+         0.3372],
+        [0.3071, 0.3419, 0.3071, 0.3071, 0.3419, 0.8000, 0.3412, 0.8000, 0.3481,
+         0.3536],
+        [0.2807, 0.3932, 0.3998, 0.8000, 0.3517, 0.2807, 0.3932, 0.2807, 0.3932,
+         0.3932]], device='cuda:0')
+tensor([[-2.4048, -2.4810, -2.4048, -2.4048, -2.4035, -2.0212, -2.2942, -2.0212,
+         -2.4555, -2.2688],
+        [-2.3530, -2.3530, -2.2283, -2.3530, -2.2283, -2.2726, -2.3423, -2.2726,
+         -2.3171, -2.3171],
+        [-2.4397, -2.4048, -2.4397, -2.4397, -2.4048, -1.9467, -2.4056, -1.9467,
+         -2.3986, -2.3932],
+        [-2.4299, -2.3173, -2.3107, -1.9105, -2.3589, -2.4299, -2.3173, -2.4299,
+         -2.3173, -2.3173]], device='cuda:0')
+['Charles Ernest Townsend', 'Charles Anthony Townsend (', 'Charles Hugh Townsend', 'Charles Frederick Townsend', 'Charles Townsend ( 7', 'Matthew Walter Kleinveldt', 'Matthew Thomas Kleinveldt', 'Matthew Kenneth Kleinveld', 'Matthew William Kleinveldt', 'Matthew Claude Kleinveld', 'Italo dezan (', 'Italo de Zan', 'Italo Dezan (', 'Italo de Zan (', 'Italo De Zan', 'Hina Ka Ware (', 'Hina Ka Ware is', 'Hina Ka Ware was', 'Hina Ka Ware', 'Hina Ka Ware or']
+['( 7 ( ( November     born', '( (tt (    orett', '1 (  1  ( 1   also', 'an born, an also  b Bina Hin']
+tensor([[0.3402, 0.4177, 0.3402, 0.3402, 0.3717, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.5270],
+        [0.2157, 0.2157, 0.3013, 0.3013, 0.2157, 0.8000, 0.8000, 0.8000, 0.2826,
+         0.4358],
+        [0.5924, 0.3071, 0.8000, 0.5924, 0.8000, 0.3071, 0.5924, 0.8000, 0.8000,
+         0.3693],
+        [0.3733, 0.3878, 0.8000, 0.3051, 0.3733, 0.3604, 0.8000, 0.3865, 0.5853,
+         0.4790]], device='cuda:0')
+tensor([[-2.5379, -2.4604, -2.5379, -2.5379, -2.5063, -2.0781, -2.0781, -2.0781,
+         -2.0781, -2.3511],
+        [-2.5553, -2.5553, -2.4697, -2.4697, -2.5553, -1.9710, -1.9710, -1.9710,
+         -2.4884, -2.3352],
+        [-2.3250, -2.6103, -2.1174, -2.3250, -2.1174, -2.6103, -2.3250, -2.1174,
+         -2.1174, -2.5481],
+        [-2.4302, -2.4157, -2.0035, -2.4984, -2.4302, -2.4431, -2.0035, -2.4170,
+         -2.2182, -2.3245]], device='cuda:0')
+['Charles Ernest Townsend (', 'Charles Anthony Townsend ( 7', 'Charles Hugh Townsend (', 'Charles Frederick Townsend (', 'Charles Townsend ( 7 November', 'Matthew Walter Kleinveldt (', 'Matthew Thomas Kleinveldt (', 'Matthew Kenneth Kleinveldt', 'Matthew Claude Kleinveldt', 'Matthew William Kleinveldt (', 'Italo dezan ( 1', 'Italo de Zan (', 'Italo dezan (', 'Italo Dezan ( 1', 'Italo Dezan (', 'Hina Ka Ware is an', 'Hina Ka Ware ( born', 'Hina Ka Ware (', 'Hina Ka Ware,', 'Hina Ka Ware was an']
+['7 November 1876 7 7 born    born', 'born ( born ( born', 'July  1;July, ;)', 'Indian)née; Indian 24 1 also 2 21']
+tensor([[0.4177, 0.3717, 0.4704, 0.4177, 0.4177, 0.5270, 0.8000, 0.8000, 0.8000,
+         0.5270],
+        [0.5087, 0.2157, 0.5087, 0.2157, 0.5087, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.3442, 0.8000, 0.5924, 0.3068, 0.3442, 0.2897, 0.8000, 0.3068,
+         0.2755],
+        [0.4562, 0.2698, 0.3257, 0.3031, 0.4562, 0.3640, 0.3156, 0.3604, 0.3835,
+         0.3592]], device='cuda:0')
+tensor([[-2.4542, -2.5002, -2.4015, -2.4542, -2.4542, -2.3449, -2.0719, -2.0719,
+         -2.0719, -2.3449],
+        [-2.4144, -2.7074, -2.4144, -2.7074, -2.4144, -2.1231, -2.1231, -2.1231,
+         -2.1231, -2.1231],
+        [-2.0141, -2.4699, -2.0141, -2.2217, -2.5073, -2.4699, -2.5244, -2.0141,
+         -2.5073, -2.5386],
+        [-2.2075, -2.3938, -2.3379, -2.3606, -2.2075, -2.2997, -2.3480, -2.3033,
+         -2.2801, -2.3045]], device='cuda:0')
+['Charles Ernest Townsend ( 7', 'Charles Anthony Townsend ( 7 November', 'Charles Townsend ( 7 November 1876', 'Charles Hugh Townsend ( 7', 'Charles Frederick Townsend ( 7', 'Matthew Walter Kleinveldt ( born', 'Matthew Kenneth Kleinveldt (', 'Matthew Thomas Kleinveldt ( born', 'Matthew Claude Kleinveldt (', 'Matthew William Kleinveldt ( born', 'Italo dezan ( 1', 'Italo dezan ( July', 'Italo Dezan ( 1', 'Italo de Zan ( 1', 'Italo dezan ( ;', 'Hina Ka Ware is an Indian', 'Hina Ka Ware ( )', 'Hina Ka Ware ( née', 'Hina Ka Ware ( ;', 'Hina Ka Ware was an Indian']
+['November  1876 November November in 1878 1860 1881 at', '10 10 10 born born August August   August', 'JulyJuly  1 1  01 जु alsoJuly', 'politici is politici born Paw Ka   was Politic']
+tensor([[0.3717, 0.8000, 0.4704, 0.3717, 0.3717, 0.3626, 0.4044, 0.4075, 0.4054,
+         0.3865],
+        [0.5885, 0.5885, 0.5885, 0.5087, 0.5087, 0.3041, 0.3041, 0.8000, 0.8000,
+         0.3041],
+        [0.3442, 0.3442, 0.8000, 0.5924, 0.5924, 0.8000, 0.5659, 0.4020, 0.3693,
+         0.3442],
+        [0.3505, 0.3932, 0.3505, 0.3878, 0.3622, 0.4226, 0.8000, 0.8000, 0.3998,
+         0.3370]], device='cuda:0')
+tensor([[-2.3747, -1.9464, -2.2760, -2.3747, -2.3747, -2.3838, -2.3421, -2.3390,
+         -2.3411, -2.3599],
+        [-2.2592, -2.2592, -2.2592, -2.3390, -2.3390, -2.5435, -2.5435, -2.0476,
+         -2.0476, -2.5435],
+        [-2.4892, -2.4892, -2.0334, -2.2410, -2.2410, -2.0334, -2.2675, -2.4314,
+         -2.4641, -2.4892],
+        [-2.4284, -2.3857, -2.4284, -2.3910, -2.4167, -2.3562, -1.9789, -1.9789,
+         -2.3791, -2.4419]], device='cuda:0')
+['Charles Ernest Townsend ( 7 November', 'Charles Townsend ( 7 November 1876', 'Charles Anthony Townsend ( 7 November 1876', 'Charles Hugh Townsend ( 7 November', 'Charles Frederick Townsend ( 7 November', 'Matthew Walter Kleinveldt ( born 10', 'Matthew Thomas Kleinveldt ( born 10', 'Matthew William Kleinveldt ( born 10', 'Matthew Kenneth Kleinveldt ( born', 'Matthew Claude Kleinveldt ( born', 'Italo dezan ( 1 July', 'Italo Dezan ( 1 July', 'Italo de Zan ( 1', 'Italo dezan ( July 1', 'Italo dezan ( ; 1', 'Hina Ka Ware is an Indian politici', 'Hina Ka Ware ( ) is', 'Hina Ka Ware was an Indian politici', 'Hina Ka Ware ( ; born', 'Hina Ka Ware ( née Paw']
+['- 1876  1876 1876, in 1878 1881 1860', 'August August August 10 10 August August 12 9 30', '1925July 1925   ( or जु 1924January', 'an ananarer  1 24 2le']
+tensor([[0.2819, 0.4704, 0.8000, 0.4704, 0.4704, 0.3053, 0.3626, 0.4044, 0.4054,
+         0.4075],
+        [0.3041, 0.3041, 0.3041, 0.5885, 0.5885, 0.3041, 0.3041, 0.4053, 0.4367,
+         0.3590],
+        [0.4172, 0.3442, 0.4172, 0.8000, 0.8000, 0.3071, 0.3384, 0.4020, 0.3471,
+         0.3150],
+        [0.3733, 0.3733, 0.3733, 0.3902, 0.2997, 0.8000, 0.3156, 0.3640, 0.3835,
+         0.3090]], device='cuda:0')
+tensor([[-2.4685, -2.2800, -1.9504, -2.2800, -2.2800, -2.4451, -2.3877, -2.3460,
+         -2.3450, -2.3429],
+        [-2.3945, -2.3945, -2.3945, -2.1101, -2.1101, -2.3945, -2.3945, -2.2933,
+         -2.2618, -2.3396],
+        [-2.3516, -2.4246, -2.3516, -1.9688, -1.9688, -2.4617, -2.4304, -2.3668,
+         -2.4217, -2.4538],
+        [-2.3380, -2.3380, -2.3380, -2.3211, -2.4117, -1.9114, -2.3957, -2.3474,
+         -2.3278, -2.4023]], device='cuda:0')
+['Charles Townsend ( 7 November 1876 -', 'Charles Ernest Townsend ( 7 November 1876', 'Charles Anthony Townsend ( 7 November 1876', 'Charles Hugh Townsend ( 7 November 1876', 'Charles Frederick Townsend ( 7 November 1876', 'Matthew Walter Kleinveldt ( born 10 August', 'Matthew Thomas Kleinveldt ( born 10 August', 'Matthew William Kleinveldt ( born 10 August', 'Matthew Kenneth Kleinveldt ( born 10', 'Matthew Claude Kleinveldt ( born 10', 'Italo dezan ( 1 July 1925', 'Italo de Zan ( 1 July', 'Italo Dezan ( 1 July 1925', 'Italo dezan ( July 1', 'Italo dezan ( ; 1', 'Hina Ka Ware is an Indian politician', 'Hina Ka Ware ( ) is an', 'Hina Ka Ware was an Indian politician', 'Hina Ka Ware ( née Pawar', 'Hina Ka Ware ( née Pawer']
+['- 17    in in, in', '1989 1989 August 1989 August June September May  June', ', 1925 July 9 911 in', 'and Indian and   from  who  from']
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1140, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1932, in beam_search
+    sim_tok = sim_func(tokens, inp_str, F.cosine_similarity).mean()
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 35, in get_similarity
+    fact_embedding = get_embedding(" ".join(facts))[1:-1]
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 21, in get_embedding
+    states = model(**tokenized_facts).hidden_states
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 1001, in forward
+    return_dict=return_dict,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 589, in forward
+    output_attentions,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 475, in forward
+    past_key_value=self_attn_past_key_value,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 408, in forward
+    output_attentions,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 329, in forward
+    attention_probs = nn.Softmax(dim=-1)(attention_scores)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/activation.py", line 1189, in __init__
+    super(Softmax, self).__init__()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 229, in __init__
+    self.training = True
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 826, in __setattr__
+    object.__setattr__(self, name, value)
+KeyboardInterrupt

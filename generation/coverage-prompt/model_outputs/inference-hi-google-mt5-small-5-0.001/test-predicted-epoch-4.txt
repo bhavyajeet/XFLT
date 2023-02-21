@@ -1,0 +1,842 @@
+date_of_birth 30 july 1945
+languages_spoken,_written_or_signed kannada occupation writer
+country_of_citizenship india occupation politician
+country_of_citizenship india date_of_birth 01 july 1965 occupation politician
+date_of_death 12 june 2015
+date_of_birth 24 november 1978 place_of_birth washington d.c.
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship new zealand date_of_birth 07 may 1995 occupation cricketer
+date_of_death 26 may 2011
+date_of_death 26 may 1976
+country_of_citizenship australia date_of_birth 27 april 1962 occupation cricket umpire occupation cricketer
+country_of_citizenship afghanistan date_of_birth 10 august 1993 member_of_sports_team afghanistan national cricket team occupation cricketer
+country_of_citizenship bangladesh date_of_birth 07 july 1989 occupation cricketer
+date_of_death 02 january 2019
+country_of_citizenship australia date_of_birth 05 february 1997 occupation cricketer
+date_of_birth 22 january 1992 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+occupation writer
+date_of_death 16 january 1966
+date_of_birth 16 june 1943
+date_of_death 15 december 1958
+date_of_birth 28 june 1973 place_of_birth mumbai
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 07 december 1954 occupation politician
+date_of_birth 12 april 1983 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation actor
+country_of_citizenship new zealand date_of_birth 01 september 1990 occupation cricketer
+occupation judge
+country_of_citizenship south africa date_of_birth 31 july 1994 occupation cricketer
+date_of_death 27 january 1917
+place_of_birth ujjain
+date_of_birth 21 december 1983 place_of_birth mumbai
+date_of_death 25 september 2020
+country_of_citizenship punjab military_rank general position_held chief minister of punjab
+country_of_citizenship india occupation king
+country_of_citizenship india occupation politician
+country_of_citizenship india occupation king
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 29 december 1856
+country_of_citizenship india occupation television actor occupation actor
+languages_spoken,_written_or_signed english occupation writer
+date_of_death 28 december 1977
+country_of_citizenship india date_of_birth 04 april 1957 occupation politician
+date_of_death 14 february 2014
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed tamil occupation writer
+date_of_birth 29 september 1988 occupation cricketer
+country_of_citizenship india date_of_birth 10 october 1995 occupation cricketer
+languages_spoken,_written_or_signed punjabi occupation writer
+date_of_birth 05 july 1980 place_of_birth mumbai
+country_of_citizenship bangladesh date_of_birth 05 august 1992 occupation cricketer
+languages_spoken,_written_or_signed odia occupation writer
+date_of_death 29 october 1978
+country_of_citizenship australia date_of_birth 01 december 1993 occupation cricketer
+country_of_citizenship united states of america
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 06 december 1986
+date_of_death 13 march 2004
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship australia date_of_birth 03 july 1995 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 04 december 1994 occupation field hockey player sport field hockey
+date_of_death 20 february 1978
+country_of_citizenship india date_of_birth 05 december 1997 occupation cricketer
+languages_spoken,_written_or_signed assamese occupation writer
+date_of_death 12 october 1989
+country_of_citizenship india occupation king
+country_of_citizenship india occupation politician
+country_of_citizenship bangladesh date_of_birth 02 january 1997 occupation cricketer
+languages_spoken,_written_or_signed english occupation writer
+country_of_citizenship india occupation television actor occupation actor
+country_of_citizenship australia date_of_birth 17 january 1994 occupation cricketer
+languages_spoken,_written_or_signed marathi occupation writer
+place_of_birth begum cemetery
+date_of_death 21 january 1965
+date_of_death 22 december 1985
+country_of_citizenship united kingdom place_of_birth boston
+country_of_citizenship india date_of_birth 01 november 1980 occupation journalist
+languages_spoken,_written_or_signed malayalam occupation writer
+country_of_citizenship zimbabwe date_of_birth 10 july 1995 occupation cricketer
+date_of_death 20 july 1996
+country_of_citizenship afghanistan date_of_birth 17 march 1984 occupation cricket umpire occupation cricketer
+date_of_death 08 october 1990 place_of_death varanasi
+country_of_citizenship india occupation politician
+country_of_citizenship south africa date_of_birth 14 april 1997 occupation cricketer
+date_of_death 20 january 1961
+languages_spoken,_written_or_signed konkani occupation writer
+languages_spoken,_written_or_signed bodo language occupation writer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship ancient rome roman_praenomen constantine roman_praenomen constantine
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 03 may 1955 place_of_birth jamshedpur
+date_of_death 28 september 1859
+languages_spoken,_written_or_signed assamese occupation writer
+member_of_political_party workers' party
+country_of_citizenship india date_of_birth 07 january 1994 occupation tennis player sport tennis
+languages_spoken,_written_or_signed english occupation writer
+country_of_citizenship india date_of_birth 12 december 1994 occupation cricketer
+place_of_birth london
+occupation actor
+country_of_citizenship jamaica date_of_birth 27 march 1986 occupation cricketer
+languages_spoken,_written_or_signed kashmiri occupation writer
+date_of_birth 1933
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 29 april 1959 member_of_political_party indian national congress occupation politician
+date_of_death 24 august 1925
+date_of_birth 14 february 1990
+date_of_birth 20 may 1898
+date_of_birth 02 march 1968
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship india occupation model
+award_received nobel prize in literature
+languages_spoken,_written_or_signed urdu occupation writer
+country_of_citizenship india date_of_birth 04 september 2000 occupation cricketer
+country_of_citizenship sri lanka date_of_birth 19 august 1969 occupation cricket umpire occupation cricketer
+date_of_birth 18 july 1952
+country_of_citizenship india member_of_sports_team india national cricket team occupation cricketer
+date_of_death 25 august 2008
+date_of_birth 03 january 1964
+country_of_citizenship india occupation actor
+date_of_birth 05 december 1974 occupation journalist
+date_of_death 08 june 2020
+country_of_citizenship india occupation biochemist
+date_of_death 25 march 2020
+date_of_birth 12 march 1963
+member_of_political_party united national congress occupation politician
+languages_spoken,_written_or_signed sanskrit occupation writer
+date_of_death 17 february 1998
+educated_at british columbia university
+country_of_citizenship thailand date_of_birth 07 june 1986 occupation cricketer
+languages_spoken,_written_or_signed bengali occupation writer
+date_of_death 28 march 2017
+date_of_birth 15 february 1838
+country_of_citizenship india date_of_birth 01 june 1957 occupation politician
+country_of_citizenship india date_of_birth 01 july 1944 occupation academic
+languages_spoken,_written_or_signed urdu occupation writer
+languages_spoken,_written_or_signed urdu occupation poet
+date_of_death 12 february 2009 place_of_death chembur
+place_of_birth london
+languages_spoken,_written_or_signed gujarati occupation writer
+date_of_birth 06 may 1939
+country_of_citizenship australia date_of_birth 27 october 1999 occupation cricketer
+languages_spoken,_written_or_signed urdu occupation writer
+date_of_death 11 february 1605
+country_of_citizenship india occupation politician
+country_of_citizenship new zealand date_of_birth 12 september 1990 occupation cricketer
+date_of_birth 07 july 1923
+date_of_birth 18 august 1932
+languages_spoken,_written_or_signed konkani occupation writer
+languages_spoken,_written_or_signed odia occupation writer
+date_of_death 27 april 1882
+date_of_birth 06 august 1987 place_of_birth pratapgarh
+country_of_citizenship austria
+occupation film director
+country_of_citizenship bangladesh date_of_birth 02 march 2000 occupation cricketer
+languages_spoken,_written_or_signed kannada occupation writer
+languages_spoken,_written_or_signed nepali occupation writer
+father thirty rao holkar position_held rao holkar
+country_of_citizenship pakistan occupation politician position_held governor of punjab pakistan
+languages_spoken,_written_or_signed kashmiri occupation writer
+languages_spoken,_written_or_signed punjabi occupation writer
+date_of_birth 06 march 1937
+languages_spoken,_written_or_signed assamese occupation writer
+country_of_citizenship nepal date_of_birth 24 october 1987 occupation cricketer
+country_of_citizenship india occupation actor
+member_of_political_party all india trinamool congress occupation politician
+country_of_citizenship south africa date_of_birth 11 october 1994 occupation cricketer
+languages_spoken,_written_or_signed kashmiri occupation writer
+country_of_citizenship chinese head_of_government chinese position_held prime minister of chinese
+date_of_death 13 december 1947
+country_of_citizenship new zealand date_of_birth 17 february 1990 occupation cricketer
+country_of_citizenship india occupation politician
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+occupation diplomat
+country_of_citizenship bangladesh date_of_birth 07 february 1992 occupation cricketer
+country_of_citizenship india occupation politician
+occupation author occupation writer
+country_of_citizenship pakistan date_of_birth 23 november 1991 occupation cricketer
+country_of_citizenship pakistan position_held prime minister of pakistan
+nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor nominated_for academy award for best actor
+country_of_citizenship australia date_of_birth 01 january 1979 occupation cricket umpire occupation cricketer
+date_of_death 14 june 1961
+date_of_birth 29 february 1984 place_of_birth mumbai
+country_of_citizenship india languages_spoken,_written_or_signed malayalam occupation poet
+date_of_birth 17 march 1912 date_of_death 05 june 2016 occupation bodybuilder
+date_of_birth 06 july 1958 place_of_birth bengaluru
+languages_spoken,_written_or_signed punjabi occupation writer
+languages_spoken,_written_or_signed konkani occupation writer
+award_received padma vibhushan
+country_of_citizenship maldivian date_of_birth 21 april 1991 occupation cricketer
+languages_spoken,_written_or_signed urdu occupation writer
+date_of_death 16 july 1973
+date_of_birth 08 september 1937
+country_of_citizenship zimbabwe date_of_birth 12 february 1988 occupation cricketer
+country_of_citizenship new zealand date_of_birth 15 july 1998 occupation cricketer
+country_of_citizenship india occupation artist
+date_of_death 17 september 2018
+occupation king
+country_of_citizenship india occupation cricketer
+country_of_citizenship pakistan occupation politician
+languages_spoken,_written_or_signed kannada occupation writer
+country_of_citizenship india date_of_birth 23 march 1989 occupation actor
+place_of_birth delhi
+country_of_citizenship maurya empire
+languages_spoken,_written_or_signed gujarati occupation writer
+date_of_birth 23 february 1884
+languages_spoken,_written_or_signed odia occupation writer
+date_of_death 17 april 1963
+founded_by baha'i faith religion baha'i faith
+country_of_citizenship new zealand date_of_birth 29 april 1998 occupation cricketer
+date_of_birth 11 october 1923 place_of_birth kanpur
+country_of_citizenship nepal member_of_sports_team nepal national cricket team occupation cricketer
+country_of_citizenship bangladesh date_of_birth 13 january 2000 occupation cricketer
+date_of_birth 1931
+country_of_citizenship south africa date_of_birth 26 september 1994 occupation cricketer
+date_of_birth 15 august 1922 date_of_death 28 december 2003 member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship south africa date_of_birth 18 june 1987 occupation cricketer
+country_of_citizenship kingdom of england position_held monarch of england
+date_of_birth 12 february 1893 date_of_death 22 october 1954 position_held maharaja of dholpur
+country_of_citizenship nepal date_of_birth 06 march 1995 occupation cricketer
+educated_at university of oxford
+country_of_citizenship italy place_of_birth rome
+date_of_birth 21 april 1910 date_of_death 09 september 1980 member_of_political_party indian national congress occupation politician
+country_of_citizenship india occupation actor
+country_of_citizenship kingdom of england date_of_birth 02 october 1542 date_of_death 22 august 1595 position_held monarch of england
+languages_spoken,_written_or_signed punjabi occupation writer
+country_of_citizenship south africa date_of_birth 07 october 1993 occupation cricketer
+member_of_political_party new democratic party occupation politician
+country_of_citizenship pakistan occupation politician position_held governor of punjab pakistan
+position_held member of the goa legislative assembly
+country_of_citizenship united kingdom spouse tony blair
+place_of_birth mysore
+country_of_citizenship india date_of_birth 16 august 2000 occupation cricketer
+languages_spoken,_written_or_signed punjabi occupation writer
+member_of_political_party aam aadmi party occupation politician
+place_of_birth baltimore
+country_of_citizenship south africa date_of_birth 07 march 1990 occupation cricketer
+country_of_citizenship india date_of_birth 25 january 1955 occupation economist
+country_of_citizenship india member_of_political_party indian national congress occupation politician
+country_of_citizenship united kingdom date_of_birth 05 march 1923
+place_of_birth thiruvananthapuram
+country_of_citizenship israel place_of_birth jerusalem
+country_of_citizenship india member_of_political_party indian national congress occupation politician
+member_of_sports_team australia national cricket team occupation cricketer
+founded_by million dollar company
+country_of_citizenship india occupation actor
+languages_spoken,_written_or_signed nepali occupation writer
+country_of_citizenship india occupation film director
+country_of_citizenship pakistan date_of_birth 02 august 1976 occupation cricketer
+country_of_citizenship india date_of_birth 07 july 1953 occupation judge position_held judge
+country_of_citizenship india occupation politician
+country_of_citizenship india member_of_political_party indian national congress occupation politician
+country_of_citizenship france place_of_birth paris
+country_of_citizenship south africa date_of_birth 04 january 1994 occupation cricketer
+occupation politician
+country_of_citizenship bangladesh occupation politician
+country_of_citizenship guyana date_of_birth 15 august 1998 occupation cricketer
+educated_at university of virginia
+date_of_death 1920
+country_of_citizenship papua new guinea date_of_birth 15 october 1989 occupation cricketer
+date_of_birth 07 may 1995 occupation cricketer
+date_of_birth 14 january 1551
+country_of_citizenship new zealand date_of_birth 01 january 1996 occupation cricketer
+country_of_citizenship south africa date_of_birth 19 january 1980 occupation cricketer
+country_of_citizenship india occupation politician
+country_of_citizenship zimbabwe date_of_birth 11 june 1989 occupation cricketer
+country_of_citizenship pakistan member_of_political_party pakistan peoples party occupation politician
+languages_spoken,_written_or_signed punjabi occupation writer
+country_of_citizenship india occupation artist
+date_of_birth 11 october 1966
+country_of_citizenship australia date_of_birth 17 december 1998 occupation cricketer
+position_held governor of delhi
+country_of_citizenship india date_of_birth 24 december 1970 occupation cricket umpire occupation cricketer
+country_of_citizenship india occupation badminton player sport badminton
+country_of_citizenship india date_of_birth 05 september 2000 occupation cricketer
+award_received pulitzer prize for drama
+country_of_citizenship afghanistan date_of_birth 11 august 1998 occupation cricketer
+country_of_citizenship afghanistan date_of_birth 01 february 1996 occupation cricketer
+country_of_citizenship india occupation actor
+country_of_citizenship sri lanka date_of_birth 11 august 1997 occupation cricketer
+country_of_citizenship south africa date_of_birth 04 december 1991 occupation cricketer
+country_of_citizenship india date_of_birth 01 june 1991 occupation cricketer
+date_of_death 21 october 2013
+educated_at harrow school
+country_of_citizenship india date_of_birth 13 may 1969 occupation politician
+place_of_birth oxford
+country_of_citizenship india occupation politician
+country_of_citizenship australia date_of_birth 09 february 1990
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed konkani occupation writer
+country_of_citizenship pakistan position_held governor of punjab pakistan
+country_of_citizenship zimbabwe date_of_birth 14 march 1986 occupation cricketer
+country_of_citizenship new zealand date_of_birth 04 march 1994 occupation cricketer
+country_of_citizenship india date_of_birth 19 july 1993 occupation table tennis player sport table tennis
+country_of_citizenship india date_of_birth 28 november 1997 occupation cricketer
+country_of_citizenship malaysia date_of_birth 23 september 1996 occupation cricketer
+date_of_birth 28 march 1926 date_of_death 07 november 2006 occupation cricketer
+country_of_citizenship australia occupation pornographic actor
+occupation physicist
+languages_spoken,_written_or_signed odia occupation writer
+student_of johann burlington
+position_held governor-general of india
+founded_by bharatiya vidya bhavan
+educated_at mount royal college
+country_of_citizenship india occupation actor
+country_of_citizenship south africa date_of_birth 16 september 1986 occupation cricketer
+languages_spoken,_written_or_signed gujarati occupation writer
+country_of_citizenship india occupation actor
+country_of_citizenship south africa date_of_birth 03 march 1996 occupation cricketer
+country_of_citizenship australia date_of_birth 12 december 2000 occupation cricketer
+languages_spoken,_written_or_signed punjabi occupation writer
+country_of_citizenship south africa date_of_birth 09 february 1983 occupation cricketer
+country_of_citizenship australia date_of_birth 03 may 1994 occupation cricketer
+date_of_birth 08 april 1988 place_of_birth delhi
+country_of_citizenship india occupation actor
+languages_spoken,_written_or_signed kannada occupation writer
+languages_spoken,_written_or_signed punjabi occupation writer
+occupation film producer
+country_of_citizenship new zealand date_of_birth 06 august 1984 occupation cricketer
+date_of_birth 21 january 1953
+award_received nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry nominated_for nobel prize in chemistry no
+country_of_citizenship zimbabwe date_of_birth 19 october 2000 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+place_of_birth switzerland
+country_of_citizenship kingdom of scotland position_held monarch of scotland
+country_of_citizenship india occupation television actor occupation actor
+place_of_birth madrid
+country_of_citizenship india occupation actor
+date_of_birth 29 february 1904 date_of_death 24 february 1986 occupation dancer
+position_held member of the constituent assembly of india
+country_of_citizenship india occupation badminton player sport badminton
+country_of_citizenship india date_of_birth 29 november 1964 occupation cinematographer
+country_of_citizenship india member_of_political_party indian national congress occupation politician
+country_of_citizenship india date_of_birth 16 september 1981 occupation weightlifter
+languages_spoken,_written_or_signed bengali occupation writer
+languages_spoken,_written_or_signed sanskrit occupation writer
+country_of_citizenship india occupation television actor occupation actor
+country_of_citizenship afghanistan date_of_birth 03 january 2005 occupation cricketer
+country_of_citizenship bangladesh date_of_birth 13 november 2000 occupation cricketer
+country_of_citizenship south africa date_of_birth 18 march 1993 occupation cricketer
+award_received jamnalal bajaj award
+country_of_citizenship india date_of_birth 15 june 1995 occupation table tennis player sport table tennis
+country_of_citizenship new zealand date_of_birth 01 october 1997 occupation cricketer
+languages_spoken,_written_or_signed punjabi occupation writer
+date_of_birth 1950
+country_of_citizenship australia date_of_birth 04 november 1994 occupation cricketer
+languages_spoken,_written_or_signed telugu occupation writer
+languages_spoken,_written_or_signed assamese occupation writer
+country_of_citizenship afghanistan date_of_birth 28 december 1997 occupation cricketer
+country_of_citizenship afghanistan date_of_birth 20 december 1998 occupation cricketer
+country_of_citizenship india date_of_birth 13 june 1998 occupation field hockey player sport field hockey
+educated_at harvard university
+place_of_birth exeter
+country_of_citizenship india date_of_birth 15 april 1992 occupation field hockey player sport field hockey
+date_of_death 18 december 2004
+country_of_citizenship new zealand date_of_birth 04 june 1987 occupation cricketer
+country_of_citizenship bangladesh date_of_birth 22 september 1999 occupation cricketer
+country_of_citizenship pakistan occupation politician
+country_of_citizenship india date_of_birth 12 may 1989 occupation cricketer
+educated_at church of cambridge
+date_of_birth 14 august 1969
+country_of_citizenship pakistan occupation politician
+country_of_citizenship india
+country_of_citizenship australia date_of_birth 05 october 1992 occupation cricketer
+country_of_citizenship new zealand date_of_birth 22 september 1962 date_of_death 03 march 2016 occupation cricketer
+languages_spoken,_written_or_signed sanskrit occupation writer
+date_of_birth 03 july 1949
+country_of_citizenship sri lanka date_of_birth 09 january 1998 occupation cricketer
+country_of_citizenship india date_of_birth august 1967 occupation neuroscientist
+date_of_birth 04 january 1923
+occupation botanist
+founded_by aligarh muslim university
+country_of_citizenship zimbabwe date_of_birth 04 october 1993 occupation cricketer
+country_of_citizenship afghanistan date_of_birth 1992
+award_received sahitya akademi award
+country_of_citizenship new zealand date_of_birth 20 may 1995 occupation cricketer
+country_of_citizenship india date_of_birth 04 january 1978 member_of_political_party indian national congress occupation politician
+country_of_citizenship india date_of_birth 16 february 1991 occupation cricketer
+country_of_citizenship australia date_of_birth 27 may 2002 occupation cricketer
+date_of_birth 08 march 1989
+country_of_citizenship afghanistan date_of_birth 15 august 1991 occupation cricketer
+date_of_birth 1950
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship spain date_of_birth 21 may 1527 date_of_death 13 september 1598 position_held monarch of spain
+country_of_citizenship thailand date_of_birth 22 january 1998 occupation cricketer
+country_of_citizenship india occupation actor
+languages_spoken,_written_or_signed marathi occupation writer
+date_of_birth 19 august 1942 date_of_death 15 june 2017 languages_spoken,_written_or_signed punjabi occupation writer
+languages_spoken,_written_or_signed urdu occupation writer
+member_of_political_party all india trinamool congress occupation politician
+member_of_political_party indian national congress occupation politician
+award_received padma vibhushan
+country_of_citizenship south africa date_of_birth 01 may 2000 occupation cricketer
+country_of_citizenship australia date_of_birth 08 april 1991 occupation cricketer
+date_of_death 27 january 2008
+country_of_citizenship india date_of_birth 08 november 2000 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship maurya empire position_held mauryan emperor
+country_of_citizenship bahraich date_of_birth 14 december 1975 occupation cricketer
+award_received pulitzer prize for poetry
+country_of_citizenship sri lanka date_of_birth 24 january 2001 occupation cricketer
+country_of_citizenship india occupation politician
+position_held king
+spouse suriya
+country_of_citizenship india occupation politician
+country_of_citizenship india occupation television actor occupation actor
+country_of_citizenship india occupation actor
+country_of_citizenship india occupation actor
+languages_spoken,_written_or_signed bengali occupation writer
+occupation fashion designer
+country_of_citizenship india occupation actor
+date_of_birth 20 september 1957
+languages_spoken,_written_or_signed tamil occupation writer
+languages_spoken,_written_or_signed english occupation writer
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship india date_of_birth 11 october 1994 occupation swimmer
+country_of_citizenship india occupation actor
+date_of_birth 19 november 1838 place_of_birth kolkata
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship colombia date_of_birth 17 august 1954 head_of_state colombia position_held president of colombia
+date_of_birth 26 september 1889
+country_of_citizenship bangladesh date_of_birth 09 september 2002 occupation cricketer
+date_of_death 23 february 2013
+country_of_citizenship india occupation actor
+award_received maha vir chakra
+date_of_death 18 november 2013
+country_of_citizenship india occupation field hockey player sport field hockey
+date_of_death 18 october 2014
+date_of_death 23 april 1992
+country_of_citizenship bangladesh date_of_birth 06 march 1996 occupation cricketer
+occupation philosopher
+country_of_citizenship india date_of_birth 12 february 1984 occupation cricketer
+country_of_citizenship south africa date_of_birth 04 april 1989 occupation cricketer
+country_of_citizenship india date_of_birth 11 september 1942 occupation politician
+country_of_citizenship guyana date_of_birth 03 september 1993 occupation cricketer
+country_of_citizenship india occupation actor
+country_of_citizenship sri lanka date_of_birth 18 may 1998 occupation cricketer
+date_of_death 23 september 2018
+country_of_citizenship india occupation television actor occupation actor
+date_of_birth 07 december 1921
+country_of_citizenship ireland date_of_birth 30 april 1993 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship pakistan member_of_political_party pakistan peoples party occupation politician
+country_of_citizenship india date_of_birth 04 october 1997 occupation cricketer
+spouse zubin irani
+languages_spoken,_written_or_signed english occupation writer
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party united national party
+date_of_birth 08 february 1940
+occupation geographer
+country_of_citizenship india occupation television actor occupation actor
+country_of_citizenship namibia date_of_birth 23 april 1994 occupation cricketer
+occupation writer
+languages_spoken,_written_or_signed bengali occupation writer
+place_of_birth philadelphia
+country_of_citizenship bangladesh date_of_birth 27 november 1997 occupation cricketer
+country_of_citizenship india occupation television actor occupation actor
+date_of_birth 12 december 1931 occupation table tennis player sport table tennis
+country_of_citizenship india occupation actor
+country_of_citizenship jamaica date_of_birth 18 february 1997 occupation cricketer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship bangladesh date_of_birth 01 june 1999 date_of_death 15 november 2020 occupation cricketer
+country_of_citizenship india date_of_birth 10 october 1995 occupation table tennis player sport table tennis
+country_of_citizenship west indies date_of_birth 20 may 1992 occupation cricketer
+place_of_birth kolkata
+country_of_citizenship india occupation actor
+country_of_citizenship south africa date_of_birth 03 november 1998 occupation cricketer
+date_of_birth 31 august 1956
+languages_spoken,_written_or_signed assamese occupation writer
+country_of_citizenship south africa date_of_birth 26 july 1996 occupation cricketer
+date_of_birth 12 december 1995 place_of_birth lahore
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 07 may 1893
+date_of_death 29 december 2013
+date_of_death 16 january 1924
+country_of_citizenship united states of america
+country_of_citizenship india occupation politician
+country_of_citizenship bangladesh date_of_birth 01 november 1996 occupation cricketer
+occupation aircraft pilot
+date_of_death 24 january 2013
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship pakistan member_of_political_party pakistan peoples party
+country_of_citizenship delhi sultanate position_held sultan
+country_of_citizenship india occupation television actor occupation actor
+member_of_political_party aam aadmi party occupation politician
+award_received nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for nobel peace prize nominated_for
+date_of_death 27 september 1933
+participant_in 2016 summer olympics
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 24 september 1775 place_of_birth london
+country_of_citizenship india occupation politician
+date_of_birth 18 february 1475
+languages_spoken,_written_or_signed hindi occupation poet occupation writer
+country_of_citizenship india date_of_birth 27 november 1986 occupation cricketer
+country_of_citizenship new zealand date_of_birth 08 april 1993 occupation cricketer
+place_of_birth chandigarh
+country_of_citizenship india date_of_birth 26 september 2002 occupation shooting sport sport shooting sport
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 29 march 2013
+country_of_citizenship ireland date_of_birth 06 december 1999 occupation cricketer
+date_of_birth 04 december 1963
+date_of_death 25 november 2016
+date_of_birth 07 march 1985
+country_of_citizenship new zealand date_of_birth 20 september 1992 occupation cricketer
+country_of_citizenship india occupation politician
+date_of_death 20 february 2014
+place_of_birth bahl
+country_of_citizenship india date_of_birth 15 january 1989 occupation entrepreneur
+date_of_death 24 august 2016
+date_of_birth 04 october 1903
+country_of_citizenship india date_of_birth 11 april 1981 occupation television actor occupation actor
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship india occupation politician
+country_of_citizenship bangladesh date_of_birth 05 december 1991 occupation cricketer
+date_of_birth 21 june 1919
+country_of_citizenship india occupation politician
+member_of_political_party aam aadmi party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician
+country_of_citizenship bangladesh date_of_birth 10 october 1989 occupation cricketer
+date_of_death 23 february 2014
+country_of_citizenship india date_of_birth 06 september 1985 occupation television actor occupation actor
+date_of_birth 1939 date_of_death 16 march 1993 occupation singer
+country_of_citizenship india date_of_birth 08 december 1993 occupation field hockey player sport field hockey
+country_of_citizenship india occupation politician
+date_of_birth 03 january 1950
+date_of_birth 04 december 1898
+date_of_death 17 november 2013
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 24 may 2014
+languages_spoken,_written_or_signed dogri occupation writer
+date_of_death 19 march 2006
+country_of_citizenship afghanistan date_of_birth 01 june 1987 occupation cricketer
+country_of_citizenship australia date_of_birth 09 july 1991 occupation cricketer
+date_of_death 29 january 2010
+date_of_death 11 november 2008
+date_of_birth 24 february 1924 place_of_birth lucknow
+award_received nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel prize in literature nominated_for nobel
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed urdu occupation writer
+country_of_citizenship sri lanka date_of_birth 1933 date_of_death 25 april 2014 occupation cricketer
+date_of_birth 14 august 1977 place_of_birth new delhi
+date_of_birth 28 september 1992 place_of_birth karachi
+country_of_citizenship new zealand date_of_birth 19 march 1997 occupation cricketer
+date_of_death 25 august 1972
+country_of_citizenship india occupation philosopher
+languages_spoken,_written_or_signed tamil occupation writer
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship bangladesh date_of_birth 12 october 1999 occupation cricketer
+country_of_citizenship australia date_of_birth 01 december 1999 occupation cricketer
+date_of_birth 24 march 1928 place_of_birth hoshiarpur
+date_of_death 11 november 2016
+languages_spoken,_written_or_signed english occupation writer
+position_held member of the maharashtra legislature
+date_of_birth 21 august 1934 date_of_death 10 may 2001 member_of_political_party indian national congress occupation politician
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed malayalam occupation writer
+country_of_citizenship india occupation politician
+country_of_citizenship new zealand date_of_birth 17 september 1997 occupation cricketer
+country_of_citizenship afghanistan date_of_birth 11 may 2003 occupation cricketer
+country_of_citizenship india date_of_birth 01 november 1991 occupation cricketer
+languages_spoken,_written_or_signed odia occupation writer
+date_of_death 28 february 2018
+date_of_death 05 february 2010 place_of_death mumbai
+date_of_death 27 october 2018
+date_of_birth 25 june 1974 place_of_birth mumbai
+date_of_death 19 april 2014
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed assamese occupation writer
+country_of_citizenship india date_of_birth 05 november 1993 occupation field hockey player sport field hockey
+named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell named_after arwell
+date_of_death 19 november 2013
+date_of_birth 26 april 1977 place_of_birth milan
+languages_spoken,_written_or_signed malayalam occupation writer
+date_of_death 27 january 2007
+date_of_death 16 september 1977
+country_of_citizenship india occupation racing automobile driver
+country_of_citizenship new zealand occupation cricketer
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship pakistan occupation politician
+date_of_death 25 february 2016
+languages_spoken,_written_or_signed tamil occupation writer
+date_of_death 15 september 1963
+country_of_citizenship india occupation writer
+date_of_birth 19 october 1924 languages_spoken,_written_or_signed bengali occupation writer
+occupation philosopher
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed assamese occupation writer
+date_of_death 21 october 1931
+country_of_citizenship india member_of_political_party indian national congress occupation politician
+languages_spoken,_written_or_signed gujarati occupation writer
+country_of_citizenship mughal empire occupation ruler
+country_of_citizenship india occupation television actor occupation actor
+member_of_political_party bharatiya janata party occupation politician
+award_received sangeet natak akademi award
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed kashmiri occupation writer
+country_of_citizenship australia date_of_birth 23 january 1989 occupation cricketer
+languages_spoken,_written_or_signed gujarati occupation writer
+country_of_citizenship new zealand date_of_birth 06 october 1992 occupation cricketer
+languages_spoken,_written_or_signed malayalam occupation writer
+date_of_birth 10 january 1933 date_of_death 16 august 2016 languages_spoken,_written_or_signed punjabi occupation writer
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 24 april 1986 occupation cricketer
+date_of_death 13 december 1996
+date_of_birth 16 august 1945 place_of_birth mumbai
+date_of_birth 26 november 1917 date_of_death 25 may 1978 member_of_political_party indian national congress occupation politician
+country_of_citizenship nepal occupation cricketer
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed kashmiri occupation writer
+country_of_citizenship india date_of_birth 24 may 1989 occupation singer
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed bengali occupation writer
+date_of_death 23 february 2015
+country_of_citizenship india occupation actor
+country_of_citizenship india occupation actor
+name_in_native_language muhammad yusaf khan
+country_of_citizenship uganda date_of_birth 12 august 1993 occupation cricketer
+languages_spoken,_written_or_signed gujarati occupation writer
+date_of_birth 1918
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+father humayun
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship south africa date_of_birth 14 january 1988 occupation cricketer
+date_of_birth 21 september 1973 occupation tennis player sport tennis
+author mahabharata
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 08 october 1969 occupation politician
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+place_of_birth paddingam
+date_of_death 20 february 1950
+languages_spoken,_written_or_signed kannada occupation writer
+country_of_citizenship new zealand date_of_birth 07 july 1988 occupation cricketer
+date_of_death 19 september 2017
+languages_spoken,_written_or_signed odia occupation writer
+date_of_death 18 december 1829
+member_of royal society
+position_held governor-general of india
+place_of_birth dublin
+date_of_birth 11 june 1959 occupation actor
+member_of_political_party indian national congress occupation politician
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation actor
+date_of_birth 15 july 1960
+country_of_citizenship zimbabwe date_of_birth 14 february 1992 occupation cricketer
+languages_spoken,_written_or_signed konkani occupation writer
+date_of_death 17 june 1996
+country_of_citizenship india date_of_birth 10 september 1949 member_of_political_party indian national congress occupation politician
+date_of_death 11 june 2016
+country_of_citizenship soviet union date_of_birth 13 april 1963 place_of_birth baku
+date_of_birth 22 december 1983 occupation beauty pageant contestant
+position_held governor-general of india
+date_of_death 1944
+field_of_work chemistry occupation physicist
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 25 march 2020
+date_of_birth 08 november 1986 place_of_birth chicago
+position_held governor of tripura
+country_of_citizenship spain date_of_birth 19 december 1683 date_of_death 09 july 1746 position_held monarch of spain
+educated_at madras christian college
+languages_spoken,_written_or_signed tamil occupation writer
+country_of_citizenship bermuda date_of_birth 14 september 1997 occupation cricketer
+father govind iii
+country_of_citizenship india occupation screenwriter
+family british royal family
+country_of_citizenship zimbabwe date_of_birth 18 june 1984 occupation cricket umpire occupation cricketer
+country_of_citizenship bangladesh date_of_birth 01 january 1984 occupation cricketer
+country_of_citizenship south africa date_of_birth 26 june 1988 occupation cricketer place_of_birth durban
+place_of_birth northampton
+languages_spoken,_written_or_signed kashmiri occupation writer
+languages_spoken,_written_or_signed odia occupation writer
+country_of_citizenship bangladesh date_of_birth 30 june 2000 occupation cricketer
+date_of_birth 31 march 1835
+date_of_death 15 april 1980 place_of_death paris
+languages_spoken,_written_or_signed gujarati occupation writer
+date_of_birth 05 october 1982 place_of_birth delhi
+date_of_birth 22 january 1788
+position_held member of the haryana legislative assembly
+country_of_citizenship australia date_of_birth 04 march 1985 place_of_birth sydney
+languages_spoken,_written_or_signed kannada occupation writer
+country_of_citizenship india occupation actor
+date_of_birth 16 october 1956
+date_of_birth 24 august 1949
+country_of_citizenship kuwait date_of_birth 22 june 1992 occupation cricketer
+date_of_death 06 july 2002 place_of_death shimla
+place_of_birth washington d.c.
+date_of_death 05 september 2018
+country_of_citizenship india date_of_birth 22 august 1982 occupation television actor occupation actor
+date_of_death 08 november 2015
+country_of_citizenship australia date_of_birth 29 july 1966 occupation cricket umpire occupation cricketer
+languages_spoken,_written_or_signed bengali occupation writer
+date_of_death 06 february 2016
+languages_spoken,_written_or_signed telugu occupation writer
+country_of_citizenship south africa date_of_birth 30 july 1991 member_of_sports_team south africa national cricket team occupation cricketer
+country_of_citizenship australia date_of_birth 23 october 1996 occupation cricketer
+date_of_death 02 october 1906
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician
+participant_in 2012 summer olympics
+languages_spoken,_written_or_signed urdu occupation writer
+country_of_citizenship india date_of_birth 11 september 1993 occupation cricketer
+date_of_birth 26 november 1998
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 25 june 1969 member_of_political_party bharatiya janata party occupation politician
+occupation politician
+date_of_birth 17 october 1956
+country_of_citizenship south korea date_of_birth 05 october 1976 occupation actor
+languages_spoken,_written_or_signed konkani occupation writer
+date_of_birth 29 october 1961 date_of_death 30 november 2020 member_of_political_party bharatiya janata party occupation politician
+award_received nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics nominated_for nobel prize in physics no
+languages_spoken,_written_or_signed maithili occupation writer
+country_of_citizenship india occupation politician
+member_of royal society
+country_of_citizenship india occupation actor
+country_of_citizenship india occupation businessperson
+date_of_death 07 april 2014
+country_of_citizenship bangladesh date_of_birth 07 january 1994 occupation cricketer
+date_of_death 16 april 1989 place_of_death barbados
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship nepal date_of_birth 1999 occupation cricketer
+date_of_birth 20 october 1954 place_of_birth pratapgarh
+date_of_death 31 december 1775
+languages_spoken,_written_or_signed assamese occupation writer
+languages_spoken,_written_or_signed konkani occupation writer
+date_of_death 17 march 1989
+country_of_citizenship spain date_of_birth 19 april 1832 place_of_birth madrid
+place_of_birth kolkata
+date_of_death 12 january 1605
+country_of_citizenship australia date_of_birth 27 july 1989 occupation cricketer
+country_of_citizenship sri lanka date_of_birth 20 october 1996 occupation cricketer
+languages_spoken,_written_or_signed kashmiri occupation writer
+languages_spoken,_written_or_signed kannada occupation writer
+date_of_birth 25 january 1736
+educated_at university of camilla
+member_of_political_party indian national congress
+date_of_birth 26 october 1952 member_of_political_party indian national congress occupation politician
+languages_spoken,_written_or_signed bengali occupation writer
+languages_spoken,_written_or_signed kannada occupation writer
+country_of_citizenship india date_of_birth 30 november 1988 occupation television actor occupation actor
+date_of_death 02 march 1949
+country_of_citizenship india occupation actor
+country_of_citizenship india occupation politician
+date_of_death 08 september 2020
+country_of_citizenship pakistan member_of_political_party pakistan peoples party
+date_of_death 05 july 1994 place_of_death bepur
+country_of_citizenship india date_of_birth 27 december 1978 occupation politician
+occupation botanist
+member_of_sports_team manchester city f.c.
+date_of_birth 20 january 1871
+country_of_citizenship india date_of_birth 17 november 1971
+country_of_citizenship india occupation politician
+country_of_citizenship india occupation actor
+date_of_birth 03 september 1905
+date_of_birth 28 november 1907 place_of_birth rome
+languages_spoken,_written_or_signed urdu occupation writer
+date_of_birth 07 september 1989 place_of_birth varanasi
+date_of_birth 21 august 1829 place_of_birth paris
+date_of_death 05 july 2006
+date_of_death 02 may 2016
+country_of_citizenship india date_of_birth 15 december 1996 occupation cricketer
+languages_spoken,_written_or_signed odia occupation writer
+country_of_citizenship papua new guinea date_of_birth 23 june 1992 member_of_sports_team papua new guinea national cricket team occupation cricketer
+date_of_death 03 november 2013
+award_received nobel peace prize
+place_of_birth constantinople
+country_of_citizenship india date_of_birth 30 august 1954 occupation politician
+date_of_birth 24 april 1908 date_of_death 20 november 1969 member_of_political_party indian national congress occupation politician
+languages_spoken,_written_or_signed kashmiri occupation writer
+country_of_citizenship australia date_of_birth 27 september 1995 occupation cricketer
+date_of_death 04 february 1974
+date_of_birth 25 october 1881 date_of_death 04 june 1917 languages_spoken,_written_or_signed gujarati occupation writer
+country_of_citizenship champanagara position_held king
+country_of_citizenship nepal date_of_birth 25 january 1990 occupation cricketer
+country_of_citizenship south africa date_of_birth 31 july 2001 occupation cricketer
+languages_spoken,_written_or_signed kannada occupation writer
+date_of_birth 03 april 1929 place_of_birth shimla
+occupation philosopher
+country_of_citizenship bangladesh date_of_birth 06 october 1989 occupation cricketer
+country_of_citizenship sri lanka occupation cricketer
+date_of_birth 26 september 1944 date_of_death 10 may 2019 languages_spoken,_written_or_signed tamil occupation writer
+date_of_birth 16 march 1789 date_of_death 06 july 1854 occupation physicist
+country_of_citizenship india date_of_birth 13 november 1980 occupation actor
+country_of_citizenship ireland date_of_birth 13 september 1992 occupation cricketer
+date_of_death 06 february 1993 place_of_death new york city
+date_of_birth 1946 place_of_birth meerut
+member_of international academy of sciences
+languages_spoken,_written_or_signed marathi occupation writer
+country_of_citizenship south africa occupation cricketer
+date_of_birth 13 august 1940 date_of_death 02 january 2014 languages_spoken,_written_or_signed german occupation journalist
+date_of_death 07 june 2015
+sports_discipline_competed_in long jump
+languages_spoken,_written_or_signed punjabi occupation writer
+country_of_citizenship india date_of_birth 06 november 1956 occupation politician
+country_of_citizenship papua new guinea date_of_birth 24 april 1995 occupation cricketer
+date_of_death 08 february 1921
+date_of_birth 17 may 1947
+place_of_birth vienna
+date_of_birth 09 august 1975 place_of_birth bengaluru
+country_of_citizenship thailand date_of_birth 14 march 1990 occupation cricketer
+country_of_citizenship india occupation politician
+languages_spoken,_written_or_signed odia occupation writer
+date_of_birth 1940
+date_of_birth 04 august 1950 occupation politician
+country_of_citizenship south africa date_of_birth 08 august 1993 occupation cricketer
+country_of_citizenship india occupation politician
+country_of_citizenship india date_of_birth 04 november 1985 occupation television actor occupation actor
+country_of_citizenship bangladesh date_of_birth 10 december 1995 member_of_sports_team bangladesh national cricket team occupation cricketer
+country_of_citizenship colombo date_of_birth 24 april 1968 position_held prime minister of colombo
+date_of_death 06 june 1957
+date_of_death 09 june 1990
+country_of_citizenship south africa date_of_birth 22 january 1990 occupation cricketer
+country_of_citizenship pakistan occupation politician
+date_of_birth 01 june 1942 place_of_birth kanpur
+country_of_citizenship india date_of_birth 07 october 1981 occupation singer
+country_of_citizenship pakistan date_of_birth 07 february 1995 occupation cricketer
+date_of_birth 1930
+country_of_citizenship india date_of_birth 24 july 1989 occupation racing automobile driver sport racing
+country_of_citizenship india occupation actor
+place_of_birth soa
+country_of_citizenship australia date_of_birth 22 january 1998 occupation cricketer
+member_of_political_party shiv sena occupation politician
+date_of_birth 08 may 1986
+date_of_birth 14 december 1987 occupation pornographic actor
+educated_at university of calcutta
+country_of_citizenship india occupation politician
+country_of_citizenship india occupation actor
+languages_spoken,_written_or_signed marathi occupation writer
+country_of_citizenship india date_of_birth 21 june 1998 occupation cricketer
+date_of_birth 25 august 1987 occupation baseball player sport baseball
+country_of_citizenship india date_of_birth 06 september 1995 occupation cricketer
+country_of_citizenship india occupation television actor occupation actor

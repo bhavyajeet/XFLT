@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 580, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 426, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 279, in ddp_train
+    self.trainer.train_loop.setup_training(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/training_loop.py", line 174, in setup_training
+    self.trainer.checkpoint_connector.restore_weights(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/connectors/checkpoint_connector.py", line 75, in restore_weights
+    self.restore(self.trainer.resume_from_checkpoint, on_gpu=self.trainer.on_gpu)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/connectors/checkpoint_connector.py", line 100, in restore
+    checkpoint = pl_load(checkpoint_path, map_location=lambda storage, loc: storage)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/cloud_io.py", line 32, in load
+    return torch.load(f, map_location=map_location)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/serialization.py", line 587, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/serialization.py", line 242, in __init__
+    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: [enforce fail at inline_container.cc:145] . PytorchStreamReader failed reading zip archive: failed finding central directory

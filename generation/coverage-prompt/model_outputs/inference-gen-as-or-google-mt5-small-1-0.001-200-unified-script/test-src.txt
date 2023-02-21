@@ -1,0 +1,5 @@
+generate assamese high : <H> asima chatterjee <R> educated_at <T> university of calcutta <R> employer <T> university of calcutta
+generate odia : <H> sania mirza <R> occupation <T> tennis player <R> sport <T> tennis
+generate odia high : <H> chhatish chandra dhal <R> position_held <T> member of the tenth odisha legislative assembly <QR> elected_in <QT> 1990 odisha legislative assembly election
+generate odia high : <H> kumar shree chiranjibi <R> position_held <T> member of the eleventh odisha legislative assembly <QR> parliamentary_group <QT> indian national congress <QR> elected_in <QT> odisha legislative assembly bye election <QR> electoral_district <QT> bhandaripokhari vidhan sabha constituency
+generate odia high : <H> subash chandra behera <R> member_of_political_party <T> biju janata dal <R> occupation <T> politician
