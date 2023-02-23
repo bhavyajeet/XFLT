@@ -10,8 +10,8 @@ import torch.nn.functional as F
 sample_in = "generate english : <H> saiful islam joarder <R> country_of_citizenship <T> bangladesh <R> religion <T> islam <R> military_rank <T> lieutenant colonel <R> occupation <T> military personnel"
 sample_in = "generate english : charlie townsend date_of_death 17 october 1958 date_of_birth 07 november 1876 occupation cricketer"
 
-tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased", cache_dir='/scratch')
-model = AutoModel.from_pretrained("google/muril-base-cased", output_hidden_states=True, cache_dir='/scratch')
+tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased")
+model = AutoModel.from_pretrained("google/muril-base-cased", output_hidden_states=True)
 
 
 def get_embedding(tokens):
