@@ -1,0 +1,40 @@
+hi <r> spouse,1
+hi <r> killed by,1
+hi <r> has part,1
+hi <r> date of birth <r> occupation,1
+hi <r> date of birth <r> country of citizenship <r> religion <r> occupation,1
+hi <r> member of sports team <r> country of citizenship <r> occupation,1
+hi <r> occupation,1
+hi <r> occupation <r> occupation <r> occupation,1
+hi <r> date of death <r> date of birth,1
+hi <r> member of political party,1
+hi <r> member of political party <r> candidacy in election,1
+hi <r> member of political party <r> candidacy in election <r> place of birth,1
+hi <r> occupation <r> country of citizenship,1
+hi <r> award received <r> award received,1
+hi <r> candidacy in election <r> member of political party,1
+hi <r> date of birth <r> occupation <r> member of sports team,1
+hi <r> date of birth <r> occupation <r> member of sports team <r> country of citizenship,1
+hi <r> occupation <r> place of birth,1
+hi <r> date of birth <r> occupation <r> place of birth,1
+hi <r> occupation <r> genre <r> discography,1
+hi <r> date of death,1
+hi <r> convicted of,1
+"hi <r> sport <r> languages spoken, written or signed <r> country of citizenship <r> occupation <r> ethnic group",1
+"hi <r> date of birth <r> date of death <r> occupation <r> languages spoken, written or signed <r> occupation",1
+hi <r> part of <r> field of work <r> occupation <r> work location,1
+hi <r> field of work,1
+hi <r> occupation <r> spouse,1
+hi <r> position held <r> occupation <r> country of citizenship,1
+hi <r> date of birth <r> occupation <r> country of citizenship,1
+hi <r> country of citizenship <r> family,1
+hi <r> date of birth <r> occupation <r> occupation,1
+hi <r> position held <r> candidacy in election <r> member of political party <r> place of birth,1
+hi <r> award received,1
+hi <r> award received <r> employer <r> award received,1
+hi <r> roman nomen gentilicium <r> named after <r> occupation <r> occupation <r> date of death <r> country of citizenship,1
+hi <r> occupation <r> country of citizenship <r> position held <r> occupation,1
+hi <r> member of sports team <r> place of birth <r> occupation,1
+hi <r> date of birth <r> country of citizenship <r> occupation <r> occupation,1
+hi <r> date of birth <r> country of citizenship,1
+hi <r> date of death <r> occupation <r> date of birth,2
