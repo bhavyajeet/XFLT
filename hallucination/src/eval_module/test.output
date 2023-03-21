@@ -1,0 +1,39 @@
+('Abdul',) 1 1.0 1
+('Awal',) 1 1.0 0.0
+('Mintoo',) 1 1.0 0.0
+('born',) 1 1.0 1
+('22',) 1 1.0 1
+('February',) 1 1.0 1
+('1949',) 1 1.0 1
+('is',) 1 0.0 1
+('a',) 1 0.0 1
+('Bangladeshi',) 1 0.0 1
+('businessman',) 1 1.0 1
+('Abdul', 'Awal') 1 1.0 0.0
+('Awal', 'Mintoo') 1 1.0 0.0
+('Mintoo', 'born') 1 1.0 0.0
+('born', '22') 1 1.0 1
+('22', 'February') 1 1.0 1
+('February', '1949') 1 1.0 1
+('1949', 'is') 1 0.5 1
+('is', 'a') 1 0.0 1
+('a', 'Bangladeshi') 1 0.0 1
+('Bangladeshi', 'businessman') 1 0.5 1
+('Abdul', 'Awal', 'Mintoo') 1 1.0 0.0
+('Awal', 'Mintoo', 'born') 1 1.0 0.0
+('Mintoo', 'born', '22') 1 1.0 0.0
+('born', '22', 'February') 1 1.0 1
+('22', 'February', '1949') 1 1.0 1
+('February', '1949', 'is') 1 0.6666666666666666 1
+('1949', 'is', 'a') 1 0.3333333333333333 1
+('is', 'a', 'Bangladeshi') 1 0.0 1
+('a', 'Bangladeshi', 'businessman') 1 0.3333333333333333 1
+('Abdul', 'Awal', 'Mintoo', 'born') 1 1.0 0.0
+('Awal', 'Mintoo', 'born', '22') 1 1.0 0.0
+('Mintoo', 'born', '22', 'February') 1 1.0 0.0
+('born', '22', 'February', '1949') 1 1.0 1
+('22', 'February', '1949', 'is') 1 0.75 1
+('February', '1949', 'is', 'a') 1 0.5 1
+('1949', 'is', 'a', 'Bangladeshi') 1 0.25 1
+('is', 'a', 'Bangladeshi', 'businessman') 1 0.25 1
+[0.75, 0.5714285714285714, 0.5263157894736843, 0.4782608695652174]
