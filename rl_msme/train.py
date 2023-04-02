@@ -159,7 +159,7 @@ def main(args):
     merged_directory = _intiate_dataset_merging('train', dataset_path, languages=lang, logger=None)
     train_file_path = os.path.join(os.path.abspath(merged_directory), 'train.jsonl')
     train_loader = get_dataset_loaders(tokenizer, train_file_path, None, dataset_count=0,
-                                            batch_size=2,  src_max_seq_len=200, 
+                                            batch_size=train_batch_size,  src_max_seq_len=200, 
                                             tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
 
@@ -167,7 +167,7 @@ def main(args):
     merged_directory = _intiate_dataset_merging('val', dataset_path, languages=lang, logger=None)
     val_file_path = os.path.join(os.path.abspath(merged_directory), 'val.jsonl')
     val_loader = get_dataset_loaders(tokenizer, val_file_path, None, dataset_count=0,
-                                            batch_size=2,  src_max_seq_len=200, 
+                                            batch_size=args.val_batch_size,  src_max_seq_len=200, 
                                             tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
 
