@@ -1,0 +1,20 @@
+2023-02-14 15:07:13,251 INFO    MainThread:17980 [internal.py:wandb_internal():89] W&B internal server running at pid: 17980, started at: 2023-02-14 15:07:13.249992
+2023-02-14 15:07:13,255 INFO    WriterThread:17980 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_150711-2y6rbfbp/run-2y6rbfbp.wandb
+2023-02-14 15:07:13,258 DEBUG   HandlerThread:17980 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 15:07:18,382 DEBUG   HandlerThread:17980 [meta.py:__init__():40] meta init
+2023-02-14 15:07:18,383 DEBUG   HandlerThread:17980 [meta.py:__init__():54] meta init done
+2023-02-14 15:07:18,383 DEBUG   HandlerThread:17980 [meta.py:probe():211] probe
+2023-02-14 15:07:18,392 DEBUG   HandlerThread:17980 [meta.py:_setup_git():201] setup git
+2023-02-14 15:07:18,448 DEBUG   HandlerThread:17980 [meta.py:_setup_git():208] setup git done
+2023-02-14 15:07:18,448 DEBUG   HandlerThread:17980 [meta.py:_save_pip():58] save pip
+2023-02-14 15:07:18,450 DEBUG   HandlerThread:17980 [meta.py:_save_pip():72] save pip done
+2023-02-14 15:07:18,450 DEBUG   HandlerThread:17980 [meta.py:_save_conda():79] save conda
+2023-02-14 15:07:45,053 DEBUG   HandlerThread:17980 [meta.py:_save_conda():87] save conda done
+2023-02-14 15:07:45,054 DEBUG   HandlerThread:17980 [meta.py:probe():249] probe done
+2023-02-14 15:08:35,059 WARNING MainThread:17980 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 15:08:35,793 WARNING MainThread:17980 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 15:08:35,793 ERROR   MainThread:17980 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 15:08:35,804 INFO    WriterThread:17980 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_150711-2y6rbfbp/run-2y6rbfbp.wandb
+2023-02-14 15:08:35,817 INFO    HandlerThread:17980 [handler.py:finish():683] shutting down handler
+2023-02-14 15:08:36,295 INFO    SenderThread:17980 [sender.py:finish():986] shutting down sender
+2023-02-14 15:08:36,298 INFO    MainThread:17980 [internal.py:handle_exit():76] Internal process exited

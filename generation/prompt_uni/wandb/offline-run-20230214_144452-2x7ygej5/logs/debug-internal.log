@@ -1,0 +1,20 @@
+2023-02-14 14:44:54,492 INFO    MainThread:17700 [internal.py:wandb_internal():89] W&B internal server running at pid: 17700, started at: 2023-02-14 14:44:54.491800
+2023-02-14 14:44:54,496 INFO    WriterThread:17700 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_144452-2x7ygej5/run-2x7ygej5.wandb
+2023-02-14 14:44:54,500 DEBUG   HandlerThread:17700 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 14:44:59,650 DEBUG   HandlerThread:17700 [meta.py:__init__():40] meta init
+2023-02-14 14:44:59,651 DEBUG   HandlerThread:17700 [meta.py:__init__():54] meta init done
+2023-02-14 14:44:59,651 DEBUG   HandlerThread:17700 [meta.py:probe():211] probe
+2023-02-14 14:44:59,660 DEBUG   HandlerThread:17700 [meta.py:_setup_git():201] setup git
+2023-02-14 14:44:59,705 DEBUG   HandlerThread:17700 [meta.py:_setup_git():208] setup git done
+2023-02-14 14:44:59,705 DEBUG   HandlerThread:17700 [meta.py:_save_pip():58] save pip
+2023-02-14 14:44:59,707 DEBUG   HandlerThread:17700 [meta.py:_save_pip():72] save pip done
+2023-02-14 14:44:59,707 DEBUG   HandlerThread:17700 [meta.py:_save_conda():79] save conda
+2023-02-14 14:45:25,891 DEBUG   HandlerThread:17700 [meta.py:_save_conda():87] save conda done
+2023-02-14 14:45:25,892 DEBUG   HandlerThread:17700 [meta.py:probe():249] probe done
+2023-02-14 14:47:52,110 WARNING MainThread:17700 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 14:47:53,087 WARNING MainThread:17700 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 14:47:53,087 ERROR   MainThread:17700 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 14:47:53,542 INFO    SenderThread:17700 [sender.py:finish():986] shutting down sender
+2023-02-14 14:47:53,939 INFO    WriterThread:17700 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_144452-2x7ygej5/run-2x7ygej5.wandb
+2023-02-14 14:47:53,954 INFO    HandlerThread:17700 [handler.py:finish():683] shutting down handler
+2023-02-14 14:47:53,958 INFO    MainThread:17700 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,86 @@
+02/14/2023 04:38:01 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 04:38:01 PM [INFO] test dataset is already present.
+02/14/2023 04:38:02 PM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 04:38:02 PM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Charles Henry William Sir Charlie  Robert Charl चा Dominic', 'Matthew  Michael Matt Mac M Mathe Philip Mat म', 'Ital Antonio A T Sir Bornitala  Institution An', 'Hin Heid Bina Vera She Sign See Mire A And']
+tensor([[0.4212, 0.4505, 0.4419, 0.4501, 0.4355, 0.5000, 0.4313, 0.4620, 0.4508,
+         0.4194],
+        [0.3235, 0.5000, 0.2519, 0.3410, 0.3204, 0.2624, 0.3820, 0.2311, 0.4263,
+         0.2840],
+        [0.5248, 0.2975, 0.2348, 0.2489, 0.3057, 0.3139, 0.5238, 0.5000, 0.2803,
+         0.2451],
+        [0.4789, 0.4395, 0.5130, 0.3892, 0.3887, 0.3883, 0.3785, 0.4291, 0.3987,
+         0.3348]], device='cuda:0')
+before us  tensor([[-2.5782e-01, -3.5239e+00, -3.6908e+00, -3.7981e+00, -4.1403e+00,
+         -4.2748e+00, -4.6226e+00, -4.7267e+00, -4.7341e+00, -5.0663e+00],
+        [-5.5660e-03, -7.1057e+00, -7.1922e+00, -7.4755e+00, -7.8529e+00,
+         -8.1052e+00, -8.3741e+00, -8.7409e+00, -8.7843e+00, -8.7949e+00],
+        [-1.6004e-02, -6.6201e+00, -6.6755e+00, -6.7727e+00, -6.8963e+00,
+         -7.0088e+00, -7.5943e+00, -7.9752e+00, -8.0936e+00, -8.2855e+00],
+        [-1.4016e-02, -5.6292e+00, -6.9059e+00, -7.6636e+00, -7.8656e+00,
+         -8.0915e+00, -8.2995e+00, -8.4783e+00, -8.5743e+00, -8.6645e+00]],
+       device='cuda:0')
+ours  tensor([[-7.9297e+00, -4.9964e+00, -5.8636e+00, -5.0345e+00, -6.4974e+00,
+         -4.8626e-02, -6.9176e+00, -3.8503e+00, -4.9734e+00, -8.1133e+00],
+        [-1.7654e+01, -6.3530e-04, -2.4813e+01, -1.5903e+01, -1.7962e+01,
+         -2.3757e+01, -1.1800e+01, -2.6894e+01, -7.3738e+00, -2.1599e+01],
+        [-6.8805e-01, -2.3421e+01, -2.9689e+01, -2.8274e+01, -2.2602e+01,
+         -2.1777e+01, -7.8672e-01, -3.1675e+00, -2.5141e+01, -2.8658e+01],
+        [-3.4472e+00, -7.3907e+00, -3.3239e-02, -1.2415e+01, -1.2467e+01,
+         -1.2512e+01, -1.3484e+01, -8.4304e+00, -1.1464e+01, -1.7853e+01]],
+       device='cuda:0')
+after us  tensor([[ -8.1875,  -8.5203,  -9.5544,  -8.8325, -10.6377,  -4.3234, -11.5401,
+          -8.5770,  -9.7075, -13.1797],
+        [-17.6596,  -7.1064, -32.0051, -23.3789, -25.8146, -31.8617, -20.1740,
+         -35.6345, -16.1581, -30.3943],
+        [ -0.7041, -30.0406, -36.3644, -35.0462, -29.4982, -28.7862,  -8.3810,
+         -11.1426, -33.2350, -36.9439],
+        [ -3.4612, -13.0199,  -6.9392, -20.0788, -20.3329, -20.6034, -21.7836,
+         -16.9087, -20.0385, -26.5173]], device='cuda:0')
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1140, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1961, in beam_search
+    beam_scores = beam_outputs["next_beam_scores"] - alpha * returned_ground_scores
+RuntimeError: The size of tensor a (20) must match the size of tensor b (10) at non-singleton dimension 1

@@ -1,0 +1,79 @@
+2023-02-21 05:42:53,215 INFO    MainThread:34868 [internal.py:wandb_internal():89] W&B internal server running at pid: 34868, started at: 2023-02-21 05:42:53.214370
+2023-02-21 05:42:53,222 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: run_start
+2023-02-21 05:42:53,223 INFO    WriterThread:34868 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_054251-cf6v308u/run-cf6v308u.wandb
+2023-02-21 05:42:57,726 DEBUG   HandlerThread:34868 [meta.py:__init__():40] meta init
+2023-02-21 05:42:57,727 DEBUG   HandlerThread:34868 [meta.py:__init__():54] meta init done
+2023-02-21 05:42:57,727 DEBUG   HandlerThread:34868 [meta.py:probe():211] probe
+2023-02-21 05:42:57,736 DEBUG   HandlerThread:34868 [meta.py:_setup_git():201] setup git
+2023-02-21 05:42:57,789 DEBUG   HandlerThread:34868 [meta.py:_setup_git():208] setup git done
+2023-02-21 05:42:57,790 DEBUG   HandlerThread:34868 [meta.py:_save_pip():58] save pip
+2023-02-21 05:42:57,792 DEBUG   HandlerThread:34868 [meta.py:_save_pip():72] save pip done
+2023-02-21 05:42:57,793 DEBUG   HandlerThread:34868 [meta.py:_save_conda():79] save conda
+2023-02-21 05:43:07,369 WARNING MainThread:34868 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-21 05:43:07,647 DEBUG   HandlerThread:34868 [meta.py:_save_conda():87] save conda done
+2023-02-21 05:43:07,647 DEBUG   HandlerThread:34868 [meta.py:probe():249] probe done
+2023-02-21 05:43:07,662 DEBUG   SenderThread:34868 [sender.py:send():185] send: exit
+2023-02-21 05:43:07,662 INFO    SenderThread:34868 [sender.py:send_exit():294] handling exit code: 1
+2023-02-21 05:43:07,664 INFO    SenderThread:34868 [sender.py:send_exit():296] handling runtime: 14
+2023-02-21 05:43:07,665 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: poll_exit
+2023-02-21 05:43:07,666 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: poll_exit
+2023-02-21 05:43:07,666 INFO    SenderThread:34868 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-02-21 05:43:07,666 INFO    SenderThread:34868 [sender.py:send_exit():306] send defer
+2023-02-21 05:43:07,667 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: poll_exit
+2023-02-21 05:43:07,668 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: poll_exit
+2023-02-21 05:43:07,668 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,669 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 0
+2023-02-21 05:43:07,669 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,669 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 0
+2023-02-21 05:43:07,669 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 1
+2023-02-21 05:43:07,670 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,670 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 1
+2023-02-21 05:43:07,821 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,821 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 1
+2023-02-21 05:43:07,822 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 2
+2023-02-21 05:43:07,824 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,824 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 2
+2023-02-21 05:43:07,825 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,825 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 2
+2023-02-21 05:43:07,825 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 3
+2023-02-21 05:43:07,826 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,826 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 3
+2023-02-21 05:43:07,826 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,827 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 3
+2023-02-21 05:43:07,827 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 4
+2023-02-21 05:43:07,828 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,828 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 4
+2023-02-21 05:43:07,828 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,828 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 4
+2023-02-21 05:43:07,828 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 5
+2023-02-21 05:43:07,829 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,829 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 5
+2023-02-21 05:43:07,829 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,829 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 5
+2023-02-21 05:43:07,830 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 6
+2023-02-21 05:43:07,830 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,830 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 6
+2023-02-21 05:43:07,831 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,831 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 6
+2023-02-21 05:43:07,831 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 7
+2023-02-21 05:43:07,832 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,832 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 7
+2023-02-21 05:43:07,832 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,832 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 7
+2023-02-21 05:43:07,832 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 8
+2023-02-21 05:43:07,833 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,833 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 8
+2023-02-21 05:43:07,833 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,833 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 8
+2023-02-21 05:43:07,834 INFO    SenderThread:34868 [sender.py:transition_state():319] send defer: 9
+2023-02-21 05:43:07,835 DEBUG   SenderThread:34868 [sender.py:send():185] send: final
+2023-02-21 05:43:07,836 DEBUG   HandlerThread:34868 [handler.py:handle_request():126] handle_request: defer
+2023-02-21 05:43:07,836 INFO    HandlerThread:34868 [handler.py:handle_request_defer():143] handle defer: 9
+2023-02-21 05:43:07,836 DEBUG   SenderThread:34868 [sender.py:send_request():199] send_request: defer
+2023-02-21 05:43:07,836 INFO    SenderThread:34868 [sender.py:send_request_defer():315] handle sender defer: 9
+2023-02-21 05:43:10,373 WARNING MainThread:34868 [internal.py:is_dead():365] Internal process exiting, parent pid 34787 disappeared
+2023-02-21 05:43:10,373 ERROR   MainThread:34868 [internal.py:wandb_internal():141] Internal process shutdown.
+2023-02-21 05:43:10,836 INFO    WriterThread:34868 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_054251-cf6v308u/run-cf6v308u.wandb
+2023-02-21 05:43:10,837 INFO    SenderThread:34868 [sender.py:finish():986] shutting down sender
+2023-02-21 05:43:10,840 INFO    HandlerThread:34868 [handler.py:finish():683] shutting down handler
+2023-02-21 05:43:10,843 INFO    MainThread:34868 [internal.py:handle_exit():76] Internal process exited

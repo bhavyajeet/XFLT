@@ -1,0 +1,19 @@
+2023-02-21 05:14:46,398 INFO    MainThread:8802 [internal.py:wandb_internal():89] W&B internal server running at pid: 8802, started at: 2023-02-21 05:14:46.397517
+2023-02-21 05:14:46,402 INFO    WriterThread:8802 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_051444-2vod5ra7/run-2vod5ra7.wandb
+2023-02-21 05:14:46,405 DEBUG   HandlerThread:8802 [handler.py:handle_request():126] handle_request: run_start
+2023-02-21 05:14:51,283 DEBUG   HandlerThread:8802 [meta.py:__init__():40] meta init
+2023-02-21 05:14:51,283 DEBUG   HandlerThread:8802 [meta.py:__init__():54] meta init done
+2023-02-21 05:14:51,284 DEBUG   HandlerThread:8802 [meta.py:probe():211] probe
+2023-02-21 05:14:51,292 DEBUG   HandlerThread:8802 [meta.py:_setup_git():201] setup git
+2023-02-21 05:14:51,339 DEBUG   HandlerThread:8802 [meta.py:_setup_git():208] setup git done
+2023-02-21 05:14:51,340 DEBUG   HandlerThread:8802 [meta.py:_save_pip():58] save pip
+2023-02-21 05:14:51,342 DEBUG   HandlerThread:8802 [meta.py:_save_pip():72] save pip done
+2023-02-21 05:14:51,342 DEBUG   HandlerThread:8802 [meta.py:_save_conda():79] save conda
+2023-02-21 05:15:12,263 WARNING MainThread:8802 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-21 05:15:12,656 DEBUG   HandlerThread:8802 [meta.py:_save_conda():87] save conda done
+2023-02-21 05:15:12,657 DEBUG   HandlerThread:8802 [meta.py:probe():249] probe done
+2023-02-21 05:15:14,285 WARNING MainThread:8802 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-21 05:15:14,285 ERROR   MainThread:8802 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-21 05:15:14,420 INFO    SenderThread:8802 [sender.py:finish():986] shutting down sender
+2023-02-21 05:15:14,702 INFO    WriterThread:8802 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_051444-2vod5ra7/run-2vod5ra7.wandb
+2023-02-21 05:15:14,705 INFO    MainThread:8802 [internal.py:handle_exit():76] Internal process exited

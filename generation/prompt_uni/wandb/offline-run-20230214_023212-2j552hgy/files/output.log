@@ -1,0 +1,66 @@
+02/14/2023 02:32:18 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 02:32:18 AM [INFO] test dataset is already present.
+02/14/2023 02:32:20 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 02:32:20 AM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['generate english : charlie townsend date_of_death 17 october 1958 date_of_birth 07 november 1876 occupation cricketer', 'generate english : matthew kleinveldt date_of_birth 10 august 1989 occupation cricketer country_of_citizenship united kingdom', 'generate english : italo de zan date_of_birth 01 july 1925 date_of_death 09 march 2020 occupation sport cyclist', 'generate english : hina kaware occupation politician country_of_citizenship india'] <class 'list'>
+Testing:   0%|                                                                                                                                 | 1/2554 [00:01<1:04:44,  1.52s/it]['generate english : harishankar jaladas date_of_birth 12 october 1955 place_of_birth patenga thana', 'generate english : ibn qayyim al-jawziyya student ibn rajab', 'generate english : calli cox date_of_birth 26 february 1977 occupation pornographic actor occupation actor', 'generate english : abu ali al-hasan al-murrakushi occupation mathematician occupation astronomer place_of_birth morocco country_of_citizenship morocco'] <class 'list'>
+Testing:   0%|                                                                                                                                   | 2/2554 [00:02<55:11,  1.30s/it]['generate english : cathy lee crosby occupation tennis player date_of_birth 02 december 1944 sport tennis occupation television actor', 'generate english : 19th kushok bakula rinpoche place_of_birth ladakh country_of_citizenship india', 'generate english : rajiv saizal position_held member of the himachal pradesh legislative assembly', 'generate english : ron killings occupation professional wrestler date_of_birth 19 january 1972 occupation actor sport professional wrestling'] <class 'list'>
+Testing:   0%|▏                                                                                                                                  | 3/2554 [00:03<55:15,  1.30s/it]['generate english : mohan sinha mehta date_of_birth 20 april 1895 place_of_birth bhilwara', 'generate english : william wilson morgan date_of_death 21 june 1994 date_of_birth 03 january 1906 occupation astronomer', 'generate english : tatiana golovin date_of_birth 25 january 1988 occupation tennis player sport tennis', 'generate english : karin knapp date_of_birth 28 june 1987 occupation tennis player sport tennis'] <class 'list'>
+Testing:   0%|▏                                                                                                                                  | 4/2554 [00:05<52:54,  1.24s/it]['generate english : paul aldred date_of_birth 04 february 1969 occupation cricketer', 'generate english : asim azhar date_of_birth 29 october 1996 country_of_citizenship pakistan occupation singer-songwriter', 'generate english : nathan reardon date_of_birth 08 november 1984 occupation cricketer', 'generate english : wura-natasha ogunji occupation artist place_of_birth nigeria occupation performing artist date_of_birth 1970'] <class 'list'>
+Testing:   0%|▎                                                                                                                                  | 5/2554 [00:06<53:38,  1.26s/it]['generate english : james ormond date_of_birth 20 august 1977 occupation cricketer country_of_citizenship united kingdom', 'generate english : shabnam hashmi occupation human rights activist occupation activist date_of_birth 1957', 'generate english : anna baranowsky educated_at university of ottawa', 'generate english : james boiling date_of_birth 08 april 1968 occupation cricketer'] <class 'list'>
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py:1926: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  returned_ground_scores = nn.functional.log_softmax(torch.randn(size=(batch_size, next_tokens.shape[1]), device=next_tokens.device))
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1140, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1923, in beam_search
+    strs = tokenizer.batch_decode(next_tokens, skip_special_tokens=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3133, in batch_decode
+    for seq in sequences
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3133, in <listcomp>
+    for seq in sequences
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3163, in decode
+    token_ids = to_py_obj(token_ids)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/file_utils.py", line 1821, in to_py_obj
+    return obj.detach().cpu().tolist()
+KeyboardInterrupt

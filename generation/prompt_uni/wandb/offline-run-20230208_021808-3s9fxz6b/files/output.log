@@ -1,0 +1,80 @@
+02/08/2023 02:18:14 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/08/2023 02:18:14 AM [INFO] test dataset is already present.
+02/08/2023 02:18:15 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/08/2023 02:18:15 AM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Charles', 'Henry', 'William', 'Sir', 'Charlie', 'Matthew', '', 'Michael', 'Matt', 'Mac', 'Ital', 'Antonio', 'A', 'T', 'Sir', 'Hin', 'Heid', 'Bina', 'Vera', 'She']
+['Charles', 'Charles Henry', 'Charles Edward', 'Charles William', 'Charles George', 'Matthew William', 'Matthew', 'Matthew David', 'Matthew Thomas', 'Matthew Robert', 'Italo', 'Antonio de', 'Sir Ital', 'A Ital', 'T Ital', 'Hina', 'Hine', 'Hines', 'Heidi', 'Hinas']
+['Charles Edward Town', 'Charles William Town', 'Charles Frederick', 'Charles Henry', 'Charles Edward', 'Matthew William Klein', 'Matthew Claude', 'Matthew David Klein', 'Matthew Thomas Klein', 'Matthew Robert Klein', 'Italo de', 'Italo De', 'Italo Sánchez', 'Italo', 'Italo Victor', 'Hina Ka', 'Hine Ka', 'Hina Kada', 'Heidi Ka', 'Hina Kal']
+['Charles Edward Townsend', 'Charles William Townsend', 'Charles Frederick William', 'Charles Henry Frederick', 'Charles Frederick Town', 'Matthew William Kleinveld', 'Matthew David Kleinveld', 'Matthew Claude Klein', 'Matthew Thomas Kleinveld', 'Matthew Robert Kleinveld', 'Italo de Zen', 'Italo dezan', 'Italo de Lanz', 'Italo de Cza', 'Italo de Za', 'Hina Kaware', 'Hine Kaware', 'Hina Ka Ware', 'Hina Kaore', 'Hina Kawar']
+['Charles Edward Townsend (', 'Charles William Townsend (', 'Charles Frederick William Town', 'Charles Henry Frederick Town', 'Charles Frederick Townsend', 'Matthew William Kleinveldt', 'Matthew David Kleinveldt', 'Matthew Claude Kleinveld', 'Matthew Thomas Kleinveldt', 'Matthew Robert Kleinveldt', 'Italo de Zen (', 'Italo de Lanz (', 'Italo dezan (', 'Italo de Czan', 'Italo de Zan', 'Hina Kaware is', 'Hina Kaware (', 'Hina Kaware was', 'Hina Kaware', 'Hine Kaware is']
+['Charles Edward Townsend ( 7', 'Charles William Townsend ( 7', 'Charles Frederick William Townsend', 'Charles Henry Frederick Townsend', 'Charles Frederick Townsend (', 'Matthew William Kleinveldt (', 'Matthew David Kleinveldt (', 'Matthew Claude Kleinveldt', 'Matthew Thomas Kleinveldt (', 'Matthew Robert Kleinveldt (', 'Italo de Zen ( 1', 'Italo de Zen (', 'Italo de Lanz ( 1', 'Italo de Czan (', 'Italo dezan ( 1', 'Hina Kaware is an', 'Hina Kaware (', 'Hina Kaware ( born', 'Hina Kaware was an', 'Hina Kaware,']
+['Charles Edward Townsend ( 7 November', 'Charles William Townsend ( 7 November', 'Charles Frederick William Townsend (', 'Charles Henry Frederick Townsend (', 'Charles Frederick Townsend ( 7', 'Matthew William Kleinveldt ( born', 'Matthew David Kleinveldt ( born', 'Matthew Claude Kleinveldt (', 'Matthew Thomas Kleinveldt ( born', 'Matthew Robert Kleinveldt ( born', 'Italo de Zen ( 1', 'Italo de Zen ( July', 'Italo de Lanz ( 1', 'Italo dezan ( 1', 'Italo de Zen ( ;', 'Hina Kaware is an Indian', 'Hina Kaware ( )', 'Hina Kaware was an Indian', 'Hina Kaware, also', 'Hina Kaware ( born 1']
+['Charles Edward Townsend ( 7 November 1876', 'Charles William Townsend ( 7 November 1876', 'Charles Frederick William Townsend ( 7', 'Charles Henry Frederick Townsend ( 7', 'Charles Frederick Townsend ( 7 November', 'Matthew William Kleinveldt ( born 10', 'Matthew David Kleinveldt ( born 10', 'Matthew Claude Kleinveldt ( born', 'Matthew Thomas Kleinveldt ( born 10', 'Matthew Robert Kleinveldt ( born 10', 'Italo de Zen ( 1 July', 'Italo de Zen ( July 1', 'Italo de Lanz ( 1 July', 'Italo dezan ( 1 July', 'Italo de Zen ( ; 1', 'Hina Kaware is an Indian politici', 'Hina Kaware ( ) is', 'Hina Kaware was an Indian politici', 'Hina Kaware, also spell', 'Hina Kaware is an Indian']
+['Charles Edward Townsend ( 7 November 1876', 'Charles William Townsend ( 7 November 1876', 'Charles Frederick William Townsend ( 7 November', 'Charles Henry Frederick Townsend ( 7 November', 'Charles Frederick Townsend ( 7 November 1876', 'Matthew William Kleinveldt ( born 10 August', 'Matthew David Kleinveldt ( born 10 August', 'Matthew Claude Kleinveldt ( born 10', 'Matthew Thomas Kleinveldt ( born 10 August', 'Matthew Robert Kleinveldt ( born 10 August', 'Italo de Zen ( 1 July 1925', 'Italo de Zen ( July 1', 'Italo de Lanz ( 1 July 1925', 'Italo dezan ( 1 July 1925', 'Italo de Zen ( ; 1', 'Hina Kaware is an Indian politician', 'Hina Kaware ( ) is an', 'Hina Kaware was an Indian politician', 'Hina Kaware, also spelled', 'Hina Kaware is an Indian actress']
+['Charles Edward Townsend ( 7 November 1876 -', 'Charles William Townsend ( 7 November 1876 -', 'Charles Frederick William Townsend ( 7 November 1876', 'Charles Henry Frederick Townsend ( 7 November 1876', 'Charles Frederick Townsend ( 7 November 1876', 'Matthew William Kleinveldt ( born 10 August 1989', 'Matthew David Kleinveldt ( born 10 August 1989', 'Matthew Claude Kleinveldt ( born 10 August', 'Matthew Thomas Kleinveldt ( born 10 August 1989', 'Matthew Robert Kleinveldt ( born 10 August 1989', 'Italo de Zen ( 1 July 1925', 'Italo de Zen ( July 1,', 'Italo de Lanz ( 1 July 1925', 'Italo dezan ( 1 July 1925', 'Italo de Zen ( ; 1 July', 'Hina Kaware is an Indian politician and', 'Hina Kaware ( ) is an Indian', 'Hina Kaware was an Indian politician and', 'Hina Kaware is an Indian politician', 'Hina Kaware, also spelled as']
+['Charles Edward Townsend ( 7 November 1876 - 17', 'Charles William Townsend ( 7 November 1876 - 17', 'Charles Frederick William Townsend ( 7 November 1876', 'Charles Henry Frederick Townsend ( 7 November 1876', 'Charles Frederick Townsend ( 7 November 1876 -', 'Matthew William Kleinveldt ( born 10 August 1989', 'Matthew David Kleinveldt ( born 10 August 1989', 'Matthew Claude Kleinveldt ( born 10 August 1989', 'Matthew Thomas Kleinveldt ( born 10 August 1989', 'Matthew Robert Kleinveldt ( born 10 August 1989', 'Italo de Zen ( 1 July 1925 -', 'Italo de Zen ( July 1, 1925', 'Italo de Lanz ( 1 July 1925 -', 'Italo dezan ( 1 July 1925 -', 'Italo de Zen ( ; 1 July 1925', 'Hina Kaware is an Indian politician and', 'Hina Kaware ( ) is an Indian politici', 'Hina Kaware is an Indian politician and the', 'Hina Kaware is an Indian politician,', 'Hina Kaware was an Indian politician and']
+['Charles Edward Townsend ( 7 November 1876 - 17', 'Charles William Townsend ( 7 November 1876 - 17', 'Charles Frederick William Townsend ( 7 November 1876 -', 'Charles Henry Frederick Townsend ( 7 November 1876 -', 'Charles Frederick Townsend ( 7 November 1876 - 17', 'Matthew William Kleinveldt ( born 10 August 1989 )', 'Matthew David Kleinveldt ( born 10 August 1989 )', 'Matthew Claude Kleinveldt ( born 10 August 1989', 'Matthew Thomas Kleinveldt ( born 10 August 1989 )', 'Matthew Robert Kleinveldt ( born 10 August 1989 )', 'Italo de Zen ( 1 July 1925 - 9', 'Italo de Zen ( July 1, 1925', 'Italo de Lanz ( 1 July 1925 - 9', 'Italo dezan ( 1 July 1925 - 9', 'Italo de Zen ( ; 1 July 1925', 'Hina Kaware is an Indian politician and a', 'Hina Kaware ( ) is an Indian politician', 'Hina Kaware is an Indian politician and former', 'Hina Kaware is an Indian politician and the', 'Hina Kaware was an Indian politician and a']
+['Charles Edward Townsend ( 7 November 1876 - 17 October', 'Charles William Townsend ( 7 November 1876 - 17 October', 'Charles Frederick William Townsend ( 7 November 1876 - 17', 'Charles Henry Frederick Townsend ( 7 November 1876 - 17', 'Charles Frederick Townsend ( 7 November 1876 - 17', 'Matthew William Kleinveldt ( born 10 August 1989 ) is', 'Matthew David Kleinveldt ( born 10 August 1989 ) is', 'Matthew Claude Kleinveldt ( born 10 August 1989 )', 'Matthew Thomas Kleinveldt ( born 10 August 1989 ) is', 'Matthew Robert Kleinveldt ( born 10 August 1989 ) is', 'Italo de Zen ( 1 July 1925 - 9 March', 'Italo de Zen ( July 1, 1925 -', 'Italo de Lanz ( 1 July 1925 - 9 March', 'Italo dezan ( 1 July 1925 - 9 March', 'Italo de Zen ( ; 1 July 1925 -', 'Hina Kaware is an Indian politician and a member', 'Hina Kaware ( ) is an Indian politician and', 'Hina Kaware is an Indian politician and a Member', 'Hina Kaware is an Indian politician and a', 'Hina Kaware is an Indian politician and former Member']
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 580, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 426, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 271, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 172, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 134, in _generative_step
+    tokenizer = self.tokenizer
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1070, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1821, in beam_search
+    strs = tokenizer.batch_decode(input_ids, skip_special_tokens=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3133, in batch_decode
+    for seq in sequences
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3133, in <listcomp>
+    for seq in sequences
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3169, in decode
+    **kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils.py", line 743, in _decode
+    filtered_tokens = self.convert_ids_to_tokens(token_ids, skip_special_tokens=skip_special_tokens)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils.py", line 719, in convert_ids_to_tokens
+    if skip_special_tokens and index in self.all_special_ids:
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 1257, in all_special_ids
+    all_toks = self.all_special_tokens
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 1232, in all_special_tokens
+    all_toks = [str(s) for s in self.all_special_tokens_extended]
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 1248, in all_special_tokens_extended
+    all_toks = list(OrderedDict.fromkeys(all_toks))
+KeyboardInterrupt

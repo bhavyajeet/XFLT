@@ -1,0 +1,28 @@
+2023-02-14 03:41:02,318 INFO    MainThread:2989 [wandb_setup.py:_flush():69] setting env: {'mode': 'dryrun'}
+2023-02-14 03:41:02,318 INFO    MainThread:2989 [wandb_init.py:_log_setup():357] Logging user logs to /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_034102-3jr15aox/logs/debug.log
+2023-02-14 03:41:02,319 INFO    MainThread:2989 [wandb_init.py:_log_setup():358] Logging internal logs to /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_034102-3jr15aox/logs/debug-internal.log
+2023-02-14 03:41:02,319 INFO    MainThread:2989 [wandb_init.py:init():390] calling init triggers
+2023-02-14 03:41:02,320 INFO    MainThread:2989 [wandb_init.py:init():397] wandb.init called with sweep_config: {}
+config: {'checkpoint_path': '/tmp/XAlign/checkpoint', 'dataset_path': '/tmp/XAlign/datasets', 'gpus': 4, 'epochs': 30, 'batch_size': 4, 'eval_batch_size': 4, 'learning_rate': 0.001, 'clip_grad_norm': 0.0, 'weight_decay': 0.01, 'dropout_rate': 0.1, 'patience': 10, 'enable_scheduler': False, 'warmup_steps': 4000, 'train_dataset_count': 0, 'val_dataset_count': 0, 'test_dataset_count': 0, 'online_mode': 0, 'verbose': True, 'verbose_output_dir': '/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/model_outputs', 'model_name': 'google/mt5-small', 'use_pretrained': 1, 'enable_bleu_cal_per_epoch': 0, 'src_max_seq_len': 250, 'tgt_max_seq_len': 250, 'lang': ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'], 'length_penalty': 1.0, 'eval_beams': 5, 'enable_script_unification': 1, 'complete_coverage': 0, 'inference': True, 'logger_exp_name': 'inference-gen-as-bn-en-gu-hi-kn-ml-mr-or-pa-ta-te-google-mt5-small-30-0.001-250-unified-script'}
+2023-02-14 03:41:02,320 INFO    MainThread:2989 [wandb_init.py:init():435] starting backend
+2023-02-14 03:41:02,320 INFO    MainThread:2989 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-14 03:41:02,377 INFO    MainThread:2989 [backend.py:ensure_launched():135] starting backend process...
+2023-02-14 03:41:02,427 INFO    MainThread:2989 [backend.py:ensure_launched():140] started backend process with pid: 3075
+2023-02-14 03:41:02,429 INFO    MainThread:2989 [wandb_init.py:init():440] backend started and connected
+2023-02-14 03:41:02,435 INFO    MainThread:2989 [wandb_init.py:init():499] updated telemetry
+2023-02-14 03:41:02,440 INFO    MainThread:2989 [wandb_init.py:init():562] starting run threads in backend
+2023-02-14 03:41:07,442 INFO    MainThread:2989 [wandb_run.py:_console_start():1651] atexit reg
+2023-02-14 03:41:07,444 INFO    MainThread:2989 [wandb_run.py:_redirect():1525] redirect: SettingsConsole.REDIRECT
+2023-02-14 03:41:07,445 INFO    MainThread:2989 [wandb_run.py:_redirect():1530] Redirecting console.
+2023-02-14 03:41:07,448 INFO    MainThread:2989 [wandb_run.py:_redirect():1586] Redirects installed.
+2023-02-14 03:41:07,449 INFO    MainThread:2989 [wandb_init.py:init():587] run started, returning control to user process
+2023-02-14 03:41:07,449 INFO    MainThread:2989 [wandb_run.py:_config_callback():878] config_cb None None {}
+2023-02-14 03:41:36,638 INFO    MainThread:2989 [wandb_run.py:_atexit_cleanup():1621] got exitcode: 255
+2023-02-14 03:41:36,640 INFO    MainThread:2989 [wandb_run.py:_restore():1593] restore
+2023-02-14 03:41:39,104 INFO    MainThread:2989 [wandb_run.py:_wait_for_finish():1746] got exit ret: 
+2023-02-14 03:41:39,207 INFO    MainThread:2989 [wandb_run.py:_wait_for_finish():1746] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+

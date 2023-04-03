@@ -1,0 +1,656 @@
+country_of_citizenship india member_of_political_party dravida munnetra kazhagam occupation politician
+date_of_birth 20 october 1981
+date_of_birth 14 july 1854 place_of_birth kolkata
+position_held member of the 17th lok sabha
+date_of_birth 28 january 1969
+date_of_birth 28 july 1919
+date_of_death 21 january 1959
+date_of_death 23 june 1919
+country_of_citizenship india occupation politician
+date_of_birth 10 november 1950
+date_of_birth 13 may 1987
+date_of_birth 29 september 1986
+date_of_death 26 february 1966
+date_of_birth 26 october 1950
+country_of_citizenship india occupation politician
+country_of_citizenship india member_of_political_party lok janshakti party occupation politician
+date_of_death 13 january 1991
+date_of_birth 23 january 1915
+educated_at triam udom suksa school
+country_of_citizenship india
+country_of_citizenship british india country_of_citizenship india date_of_birth 02 may 1943 occupation politician
+date_of_birth 12 august 1949
+award_received nobel prize in physiology or medicine
+award_received nobel prize in physiology or medicine
+country_of_citizenship india date_of_birth 13 august 1967 date_of_death 28 august 2017 member_of_political_party bharatiya janata party occupation politician
+date_of_birth 12 september 1967
+date_of_birth 29 august 1977
+country_of_citizenship india date_of_birth 22 january 1990 occupation cricketer
+date_of_birth 16 october 1944 place_of_birth los angeles residence california
+country_of_citizenship india member_of_political_party all india anna dravida munnetra kazhagam position_held member of the tamil nadu legislative assembly
+country_of_citizenship germany member_of_political_party social democratic party of germany
+languages_spoken,_written_or_signed tamil occupation writer
+birth_name shivaji rao gaekwad
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+languages_spoken,_written_or_signed nepali occupation writer
+date_of_birth 26 april 1970
+date_of_death 26 february 2006
+date_of_birth 11 november 1943
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 01 july 1945
+date_of_birth 31 october 1982
+date_of_birth 25 april 1957 religion islam
+date_of_birth 25 april 1957 religion islam
+date_of_death 22 april 1980
+date_of_death 11 april 2016
+date_of_birth 28 june 1952
+educated_at university of michigan college of literature science and the arts
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india member_of_political_party all india united democratic front occupation politician
+date_of_birth 24 may 1954
+country_of_citizenship india occupation politician position_held member of the andhra pradesh legislative assembly
+member_of_political_party dravida munnetra kazhagam
+date_of_birth 22 october 1988
+date_of_death 10 april 2012
+date_of_birth 22 april 1974
+date_of_death 11 may 1916
+date_of_death 31 may 2001
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+award_received nobel prize in physiology or medicine
+date_of_birth 09 june 1963
+date_of_birth 28 april 1952
+date_of_birth 01 january 1935
+award_received nobel prize in physiology or medicine
+country_of_citizenship india member_of_political_party telangana rashtra samithi occupation politician
+date_of_death 23 april 2004
+member_of_political_party indian national congress occupation politician
+educated_at phillips exeter academy
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician
+member_of_political_party telangana rashtra samithi occupation politician
+founded_by visva-bharati university
+nominated_for academy award for best actor
+date_of_birth 31 july 1849
+date_of_birth 08 april 1933 place_of_birth chennai
+date_of_birth 15 november 1979
+country_of_citizenship south korea date_of_birth 10 january 1976 occupation actor
+date_of_death 16 september 2009
+date_of_death 17 february 1907
+member_of_political_party lok janshakti party occupation politician
+date_of_birth 04 september 1958 place_of_birth washington d.c.
+date_of_birth 12 april 1873
+date_of_birth 02 august 1960
+date_of_birth 27 june 1963
+date_of_birth 22 june 1976
+date_of_birth 24 october 1994
+date_of_birth 15 august 1896 place_of_birth prague
+date_of_birth 20 march 1986
+date_of_birth 19 february 1987
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india place_of_birth chhattisgarh
+country_of_citizenship bhutan date_of_birth 14 august 1984 occupation sport shooter
+date_of_birth 15 may 1985
+date_of_birth 10 april 1931
+date_of_birth 06 august 1911
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship brazil member_of_sports_team brazil national under-20 football team member_of_sports_team brazil national under-17 football team
+date_of_birth 05 april 1901
+date_of_death 30 november 1988
+date_of_birth 17 january 1920
+country_of_citizenship austrian empire position_held empress consort significant_event marriage of franz joseph i of austria and elisabeth of bavaria spouse franz joseph i of austria
+date_of_death 19 june 1747
+country_of_citizenship india occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician
+date_of_death 18 october 1775
+country_of_citizenship malaysia occupation singer
+country_of_citizenship british india date_of_birth 01 january 1925
+date_of_birth 06 october 1979 occupation cricket umpire
+country_of_citizenship india occupation politician
+country_of_citizenship india member_of_political_party telangana rashtra samithi occupation politician
+country_of_citizenship india occupation politician
+country_of_citizenship south korea date_of_birth 26 may 1991 place_of_birth seoul
+date_of_death 21 february 2003 place_of_death athens
+position_held member of the andhra pradesh legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+member_of kazakhstan academy of sciences
+country_of_citizenship el salvador date_of_birth 15 august 1917 date_of_death 24 march 1980 place_of_death san salvador position_held catholic archbishop religion catholic church
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 29 november 1965
+member_of_political_party all india trinamool congress occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_birth 18 december 1987
+date_of_birth 11 october 1883
+date_of_death 12 november 1946
+date_of_birth 24 november 1975
+award_received eurovision song contest 2014 participant austria in the eurovision song contest winner eurovision song contest 2014
+date_of_birth 30 march 1964
+country_of_citizenship india member_of_political_party dravida munnetra kazhagam occupation politician
+country_of_citizenship india occupation politician position_held member of the 1st kerala legislative assembly
+country_of_citizenship sri lanka place_of_birth kandy
+date_of_birth 29 march 1943
+date_of_death 05 september 2019
+date_of_birth 22 march 1822
+date_of_death 25 october 2005 place_of_death new delhi
+country_of_citizenship malaysia date_of_birth 05 april 1979 place_of_birth melaka
+date_of_death 06 october 1944
+member_of_political_party bharatiya janata party occupation politician
+educated_at mahinda college
+member_of_political_party bharatiya janata party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 02 february 1987
+languages_spoken,_written_or_signed bengali occupation poet
+date_of_birth 02 june 1951 place_of_birth mumbai
+country_of_citizenship south korea date_of_birth 27 february 1977 languages_spoken,_written_or_signed korean occupation actor
+country_of_citizenship india date_of_birth 02 october 1904 date_of_death 11 january 1966 head_of_government india position_held prime minister of india
+employer university of barcelona occupation university teacher
+award_received sahitya akademi award
+place_of_birth detroit
+date_of_death 02 january 2011
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 31 january 1969
+date_of_birth 30 january 1929 place_of_birth moscow
+member_of_political_party indian national congress position_held member of the 15th lok sabha
+candidacy_in_election 2014 indian general election in pollachi lok sabha constituency member_of_political_party all india anna dravida munnetra kazhagam occupation politician
+occupation politician position_held member of the parliament of singapore
+languages_spoken,_written_or_signed malayalam occupation poet
+country_of_citizenship mexico date_of_birth 04 september 1956 occupation politician
+date_of_death 03 august 1988
+award_received military cross
+languages_spoken,_written_or_signed tamil occupation actor
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 09 april 1980
+country_of_citizenship india occupation politician
+date_of_birth 07 july 1952 member_of_political_party bharatiya janata party occupation politician position_held member of the delhi legislative assembly
+country_of_citizenship iran occupation tennis player playing_hand right-handedness sport tennis
+date_of_birth 05 march 1973
+member_of_political_party ysr congress party occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 25 february 1961 place_of_death rajamahendravaram
+place_of_birth port louis
+member_of_political_party bharatiya janata party occupation politician
+employer university of geneva occupation university teacher place_of_birth geneva
+cause_of_death lung cancer date_of_death 30 may 1960
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_death 28 february 1963 position_held president of india
+country_of_citizenship india occupation politician
+country_of_citizenship india occupation diplomat
+date_of_birth 16 august 1978 place_of_birth baku
+date_of_birth 08 january 1909 place_of_birth kolkata
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 05 august 1895
+country_of_citizenship india occupation politician
+date_of_birth 05 february 1979
+position_held president of the united states
+country_of_citizenship india occupation politician
+member_of_political_party lanka sama samaja party occupation politician
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 24 april 1934 date_of_death 08 april 2015 languages_spoken,_written_or_signed tamil occupation writer
+member_of_political_party bharatiya janata party occupation politician
+head_of_government singapore position_held prime minister of singapore secretary_general people's action party
+cause_of_death cancer date_of_death 12 september 2013
+date_of_death 02 april 2005
+date_of_birth 27 november 1940 place_of_birth san francisco chinese hospital
+member_of_political_party bharatiya janata party occupation politician
+date_of_death 05 june 1838
+educated_at madras medical college
+cause_of_death kidney failure date_of_death june 2007
+date_of_birth 21 october 1944 place_of_birth paris
+date_of_death 06 april 1992 place_of_death coimbatore
+date_of_death 05 september 1930
+date_of_birth 03 august 1948 place_of_birth erode
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation actor
+educated_at lady shri ram college for women educated_at delhi school of economics place_of_birth chennai
+date_of_birth 23 september 1783 place_of_birth london
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation actor
+country_of_citizenship sri lanka date_of_death 27 december 2016 position_held prime minister of sri lanka position_held prime minister of sri lanka
+date_of_birth 11 november 1978 member_of_sports_team new zealand national cricket team occupation cricketer
+country_of_citizenship india date_of_birth 05 june 1962 employer indian police service occupation police officer
+feast_day february 7
+date_of_birth 25 june 1956 occupation politician position_held member of the parliament of sri lanka
+date_of_birth 1971
+occupation chess player sport chess title_of_chess_person woman grandmaster
+member_of_political_party ysr congress party occupation politician
+country_of_citizenship india date_of_birth 16 january 1944 occupation politician position_held member of the 15th lok sabha
+academic_degree doctor of sciences in physics and mathematics
+participant_in 2004 summer paralympics
+member_of_political_party bharatiya janata party occupation politician
+feast_day may 26
+member_of_political_party shiv sena occupation politician
+member_of_sports_team royal challengers bangalore occupation cricketer
+country_of_citizenship russia date_of_birth 07 june 1981 place_of_birth moscow
+occupation film critic
+country_of_citizenship ethiopia date_of_birth 09 june 1996 occupation marathon runner sport athletics
+date_of_birth 01 june 2002
+country_of_citizenship india date_of_birth 16 february 1991 occupation cricketer
+date_of_death 05 january 1966
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 30 august 1984 place_of_birth jaipur
+country_of_citizenship india occupation model occupation actor
+date_of_birth 06 april 1974
+country_of_citizenship france date_of_birth 04 february 1811 place_of_birth la mure
+member_of_political_party ysr congress party occupation politician
+country_of_citizenship iran date_of_birth 1958 place_of_birth qom
+date_of_death 01 november 1980
+position_held state counsellor of myanmar
+spouse hema malini
+place_of_birth tirupur
+member_of_political_party bharatiya janata party occupation politician
+date_of_birth 01 may 1951 member_of_sports_team west indies cricket team occupation cricketer
+country_of_citizenship india occupation politician
+country_of_citizenship india date_of_birth 01 january 1961 occupation politician
+member_of_political_party bharatiya janata party
+occupation politician position_held minister of road transport and highways
+country_of_citizenship gibraltar occupation politician
+author tolkappiyam
+employer harvard university field_of_work psychology occupation university teacher
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship brazil participant_in 2013 ipc athletics world championships
+member_of_political_party nationalist congress party occupation politician
+date_of_birth 07 march 1955 ethnic_group kashmiri pandit place_of_birth shimla
+cause_of_death cardiovascular disease date_of_death 27 september 2008
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 01 march 1992
+occupation politician position_held member of the 16th lok sabha
+award_received academy award for best cinematography occupation cinematographer
+date_of_death 10 july 1927 place_of_death london
+date_of_birth 02 march 1838
+date_of_birth 17 october 1981 occupation television actor
+main_subject the last man who knew everything
+member_of_political_party ysr congress party occupation politician
+country_of_citizenship sweden place_of_birth uppsala
+member_of_political_party communist party of india occupation politician
+languages_spoken,_written_or_signed punjabi occupation writer
+member_of_sports_team india national football team occupation association football player position_played_on_team_/_speciality goalkeeper sport association football
+position_held director-general of the world health organization
+country_of_citizenship south korea position_held prime minister of south korea
+spouse amitabh bachchan
+date_of_birth may 1928
+employer princeton university field_of_work physics occupation university teacher
+date_of_birth 11 may 1929
+country_of_citizenship india occupation politician
+member_of_political_party ysr congress party occupation politician
+date_of_death 05 january 2018
+member_of_sports_team sri lanka national cricket team occupation cricketer
+country_of_citizenship mongol empire noble_title queen
+date_of_death 09 january 1942
+award_received kerala sahitya akademi award award_received sahitya akademi award
+award_received sahitya akademi award award_received saraswati samman
+country_of_citizenship denmark place_of_birth copenhagen
+country_of_citizenship new zealand occupation film director occupation film producer occupation screenwriter
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india date_of_birth 26 february 1957 occupation indian administrative service occupation civil servant position_held governor of reserve bank of india
+member_of_political_party ysr congress party
+has_part founding fathers of the united states
+date_of_death 02 september 1992
+date_of_birth 1969
+date_of_birth 04 july 1958 occupation politician position_held member of rajya sabha
+languages_spoken,_written_or_signed malayalam occupation actor
+country_of_citizenship india occupation politician
+occupation politician position_held member of the 15th lok sabha position_held member of the 14th lok sabha position_held member of the 9th lok sabha
+ethnic_group pashtuns
+member_of_political_party communist party of india occupation politician
+date_of_birth 1925
+country_of_citizenship india occupation actor
+date_of_birth 1934
+country_of_citizenship india date_of_birth 11 may 1986 occupation television actor
+date_of_death 03 december 2019
+member_of national academy of sciences
+date_of_birth 28 january 1986 place_of_birth chennai
+date_of_birth 1930
+country_of_citizenship india occupation politician
+date_of_birth 1746
+date_of_death 03 march 2010
+award_received shanti swarup bhatnagar prize for science and technology
+member_of_political_party indian national congress occupation politician
+award_received sahitya akademi award
+country_of_citizenship people's republic of bulgaria date_of_birth 09 january 1989 place_of_birth sofia
+founded_by maurya empire
+member_of_political_party communist party of india occupation politician
+employer department of physics and astronomy university college london
+field_of_work plant anatomy occupation botanist
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 30 march 1962 place_of_birth patna
+country_of_citizenship sweden date_of_birth 08 september 1989 place_of_birth stockholm
+date_of_death 07 september 1988
+chairperson alibaba group occupation entrepreneur
+date_of_birth 1919 place_of_birth nagercoil
+country_of_citizenship germany date_of_birth 10 october 1936 place_of_birth stuttgart
+country_of_citizenship ireland date_of_birth 31 may 1976 place_of_birth dublin
+cause_of_death cancer date_of_death 25 august 1938
+award_received nobel prize in literature
+award_received nobel prize in literature
+country_of_citizenship german empire date_of_birth 10 february 1898 date_of_death 14 august 1956 languages_spoken,_written_or_signed german occupation playwright occupation poet
+country_of_citizenship india date_of_birth 05 may 1954 member_of_political_party communist party of india marxist occupation politician
+occupation politician position_held member of the 16th lok sabha
+award_received annie jump cannon award in astronomy field_of_work astronomy
+date_of_death 27 january 1946 place_of_death bengaluru
+date_of_death 28 november 1962 place_of_death kolkata
+date_of_birth 1934
+member_of_political_party nationalist congress party occupation politician
+date_of_birth 14 august 1974 place_of_birth karnataka
+date_of_birth 12 october 1957
+country_of_citizenship india date_of_birth 05 december 1970 member_of_political_party bharatiya janata party occupation politician position_held member of the delhi legislative assembly
+date_of_birth 14 december 1938
+date_of_birth 09 january 1927
+date_of_birth 10 june 1915
+date_of_birth 13 september 1927
+date_of_birth 10 march 1974
+date_of_birth 14 january 1963
+date_of_birth 25 january 1981
+date_of_birth 10 november 1832
+country_of_citizenship india member_of_political_party all india anna dravida munnetra kazhagam occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 07 may 1983
+date_of_death 18 april 1959
+date_of_death 16 october 1998
+date_of_birth 31 january 1979
+date_of_birth 14 april 1973
+date_of_death 06 may 1946
+date_of_death 22 december 1985
+date_of_death 28 march 1999
+date_of_death 12 january 1988
+date_of_birth 28 june 1978
+date_of_death 13 july 2010
+country_of_citizenship india occupation politician
+date_of_birth 30 may 1929
+date_of_birth 31 december 1986 place_of_birth gaibandha
+date_of_birth 10 june 1995
+occupation cricketer
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_birth 27 april 1960
+country_of_citizenship india member_of_political_party dravida munnetra kazhagam occupation politician
+date_of_death 19 may 1864
+educated_at university of delhi educated_at the doon school educated_at st. stephen's college
+country_of_citizenship india member_of_political_party kerala congress m occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 23 september 1993 occupation actor
+date_of_birth 28 april 1981 place_of_birth kanpur
+country_of_citizenship south africa member_of_political_party african national congress occupation politician
+country_of_citizenship india position_held member of the 17th lok sabha
+date_of_birth 16 january 1980
+date_of_birth 28 october 1974
+educated_at long island university
+sibling venus williams
+member_of_political_party dravida munnetra kazhagam
+date_of_birth 20 may 1967
+date_of_birth 13 april 1979
+date_of_birth 28 march 1872
+date_of_death 06 may 1971
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 09 july 1979
+date_of_birth 13 december 1981
+country_of_citizenship india occupation politician
+occupation cricketer
+award_received nobel prize in physiology or medicine
+date_of_birth 30 march 1955
+date_of_birth 06 april 1991
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_death 19 march 1998
+award_received nobel prize in physiology or medicine
+date_of_birth 03 april 1957
+award_received nobel prize in physiology or medicine
+member_of_political_party kerala congress m occupation politician
+award_received national film award for best male playback singer occupation singer performer kal ho naa ho winner national film award for best male playback singer
+date_of_birth 15 may 1931
+occupation cricketer
+country_of_citizenship india occupation film actor
+date_of_birth 1922 place_of_birth okayama
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+educated_at university of california berkeley
+country_of_citizenship india date_of_birth 05 november 1965 occupation politician
+country_of_citizenship india member_of_political_party lok janshakti party occupation politician
+award_received national film award for best male playback singer occupation playback singer winner national film award for best male playback singer winner national film award for best male playback singer winner national film award for best male playback singer winner national film award for best male playback singer winner national film award for best male playback singer winner national film award for best male playback singer
+date_of_birth 01 january 1927
+date_of_birth 24 december 1941
+date_of_death 03 may 1982
+date_of_death 04 september 1952
+date_of_birth 08 november 1955
+date_of_birth 19 may 1994 occupation judoka sport judo
+date_of_death 26 may 2017
+country_of_citizenship india occupation politician
+date_of_death 12 march 1970
+father leopold mozart
+nominated_for academy award for best supporting actor occupation actor occupation film actor
+date_of_death 31 august 1973
+country_of_citizenship india occupation actor
+member_of_political_party bharatiya janata party
+date_of_birth 03 september 1988
+date_of_death 03 september 2012
+date_of_death 08 april 2015
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_death november 1921
+educated_at academy of fine arts vienna
+candidacy_in_election 2014 indian general election in ramanathapuram lok sabha constituency country_of_citizenship india member_of_political_party all india anna dravida munnetra kazhagam occupation politician position_held member of the 16th lok sabha
+country_of_citizenship india date_of_birth 10 november 1932 occupation trade unionist occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+award_received filmfare awards occupation actor winner filmfare award for best supporting actress
+country_of_citizenship trinidad and tobago place_of_birth saint james
+country_of_citizenship india member_of_political_party communist party of india marxist occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_birth 30 november 1943
+country_of_citizenship sri lanka founded_by eelam people's democratic party member_of_political_party eelam people's democratic party
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 17 april 1942
+date_of_birth 27 march 1988
+date_of_death 2012
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india date_of_birth 01 may 1986 occupation kabaddi player sport kabaddi
+country_of_citizenship india date_of_birth 14 december 1953 occupation tennis player place_of_birth chennai sport tennis
+date_of_death 13 july 2017
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+languages_spoken,_written_or_signed bengali native_language bengali occupation writer occupation politician
+country_of_citizenship afghanistan date_of_birth 12 december 2001 occupation cricketer
+date_of_birth 15 february 1980
+date_of_death 22 june 1999
+country_of_citizenship new zealand date_of_birth 01 december 1976 occupation film actor occupation actor
+country_of_citizenship indonesia residence medan
+date_of_death 24 august 2014
+country_of_citizenship india educated_at film and television institute of india
+date_of_birth 06 october 1946
+educated_at panjab university
+date_of_birth 02 january 1939
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 22 january 1967
+country_of_citizenship republic of florence date_of_birth 03 may 1469 place_of_birth florence
+country_of_citizenship india date_of_birth 04 january 1989 place_of_birth chennai
+award_received national film award for best actress
+date_of_death 09 december 1932
+date_of_death 08 november 2006
+date_of_death 06 may 1976
+award_received nobel prize in physiology or medicine
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+educated_at sydenham college
+date_of_birth 03 september 2003
+date_of_birth 17 september 1986 place_of_birth chennai
+date_of_birth 30 june 1988
+date_of_birth 06 november 1936
+country_of_citizenship british india country_of_citizenship india date_of_birth 03 june 1944 occupation politician
+date_of_birth 27 june 1872
+date_of_birth 29 august 1923 place_of_birth cambridge
+country_of_citizenship russian empire languages_spoken,_written_or_signed russian place_of_birth odessa
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death january 2011
+country_of_citizenship india occupation politician
+date_of_birth 09 october 1876 date_of_death 24 june 1947
+date_of_birth 17 october 1970 place_of_birth bengaluru
+country_of_citizenship india date_of_birth 26 june 1993 place_of_birth mumbai
+date_of_death 25 february 1939
+country_of_citizenship south korea date_of_birth 25 february 1953 occupation actor occupation television actor occupation film actor
+date_of_birth 12 june 1956
+date_of_death 07 february 2018
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_death 26 september 2019 place_of_death paris
+date_of_birth 08 may 1956
+country_of_citizenship india date_of_birth 27 december 1976 occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_birth 22 february 1987
+date_of_birth 19 september 1880 place_of_birth bengaluru
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 04 june 1937
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 02 april 1851
+country_of_citizenship pakistan employer pakistan army military_branch pakistan army position_held president of pakistan position_held chief of army staff
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+occupation television actor occupation actor
+country_of_citizenship india occupation politician
+date_of_birth 28 june 1981
+country_of_citizenship france date_of_birth 23 november 1953 place_of_birth agen
+date_of_death 04 march 2011
+date_of_death 15 december 1675
+country_of_citizenship united states of america occupation film director
+date_of_death 07 november 2011
+country_of_citizenship india date_of_birth 18 april 1959 member_of_political_party bharatiya janata party occupation politician position_held member of the delhi legislative assembly
+date_of_birth 11 march 1980
+date_of_birth 03 december 1924
+feast_day august 28
+date_of_birth 01 april 1927
+educated_at university of manchester
+country_of_citizenship india occupation politician
+member_of_political_party lok janshakti party occupation politician
+date_of_death 04 march 1967
+date_of_birth 11 november 1993
+date_of_death 10 october 1995
+date_of_birth 06 april 1886
+place_of_birth buenos aires
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+spouse s. s. rajendran
+date_of_birth 05 october 1975
+place_of_birth colorado springs
+date_of_birth 15 october 1879
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 02 july 1953
+date_of_birth 04 january 1923
+date_of_birth 01 december 1894
+country_of_citizenship south korea date_of_birth 01 may 1983 occupation actor occupation film actor
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+educated_at uppsala university educated_at stockholm university
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation actor
+country_of_citizenship sri lanka occupation politician position_held minister of foreign affairs of sri lanka
+date_of_birth 10 december 2001
+country_of_citizenship india occupation politician
+date_of_birth 25 december 1877
+country_of_citizenship india member_of_political_party bharatiya janata party occupation politician
+date_of_death 23 july 1942
+member_of_political_party bharatiya janata party occupation politician
+occupation writer occupation poet
+feast_day august 1 religion catholic church
+occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 15 may 1989 place_of_death sydney
+sibling s. p. sailaja
+member_of_political_party bharatiya janata party occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 17 march 1849
+date_of_death 03 july 1985
+member_of_political_party bharatiya janata party
+educated_at bombay scottish school
+occupation cricketer
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india member_of_political_party communist party of india marxist occupation politician position_held member of rajya sabha
+founded_by gemini studios occupation film producer
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 27 october 1981
+educated_at falinge park high school
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 20 december 1994
+date_of_death 23 january 1791
+member_of_political_party dravida munnetra kazhagam
+member_of_political_party dravida munnetra kazhagam
+member_of_political_party dravida munnetra kazhagam occupation politician
+country_of_citizenship australia date_of_birth 02 june 1989 place_of_birth sydney
+date_of_birth 05 november 1988 place_of_birth delhi
+country_of_citizenship india date_of_birth 16 october 1924 occupation politician
+country_of_citizenship india date_of_birth 15 august 1927 occupation politician
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_birth 16 january 1973
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_death 25 october 1975
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+award_received fukuoka asian culture prize
+date_of_birth 31 august 1949 employer california institute of technology occupation theoretical physicist occupation physicist occupation nuclear physicist
+date_of_birth 09 september 1953
+educated_at the lawrence school sanawar
+member_of_political_party dravida munnetra kazhagam occupation politician
+member_of_political_party telangana rashtra samithi
+date_of_birth 27 june 1973
+country_of_citizenship argentina date_of_birth 24 august 1899 place_of_birth buenos aires
+date_of_birth 22 december 1945
+date_of_birth 30 september 1959
+date_of_birth 26 february 1960
+date_of_birth 25 november 1881
+date_of_birth 31 october 1946
+country_of_citizenship india date_of_birth 10 december 1988 occupation cricketer
+occupation boxer participant_in 2016 summer olympics sport boxing
+educated_at colegio de san jose educated_at university of santo tomas
+date_of_death 15 december 1890
+award_received nobel prize in physiology or medicine
+date_of_birth 11 december 1936
+date_of_death 11 july 1946
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 22 october 1811
+date_of_birth 09 june 1971
+date_of_death 24 february 2011
+date_of_death 26 july 1934
+date_of_birth 25 november 1969
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_death 29 june 2016
+date_of_birth 24 february 1966
+date_of_birth 11 november 1916
+date_of_birth 08 september 1957
+date_of_birth 25 july 1915
+date_of_birth 30 april 1967
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_birth 09 may 1992
+date_of_birth 31 may 1952
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_death 30 may 2016
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_death 23 june 1939
+member_of_political_party marumalarchi dravida munnetra kazhagam occupation politician
+date_of_birth 29 october 1974
+date_of_birth 14 november 1993
+date_of_birth 20 may 1986
+candidacy_in_election 2014 indian general election in hajipur lok sabha constituency occupation politician
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 23 may 1973
+date_of_death 11 february 1998 place_of_death cuttack
+date_of_birth 10 june 1938
+date_of_death 29 june 2000
+date_of_birth 31 july 1990
+date_of_birth 25 april 1962
+date_of_birth 24 may 1950
+date_of_birth 25 october 1984
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+date_of_birth 01 july 1812 place_of_birth jeddah
+date_of_birth 29 may 1965
+member_of_political_party telangana rashtra samithi occupation politician
+date_of_birth 20 january 1946
+occupation politician position_held member of the 17th lok sabha
+country_of_citizenship india occupation politician position_held member of the tamil nadu legislative assembly
+award_received nandi awards occupation actor
+country_of_citizenship india date_of_birth 03 december 1991 occupation cricketer
+member_of australian academy of science member_of royal society
+date_of_birth 15 september 1895
+date_of_death 30 september 2005
+date_of_death 04 november 2013
+date_of_birth 16 december 1882 place_of_birth cambridge
+date_of_death 20 august 2014 place_of_death new york city
+date_of_birth 31 december 1951
+date_of_death 30 november 1915
+member_of_political_party dravida munnetra kazhagam occupation politician
