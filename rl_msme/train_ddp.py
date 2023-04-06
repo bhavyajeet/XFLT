@@ -69,6 +69,15 @@ all_langs = ['as', 'bn', 'en', 'hi', 'gu', 'or', 'te', 'ta', 'kn', 'ml', 'pa', '
 
 #     return {'nerloss': sum(nerlosses)/len(nerlosses), 'secloss': sum(seclosses)/len(seclosses)}
 
+def add_special_tokens(tokenizer):
+        new_tokens = ['<H>', '<R>', '<T>', '<QR>', '<QT>', '<S>', '<BR>']
+        new_tokens_vocab = {}
+        new_tokens_vocab['additional_special_tokens'] = []
+        for idx, t in enumerate(new_tokens):
+            new_tokens_vocab['additional_special_tokens'].append(t)
+        num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
+        return tokenizer 
+
 def calcReward(batch, logits, foreign, input_text, pred_text, titletok, titlemodel, titledevice, nertok, nermodel, nerdevice, nerf_pipeline):
     nerlosses = []
     seclosses = []
@@ -188,6 +197,14 @@ def main():
     foreign = {'en', 'fr', 'es', 'de', 'it'}
     ic(f"getting tokenizer {local_rank}")
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path)
+
+    new_tokens = ['<H>', '<R>', '<T>', '<QR>', '<QT>', '<S>']
+    new_tokens_vocab = {}
+    new_tokens_vocab['additional_special_tokens'] = []
+    for idx, t in enumerate(new_tokens):
+        new_tokens_vocab['additional_special_tokens'].append(t)
+    num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
+
     ic(f"got tokenizer {local_rank}")
     # train_dataset = ModelDataset(
     #     train_path,

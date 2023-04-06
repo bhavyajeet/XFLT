@@ -1,0 +1,19 @@
+
+[38mic| model_gpus: [3]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                                                  | 0/5 [00:00<?, ?it/s, loss=3]
+
+
+  0%|▎                                                                                                                                                                                              | 9/6771 [00:01<17:53,  6.30it/s]
+ 20%|█████████████████████████████████████▏                                                                                                                                                    | 1/5 [00:06<00:26,  6.72s/it, loss=3]
+Traceback (most recent call last):
+  File "train_ddp.py", line 414, in <module>
+    main()
+  File "train_ddp.py", line 315, in main
+    dist.barrier()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 3144, in barrier
+    default_pg = _get_default_group()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 585, in _get_default_group
+    "Default process group has not been initialized, "
+RuntimeError: Default process group has not been initialized, please make sure to call init_process_group.

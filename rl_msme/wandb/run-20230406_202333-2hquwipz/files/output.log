@@ -1,0 +1,22 @@
+
+[38mic| model_gpus: [0]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                   | 0/5 [00:00<?, ?it/s, loss=0]
+
+[38mic| f"Model number {local_rank} saving": 'Model number 0 saving'[39m                                                                                  | 9/33932 [00:03<2:31:32,  3.73it/s, model_number=0]
+ 20%|███████████████████████████████                                                                                                                            | 1/5 [00:06<00:27,  6.96s/it, loss=0]
+
+[38mic| f"Model number {local_rank} saving": 'Model number 0 saving'[39m                                                                                  | 9/33932 [00:01<1:52:01,  5.05it/s, model_number=0]
+  0%|▏                                                                                                                                                               | 9/6771 [00:01<18:09,  6.21it/s]
+ 20%|███████████████████████████████                                                                                                                            | 1/5 [00:12<00:49, 12.50s/it, loss=0]
+Traceback (most recent call last):
+  File "train_ddp.py", line 414, in <module>
+    main()
+  File "train_ddp.py", line 411, in main
+    cleanup()
+  File "train_ddp.py", line 38, in cleanup
+    dist.destroy_process_group()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/distributed/distributed_c10d.py", line 997, in destroy_process_group
+    assert pg is not None
+AssertionError

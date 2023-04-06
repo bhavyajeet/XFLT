@@ -1,0 +1,89 @@
+2023-04-06 23:22:11,833 INFO    MainThread:22776 [internal.py:wandb_internal():89] W&B internal server running at pid: 22776, started at: 2023-04-06 23:22:11.832565
+2023-04-06 23:22:11,837 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: check_version
+2023-04-06 23:22:11,837 INFO    WriterThread:22776 [datastore.py:open_for_write():77] open: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/run-6yum1vj1.wandb
+2023-04-06 23:22:11,841 DEBUG   SenderThread:22776 [sender.py:send():185] send: header
+2023-04-06 23:22:11,841 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: check_version
+2023-04-06 23:22:11,956 DEBUG   SenderThread:22776 [sender.py:send():185] send: run
+2023-04-06 23:22:12,519 INFO    SenderThread:22776 [dir_watcher.py:__init__():169] watching files in: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files
+2023-04-06 23:22:12,520 INFO    SenderThread:22776 [sender.py:_start_run_threads():749] run started: 6yum1vj1 with start time 1680803530
+2023-04-06 23:22:12,520 DEBUG   SenderThread:22776 [sender.py:send():185] send: summary
+2023-04-06 23:22:12,521 INFO    SenderThread:22776 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-04-06 23:22:12,523 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: run_start
+2023-04-06 23:22:13,524 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/wandb-summary.json
+2023-04-06 23:22:16,484 DEBUG   HandlerThread:22776 [meta.py:__init__():40] meta init
+2023-04-06 23:22:16,484 DEBUG   HandlerThread:22776 [meta.py:__init__():54] meta init done
+2023-04-06 23:22:16,485 DEBUG   HandlerThread:22776 [meta.py:probe():211] probe
+2023-04-06 23:22:16,492 DEBUG   HandlerThread:22776 [meta.py:_setup_git():201] setup git
+2023-04-06 23:22:16,546 DEBUG   HandlerThread:22776 [meta.py:_setup_git():208] setup git done
+2023-04-06 23:22:16,546 DEBUG   HandlerThread:22776 [meta.py:_save_pip():58] save pip
+2023-04-06 23:22:16,548 DEBUG   HandlerThread:22776 [meta.py:_save_pip():72] save pip done
+2023-04-06 23:22:16,548 DEBUG   HandlerThread:22776 [meta.py:_save_conda():79] save conda
+2023-04-06 23:22:17,539 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/requirements.txt
+2023-04-06 23:22:17,541 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/conda-environment.yaml
+2023-04-06 23:22:17,542 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:20,542 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:22,966 DEBUG   HandlerThread:22776 [meta.py:_save_conda():87] save conda done
+2023-04-06 23:22:22,967 DEBUG   HandlerThread:22776 [meta.py:probe():249] probe done
+2023-04-06 23:22:22,974 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-06 23:22:22,976 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: stop_status
+2023-04-06 23:22:23,324 DEBUG   SenderThread:22776 [sender.py:send():185] send: run
+2023-04-06 23:22:23,546 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/config.yaml
+2023-04-06 23:22:23,546 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/conda-environment.yaml
+2023-04-06 23:22:23,547 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/wandb-metadata.json
+2023-04-06 23:22:23,773 INFO    SenderThread:22776 [sender.py:send_run():643] updated run: 6yum1vj1
+2023-04-06 23:22:23,773 DEBUG   SenderThread:22776 [sender.py:send():185] send: files
+2023-04-06 23:22:23,776 INFO    SenderThread:22776 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2023-04-06 23:22:24,735 INFO    Thread-11 :22776 [upload_job.py:push():137] Uploaded file /tmp/tmpsp8iq_ezwandb/6hgltxiu-wandb-metadata.json
+2023-04-06 23:22:26,549 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:28,550 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:30,552 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:32,554 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:36,558 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:38,331 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-06 23:22:38,332 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: stop_status
+2023-04-06 23:22:40,562 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:42,564 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:44,568 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:45,778 DEBUG   SenderThread:22776 [sender.py:send():185] send: stats
+2023-04-06 23:22:46,570 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:50,574 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:53,703 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-06 23:22:53,704 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: stop_status
+2023-04-06 23:22:54,578 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:22:56,581 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:00,585 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:02,587 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:04,589 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:08,595 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:09,078 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-06 23:23:09,079 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: stop_status
+2023-04-06 23:23:10,597 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:14,601 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:16,986 DEBUG   SenderThread:22776 [sender.py:send():185] send: stats
+2023-04-06 23:23:18,606 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:20,608 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:22,610 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:24,451 DEBUG   HandlerThread:22776 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-06 23:23:24,452 DEBUG   SenderThread:22776 [sender.py:send_request():199] send_request: stop_status
+2023-04-06 23:23:24,612 INFO    Thread-8  :22776 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:32,924 WARNING MainThread:22776 [internal.py:is_dead():365] Internal process exiting, parent pid 22401 disappeared
+2023-04-06 23:23:32,925 ERROR   MainThread:22776 [internal.py:wandb_internal():141] Internal process shutdown.
+2023-04-06 23:23:33,469 INFO    HandlerThread:22776 [handler.py:finish():683] shutting down handler
+2023-04-06 23:23:33,705 INFO    WriterThread:22776 [datastore.py:close():281] close: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/run-6yum1vj1.wandb
+2023-04-06 23:23:33,844 INFO    SenderThread:22776 [sender.py:finish():986] shutting down sender
+2023-04-06 23:23:33,844 INFO    SenderThread:22776 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-04-06 23:23:34,615 INFO    SenderThread:22776 [dir_watcher.py:finish():313] scan: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files
+2023-04-06 23:23:34,616 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/requirements.txt requirements.txt
+2023-04-06 23:23:34,617 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/wandb-summary.json wandb-summary.json
+2023-04-06 23:23:34,625 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/config.yaml config.yaml
+2023-04-06 23:23:34,626 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log output.log
+2023-04-06 23:23:34,634 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/conda-environment.yaml conda-environment.yaml
+2023-04-06 23:23:34,646 INFO    SenderThread:22776 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/wandb-metadata.json wandb-metadata.json
+2023-04-06 23:23:34,646 INFO    SenderThread:22776 [file_pusher.py:finish():177] shutting down file pusher
+2023-04-06 23:23:34,652 INFO    SenderThread:22776 [file_pusher.py:join():182] waiting for file pusher
+2023-04-06 23:23:35,631 INFO    Thread-13 :22776 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/wandb-summary.json
+2023-04-06 23:23:35,639 INFO    Thread-16 :22776 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/conda-environment.yaml
+2023-04-06 23:23:35,659 INFO    Thread-15 :22776 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/output.log
+2023-04-06 23:23:35,667 INFO    Thread-14 :22776 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/config.yaml
+2023-04-06 23:23:35,790 INFO    Thread-12 :22776 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230406_232209-6yum1vj1/files/requirements.txt
+2023-04-06 23:23:36,493 INFO    MainThread:22776 [internal.py:handle_exit():76] Internal process exited

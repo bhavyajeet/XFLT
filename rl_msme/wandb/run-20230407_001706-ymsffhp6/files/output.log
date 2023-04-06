@@ -1,0 +1,138 @@
+
+[38mic| model_gpus: [3]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s, loss=3][38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 51])[39m                                                                                                    | 0/33932 [00:00<?, ?it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0>cychescych锘 2017...1814ISON <extra_id_56>',
+[38m                                                                        '<extra_id_0> a  <extra_id_4> < <extra_id_31> <extra_id_32>べ <extra_id_31> '
+[38m                                                                        '<extra_id_31> <extra_id_32> <extra_id_30> <extra_id_31> <extra_id_30> '
+[38m                                                                        '<extra_id_31> <extra_id_30> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0>']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 41])[39m                                                                                         | 1/33932 [00:01<15:03:27,  1.60s/it, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0> <extra_id_0> <extra_id_34>脍 <extra_id_51> <extra_id_55>, '
+[38m                                                                        '<extra_id_41>ه-,.... Cities <extra_id_0> <extra_id_0> <extra_id_0>',
+[38m                                                                        '<extra_id_0> <extra_id_46> <extra_id_31>ультXzFfулан <extra_id_55> '
+[38m                                                                        '<extra_id_31> <extra_id_31> <extra_id_31>껍க்கீ <extra_id_4> '
+[38m                                                                        '<extra_id_31>困りуланgen']
+[38m    greedy_idx.shape: torch.Size([2, 64])[39m                                                                                         | 2/33932 [00:01<11:05:21,  1.18s/it, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0> <extra_id_31>ad...otvetyrhomework,.,  > > > > >ball < '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0>',
+[38m                                                                        '<extra_id_0> <extra_id_31>rnberg <extra_id_11>jāmельна']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 54])[39m                                                                                          | 3/33932 [00:02<8:20:37,  1.13it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0>XzFfρμο- <extra_id_31> <extra_id_14> <extra_id_10> <extra_id_11> '
+[38m                                                                        '<extra_id_4>orph <extra_id_31> <extra_id_46> <extra_id_14> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0>',
+[38m                                                                        '<extra_id_0>shall <extra_id_10>..._s𓆡licitud   <extra_id_28>esar_s   i) '
+[38m                                                                        'cricket.cricket) cricket cricketyleклар    <extra_id_34> <extra_id_29>   '
+[38m                                                                        'cricket ']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 57])[39m                                                                                          | 4/33932 [00:02<6:21:31,  1.48it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0>a <extra_id_31> <extra_id_31>-poetry <extra_id_31>y '
+[38m                                                                        '<extra_id_31>npoetrypeech <extra_id_31>-ward <extra_id_32> <extra_id_31> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0>',
+[38m                                                                        '<extra_id_0> <extra_id_39> <extra_id_50>ow ... –']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 34])[39m                                                                                          | 5/33932 [00:02<4:57:16,  1.90it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0> <extra_id_31>-siapa <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0>',
+[38m                                                                        '<extra_id_0>~$( <extra_id_52>ector <extra_id_32>- <extra_id_31>r '
+[38m                                                                        '<extra_id_55>2018 <extra_id_32> <extra_id_31>...']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 38])[39m                                                                                          | 6/33932 [00:02<4:03:53,  2.32it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0>~$( <extra_id_51> <extra_id_31> <extra_id_30> <extra_id_31>улан '
+[38m                                                                        '<extra_id_4> <extra_id_30> <extra_id_4>компресскомпресс <extra_id_4>улан '
+[38m                                                                        '<extra_id_31> <extra_id_31> <extra_id_30>улан',
+[38m                                                                        '<extra_id_0>e < <extra_id_36>chneiaловнаcockловна <extra_id_51>February '
+[38m                                                                        '1954. thic <extra_id_51> ']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 39])[39m                                                                                          | 7/33932 [00:02<3:20:33,  2.82it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['<extra_id_0>улан <extra_id_31> <extra_id_31> <extra_id_31>er <extra_id_14> '
+[38m                                                                        '<extra_id_31>껍087 <extra_id_54> <extra_id_27> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0>',
+[38m                                                                        '<extra_id_0>XzFfуланlalotaip <extra_id_2>⸢ <extra_id_31> <extra_id_55> '
+[38m                                                                        '<extra_id_55>esar <extra_id_51> <extra_id_51>⸢ <extra_id_55> <extra_id_1> '
+[38m                                                                        '<extra_id_55> <extra_id_1> <extra_id_55> <extra_id_1>ညွsबसar <extra_id_5>, '
+[38m                                                                        '<extra_id_15>']
+                                                                                                                                                                                       [38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 29])[39m                                                                                          | 8/33932 [00:02<2:54:12,  3.25it/s, model_number=3]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['<extra_id_0>', '<extra_id_0>']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ["<extra_id_0>. <extra_id_56>Makai <extra_id_6> _'xliga <extra_id_1>- ee "
+[38m                                                                        '<extra_id_7>  _    <extra_id_0> <extra_id_0> <extra_id_0> <extra_id_0> '
+[38m                                                                        '<extra_id_0>',
+[38m                                                                        '<extra_id_0>огато <extra_id_33> <extra_id_56> <extra_id_55>   <extra_id_55> '
+[38m                                                                        "<extra_id_4> and and/  <extra_id_48>''20107&"]
+                                                                                                                                                                                       Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fc9af9c43b0>
+Traceback (most recent call last):                                                                                                 | 9/33932 [00:03<2:31:43,  3.73it/s, model_number=3]
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|                                                                                                                              | 9/33932 [00:03<3:22:34,  2.79it/s, model_number=3]
+  0%|                                                                                                                                                    | 0/5 [00:03<?, ?it/s, loss=3]
+Traceback (most recent call last):
+  File "train_ddp.py", line 422, in <module>
+    main()
+  File "train_ddp.py", line 332, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 89, in middle
+    outputs = self(batch)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 63, in forward
+    outputs = self.model(input_ids=batch['input_ids'], attention_mask=batch['attention_mask'], labels=batch['labels'])
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1748, in forward
+    return_dict=return_dict,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1056, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 563, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 460, in forward
+    normed_hidden_states = self.layer_norm(hidden_states)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 126, in forward
+    hidden_states = hidden_states * torch.rsqrt(variance + self.variance_epsilon)
+KeyboardInterrupt

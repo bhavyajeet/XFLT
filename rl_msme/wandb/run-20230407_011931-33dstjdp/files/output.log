@@ -1,0 +1,85 @@
+
+[38mic| model_gpus: [2]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                   | 0/5 [00:00<?, ?it/s, loss=2]
+[38m    greedy_idx.shape: torch.Size([2, 21])[39m                                                                                                                    | 0/9561 [00:00<?, ?it/s, model_number=2]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ["१९४० - एर दशके,'रोम, ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', "
+[38m                                                                           "', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', ', "
+[38m                                                                           "', ', ', ', ', ', ', ', ', ', ', ', ', ', '",
+[38m                                                                           'राहुल बजाज ( जन्म 10 ജൂन 1938 ), यिनि राहुल बजाज नामे अधिक परिचित, एक '
+[38m                                                                           'भारतीय़ - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - '
+[38m                                                                           'पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी '
+[38m                                                                           '- पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - '
+[38m                                                                           'पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी '
+[38m                                                                           '- पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - '
+[38m                                                                           'पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी '
+[38m                                                                           '- पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - '
+[38m                                                                           'पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी - पाकिस्तानी ']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['onaroला,   a  elsewhere,      ',
+[38m                                                                        'राहul Bajaj (  10 June 1938 )   Indian illionaire man, ']
+[38m    greedy_idx.shape: torch.Size([2, 22])[39m                                                                                                         | 1/9561 [00:04<11:52:35,  4.47s/it, model_number=2]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['माहिमा नमबिय़ार ( जन्मः १९६३ ), माहिमा नामिबिय़ार नामे अधिक परिचित, एक '
+[38m                                                                           'भारतीय अभिनेत्री, यिनि तेलुगु, तामिल, तेलुगु, तेलुगु, तामिल, तेलुगु, तेलुगु, '
+[38m                                                                           'तेलुगु, तामिल, तेलुगु, तेलुगु, तेलुगु, तेलुगु, तामिल, तेलुगु, तेलुगु, '
+[38m                                                                           'तेलुगु, तेलुगु, तेलुगु, तेलुगु, तेलुगु, तामिल, तेलुगु, तेलुगु, तेलुगु, '
+[38m                                                                           'तेलुगु, तेलुगु, तामिल, तेलुगु, तेलुगु, तेलुगु, तेलुगु, तेलुगु, तामिल, '
+[38m                                                                           'तेलुगु,',
+[38m                                                                           'उसमानीय़ साम्राज्येर ग्रान्ड विजिर ( ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; '
+[38m                                                                           '; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; '
+[38m                                                                           '; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; '
+[38m                                                                           '; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): ['ima biar ( an Indian actress  appears in   ते films and,',
+[38m                                                                        '   vizier of the Ottoman Empire from 1406  1413,   ']
+Traceback (most recent call last):                                                                                                                | 2/9561 [00:07<10:57:27,  4.13s/it, model_number=2]
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|                                                                                                                                             | 2/9561 [00:09<12:32:03,  4.72s/it, model_number=2]
+  0%|                                                                                                                                                                   | 0/5 [00:09<?, ?it/s, loss=2]
+Traceback (most recent call last):
+  File "train_ddp.py", line 439, in <module>
+    main()
+  File "train_ddp.py", line 349, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 92, in middle
+    max_length=self.tgt_max_seq_len
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 1415, in generate
+    **model_kwargs,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 2205, in greedy_search
+    output_hidden_states=output_hidden_states,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1748, in forward
+    return_dict=return_dict,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1056, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 591, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 505, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 420, in forward
+    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/functional.py", line 1841, in softmax
+    ret = input.softmax(dim)
+KeyboardInterrupt

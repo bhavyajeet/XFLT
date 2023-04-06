@@ -1,0 +1,15 @@
+[38mic| model_gpus: [0]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                           | 0/5 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                           | 0/5 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "train_ddp.py", line 405, in <module>
+    main()
+  File "train_ddp.py", line 320, in main
+    middle_output = model.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model.py", line 94, in middle
+    return {'main_loss': sum(loss)/len(loss), 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/_tensor.py", line 916, in __iter__
+    raise TypeError("iteration over a 0-d tensor")
+TypeError: iteration over a 0-d tensor

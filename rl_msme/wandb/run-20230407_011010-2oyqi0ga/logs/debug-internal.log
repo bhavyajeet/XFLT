@@ -1,0 +1,177 @@
+2023-04-07 01:10:12,683 INFO    MainThread:23966 [internal.py:wandb_internal():89] W&B internal server running at pid: 23966, started at: 2023-04-07 01:10:12.682434
+2023-04-07 01:10:12,686 INFO    WriterThread:23966 [datastore.py:open_for_write():77] open: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/run-2oyqi0ga.wandb
+2023-04-07 01:10:12,687 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: check_version
+2023-04-07 01:10:12,690 DEBUG   SenderThread:23966 [sender.py:send():185] send: header
+2023-04-07 01:10:12,690 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: check_version
+2023-04-07 01:10:12,814 DEBUG   SenderThread:23966 [sender.py:send():185] send: run
+2023-04-07 01:10:14,101 INFO    SenderThread:23966 [dir_watcher.py:__init__():169] watching files in: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files
+2023-04-07 01:10:14,101 INFO    SenderThread:23966 [sender.py:_start_run_threads():749] run started: 2oyqi0ga with start time 1680810010
+2023-04-07 01:10:14,101 DEBUG   SenderThread:23966 [sender.py:send():185] send: summary
+2023-04-07 01:10:14,102 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: run_start
+2023-04-07 01:10:14,104 INFO    SenderThread:23966 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-04-07 01:10:15,108 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-summary.json
+2023-04-07 01:10:18,076 DEBUG   HandlerThread:23966 [meta.py:__init__():40] meta init
+2023-04-07 01:10:18,076 DEBUG   HandlerThread:23966 [meta.py:__init__():54] meta init done
+2023-04-07 01:10:18,076 DEBUG   HandlerThread:23966 [meta.py:probe():211] probe
+2023-04-07 01:10:18,085 DEBUG   HandlerThread:23966 [meta.py:_setup_git():201] setup git
+2023-04-07 01:10:18,131 DEBUG   HandlerThread:23966 [meta.py:_setup_git():208] setup git done
+2023-04-07 01:10:18,132 DEBUG   HandlerThread:23966 [meta.py:_save_pip():58] save pip
+2023-04-07 01:10:18,134 DEBUG   HandlerThread:23966 [meta.py:_save_pip():72] save pip done
+2023-04-07 01:10:18,134 DEBUG   HandlerThread:23966 [meta.py:_save_conda():79] save conda
+2023-04-07 01:10:19,116 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:19,117 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/conda-environment.yaml
+2023-04-07 01:10:19,117 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/requirements.txt
+2023-04-07 01:10:22,119 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:24,818 DEBUG   HandlerThread:23966 [meta.py:_save_conda():87] save conda done
+2023-04-07 01:10:24,819 DEBUG   HandlerThread:23966 [meta.py:probe():249] probe done
+2023-04-07 01:10:24,828 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-07 01:10:24,828 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: stop_status
+2023-04-07 01:10:25,123 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/conda-environment.yaml
+2023-04-07 01:10:25,123 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_created():217] file/dir created: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-metadata.json
+2023-04-07 01:10:25,164 DEBUG   SenderThread:23966 [sender.py:send():185] send: run
+2023-04-07 01:10:25,581 INFO    SenderThread:23966 [sender.py:send_run():643] updated run: 2oyqi0ga
+2023-04-07 01:10:25,582 DEBUG   SenderThread:23966 [sender.py:send():185] send: files
+2023-04-07 01:10:25,584 INFO    SenderThread:23966 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2023-04-07 01:10:26,124 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:26,125 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/config.yaml
+2023-04-07 01:10:26,582 INFO    Thread-11 :23966 [upload_job.py:push():137] Uploaded file /tmp/tmpejgygew8wandb/1qfm0n41-wandb-metadata.json
+2023-04-07 01:10:28,127 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:32,131 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:34,134 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:38,139 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:40,165 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-07 01:10:40,166 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: stop_status
+2023-04-07 01:10:42,143 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:44,145 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:47,446 DEBUG   SenderThread:23966 [sender.py:send():185] send: stats
+2023-04-07 01:10:48,150 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:50,153 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:54,156 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:55,495 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: stop_status
+2023-04-07 01:10:55,495 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: stop_status
+2023-04-07 01:10:56,159 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:10:58,161 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:11:02,165 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:11:04,487 WARNING MainThread:23966 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-04-07 01:11:06,169 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:11:06,919 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:06,920 DEBUG   SenderThread:23966 [sender.py:send():185] send: telemetry
+2023-04-07 01:11:06,920 DEBUG   SenderThread:23966 [sender.py:send():185] send: exit
+2023-04-07 01:11:06,921 INFO    SenderThread:23966 [sender.py:send_exit():294] handling exit code: 255
+2023-04-07 01:11:06,922 INFO    SenderThread:23966 [sender.py:send_exit():296] handling runtime: 52
+2023-04-07 01:11:06,923 INFO    SenderThread:23966 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-04-07 01:11:06,924 INFO    SenderThread:23966 [sender.py:send_exit():306] send defer
+2023-04-07 01:11:06,924 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:06,925 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:06,926 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 0
+2023-04-07 01:11:06,926 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:06,926 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 0
+2023-04-07 01:11:06,926 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 1
+2023-04-07 01:11:06,927 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:06,927 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 1
+2023-04-07 01:11:07,022 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:07,022 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 1
+2023-04-07 01:11:07,022 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 2
+2023-04-07 01:11:07,022 DEBUG   SenderThread:23966 [sender.py:send():185] send: stats
+2023-04-07 01:11:07,023 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:07,023 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 2
+2023-04-07 01:11:07,028 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:07,029 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:07,029 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 2
+2023-04-07 01:11:07,029 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 3
+2023-04-07 01:11:07,030 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:07,031 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:07,031 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 3
+2023-04-07 01:11:07,031 DEBUG   SenderThread:23966 [sender.py:send():185] send: summary
+2023-04-07 01:11:07,033 INFO    SenderThread:23966 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2023-04-07 01:11:07,034 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:07,034 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 3
+2023-04-07 01:11:07,034 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 4
+2023-04-07 01:11:07,035 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:07,035 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 4
+2023-04-07 01:11:07,035 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:07,035 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 4
+2023-04-07 01:11:07,132 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:07,170 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:11:07,171 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-summary.json
+2023-04-07 01:11:07,503 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 5
+2023-04-07 01:11:07,503 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:07,504 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:07,504 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 5
+2023-04-07 01:11:07,505 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:07,505 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 5
+2023-04-07 01:11:07,505 INFO    SenderThread:23966 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-04-07 01:11:07,606 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,171 INFO    Thread-8  :23966 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/config.yaml
+2023-04-07 01:11:08,173 INFO    SenderThread:23966 [dir_watcher.py:finish():313] scan: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files
+2023-04-07 01:11:08,173 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/requirements.txt requirements.txt
+2023-04-07 01:11:08,174 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-summary.json wandb-summary.json
+2023-04-07 01:11:08,174 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/config.yaml config.yaml
+2023-04-07 01:11:08,188 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log output.log
+2023-04-07 01:11:08,190 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/conda-environment.yaml conda-environment.yaml
+2023-04-07 01:11:08,203 INFO    SenderThread:23966 [dir_watcher.py:finish():327] scan save: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-metadata.json wandb-metadata.json
+2023-04-07 01:11:08,203 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 6
+2023-04-07 01:11:08,204 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,206 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:08,206 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 6
+2023-04-07 01:11:08,207 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:08,208 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 6
+2023-04-07 01:11:08,208 INFO    SenderThread:23966 [file_pusher.py:finish():177] shutting down file pusher
+2023-04-07 01:11:08,308 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,308 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,410 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,411 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,513 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,513 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,615 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,616 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,718 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,718 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,820 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,820 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:08,923 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:08,923 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,025 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,025 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,127 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,128 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,186 INFO    Thread-12 :23966 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/requirements.txt
+2023-04-07 01:11:09,200 INFO    Thread-16 :23966 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/conda-environment.yaml
+2023-04-07 01:11:09,205 INFO    Thread-14 :23966 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/config.yaml
+2023-04-07 01:11:09,220 INFO    Thread-15 :23966 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/output.log
+2023-04-07 01:11:09,220 INFO    Thread-13 :23966 [upload_job.py:push():137] Uploaded file /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/files/wandb-summary.json
+2023-04-07 01:11:09,230 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,230 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,332 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,332 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,421 INFO    Thread-7  :23966 [sender.py:transition_state():319] send defer: 7
+2023-04-07 01:11:09,421 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:09,422 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 7
+2023-04-07 01:11:09,422 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:09,422 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 7
+2023-04-07 01:11:09,434 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,735 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 8
+2023-04-07 01:11:09,735 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,736 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:09,736 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 8
+2023-04-07 01:11:09,737 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:09,737 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 8
+2023-04-07 01:11:09,737 INFO    SenderThread:23966 [sender.py:transition_state():319] send defer: 9
+2023-04-07 01:11:09,738 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: defer
+2023-04-07 01:11:09,738 DEBUG   SenderThread:23966 [sender.py:send():185] send: final
+2023-04-07 01:11:09,739 INFO    HandlerThread:23966 [handler.py:handle_request_defer():143] handle defer: 9
+2023-04-07 01:11:09,739 DEBUG   SenderThread:23966 [sender.py:send():185] send: footer
+2023-04-07 01:11:09,739 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: defer
+2023-04-07 01:11:09,739 INFO    SenderThread:23966 [sender.py:send_request_defer():315] handle sender defer: 9
+2023-04-07 01:11:09,838 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: poll_exit
+2023-04-07 01:11:09,838 DEBUG   SenderThread:23966 [sender.py:send_request():199] send_request: poll_exit
+2023-04-07 01:11:09,838 INFO    SenderThread:23966 [file_pusher.py:join():182] waiting for file pusher
+2023-04-07 01:11:10,517 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: get_summary
+2023-04-07 01:11:10,518 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: sampled_history
+2023-04-07 01:11:10,520 DEBUG   HandlerThread:23966 [handler.py:handle_request():126] handle_request: shutdown
+2023-04-07 01:11:10,520 INFO    HandlerThread:23966 [handler.py:finish():683] shutting down handler
+2023-04-07 01:11:10,738 INFO    WriterThread:23966 [datastore.py:close():281] close: /home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/wandb/run-20230407_011010-2oyqi0ga/run-2oyqi0ga.wandb
+2023-04-07 01:11:11,515 INFO    SenderThread:23966 [sender.py:finish():986] shutting down sender
+2023-04-07 01:11:11,515 INFO    SenderThread:23966 [file_pusher.py:finish():177] shutting down file pusher
+2023-04-07 01:11:11,515 INFO    SenderThread:23966 [file_pusher.py:join():182] waiting for file pusher
+2023-04-07 01:11:11,520 INFO    MainThread:23966 [internal.py:handle_exit():76] Internal process exited

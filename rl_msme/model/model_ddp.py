@@ -43,6 +43,11 @@ class GenModel(torch.nn.Module):
         self.config = AutoConfig.from_pretrained(config)
         if self.is_mt5:
             self.model = MT5ForConditionalGeneration.from_pretrained(self.model_name_or_path)
+            self.model.resize_token_embeddings(len(self.tokenizer))
+            ckpt_state_dict = torch.load("/home2/aditya_hari/multisent/baselines/epoch15.ckpt")["state_dict"]
+            ckpt_state_dict = {key[6:]:value for key, value in ckpt_state_dict.items()}
+            self.model.load_state_dict(ckpt_state_dict)
+
         else:
             self.model = MBartForConditionalGeneration.from_pretrained(self.model_name_or_path)
 

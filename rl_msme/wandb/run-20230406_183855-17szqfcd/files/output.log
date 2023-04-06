@@ -1,0 +1,555 @@
+
+[38mic| model_gpus: [2]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+[38mic| vars(model): {'_backward_hooks': OrderedDict(),
+[38m                  '_buffers': OrderedDict(),
+[38m                  '_forward_hooks': OrderedDict(),
+[38m                  '_forward_pre_hooks': OrderedDict(),
+[38m                  '_has_rebuilt_buckets': False,
+[38m                  '_is_full_backward_hook': None,
+[38m                  '_join_config': _JoinConfig(enable=False, throw_on_early_termination=False, is_first_joinable=False),
+[38m                  '_load_state_dict_post_hooks': OrderedDict(),
+[38m                  '_load_state_dict_pre_hooks': OrderedDict(),
+[38m                  '_modules': OrderedDict([('module',
+[38m                                            GenModel(
+[38m                   (model): MT5ForConditionalGeneration(
+[38m                     (shared): Embedding(250112, 512)
+[38m                     (encoder): MT5Stack(
+[38m                       (embed_tokens): Embedding(250112, 512)
+[38m                       (block): ModuleList(
+[38m                         (0): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                                 (relative_attention_bias): Embedding(32, 6)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (1): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (2): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (3): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (4): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (5): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (6): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (7): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                       )
+[38m                       (final_layer_norm): MT5LayerNorm()
+[38m                       (dropout): Dropout(p=0.1, inplace=False)
+[38m                     )
+[38m                     (decoder): MT5Stack(
+[38m                       (embed_tokens): Embedding(250112, 512)
+[38m                       (block): ModuleList(
+[38m                         (0): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                                 (relative_attention_bias): Embedding(32, 6)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (1): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (2): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+                               [38m)
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (3): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (4): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (5): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (6): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                         (7): MT5Block(
+[38m                           (layer): ModuleList(
+[38m                             (0): MT5LayerSelfAttention(
+[38m                               (SelfAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (1): MT5LayerCrossAttention(
+[38m                               (EncDecAttention): MT5Attention(
+[38m                                 (q): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (k): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (v): Linear(in_features=512, out_features=384, bias=False)
+[38m                                 (o): Linear(in_features=384, out_features=512, bias=False)
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                             (2): MT5LayerFF(
+[38m                               (DenseReluDense): MT5DenseGatedActDense(
+[38m                                 (wi_0): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wi_1): Linear(in_features=512, out_features=1024, bias=False)
+[38m                                 (wo): Linear(in_features=1024, out_features=512, bias=False)
+[38m                                 (dropout): Dropout(p=0.1, inplace=False)
+[38m                                 (act): NewGELUActivation()
+[38m                               )
+[38m                               (layer_norm): MT5LayerNorm()
+[38m                               (dropout): Dropout(p=0.1, inplace=False)
+[38m                             )
+[38m                           )
+[38m                         )
+[38m                       )
+[38m                       (final_layer_norm): MT5LayerNorm()
+[38m                       (dropout): Dropout(p=0.1, inplace=False)
+[38m                     )
+[38m                     (lm_head): Linear(in_features=512, out_features=250112, bias=False)
+[38m                   )
+[38m                 ))]),
+[38m                  '_non_persistent_buffers_set': set(),
+[38m                  '_parameters': OrderedDict(),
+[38m                  '_state_dict_hooks': OrderedDict(),
+[38m                  '_use_replicated_tensor_module': False,
+[38m                  'broadcast_bucket_size': 262144000,
+[38m                  'broadcast_buffers': True,
+[38m                  'bucket_bytes_cap': 26214400,
+[38m                  'device': device(type='cuda', index=2),
+[38m                  'device_ids'[39m: [2],
+[38m                  'device_type': 'cuda',
+[38m                  'dim': 0,
+[38m                  'find_unused_parameters': False,
+[38m                  'gradient_as_bucket_view': False,
+[38m                  'is_multi_device_module': False,
+[38m                  'logger': <torch._C._distributed_c10d.Logger object at 0x7f98f589fc30>,
+[38m                  'modules_buffers': [],
+[38m                  'named_module_buffers': {},
+[38m                  'num_iterations': 0,
+[38m                  'output_device': 2,
+[38m                  'parameters_to_ignore': [],
+[38m                  'process_group': <torch.distributed.distributed_c10d.ProcessGroupNCCL object at 0x7f9a6bfc2bf0>,
+[38m                  'reducer': <torch._C._distributed_c10d.Reducer object at 0x7f9a6c26e470>,
+[38m                  'require_backward_grad_sync': True,
+[38m                  'require_forward_param_sync': True,
+[38m                  'static_graph': False,
+[38m                  'training': True,
+[38m                  'use_side_stream_for_tensor_copies': True}
+  0%|                                                                                                                                                                       | 0/22622 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                           | 0/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_ddp.py", line 408, in <module>
+    main()
+  File "train_ddp.py", line 323, in main
+    middle_output = model.middle(batch)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1270, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'DistributedDataParallel' object has no attribute 'middle'
+[38m                               
+[38m                               

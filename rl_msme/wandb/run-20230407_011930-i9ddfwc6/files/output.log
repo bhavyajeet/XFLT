@@ -1,0 +1,29 @@
+
+[38mic| model_gpus: [0]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                   | 0/5 [00:00<?, ?it/s, loss=0]
+[38m    greedy_idx.shape: torch.Size([2, 29])[39m                                                                                                                    | 0/9561 [00:00<?, ?it/s, model_number=0]
+[38mic| self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True): ['१९७० - एर दशके, क्लार्क, OBE ( ) एकजन कानाडिय़ान, यिनि १९७३ - एर दशके '
+[38m                                                                           'कानाडार नागरिकत्ब पान ।',
+[38m                                                                           'तार पिता ജോन V Palaiologosोस II ( ; ; - ; - ), यिनि 1746 - 1746 ) छिलेन, '
+[38m                                                                           'उसदे पिता, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, '
+[38m                                                                           'राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, '
+[38m                                                                           'राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, '
+[38m                                                                           'राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, राजा, '
+[38m                                                                           'राजा, राजा, राजा ']
+[38mic| self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True): [' ,  was  a Companion of the Order of का (,          ',
+[38m                                                                        ' II Palaiologos II  son son of Johnmperor John V Palaiologos I  wife, '
+[38m                                                                        'Kantakouzene.']
+  0%|                                                                                                                                                        | 0/9561 [00:04<?, ?it/s, model_number=0]
+  0%|                                                                                                                                                                   | 0/5 [00:04<?, ?it/s, loss=0]
+Traceback (most recent call last):
+  File "train_ddp.py", line 439, in <module>
+    main()
+  File "train_ddp.py", line 381, in main
+    total_loss.backward()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/_tensor.py", line 489, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 490.00 MiB (GPU 0; 10.76 GiB total capacity; 3.41 GiB already allocated; 477.69 MiB free; 3.48 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,24 @@
+
+[38mic| model_gpus: [2]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                   | 0/5 [00:00<?, ?it/s, loss=2]
+  0%|                                                                                                                                                                   | 0/5 [00:12<?, ?it/s, loss=2]
+Traceback (most recent call last):
+  File "train_ddp.py", line 415, in <module>
+    main()
+  File "train_ddp.py", line 329, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 86, in middle
+    max_length=self.tgt_max_seq_len
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 1269, in generate
+    inputs_tensor, model_kwargs, model_input_name
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 946, in forward
+    batch_size, seq_length = input_shape
+ValueError: not enough values to unpack (expected 2, got 1)

@@ -1,0 +1,16 @@
+
+[38mic| model_gpus: [1]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                       | 0/22622 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                           | 0/5 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_ddp.py", line 407, in <module>
+    main()
+  File "train_ddp.py", line 322, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 83, in middle
+    generated_ids = self.model.module.generate(
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1270, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'MT5ForConditionalGeneration' object has no attribute 'module'

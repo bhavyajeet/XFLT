@@ -1,0 +1,16 @@
+
+[38mic| model_gpus: [1]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s, loss=1][38mic| generated_ids.shape: torch.Size([2, 3])
+[38m    greedy_idx.shape: torch.Size([2, 61])[39m                                                                                                    | 0/33932 [00:00<?, ?it/s, model_number=1]
+  0%|                                                                                                                                        | 0/33932 [00:01<?, ?it/s, model_number=1]
+  0%|                                                                                                                                                    | 0/5 [00:01<?, ?it/s, loss=1]
+Traceback (most recent call last):
+  File "train_ddp.py", line 422, in <module>
+    main()
+  File "train_ddp.py", line 332, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 95, in middle
+    ic(generated_ids.sequences)
+AttributeError: 'Tensor' object has no attribute 'sequences'

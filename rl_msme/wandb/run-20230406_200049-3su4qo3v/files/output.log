@@ -1,0 +1,48 @@
+
+[38mic| model_gpus: [0, 1, 2, 3]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                           | 0/5 [00:00<?, ?it/s]
+  warnings.warn('Was asked to gather along dimension 0, but all '                                                                                                           | 0/22622 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                                                           | 0/5 [00:26<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 374, in <module>
+    main(args)
+  File "train.py", line 257, in main
+    middle_output = model.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model.py", line 87, in middle
+    outputs = self(batch)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model.py", line 61, in forward
+    outputs = self.model(input_ids=batch['input_ids'], attention_mask=batch['attention_mask'], labels=batch['labels'])
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 172, in forward
+    return self.gather(outputs, self.output_device)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 184, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/scatter_gather.py", line 86, in gather
+    res = gather_map(outputs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/scatter_gather.py", line 78, in gather_map
+    for k in out)
+  File "<string>", line 12, in __init__
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/utils/generic.py", line 245, in __post_init__
+    for idx, element in enumerate(iterator):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/scatter_gather.py", line 78, in <genexpr>
+    for k in out)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/scatter_gather.py", line 71, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/comm.py", line 235, in gather
+    return torch._C._gather(tensors, dim, destination)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.42 GiB (GPU 0; 10.76 GiB total capacity; 7.62 GiB already allocated; 1.20 GiB free; 8.55 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

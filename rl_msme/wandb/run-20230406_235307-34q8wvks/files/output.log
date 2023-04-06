@@ -1,0 +1,61 @@
+
+[38mic| model_gpus: [0]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s, loss=0]
+
+
+
+
+
+
+
+
+Traceback (most recent call last):                                                                                               | 111/33932 [00:17<1:23:59,  6.71it/s, model_number=0]
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|▍                                                                                                                           | 111/33932 [00:17<1:30:33,  6.22it/s, model_number=0]
+  0%|                                                                                                                                                    | 0/5 [00:17<?, ?it/s, loss=0]
+Traceback (most recent call last):
+  File "train_ddp.py", line 422, in <module>
+    main()
+  File "train_ddp.py", line 332, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 89, in middle
+    outputs = self(batch)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 63, in forward
+    outputs = self.model(input_ids=batch['input_ids'], attention_mask=batch['attention_mask'], labels=batch['labels'])
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1748, in forward
+    return_dict=return_dict,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1056, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 591, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 495, in forward
+    normed_hidden_states = self.layer_norm(hidden_states)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 125, in forward
+    variance = hidden_states.to(torch.float32).pow(2).mean(-1, keepdim=True)
+KeyboardInterrupt

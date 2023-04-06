@@ -1,0 +1,17 @@
+
+[38mic| model_gpus: [0]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                                           | 0/5 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                                           | 0/5 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "train_ddp.py", line 409, in <module>
+    main()
+  File "train_ddp.py", line 356, in main
+    total_loss.backward()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/_tensor.py", line 489, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 704.00 MiB (GPU 0; 10.76 GiB total capacity; 8.09 GiB already allocated; 246.69 MiB free; 9.51 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

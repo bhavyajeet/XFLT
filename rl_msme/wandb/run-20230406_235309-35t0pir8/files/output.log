@@ -1,0 +1,45 @@
+
+[38mic| model_gpus: [3]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s, loss=3]
+
+
+
+
+
+
+
+
+Traceback (most recent call last):                                                                                               | 108/33932 [00:17<1:23:27,  6.76it/s, model_number=3]
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|▍                                                                                                                           | 108/33932 [00:17<1:33:03,  6.06it/s, model_number=3]
+  0%|                                                                                                                                                    | 0/5 [00:17<?, ?it/s, loss=3]
+Traceback (most recent call last):
+  File "train_ddp.py", line 422, in <module>
+    main()
+  File "train_ddp.py", line 376, in main
+    optimizer.step()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/optim/optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/optim/adam.py", line 252, in step
+    found_inf=found_inf)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/optim/adam.py", line 316, in adam
+    found_inf=found_inf)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/optim/adam.py", line 395, in _single_tensor_adam
+    step = step_t.item()
+KeyboardInterrupt

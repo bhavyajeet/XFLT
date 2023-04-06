@@ -1,0 +1,114 @@
+
+[38mic| model_gpus: [3]
+[38mic| next(model.parameters()).is_cuda: True
+[38mic| start_epoch: 0, final_checkpoint: None
+  0%|                                                                                                                                                    | 0/5 [00:00<?, ?it/s, loss=3]
+[38m                           [     0, 250099,      1]], device='cuda:3')[39m                                                                       | 0/33932 [00:00<?, ?it/s, model_number=3]
+[38m    greedy_idx: tensor([[250099, 136050,      1,    299, 136050, 239944,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,    598,      1,      1,      1,
+[38m                              1,    302, 132651, 166120,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1, 250043],
+[38m                        [250099,      1,    259,    262,      1,    259,      1, 250095,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,   1042,
+[38m                         250068,      1,      1, 250067,  46622, 250068, 250068,      1, 250067,
+[38m                         250069, 250068, 250069, 250068, 250069, 250099, 250099, 250099, 250099,
+[38m                         250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099,
+[38m                         250099, 250099, 250099, 250099, 250099, 250099]], device='cuda:3')
+                                                                                                                                                                                       [38mic| generated_ids: tensor([[     0, 250099,      1],
+[38m                           [     0, 250099,      1]], device='cuda:3')[39m                                                            | 1/33932 [00:01<13:15:58,  1.41s/it, model_number=3]
+[38m    greedy_idx: tensor([[250099, 250099, 250065, 245814,      1,      1,      1,      1,      1,
+[38m                              1, 250048,      1,      1,      1,      1,      1,      1,      1,
+[38m                         250044,      1,      1,      1,      1,    261, 250058,    376,      1,
+[38m                            264,      1,    261,      1,    260,      1,    302,    259,      1,
+[38m                         101661,      1, 250099, 250099, 250099],
+[38m                        [250099, 250053, 250068, 160430, 205443, 166438, 250044, 250068, 250068,
+[38m                         250068,      1, 238909,      1,      1,      1,      1, 232171,      1,
+[38m                              1, 250095,      1,      1,      1,      1, 250068, 225621,      1,
+[38m                         166438,      1,      1,      1,      1,   2190,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1]], device='cuda:3')
+                                                                                                                                                                                       [38mic| generated_ids: tensor([[     0, 250099,      1],
+[38m                           [     0, 250099,      1]], device='cuda:3')[39m                                                             | 2/33932 [00:01<9:51:35,  1.05s/it, model_number=3]
+[38m    greedy_idx: tensor([[250099, 250068,   1147,      1,      1,    302, 191891,      1,    286,
+[38m                         120457,      1,      1,      1,      1,    261,    260,      1,      1,
+[38m                              1,      1,    261,      1,      1,    259,      1,      1,    691,
+[38m                            691,    691,    691,    691,      1,      1,      1,  10840,      1,
+[38m                              1,      1,   1042, 250099, 250099, 250099, 250099, 250099, 250099,
+[38m                         250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099,
+[38m                         250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099,
+[38m                         250099],
+[38m                        [250099, 250068,      1,      1,      1,      1,      1, 230625,      1,
+[38m                              1,      1,      1,      1,      1, 250088,  39242,      1,      1,
+[38m                         237156,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1]], device='cuda:3')
+                                                                                                                                                                                       [38mic| generated_ids: tensor([[     0, 250099,      1],
+[38m                           [     0, 250099,      1]], device='cuda:3')[39m                                                             | 3/33932 [00:01<7:34:13,  1.24it/s, model_number=3]
+[38m    greedy_idx: tensor([[250099, 205443, 207020,    264,      1,      1,      1,      1,      1,
+[38m                         250068,      1,      1,      1,      1,      1,      1,      1,      1,
+[38m                              1, 250085, 250089,      1,      1, 250088,      1,      1,      1,
+[38m                              1,      1,      1,      1, 250095, 175492,      1,      1, 250068,
+[38m                              1, 250053, 250085,      1,      1,      1,      1, 250099, 250099,
+[38m                         250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099, 250099],
+[38m                        [250099,  22405, 250089,      1,    302,      1,    290,      1,      1,
+[38m                            263, 248123,  95341,    259,    259, 250071,  35844,    290,      1,
+[38m                              1,      1,      1,      1,    263,    259,    259,    259,    266,
+[38m                            271,    259,      1, 109795,    259,    260, 109795,    271,    259,
+[38m                         109795,    259, 109795,  11811, 155862,    259,    259,    259,      1,
+[38m                              1,      1, 250065, 250070,    259,    259,    259, 109795,    259]],
+[38m                       device='cuda:3')
+                                                                                                                                                                                       Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f295ada33b0>
+Traceback (most recent call last):                                                                                                 | 4/33932 [00:02<5:59:57,  1.57it/s, model_number=3]
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|                                                                                                                              | 4/33932 [00:02<5:01:37,  1.87it/s, model_number=3]
+  0%|                                                                                                                                                    | 0/5 [00:02<?, ?it/s, loss=3]
+Traceback (most recent call last):
+  File "train_ddp.py", line 422, in <module>
+    main()
+  File "train_ddp.py", line 332, in main
+    middle_output = model.module.middle(batch)
+  File "/home2/aditya_hari/multisent/MEMS-XF2T/rl_msme/model/model_ddp.py", line 87, in middle
+    max_length=self.tgt_max_seq_len
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 1269, in generate
+    inputs_tensor, model_kwargs, model_input_name
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 1056, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 563, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 468, in forward
+    output_attentions=output_attentions,
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/transformers/models/mt5/modeling_mt5.py", line 432, in forward
+    attn_output = self.o(attn_output)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
