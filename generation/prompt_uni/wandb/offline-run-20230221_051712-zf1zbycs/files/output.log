@@ -1,0 +1,23 @@
+02/21/2023 05:17:17 AM [CRITICAL] val: merging the 2 ['as', 'or'] different languages dataset
+02/21/2023 05:17:17 AM [INFO] val dataset is already present.
+02/21/2023 05:17:18 AM [CRITICAL] val : script unification to Devanagari is enabled.
+02/21/2023 05:17:18 AM [INFO] val dataset count : 2117
+Validation sanity check:  50%|████████▌        | 1/2 [00:00<00:00,  5.80it/s]02/21/2023 05:17:18 AM [INFO] epoch : 0 - average_val_loss : 27.486736
+02/21/2023 05:17:18 AM [CRITICAL] train: merging the 2 ['as', 'or'] different languages dataset
+02/21/2023 05:17:18 AM [INFO] train dataset is already present.
+02/21/2023 05:17:20 AM [CRITICAL] train : script unification to Devanagari is enabled.
+02/21/2023 05:17:20 AM [INFO] train dataset count : 10617
+Epoch 0: 100%|██▉| 1060/1062 [05:59<00:00,  2.94it/s, loss=3.001, v_num=bycs]02/21/2023 05:23:20 AM [INFO] epoch : 0 - average_val_loss : 2.305062
+Epoch 0: 100%|█| 1062/1062 [06:04<00:00,  2.91it/s, loss=3.001, v_num=bycs, a02/21/2023 05:23:24 AM [INFO] epoch : 0 - average_train_loss : 3.940616
+Epoch 0: 100%|█| 1062/1062 [06:04<00:00,  2.91it/s, loss=3.001, v_num=bycs, a
+02/21/2023 05:23:26 AM [DEBUG] training done.
+  | Name  | Type                        | Params
+------------------------------------------------------
+0 | model | MT5ForConditionalGeneration | 300 M
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 884 < 1066; dropping {'avg_val_loss': 2.3050620555877686, 'epoch': 0}.
+Epoch 0: avg_val_loss reached 2.30506 (best 2.30506), saving model to /tmp/XAlign/checkpoint/gen-as-or-google-mt5-small-1-0.001-200-unified-script/epoch=0.ckpt as top 1
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 884 < 1067; dropping {'avg_train_loss': 3.940615653991699, 'epoch': 0}.

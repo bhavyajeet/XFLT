@@ -1,0 +1,19 @@
+2023-02-14 17:02:14,604 INFO    MainThread:19575 [internal.py:wandb_internal():89] W&B internal server running at pid: 19575, started at: 2023-02-14 17:02:14.603664
+2023-02-14 17:02:14,609 INFO    WriterThread:19575 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_170212-1v9rxxky/run-1v9rxxky.wandb
+2023-02-14 17:02:14,611 DEBUG   HandlerThread:19575 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 17:02:18,921 DEBUG   HandlerThread:19575 [meta.py:__init__():40] meta init
+2023-02-14 17:02:18,921 DEBUG   HandlerThread:19575 [meta.py:__init__():54] meta init done
+2023-02-14 17:02:18,922 DEBUG   HandlerThread:19575 [meta.py:probe():211] probe
+2023-02-14 17:02:18,931 DEBUG   HandlerThread:19575 [meta.py:_setup_git():201] setup git
+2023-02-14 17:02:18,979 DEBUG   HandlerThread:19575 [meta.py:_setup_git():208] setup git done
+2023-02-14 17:02:18,979 DEBUG   HandlerThread:19575 [meta.py:_save_pip():58] save pip
+2023-02-14 17:02:18,981 DEBUG   HandlerThread:19575 [meta.py:_save_pip():72] save pip done
+2023-02-14 17:02:18,981 DEBUG   HandlerThread:19575 [meta.py:_save_conda():79] save conda
+2023-02-14 17:02:49,202 DEBUG   HandlerThread:19575 [meta.py:_save_conda():87] save conda done
+2023-02-14 17:02:49,203 DEBUG   HandlerThread:19575 [meta.py:probe():249] probe done
+2023-02-14 17:08:11,751 WARNING MainThread:19575 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 17:08:12,241 WARNING MainThread:19575 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 17:08:12,241 ERROR   MainThread:19575 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 17:08:12,377 INFO    WriterThread:19575 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_170212-1v9rxxky/run-1v9rxxky.wandb
+2023-02-14 17:08:12,386 INFO    HandlerThread:19575 [handler.py:finish():683] shutting down handler
+2023-02-14 17:08:12,435 INFO    MainThread:19575 [internal.py:handle_exit():76] Internal process exited

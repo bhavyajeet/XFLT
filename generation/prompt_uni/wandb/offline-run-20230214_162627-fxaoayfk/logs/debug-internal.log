@@ -1,0 +1,19 @@
+2023-02-14 16:26:29,162 INFO    MainThread:450 [internal.py:wandb_internal():89] W&B internal server running at pid: 450, started at: 2023-02-14 16:26:29.161775
+2023-02-14 16:26:29,166 INFO    WriterThread:450 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_162627-fxaoayfk/run-fxaoayfk.wandb
+2023-02-14 16:26:29,170 DEBUG   HandlerThread:450 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 16:26:33,748 DEBUG   HandlerThread:450 [meta.py:__init__():40] meta init
+2023-02-14 16:26:33,749 DEBUG   HandlerThread:450 [meta.py:__init__():54] meta init done
+2023-02-14 16:26:33,749 DEBUG   HandlerThread:450 [meta.py:probe():211] probe
+2023-02-14 16:26:33,758 DEBUG   HandlerThread:450 [meta.py:_setup_git():201] setup git
+2023-02-14 16:26:33,802 DEBUG   HandlerThread:450 [meta.py:_setup_git():208] setup git done
+2023-02-14 16:26:33,802 DEBUG   HandlerThread:450 [meta.py:_save_pip():58] save pip
+2023-02-14 16:26:33,803 DEBUG   HandlerThread:450 [meta.py:_save_pip():72] save pip done
+2023-02-14 16:26:33,804 DEBUG   HandlerThread:450 [meta.py:_save_conda():79] save conda
+2023-02-14 16:26:59,891 DEBUG   HandlerThread:450 [meta.py:_save_conda():87] save conda done
+2023-02-14 16:26:59,891 DEBUG   HandlerThread:450 [meta.py:probe():249] probe done
+2023-02-14 16:27:46,946 WARNING MainThread:450 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 16:27:47,115 WARNING MainThread:450 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-14 16:27:47,115 ERROR   MainThread:450 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-14 16:27:47,193 INFO    SenderThread:450 [sender.py:finish():986] shutting down sender
+2023-02-14 16:27:48,037 INFO    WriterThread:450 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_162627-fxaoayfk/run-fxaoayfk.wandb
+2023-02-14 16:27:48,040 INFO    MainThread:450 [internal.py:handle_exit():76] Internal process exited

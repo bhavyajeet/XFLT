@@ -1,0 +1,501 @@
+02/14/2023 03:24:43 PM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 03:24:43 PM [INFO] test dataset is already present.
+02/14/2023 03:24:44 PM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 03:24:44 PM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Charles Henry William Sir Charlie  Robert Charl चा Dominic', 'Matthew  Michael Matt Mac M Mathe Philip Mat म', 'Ital Antonio A T Sir Bornitala  Institution An', 'Hin Heid Bina Vera She Sign See Mire A And']
+tensor([[0.4212, 0.4505, 0.4419, 0.4501, 0.4355, 0.8000, 0.4313, 0.4620, 0.4508,
+         0.4194],
+        [0.3235, 0.8000, 0.2519, 0.3410, 0.3204, 0.2624, 0.3820, 0.2311, 0.4263,
+         0.2840],
+        [0.5248, 0.2975, 0.2348, 0.2489, 0.3057, 0.3139, 0.5238, 0.8000, 0.2803,
+         0.2451],
+        [0.4789, 0.4395, 0.5130, 0.3892, 0.3887, 0.3883, 0.3785, 0.4291, 0.3987,
+         0.3348]], device='cuda:0')
+before us  tensor([[-2.5782e-01, -3.5239e+00, -3.6908e+00, -3.7981e+00, -4.1403e+00,
+         -4.2748e+00, -4.6226e+00, -4.7267e+00, -4.7341e+00, -5.0663e+00],
+        [-5.5660e-03, -7.1057e+00, -7.1922e+00, -7.4755e+00, -7.8529e+00,
+         -8.1052e+00, -8.3741e+00, -8.7409e+00, -8.7843e+00, -8.7949e+00],
+        [-1.6004e-02, -6.6201e+00, -6.6755e+00, -6.7727e+00, -6.8963e+00,
+         -7.0088e+00, -7.5943e+00, -7.9752e+00, -8.0936e+00, -8.2855e+00],
+        [-1.4016e-02, -5.6292e+00, -6.9059e+00, -7.6636e+00, -7.8656e+00,
+         -8.0915e+00, -8.2995e+00, -8.4783e+00, -8.5743e+00, -8.6645e+00]],
+       device='cuda:0')
+after us  tensor([[-1.1821e+08, -1.1674e+08, -1.1717e+08, -1.1676e+08, -1.1749e+08,
+         -9.9267e+07, -1.1770e+08, -1.1617e+08, -1.1673e+08, -1.1830e+08],
+        [-1.1775e+08, -9.3925e+07, -1.2133e+08, -1.1688e+08, -1.1791e+08,
+         -1.2080e+08, -1.1482e+08, -1.2237e+08, -1.1261e+08, -1.1972e+08],
+        [-1.0858e+08, -1.1994e+08, -1.2308e+08, -1.2237e+08, -1.1953e+08,
+         -1.1912e+08, -1.0863e+08, -9.4817e+07, -1.2080e+08, -1.2256e+08],
+        [-1.1194e+08, -1.1391e+08, -1.1023e+08, -1.1642e+08, -1.1645e+08,
+         -1.1647e+08, -1.1696e+08, -1.1443e+08, -1.1595e+08, -1.1914e+08]],
+       device='cuda:0')
+['Charles', 'Henry', 'William', 'Sir', 'Charlie', 'Matthew', '', 'Michael', 'Matt', 'Mac', 'Ital', 'Antonio', 'A', 'T', 'Sir', 'Hin', 'Heid', 'Bina', 'Vera', 'She']
+['Henry Joseph William Charles James  Thomas George Edward', "Johanna Matthew,a Michael Anna Mat;/'", 'oeosóloauonoué', 'Ka the and isas  of m P S']
+tensor([[0.4505, 0.4529, 0.4419, 0.4212, 0.4250, 0.8000, 0.4236, 0.4253, 0.4411,
+         0.8000],
+        [0.2992, 0.3235, 0.2505, 0.2603, 0.2519, 0.2454, 0.4263, 0.2451, 0.3158,
+         0.2461],
+        [0.2702, 0.2588, 0.3117, 0.3074, 0.3338, 0.2806, 0.3375, 0.3038, 0.3036,
+         0.3002],
+        [0.3983, 0.4428, 0.3467, 0.4483, 0.4786, 0.8000, 0.4161, 0.3822, 0.3597,
+         0.3803]], device='cuda:0')
+before us  tensor([[-1.1674e+08, -1.1674e+08, -1.1674e+08, -1.1674e+08, -1.1674e+08,
+         -1.1674e+08, -1.1674e+08, -1.1674e+08, -1.1674e+08, -1.1674e+08],
+        [-9.3925e+07, -9.3925e+07, -9.3925e+07, -9.3925e+07, -9.3925e+07,
+         -9.3925e+07, -9.3925e+07, -9.3925e+07, -9.3925e+07, -9.3925e+07],
+        [-1.0858e+08, -1.0858e+08, -1.0858e+08, -1.0858e+08, -1.0858e+08,
+         -1.0858e+08, -1.0858e+08, -1.0858e+08, -1.0858e+08, -1.0858e+08],
+        [-1.1023e+08, -1.1023e+08, -1.1023e+08, -1.1023e+08, -1.1023e+08,
+         -1.1023e+08, -1.1023e+08, -1.1023e+08, -1.1023e+08, -1.1023e+08]],
+       device='cuda:0')
+after us  tensor([[-2.3533e+08, -2.3521e+08, -2.3576e+08, -2.3679e+08, -2.3660e+08,
+         -2.1785e+08, -2.3667e+08, -2.3659e+08, -2.3580e+08, -2.1785e+08],
+        [-2.0849e+08, -2.0728e+08, -2.1093e+08, -2.1044e+08, -2.1086e+08,
+         -2.1118e+08, -2.0214e+08, -2.1120e+08, -2.0766e+08, -2.1114e+08],
+        [-2.2525e+08, -2.2582e+08, -2.2318e+08, -2.2339e+08, -2.2207e+08,
+         -2.2473e+08, -2.2188e+08, -2.2357e+08, -2.2358e+08, -2.2375e+08],
+        [-2.2814e+08, -2.2591e+08, -2.3072e+08, -2.2564e+08, -2.2412e+08,
+         -2.0805e+08, -2.2725e+08, -2.2894e+08, -2.3007e+08, -2.2903e+08]],
+       device='cuda:0')
+['Henry Henry', 'Henry Joseph', 'Henry William', 'Henry Charles', 'Henry James', 'Johanna', 'Matthew', ',', 'a', 'Michael', 'Italo', 'Itale', 'Italos', 'Italó', 'Itallo', 'Bina Ka', 'Bina the', 'Bina and', 'Bina is', 'Binaas']
+['and of the As  ( in " I', 'S " A ands  ( the I M', 'Victor दे De Dio  de " Sánchez डी', 'and of (ma suhas']
+tensor([[0.3099, 0.4150, 0.4139, 0.4396, 0.4761, 0.8000, 0.3044, 0.3708, 0.3035,
+         0.4215],
+        [0.2342, 0.2392, 0.2330, 0.2748, 0.2492, 0.8000, 0.2175, 0.3221, 0.2308,
+         0.2624],
+        [0.3528, 0.3216, 0.3069, 0.2803, 0.2702, 0.8000, 0.4318, 0.2484, 0.2738,
+         0.2599],
+        [0.3467, 0.4161, 0.3202, 0.3822, 0.4604, 0.8000, 0.3884, 0.4382, 0.4352,
+         0.4786]], device='cuda:0')
+before us  tensor([[-2.3521e+08, -2.3521e+08, -2.3521e+08, -2.3521e+08, -2.3521e+08,
+         -2.3521e+08, -2.3521e+08, -2.3521e+08, -2.3521e+08, -2.3521e+08],
+        [-2.0728e+08, -2.0728e+08, -2.0728e+08, -2.0728e+08, -2.0728e+08,
+         -2.0728e+08, -2.0728e+08, -2.0728e+08, -2.0728e+08, -2.0728e+08],
+        [-2.2207e+08, -2.2207e+08, -2.2207e+08, -2.2207e+08, -2.2207e+08,
+         -2.2207e+08, -2.2207e+08, -2.2207e+08, -2.2207e+08, -2.2207e+08],
+        [-2.2412e+08, -2.2412e+08, -2.2412e+08, -2.2412e+08, -2.2412e+08,
+         -2.2412e+08, -2.2412e+08, -2.2412e+08, -2.2412e+08, -2.2412e+08]],
+       device='cuda:0')
+after us  tensor([[-3.5663e+08, -3.5137e+08, -3.5143e+08, -3.5014e+08, -3.4832e+08,
+         -3.3212e+08, -3.5690e+08, -3.5359e+08, -3.5695e+08, -3.5105e+08],
+        [-3.2681e+08, -3.2656e+08, -3.2688e+08, -3.2478e+08, -3.2607e+08,
+         -2.9853e+08, -3.2765e+08, -3.2242e+08, -3.2699e+08, -3.2540e+08],
+        [-3.3798e+08, -3.3954e+08, -3.4027e+08, -3.4160e+08, -3.4211e+08,
+         -3.1562e+08, -3.3403e+08, -3.4320e+08, -3.4193e+08, -3.4263e+08],
+        [-3.4468e+08, -3.4122e+08, -3.4601e+08, -3.4291e+08, -3.3900e+08,
+         -3.2202e+08, -3.4260e+08, -3.4011e+08, -3.4026e+08, -3.3809e+08]],
+       device='cuda:0')
+['Henry Joseph and', 'Henry Joseph of', 'Henry Joseph the', 'Henry Joseph A', 'Henry Josephs', 'Matthew S', 'Matthew "', 'Matthew A', 'Matthew and', 'Matthews', 'Itallo Victor', 'Itallo दे', 'Itallo De', 'Itallo Di', 'Italloo', 'Binaas and', 'Binaas of', 'Binaas (', 'Binaasm', 'Binaasa']
+['sa.,�� -e', '-s,a�.ei', '-s,a�.ei', 'e-as.,i:']
+tensor([[0.4761, 0.4668, 0.2289, 0.3272, 0.8000, 0.8000, 0.8000, 0.8000, 0.3321,
+         0.4675],
+        [0.3006, 0.2492, 0.2505, 0.2603, 0.8000, 0.8000, 0.8000, 0.2138, 0.2355,
+         0.2364],
+        [0.3032, 0.3356, 0.2636, 0.2806, 0.8000, 0.8000, 0.8000, 0.2067, 0.2588,
+         0.2896],
+        [0.4233, 0.3972, 0.4604, 0.3884, 0.8000, 0.8000, 0.2333, 0.3719, 0.4153,
+         0.3979]], device='cuda:0')
+before us  tensor([[-3.4832e+08, -3.4832e+08, -3.4832e+08, -3.4832e+08, -3.4832e+08,
+         -3.4832e+08, -3.4832e+08, -3.4832e+08, -3.4832e+08, -3.4832e+08],
+        [-3.2478e+08, -3.2478e+08, -3.2478e+08, -3.2478e+08, -3.2478e+08,
+         -3.2478e+08, -3.2478e+08, -3.2478e+08, -3.2478e+08, -3.2478e+08],
+        [-3.3798e+08, -3.3798e+08, -3.3798e+08, -3.3798e+08, -3.3798e+08,
+         -3.3798e+08, -3.3798e+08, -3.3798e+08, -3.3798e+08, -3.3798e+08],
+        [-3.3900e+08, -3.3900e+08, -3.3900e+08, -3.3900e+08, -3.3900e+08,
+         -3.3900e+08, -3.3900e+08, -3.3900e+08, -3.3900e+08, -3.3900e+08]],
+       device='cuda:0')
+after us  tensor([[-4.6831e+08, -4.6877e+08, -4.8067e+08, -4.7575e+08, -4.5211e+08,
+         -4.5211e+08, -4.5211e+08, -4.5211e+08, -4.7551e+08, -4.6874e+08],
+        [-4.4732e+08, -4.4989e+08, -4.4982e+08, -4.4933e+08, -4.2235e+08,
+         -4.2235e+08, -4.2235e+08, -4.5166e+08, -4.5057e+08, -4.5053e+08],
+        [-4.6119e+08, -4.5956e+08, -4.6316e+08, -4.6231e+08, -4.3635e+08,
+         -4.3635e+08, -4.3635e+08, -4.6601e+08, -4.6341e+08, -4.6187e+08],
+        [-4.5721e+08, -4.5852e+08, -4.5535e+08, -4.5896e+08, -4.3838e+08,
+         -4.3838e+08, -4.6671e+08, -4.5978e+08, -4.5761e+08, -4.5848e+08]],
+       device='cuda:0')
+['Henry Josephss', 'Henry Josephsa', 'Henry Josephs.', 'Henry Josephs,', 'Henry Josephs�', 'Matthew and-', 'Matthew ands', 'Matthew and,', 'Matthew anda', 'Matthew and�', 'Itallo Victor-', 'Itallo Victors', 'Itallo Victor,', 'Itallo Victora', 'Itallo Victor�', 'Binaasae', 'Binaasa-', 'Binaasaa', 'Binaasas', 'Binaasa']
+['������.,', '��\x03\x04\x02\x01\x00', 'a,.���s-', 'ies-.�,a:o']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.2289,
+         0.3272],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.2806, 0.2636, 0.8000, 0.2067, 0.8000, 0.8000, 0.8000, 0.8000, 0.3356,
+         0.3032],
+        [0.4153, 0.4233, 0.3884, 0.3972, 0.2333, 0.8000, 0.3719, 0.4604, 0.3979,
+         0.4053]], device='cuda:0')
+before us  tensor([[-4.5211e+08, -4.5211e+08, -4.5211e+08, -4.5211e+08, -4.5211e+08,
+         -4.5211e+08, -4.5211e+08, -4.5211e+08, -4.5211e+08, -4.5211e+08],
+        [-4.2235e+08, -4.2235e+08, -4.2235e+08, -4.2235e+08, -4.2235e+08,
+         -4.2235e+08, -4.2235e+08, -4.2235e+08, -4.2235e+08, -4.2235e+08],
+        [-4.3635e+08, -4.3635e+08, -4.3635e+08, -4.3635e+08, -4.3635e+08,
+         -4.3635e+08, -4.3635e+08, -4.3635e+08, -4.3635e+08, -4.3635e+08],
+        [-4.3838e+08, -4.3838e+08, -4.3838e+08, -4.3838e+08, -4.3838e+08,
+         -4.3838e+08, -4.3838e+08, -4.3838e+08, -4.3838e+08, -4.3838e+08]],
+       device='cuda:0')
+after us  tensor([[-5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08,
+         -5.6301e+08, -5.6301e+08, -5.6301e+08, -5.9156e+08, -5.8665e+08],
+        [-5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08,
+         -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08],
+        [-5.6609e+08, -5.6694e+08, -5.4013e+08, -5.6979e+08, -5.4013e+08,
+         -5.4013e+08, -5.4013e+08, -5.4013e+08, -5.6334e+08, -5.6497e+08],
+        [-5.5471e+08, -5.5430e+08, -5.5605e+08, -5.5561e+08, -5.6380e+08,
+         -5.3547e+08, -5.5687e+08, -5.5245e+08, -5.5558e+08, -5.5521e+08]],
+       device='cuda:0')
+['Henry Josephs�', 'Henry Josephs��', 'Henry Josephs��', 'Henry Josephs��', 'Henry Josephs��', 'Matthew and��', 'Matthew and��', 'Matthew and�', 'Matthew and�\x03', 'Matthew and�\x04', 'Itallo Victor�a', 'Itallo Victor�,', 'Itallo Victor�', 'Itallo Victor�.', 'Itallo Victor��', 'Binaasa i', 'Binaasa e', 'Binaasa s', 'Binaasa -', 'Binaasa.']
+['\x04\x03\x01\x02\x00\x05\x06', 'a�������et', '\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.2603, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.2355,
+         0.2569],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08,
+         -5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08, -5.6301e+08],
+        [-5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08,
+         -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08, -5.3748e+08],
+        [-5.4013e+08, -5.4013e+08, -5.4013e+08, -5.4013e+08, -5.4013e+08,
+         -5.4013e+08, -5.4013e+08, -5.4013e+08, -5.4013e+08, -5.4013e+08],
+        [-5.5430e+08, -5.5430e+08, -5.5430e+08, -5.5430e+08, -5.5430e+08,
+         -5.5430e+08, -5.5430e+08, -5.5430e+08, -5.5430e+08, -5.5430e+08]],
+       device='cuda:0')
+after us  tensor([[-6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08,
+         -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08],
+        [-6.7282e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08,
+         -6.4583e+08, -6.4583e+08, -6.4583e+08, -6.7405e+08, -6.7298e+08],
+        [-6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08,
+         -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08],
+        [-6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08,
+         -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08]],
+       device='cuda:0')
+['Henry Josephs� \x04', 'Henry Josephs� \x03', 'Henry Josephs� \x01', 'Henry Josephs� \x02', 'Henry Josephs�', 'Matthew and��a', 'Matthew and॥', 'Matthew andॗ', 'Matthew and।', 'Matthew and॒', 'Itallo Victor� \x04', 'Itallo Victor� \x03', 'Itallo Victor� \x01', 'Itallo Victor� \x02', 'Itallo Victor�', 'Binaasa e\x04', 'Binaasa e\x03', 'Binaasa e\x01', 'Binaasa e\x02', 'Binaasa e']
+['\x04\x03\x01\x02\x00\x05\x06', '���������', '\x04\x03\x01\x02\x00\x05\x06', '���������']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08,
+         -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08, -6.7814e+08],
+        [-6.4583e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08,
+         -6.4583e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08, -6.4583e+08],
+        [-6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08,
+         -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08, -6.5525e+08],
+        [-6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08,
+         -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08, -6.6943e+08]],
+       device='cuda:0')
+after us  tensor([[-7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08,
+         -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08],
+        [-7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08,
+         -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08],
+        [-7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08,
+         -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08],
+        [-7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08,
+         -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04', 'Henry Josephs� \x04\x03', 'Henry Josephs� \x04\x01', 'Henry Josephs� \x04\x02', 'Henry Josephs� \x04', 'Matthew and॥�', 'Matthew and॥�', 'Matthew and॥�', 'Matthew and॥�', 'Matthew and॥�', 'Itallo Victor� \x04\x04', 'Itallo Victor� \x04\x03', 'Itallo Victor� \x04\x01', 'Itallo Victor� \x04\x02', 'Itallo Victor� \x04', 'Binaasa e\x04�', 'Binaasa e\x04�', 'Binaasa e\x04�', 'Binaasa e\x04�', 'Binaasa e\x04�']
+['\x04\x03\x01\x02\x00\x05\x06', '���������', '\x04\x03\x01\x02\x00\x05\x06', '���������']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08,
+         -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08, -7.9327e+08],
+        [-7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08,
+         -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08, -7.6096e+08],
+        [-7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08,
+         -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08, -7.7038e+08],
+        [-7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08,
+         -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08, -7.8456e+08]],
+       device='cuda:0')
+after us  tensor([[-9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08,
+         -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08],
+        [-8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08,
+         -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08],
+        [-8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08,
+         -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08],
+        [-8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08,
+         -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04', 'Henry Josephs� \x04\x04\x03', 'Henry Josephs� \x04\x04\x01', 'Henry Josephs� \x04\x04\x02', 'Henry Josephs� \x04\x04', 'Matthew and॥��', 'Matthew and॥��', 'Matthew and॥��', 'Matthew and॥��', 'Matthew and॥��', 'Itallo Victor� \x04\x04\x04', 'Itallo Victor� \x04\x04\x03', 'Itallo Victor� \x04\x04\x01', 'Itallo Victor� \x04\x04\x02', 'Itallo Victor� \x04\x04', 'Binaasa e\x04��', 'Binaasa e\x04��', 'Binaasa e\x04��', 'Binaasa e\x04��', 'Binaasa e\x04��']
+['\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '���������']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08,
+         -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08, -9.0840e+08],
+        [-8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08,
+         -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08, -8.7609e+08],
+        [-8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08,
+         -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08, -8.8551e+08],
+        [-8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08,
+         -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08, -8.9969e+08]],
+       device='cuda:0')
+after us  tensor([[-1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09,
+         -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09],
+        [-9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08,
+         -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08],
+        [-1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09,
+         -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09],
+        [-1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09,
+         -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x03', 'Henry Josephs� \x04\x04\x04\x01', 'Henry Josephs� \x04\x04\x04\x02', 'Henry Josephs� \x04\x04\x04', 'Matthew and॥��\x04', 'Matthew and॥��\x03', 'Matthew and॥��\x01', 'Matthew and॥��\x02', 'Matthew and॥��', 'Itallo Victor� \x04\x04\x04\x04', 'Itallo Victor� \x04\x04\x04\x03', 'Itallo Victor� \x04\x04\x04\x01', 'Itallo Victor� \x04\x04\x04\x02', 'Itallo Victor� \x04\x04\x04', 'Binaasa e\x04���', 'Binaasa e\x04���', 'Binaasa e\x04���', 'Binaasa e\x04���', 'Binaasa e\x04���']
+['\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '���������']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09,
+         -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09, -1.0235e+09],
+        [-9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08,
+         -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08, -9.9122e+08],
+        [-1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09,
+         -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09, -1.0006e+09],
+        [-1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09,
+         -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09, -1.0148e+09]],
+       device='cuda:0')
+after us  tensor([[-1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09,
+         -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09],
+        [-1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09,
+         -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09],
+        [-1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09,
+         -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09],
+        [-1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09,
+         -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x03', 'Henry Josephs� \x04\x04\x04\x04\x01', 'Henry Josephs� \x04\x04\x04\x04\x02', 'Henry Josephs� \x04\x04\x04\x04', 'Matthew and॥��\x04\x04', 'Matthew and॥��\x04\x03', 'Matthew and॥��\x04\x01', 'Matthew and॥��\x04\x02', 'Matthew and॥��\x04', 'Itallo Victor� \x04\x04\x04\x04\x04', 'Itallo Victor� \x04\x04\x04\x04\x03', 'Itallo Victor� \x04\x04\x04\x04\x01', 'Itallo Victor� \x04\x04\x04\x04\x02', 'Itallo Victor� \x04\x04\x04\x04', 'Binaasa e\x04����', 'Binaasa e\x04����', 'Binaasa e\x04����', 'Binaasa e\x04����', 'Binaasa e\x04����']
+['\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06', '\x04\x03\x01\x02\x00\x05\x06']
+tensor([[0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09,
+         -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09, -1.1387e+09],
+        [-1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09,
+         -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09, -1.1063e+09],
+        [-1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09,
+         -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09, -1.1158e+09],
+        [-1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09,
+         -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09, -1.1299e+09]],
+       device='cuda:0')
+after us  tensor([[-1.2538e+09, -1.2538e+09, -1.2538e+09, -1.2538e+09, -1.2538e+09,
+         -1.2538e+09, -1.2538e+09, -1.2538e+09, -1.2538e+09, -1.2538e+09],
+        [-1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09,
+         -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09],
+        [-1.2309e+09, -1.2309e+09, -1.2309e+09, -1.2309e+09, -1.2309e+09,
+         -1.2309e+09, -1.2309e+09, -1.2309e+09, -1.2309e+09, -1.2309e+09],
+        [-1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09,
+         -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Matthew and॥��\x04\x04\x04', 'Matthew and॥��\x04\x04\x03', 'Matthew and॥��\x04\x04\x01', 'Matthew and॥��\x04\x04\x02', 'Matthew and॥��\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Binaasa e\x04����\x04', 'Binaasa e\x04����\x03', 'Binaasa e\x04����\x01', 'Binaasa e\x04����\x02', 'Binaasa e\x04����']
+['Charles Charles Charles Charles Charles', '\x04\x03\x01\x02\x00\x05\x06', 'Charles Charles Charles Charles Charles', '\x04\x03\x01\x02\x00\x05\x06']
+tensor([[0.4212, 0.4212, 0.4212, 0.4212, 0.4212, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.3069, 0.3069, 0.3069, 0.3069, 0.3069, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-7.0708e-01, -7.0708e-01, -7.0708e-01, -7.0708e-01, -7.0708e-01,
+         -1.4489e+00, -1.4489e+00, -1.4489e+00, -1.4489e+00, -1.4489e+00],
+        [-1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09,
+         -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09, -1.2215e+09],
+        [-7.0708e-01, -7.0708e-01, -7.0708e-01, -7.0708e-01, -7.0708e-01,
+         -1.4489e+00, -1.4489e+00, -1.4489e+00, -1.4489e+00, -1.4489e+00],
+        [-1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09,
+         -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09, -1.2451e+09]],
+       device='cuda:0')
+after us  tensor([[-1.2549e+08, -1.2549e+08, -1.2549e+08, -1.2549e+08, -1.2549e+08,
+         -1.0655e+08, -1.0655e+08, -1.0655e+08, -1.0655e+08, -1.0655e+08],
+        [-1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09,
+         -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09],
+        [-1.2896e+08, -1.2896e+08, -1.2896e+08, -1.2896e+08, -1.2896e+08,
+         -1.0431e+08, -1.0431e+08, -1.0431e+08, -1.0431e+08, -1.0431e+08],
+        [-1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09,
+         -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Matthew and॥��\x04\x04\x04\x04', 'Matthew and॥��\x04\x04\x04\x03', 'Matthew and॥��\x04\x04\x04\x01', 'Matthew and॥��\x04\x04\x04\x02', 'Matthew and॥��\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Binaasa e\x04����\x04\x04', 'Binaasa e\x04����\x04\x03', 'Binaasa e\x04����\x04\x01', 'Binaasa e\x04����\x04\x02', 'Binaasa e\x04����\x04']
+['Charles Charles Charles Charles Charles', '\x04\x03\x01\x02\x00\x05\x06', 'Charles Charles Charles Charles Charles', '\x04\x03\x01\x02\x00\x05\x06']
+tensor([[0.4212, 0.4212, 0.4212, 0.4212, 0.4212, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.3069, 0.3069, 0.3069, 0.3069, 0.3069, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-3.3357e-01, -3.3357e-01, -3.3357e-01, -3.3357e-01, -3.3357e-01,
+         -2.3442e+00, -2.3442e+00, -2.3442e+00, -2.3442e+00, -2.3442e+00],
+        [-1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09,
+         -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09, -1.3366e+09],
+        [-3.3357e-01, -3.3357e-01, -3.3357e-01, -3.3357e-01, -3.3357e-01,
+         -2.3442e+00, -2.3442e+00, -2.3442e+00, -2.3442e+00, -2.3442e+00],
+        [-1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09,
+         -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09, -1.3602e+09]],
+       device='cuda:0')
+after us  tensor([[-1.2549e+08, -1.2549e+08, -1.2549e+08, -1.2549e+08, -1.2549e+08,
+         -1.0655e+08, -1.0655e+08, -1.0655e+08, -1.0655e+08, -1.0655e+08],
+        [-1.4517e+09, -1.4517e+09, -1.4517e+09, -1.4517e+09, -1.4517e+09,
+         -1.4517e+09, -1.4517e+09, -1.4517e+09, -1.4517e+09, -1.4517e+09],
+        [-1.2896e+08, -1.2896e+08, -1.2896e+08, -1.2896e+08, -1.2896e+08,
+         -1.0431e+08, -1.0431e+08, -1.0431e+08, -1.0431e+08, -1.0431e+08],
+        [-1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09,
+         -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09]],
+       device='cuda:0')
+['Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Henry Josephs� \x04\x04\x04\x04\x04', 'Binaasa e\x04����\x04\x04\x04', 'Binaasa e\x04����\x04\x04\x03', 'Binaasa e\x04����\x04\x04\x01', 'Binaasa e\x04����\x04\x04\x02', 'Binaasa e\x04����\x04\x04']
+['Charles Charles Charles Charles Charles William William William William William', 'Charles Charles Charles Charles Charles William William William William William', 'Charles Charles Charles Charles Charles William William William William William', '\x04\x03\x01\x02\x00\x05\x06']
+tensor([[0.4212, 0.4212, 0.4212, 0.4212, 0.4212, 0.4419, 0.4419, 0.4419, 0.4419,
+         0.4419],
+        [0.2634, 0.2634, 0.2634, 0.2634, 0.2634, 0.2549, 0.2549, 0.2549, 0.2549,
+         0.2549],
+        [0.3069, 0.3069, 0.3069, 0.3069, 0.3069, 0.2958, 0.2958, 0.2958, 0.2958,
+         0.2958],
+        [0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000, 0.8000,
+         0.8000]], device='cuda:0')
+before us  tensor([[-2.5745e-01, -2.5745e-01, -2.5745e-01, -2.5745e-01, -2.5745e-01,
+         -2.6955e+00, -2.6955e+00, -2.6955e+00, -2.6955e+00, -2.6955e+00],
+        [-2.6121e-01, -2.6121e-01, -2.6121e-01, -2.6121e-01, -2.6121e-01,
+         -2.6790e+00, -2.6790e+00, -2.6790e+00, -2.6790e+00, -2.6790e+00],
+        [-2.5745e-01, -2.5745e-01, -2.5745e-01, -2.5745e-01, -2.5745e-01,
+         -2.6955e+00, -2.6955e+00, -2.6955e+00, -2.6955e+00, -2.6955e+00],
+        [-1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09,
+         -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09, -1.4753e+09]],
+       device='cuda:0')
+after us  tensor([[-1.1565e+08, -1.1565e+08, -1.1565e+08, -1.1565e+08, -1.1565e+08,
+         -1.1462e+08, -1.1462e+08, -1.1462e+08, -1.1462e+08, -1.1462e+08],
+        [-1.1492e+08, -1.1492e+08, -1.1492e+08, -1.1492e+08, -1.1492e+08,
+         -1.1534e+08, -1.1534e+08, -1.1534e+08, -1.1534e+08, -1.1534e+08],
+        [-1.1485e+08, -1.1485e+08, -1.1485e+08, -1.1485e+08, -1.1485e+08,
+         -1.1541e+08, -1.1541e+08, -1.1541e+08, -1.1541e+08, -1.1541e+08],
+        [-1.5905e+09, -1.5905e+09, -1.5905e+09, -1.5905e+09, -1.5905e+09,
+         -1.5905e+09, -1.5905e+09, -1.5905e+09, -1.5905e+09, -1.5905e+09]],
+       device='cuda:0')
+Testing:   0%|                                                                                                                                | 1/2554 [00:54<38:24:59, 54.17s/it]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Hari Born He Har Dr His Hiraहरि  H', 'Ib He His  After From In A The Al', 'Call  Natali William Giuli Avenue Luis Cassi Camill Alice', 'Abu  Al A Muhammad अ Sy ( आ "']
+tensor([[0.3561, 0.2905, 0.3240, 0.3502, 0.2948, 0.3410, 0.3618, 0.3748, 0.8000,
+         0.2628],
+        [0.4465, 0.4767, 0.5054, 0.8000, 0.4357, 0.4695, 0.4722, 0.4389, 0.4211,
+         0.4635],
+        [0.4861, 0.8000, 0.4357, 0.3137, 0.3839, 0.2920, 0.3298, 0.4186, 0.4210,
+         0.3337],
+        [0.4021, 0.8000, 0.3420, 0.3898, 0.3082, 0.4115, 0.4260, 0.2767, 0.3472,
+         0.2736]], device='cuda:0')
+before us  tensor([[-0.1162, -2.6325, -4.4509, -5.5379, -5.9518, -6.5416, -6.6449, -6.8852,
+         -7.1948, -7.2659],
+        [-1.1155, -1.6464, -2.2176, -3.4433, -3.6521, -3.7005, -3.8075, -3.9918,
+         -4.0091, -4.0173],
+        [-0.0600, -4.9184, -5.3643, -5.5544, -6.1144, -6.5809, -6.6818, -6.6900,
+         -6.8199, -6.9720],
+        [-0.0626, -3.8000, -4.8925, -5.0654, -5.6907, -6.4325, -6.4758, -6.7774,
+         -6.8343, -7.1385]], device='cuda:0')
+after us  tensor([[-1.1670e+08, -1.1998e+08, -1.1830e+08, -1.1700e+08, -1.1976e+08,
+         -1.1745e+08, -1.1641e+08, -1.1576e+08, -9.4504e+07, -1.2136e+08],
+        [-1.1775e+08, -1.1624e+08, -1.1480e+08, -1.0008e+08, -1.1829e+08,
+         -1.1660e+08, -1.1647e+08, -1.1813e+08, -1.1902e+08, -1.1690e+08],
+        [-1.1242e+08, -9.6729e+07, -1.1495e+08, -1.2104e+08, -1.1753e+08,
+         -1.2213e+08, -1.2024e+08, -1.1580e+08, -1.1568e+08, -1.2005e+08],
+        [-1.1548e+08, -9.5584e+07, -1.1849e+08, -1.1609e+08, -1.2018e+08,
+         -1.1501e+08, -1.1428e+08, -1.2175e+08, -1.1823e+08, -1.2191e+08]],
+       device='cuda:0')
+['Hari', 'Born', 'He', 'Har', 'Dr', 'Ib', 'He', 'His', '', 'After', 'Call', '', 'Natali', 'William', 'Giuli', 'Abu', '', 'Al', 'A', 'Muhammad']
+['sasse Sshesशa.', "ʿTogetherWithoutibnHowever'AccordingAnotherThemes�", 'EbonyकामाCarolineAntoineCatherine CallAlexandra,.�', "Mohammed'Mohammadʿa,s-�."]
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1140, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1933, in beam_search
+    sim_tok = sim_func(tokens, inp_str, F.cosine_similarity).mean()
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 36, in get_similarity
+    fact_embedding = get_embedding(" ".join(facts))[1:-1]
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 22, in get_embedding
+    states = model(**tokenized_facts).hidden_states
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 1001, in forward
+    return_dict=return_dict,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 589, in forward
+    output_attentions,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 475, in forward
+    past_key_value=self_attn_past_key_value,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 408, in forward
+    output_attentions,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 267, in forward
+    mixed_query_layer = self.query(hidden_states)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 93, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/functional.py", line 1686, in linear
+    if any([type(t) is not Tensor for t in tens_ops]) and has_torch_function(tens_ops):
+KeyboardInterrupt

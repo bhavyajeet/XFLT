@@ -1,0 +1,20 @@
+2023-02-21 05:24:33,619 INFO    MainThread:11152 [internal.py:wandb_internal():89] W&B internal server running at pid: 11152, started at: 2023-02-21 05:24:33.618386
+2023-02-21 05:24:33,626 DEBUG   HandlerThread:11152 [handler.py:handle_request():126] handle_request: run_start
+2023-02-21 05:24:33,628 INFO    WriterThread:11152 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_052431-2hxegrpp/run-2hxegrpp.wandb
+2023-02-21 05:24:38,234 DEBUG   HandlerThread:11152 [meta.py:__init__():40] meta init
+2023-02-21 05:24:38,235 DEBUG   HandlerThread:11152 [meta.py:__init__():54] meta init done
+2023-02-21 05:24:38,235 DEBUG   HandlerThread:11152 [meta.py:probe():211] probe
+2023-02-21 05:24:38,244 DEBUG   HandlerThread:11152 [meta.py:_setup_git():201] setup git
+2023-02-21 05:24:38,295 DEBUG   HandlerThread:11152 [meta.py:_setup_git():208] setup git done
+2023-02-21 05:24:38,296 DEBUG   HandlerThread:11152 [meta.py:_save_pip():58] save pip
+2023-02-21 05:24:38,298 DEBUG   HandlerThread:11152 [meta.py:_save_pip():72] save pip done
+2023-02-21 05:24:38,299 DEBUG   HandlerThread:11152 [meta.py:_save_conda():79] save conda
+2023-02-21 05:25:10,457 DEBUG   HandlerThread:11152 [meta.py:_save_conda():87] save conda done
+2023-02-21 05:25:10,458 DEBUG   HandlerThread:11152 [meta.py:probe():249] probe done
+2023-02-21 05:26:46,707 WARNING MainThread:11152 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-21 05:26:47,423 WARNING MainThread:11152 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2023-02-21 05:26:47,424 ERROR   MainThread:11152 [internal.py:wandb_internal():148] Internal process interrupted.
+2023-02-21 05:26:47,662 INFO    SenderThread:11152 [sender.py:finish():986] shutting down sender
+2023-02-21 05:26:47,820 INFO    WriterThread:11152 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/coverage-prompt/wandb/offline-run-20230221_052431-2hxegrpp/run-2hxegrpp.wandb
+2023-02-21 05:26:47,827 INFO    HandlerThread:11152 [handler.py:finish():683] shutting down handler
+2023-02-21 05:26:47,830 INFO    MainThread:11152 [internal.py:handle_exit():76] Internal process exited

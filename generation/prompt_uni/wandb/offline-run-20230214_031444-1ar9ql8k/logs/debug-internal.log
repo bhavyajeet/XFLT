@@ -1,0 +1,20 @@
+2023-02-14 03:14:46,581 INFO    MainThread:27922 [internal.py:wandb_internal():89] W&B internal server running at pid: 27922, started at: 2023-02-14 03:14:46.580322
+2023-02-14 03:14:46,585 INFO    WriterThread:27922 [datastore.py:open_for_write():77] open: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_031444-1ar9ql8k/run-1ar9ql8k.wandb
+2023-02-14 03:14:46,589 DEBUG   HandlerThread:27922 [handler.py:handle_request():126] handle_request: run_start
+2023-02-14 03:14:51,200 DEBUG   HandlerThread:27922 [meta.py:__init__():40] meta init
+2023-02-14 03:14:51,201 DEBUG   HandlerThread:27922 [meta.py:__init__():54] meta init done
+2023-02-14 03:14:51,201 DEBUG   HandlerThread:27922 [meta.py:probe():211] probe
+2023-02-14 03:14:51,210 DEBUG   HandlerThread:27922 [meta.py:_setup_git():201] setup git
+2023-02-14 03:14:51,252 DEBUG   HandlerThread:27922 [meta.py:_setup_git():208] setup git done
+2023-02-14 03:14:51,252 DEBUG   HandlerThread:27922 [meta.py:_save_pip():58] save pip
+2023-02-14 03:14:51,254 DEBUG   HandlerThread:27922 [meta.py:_save_pip():72] save pip done
+2023-02-14 03:14:51,255 DEBUG   HandlerThread:27922 [meta.py:_save_conda():79] save conda
+2023-02-14 03:14:53,948 WARNING MainThread:27922 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2023-02-14 03:14:54,134 DEBUG   HandlerThread:27922 [meta.py:_save_conda():87] save conda done
+2023-02-14 03:14:54,134 DEBUG   HandlerThread:27922 [meta.py:probe():249] probe done
+2023-02-14 03:14:55,950 WARNING MainThread:27922 [internal.py:is_dead():365] Internal process exiting, parent pid 27837 disappeared
+2023-02-14 03:14:55,951 ERROR   MainThread:27922 [internal.py:wandb_internal():141] Internal process shutdown.
+2023-02-14 03:14:56,148 INFO    WriterThread:27922 [datastore.py:close():281] close: /home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/wandb/offline-run-20230214_031444-1ar9ql8k/run-1ar9ql8k.wandb
+2023-02-14 03:14:56,151 INFO    HandlerThread:27922 [handler.py:finish():683] shutting down handler
+2023-02-14 03:14:56,612 INFO    SenderThread:27922 [sender.py:finish():986] shutting down sender
+2023-02-14 03:14:56,614 INFO    MainThread:27922 [internal.py:handle_exit():76] Internal process exited

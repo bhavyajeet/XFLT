@@ -1,0 +1,86 @@
+02/14/2023 03:41:08 AM [CRITICAL] test: merging the 12 ['as', 'bn', 'en', 'gu', 'hi', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te'] different languages dataset
+02/14/2023 03:41:08 AM [INFO] test dataset is already present.
+02/14/2023 03:41:09 AM [CRITICAL] test : script unification to Devanagari is enabled.
+02/14/2023 03:41:09 AM [INFO] test dataset count : 10216
+Testing: 0it [00:00, ?it/s]['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+['Charles', 'Charle', 'Charlie', 'चा', 'Sir', 'Matthew', 'Matt', 'Sir', 'Mathe', 'Mats', 'Ital', 'T', '', 'Sir', 'A', 'Hin', 'Bina', 'Hi', 'Heid', 'hina']
+['Charlemagn', 'Charle Edward', 'Charley', 'Charle', 'Charle Joseph', 'Matthew Walter', 'Matthew', 'Matthew Thomas', 'Matthew Quick', 'Matthew William', 'Ital', 'Philippe', 'Alberto', 'László', 'Agost', 'hina Ka', 'hina K', 'hina Kab', 'Bina Ka', 'hina Kas']
+['Charle Ernest', 'Charle Louise', 'Charle Raymond', 'Charle Catherine', 'Charle Edgar', 'Matthew Kenneth', 'Matthew Claude', 'Matthew Corneli', 'Matthew Bryan', 'Matthew Gerard', 'Italo', 'Italos', 'Italó', 'Italon', 'Italano', 'hina Ka Ware', 'hina Kasare', 'hina Kab Ware', 'hina Kabore', 'hina Kas Ware']
+['Charle Edgar Town', 'Charle Raymond Town', 'Charle Ernest Town', 'Charle Edgar', 'Charle Louise Town', 'Matthew Claude Klein', 'Matthew Bryan Klein', 'Matthew Gerard Klein', 'Matthew Cornelius', 'Matthew Kenneth Klein', 'Italo de', 'Italo De', 'Italóo', 'Italoo', 'Italóon', 'hina Ka Ware (', 'hina Ka Ware is', 'hina Ka Ware was', 'hina Kab Ware (', 'hina Kas Ware (']
+['Charle Edgar Charter', "Charle Edgar '", 'Charle Edgar  Town', 'Charle Edgar Raymond', 'Charle Edgar Owen', 'Matthew Cornelius Klein', 'Matthew Claude Kleinveld', 'Matthew Bryan Kleinveld', 'Matthew Gerard Kleinveld', 'Matthew Claude Kleinvern', 'Italo dezan', 'Italo de Za', 'Italo de Zan', 'Italo deZa', 'Italo de Zam', 'hina Ka Ware is an', 'hina Ka Ware was an', 'hina Ka Ware is', 'hina Ka Ware was', 'hina Ka Ware is the']
+/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:45: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 582, in <module>
+    start_training(args)
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 428, in start_training
+    trainer.test(model=model, ckpt_path=checkpoint_file)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 719, in test
+    results = self.__test_given_model(model, test_dataloaders)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 784, in __test_given_model
+    results = self.fit(model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 445, in fit
+    results = self.accelerator_backend.train()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 148, in train
+    results = self.ddp_train(process_idx=self.task_idx, model=model)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 282, in ddp_train
+    results = self.train_or_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/accelerator.py", line 64, in train_or_test
+    results = self.trainer.run_test()
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 628, in run_test
+    eval_loop_results, _ = self.run_evaluation(test_mode=True)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in run_evaluation
+    output = self.evaluation_loop.evaluation_step(test_mode, batch, batch_idx, dataloader_idx)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 169, in evaluation_step
+    output = self.trainer.accelerator_backend.test_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 166, in test_step
+    output = self.training_step(args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/accelerators/ddp_accelerator.py", line 158, in training_step
+    output = self.trainer.model(*args)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/pytorch_lightning/overrides/data_parallel.py", line 179, in forward
+    output = self.module.test_step(*inputs[0], **kwargs[0])
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 273, in test_step
+    return self._step(batch, 'test')
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 174, in _step
+    return_map.update(self._generative_step(batch))
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/main.py", line 136, in _generative_step
+    sim_func = similarity.get_similarity
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1140, in generate
+    **model_kwargs,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/generation_utils.py", line 1932, in beam_search
+    sim_tok = sim_func(tokens, inp_str, F.cosine_similarity).mean()
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 40, in get_similarity
+    token_embedding = get_embedding([token,])[1:-1]
+  File "/home/bhavyajeet.singh/msme/MEMS-XF2T/generation/mT5-baseline/similarity.py", line 21, in get_embedding
+    states = model(**tokenized_facts).hidden_states
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 1001, in forward
+    return_dict=return_dict,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 589, in forward
+    output_attentions,
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 511, in forward
+    self.feed_forward_chunk, self.chunk_size_feed_forward, self.seq_len_dim, attention_output
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/modeling_utils.py", line 2186, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 523, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 438, in forward
+    hidden_states = self.dense(hidden_states)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 93, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/bhavyajeet.singh/anaconda3/envs/xalign/lib/python3.7/site-packages/torch/nn/functional.py", line 1692, in linear
+    output = input.matmul(weight.t())
+KeyboardInterrupt
