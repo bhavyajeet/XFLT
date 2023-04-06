@@ -9,6 +9,10 @@
 
 # python train_og.py --train_path /scratch/aditya.hari/data/train_extractive.json --val_path /scratch/aditya.hari/data/val_extractive.json --test_path /scratch/aditya.hari/data/test_extractive.json --tokenizer google/mt5-small --model google/mt5-small --is_mt5 1 --exp_name multi-ling-multi-dom-mt5 --save_dir ./genmodels/ --num_epochs 10 --train_batch_size 1 --val_batch_size 1 --test_batch_size 1 --max_source_length 512 --max_target_length 32 --ner_device cuda:1 --sectitle_device cuda:1 --sectitle_model_path ./secmodel/9/ --sectitle_tok xlm-roberta-base --ner_f_device 1 --isTrial 1 --model_gpus 0,2,3
 
+export NUM_NODES=1
+export NUM_GPUS_PER_NODE=4
+export NODE_RANK=0
+export WORLD_SIZE=$(($NUM_NODES * $NUM_GPUS_PER_NODE))
 
 # fetches the directory where the shell file resides
 file_path=$(realpath "$0")
@@ -20,13 +24,13 @@ LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
 GPUS=4
 MODEL_DIR=$dir_path   #optional
 PYTHON="/home2/aditya_hari/miniconda3/envs/multisent/bin/python"  #change required
-SCRATCH_DIR=/tmp/XAlign
+SCRATCH_DIR=/scratch/aditya_hari
 mkdir -p $SCRATCH_DIR
 CHECKPOINT_PATH=$SCRATCH_DIR/checkpoint   #change required
 
 
-BATCH_SIZE=8
-TEST_BATCH_SIZE=8
+BATCH_SIZE=2
+TEST_BATCH_SIZE=2
 EPOCHS=5
 LR=1e-3
 
@@ -39,7 +43,7 @@ PRETRAINED=1
 
 ONLINE_SYNC=1  #control w&b online syncronization, 0 means inactive
 
-DATASET_DIR="/home2/aditya_hari/multisent/data/small_data"
+DATASET_DIR=$SCRATCH_DIR/datasets
 
 printf "\n\n"
 #dynamically set above default values through shell arguments
@@ -129,7 +133,10 @@ printf "\n"
 # $PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --enable_script_unification 1
 
 
-$PYTHON train.py --dataset_dir $DATASET_DIR --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1 --isTrial 0 --model_gpus 0,1,2,3 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl
+torchrun \
+    --nproc_per_node=$NUM_GPUS_PER_NODE \
+    --nnodes=$NUM_NODES \
+    train_ddp.py --dataset_dir /home2/aditya_hari/multisent/data/small_data --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1  --model_gpus 0,1,2,3 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl --world_size 4 --isTrial 0
 
 
 

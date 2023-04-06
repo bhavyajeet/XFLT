@@ -3,6 +3,8 @@ import torch
 import numpy as np 
 from icecream import ic
 from collections import OrderedDict
+import torch.nn.functional as F
+from torch.nn.parallel import DistributedDataParallel as DDP
 
 from transformers import (
     MT5ForConditionalGeneration,
@@ -40,9 +42,9 @@ class GenModel(torch.nn.Module):
         print("Loading Main Model")
         self.config = AutoConfig.from_pretrained(config)
         if self.is_mt5:
-            self.model = torch.nn.DataParallel(MT5ForConditionalGeneration.from_pretrained(self.model_name_or_path), device_ids=self.model_gpus)
+            self.model = MT5ForConditionalGeneration.from_pretrained(self.model_name_or_path)
         else:
-            self.model = torch.nn.DataParallel(MBartForConditionalGeneration.from_pretrained(self.model_name_or_path), device_ids=self.model_gpus)
+            self.model = MBartForConditionalGeneration.from_pretrained(self.model_name_or_path)
 
         if self.isTest:
             ic(self.checkpoint)
@@ -62,7 +64,7 @@ class GenModel(torch.nn.Module):
         return outputs
 
     def test(self, batch):
-        generated_ids = self.model.module.generate(
+        generated_ids = self.model.generate(
             input_ids=batch['input_ids'],
             attention_mask=batch['attention_mask'],
             use_cache=True,
@@ -78,7 +80,7 @@ class GenModel(torch.nn.Module):
         return {'pred_text': pred_text, 'gold_text': gold_text}
 
     def middle(self, batch):
-        generated_ids = self.model.module.generate(
+        generated_ids = self.model.generate(
             input_ids=batch['input_ids'],
             attention_mask=batch['attention_mask'],
             use_cache=True,
@@ -87,9 +89,16 @@ class GenModel(torch.nn.Module):
         outputs = self(batch)
         #print(outputs['loss'])
         loss, logits = outputs['loss'], outputs['logits']
-        input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
-        pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        return {'main_loss': sum(loss)/len(loss), 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
+        out = F.softmax(logits, dim=-1)
+        greedy_probs, greedy_idx = torch.max(out, dim=-1)
+        ic(generated_ids.shape, greedy_idx.shape)
+        ic(self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True))
+        ic(self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True))
+        #input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
+        input_text = None 
+        #pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+        pred_text = None 
+        return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
 
 
     # def genOutput(self, batch):
