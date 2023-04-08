@@ -85,7 +85,8 @@ def calcReward(batch, logits, foreign, input_text, pred_text, titletok, titlemod
     for idx in range(len(batch['input_ids'])):
         input_lang = True if batch['clang'][idx] in foreign else False
         pred_lang = True if batch['tlang'][idx] in foreign else False
-
+        
+        bl_reward = sectitleReward(input_text[idx])
         sec_reward = sectitleReward(input_text[idx], pred_text[idx], titletok, titlemodel, titledevice)
         ner_reward = nerReward(pred_text[idx], input_text[idx], nertok, nermodel, nerdevice, pred_lang, input_lang, nerf_pipeline)
 
@@ -235,18 +236,18 @@ def main():
     # )
     ic(f"getting datasets {local_rank}")
 
-    enable_prefix = False
+    enable_prefix = True
     merged_directory = _intiate_dataset_merging('train', dataset_path, languages=lang, logger=None)
     train_file_path = os.path.join(os.path.abspath(merged_directory), 'train.jsonl')
-    train_loader = get_dataset_loaders(tokenizer, train_file_path, None, dataset_count=0,
+    train_loader = get_dataset_loaders(tokenizer, train_file_path, logger = None, dataset_count=0,
                                             batch_size=train_batch_size,  src_max_seq_len=200, 
                                             tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
 
-    enable_prefix = False
+    enable_prefix = True
     merged_directory = _intiate_dataset_merging('val', dataset_path, languages=lang, logger=None)
     val_file_path = os.path.join(os.path.abspath(merged_directory), 'val.jsonl')
-    val_loader = get_dataset_loaders(tokenizer, val_file_path, None, dataset_count=0,
+    val_loader = get_dataset_loaders(tokenizer, val_file_path, logger =None, dataset_count=0,
                                             batch_size=args.val_batch_size,  src_max_seq_len=200, 
                                             tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
@@ -357,20 +358,20 @@ def main():
             #     pred_text=pred_text
             # )
 
-            # reward_loss = calcReward(
-            #     batch=batch,
-            #     logits=logits,
-            #     foreign=foreign,
-            #     input_text=input_text,
-            #     pred_text=pred_text,
-            #     titlemodel=titlemodel,
-            #     titletok=titletok,
-            #     titledevice=sectitle_device,
-            #     nertok=nertok,
-            #     nermodel=nermodel,
-            #     nerdevice=ner_device,
-            #     nerf_pipeline=nerf_pipeline
-            # )
+            reward_loss = calcReward(
+                batch=batch,
+                logits=logits,
+                foreign=foreign,
+                input_text=input_text,
+                pred_text=pred_text,
+                # titlemodel=titlemodel,
+                # titletok=titletok,
+                titledevice=sectitle_device,
+                # nertok=nertok,
+                # nermodel=nermodel,
+                nerdevice=ner_device,
+                # nerf_pipeline=nerf_pipeline
+            )
 
             reward_loss = 0
 
