@@ -89,20 +89,32 @@ class GenModel(torch.nn.Module):
             input_ids=batch['input_ids'],
             attention_mask=batch['attention_mask'],
             use_cache=True,
-            max_length=self.tgt_max_seq_len
+            # num_beams = 1,
+            do_sample=True,
+            top_k = 1, 
+            max_length=self.tgt_max_seq_len,
+            return_dict_in_generate=True,
         )
         outputs = self(batch)
-        #print(outputs['loss'])
         loss, logits = outputs['loss'], outputs['logits']
         out = F.softmax(logits, dim=-1)
-        greedy_probs, greedy_idx = torch.max(out, dim=-1)
-        ic(generated_ids.shape, greedy_idx.shape)
-        ic(self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True))
-        ic(self.tokenizer.batch_decode(greedy_idx, skip_special_tokens=True))
-        #input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
-        input_text = None 
-        #pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        pred_text = None 
+
+        # greedy_idx = torch.argmax(out, dim=-1)
+        # tgt_gre = []
+        # for g in greedy_idx:
+        #     g_e = torch.arange(len(g))[g.eq(self.tokenizer.eos_token_id).cpu()]
+        #     g_e = g_e[0] if len(g_e)>0  and 0<g_e[0]<self.tgt_max_seq_len else self.tgt_max_seq_len
+        #     our_gen = self.tokenizer.batch_decode(g[:g_e], skip_special_tokens=True)
+        #     # ic(our_gen)
+        #     tgt_gre.append(g[:g_e].cpu().tolist())
+
+        # ic(generated_ids.shape, greedy_idx.shape)
+        # model_gen = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+        # ic(model_gen)
+        # ic(input_txt)
+
+        input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
+        pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
         return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
 
 
