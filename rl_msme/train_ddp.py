@@ -15,11 +15,13 @@ from torch.utils.data import DataLoader
 #from model.logger import * 
 from model.model_ddp import GenModel
 from model.dataloader_ddp import get_dataset_loaders
-from model.rewards import nerReward, sectitleReward
+from model.rewards import nerReward, sectitleReward, get_bl_reward
+from model.parent_reward import get_coverage_reward
 from model.utils import _intiate_dataset_merging
 
 from transformers import (
     AutoTokenizer,
+    AutoModel,
     AutoModelForSequenceClassification,
     AutoModelForTokenClassification,
     pipeline
@@ -78,26 +80,23 @@ def add_special_tokens(tokenizer):
         num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
         return tokenizer 
 
-def calcReward(batch, logits, foreign, input_text, pred_text, titletok, titlemodel, titledevice, nertok, nermodel, nerdevice, nerf_pipeline):
+def calcReward(batch, logits, input_text, pred_text, ref_text, parent_device, parentModel, parentTok ):
     nerlosses = []
     seclosses = []
 
     for idx in range(len(batch['input_ids'])):
-        input_lang = True if batch['clang'][idx] in foreign else False
-        pred_lang = True if batch['tlang'][idx] in foreign else False
         
-        bl_reward = sectitleReward(input_text[idx])
-        sec_reward = sectitleReward(input_text[idx], pred_text[idx], titletok, titlemodel, titledevice)
-        ner_reward = nerReward(pred_text[idx], input_text[idx], nertok, nermodel, nerdevice, pred_lang, input_lang, nerf_pipeline)
+        bl_reward = get_bl_reward(input_text[idx], pred_text[idx])
+        parent_reward = get_coverage_reward(pred_text[idx], input_text[idx], parentModel, parentTok, parent_device)
 
-        # sec_reward = 0.5
-        # ner_reward = 0.5
+        # bl_reward = 0.5
+        # parent_reward = 0.5
 
         probs = torch.nn.functional.softmax(logits, dim=-1)
         argmax = torch.amax(probs, dim=2)
         bestaction = torch.log(argmax)
-        nerloss = (-bestaction*ner_reward).mean()
-        secloss = (-bestaction*sec_reward).mean()
+        nerloss = (-bestaction*bl_reward).mean()
+        secloss = (-bestaction*parent_reward).mean()
         nerlosses.append(nerloss)
         seclosses.append(secloss)
 
@@ -132,7 +131,7 @@ def main():
     parser.add_argument('--ner_f_device', default=3, type=int, help='device to load Foreign NER on')
     parser.add_argument('--ner_f_model_path', default='Babelscape/wikineural-multilingual-ner', type=str, help='path to the NER model checkpoint')
     parser.add_argument('--ner_f_tok', default='Babelscape/wikineural-multilingual-ner', type=str, help='tokenizer for NER model')
-    parser.add_argument('--sectitle_device', default='cuda:2', type=str, help='device to load section-title compatibility model on')
+    parser.add_argument('--sectitle_device', default='cuda:4', type=str, help='device to load section-title compatibility model on')
     parser.add_argument('--sectitle_model_path', default='xlm-roberta-base', type=str, help='path to the sectitle model checkpoint')
     parser.add_argument('--sectitle_tok', default='xlm-roberta-base', type=str, help='tokenizer for section-title model')
     parser.add_argument('--isTest', default=0, type=int, help='test run')
@@ -280,13 +279,11 @@ def main():
         final_checkpoint=final_checkpoint
     )
     ic(f"got model {local_rank}")
-    # print("Loading Section-Title Model")
-    # titlemodel = AutoModelForSequenceClassification.from_pretrained(
-    #     sectitle_model_path,
-    #     num_labels=2
-    # ).to(sectitle_device)
-    # titletok = AutoTokenizer.from_pretrained(sectitle_tok)
-    # titlemodel.eval()
+    print("Loading Parent Model")
+    parentModel =  AutoModel.from_pretrained("google/muril-base-cased", output_hidden_states=True).to(sectitle_device)
+    parentTok =  AutoTokenizer.from_pretrained("google/muril-base-cased", padding='max_length', truncation='max_length', max_length=512)
+    parentModel.eval()
+    
     # print("Loaded Section-Title Model")
 
     # print("Loading IndicNER Model")
@@ -345,10 +342,11 @@ def main():
             batch['attention_mask'] = src_mask.to(model_device)
             # batch['labels'] = tgt_ids.to(model_device).squeeze()
             batch['labels'] = tgt_ids.to(model_device)
+            batch['label_attention_mask'] = tgt_mask.to(model_device)
             #print(tgt_ids.shape)
             # outputs = model(batch)
             middle_output = model.module.middle(batch)
-            main_loss, logits, input_text, pred_text = middle_output['main_loss'], middle_output['logits'], middle_output['input_text'], middle_output['pred_text']
+            main_loss, logits, input_text, pred_text, ref_text = middle_output['main_loss'], middle_output['logits'], middle_output['input_text'], middle_output['pred_text'], middle_output['ref_text']
             #ic(f'{input_text} in model {local_rank}')
             # reward_loss = calcTestReward(
             #     batch=batch,
@@ -361,16 +359,12 @@ def main():
             reward_loss = calcReward(
                 batch=batch,
                 logits=logits,
-                foreign=foreign,
                 input_text=input_text,
                 pred_text=pred_text,
-                # titlemodel=titlemodel,
-                # titletok=titletok,
-                titledevice=sectitle_device,
-                # nertok=nertok,
-                # nermodel=nermodel,
-                nerdevice=ner_device,
-                # nerf_pipeline=nerf_pipeline
+                ref_text=ref_text,
+                parent_device = sectitle_device,
+                parentModel=parentModel,
+                parentTok=parentTok
             )
 
             reward_loss = 0

@@ -27,3 +27,4 @@ hallucination/src/single_sent_pruned/
 hallucination/src/stopwords/
 hallucination/src/vectors/
 hallucination/src/eval_module/*.jsonl
+generation/prompt_uni/wandb/

@@ -88,8 +88,9 @@ class GenModel(torch.nn.Module):
         #print(outputs['loss'])
         loss, logits = outputs['loss'], outputs['logits']
         input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
+        ref_text = self.tokenizer.batch_decode(batch['labels'], skip_special_tokens=True)
         pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        return {'main_loss': sum(loss)/len(loss), 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
+        return {'main_loss': sum(loss)/len(loss), 'logits': logits, 'input_text': input_text, 'pred_text': pred_text, 'ref_text':ref_text}
 
 
     # def genOutput(self, batch):

@@ -8,10 +8,8 @@ from functools import lru_cache
 from nltk.util import ngrams 
 from collections import Counter
 
-device = 'cuda'
 
-#tokenizer = AutoTokenizer.from_pretrained("google/muril-base-cased", padding='max_length', truncation='max_length', max_length=512)
-model = AutoModel.from_pretrained("google/muril-base-cased", output_hidden_states=True).to(device)
+
 
 def group_duplicates(embeddings, lst, mean=True):
     output = [None for _ in range(len(set(lst)))]
@@ -36,9 +34,9 @@ def get_facts(source, token_split=True):
     return facts, []
 
 @lru_cache(maxsize=10000)
-def get_embedding(tokens, split_into_words=False):
+def get_embedding(tokens, model, tokenizer, split_into_words=False, parent_device = 'cuda:4'):
     with torch.no_grad():
-        tokenized_facts = tokenizer(tokens, padding=True, truncation=True, max_length=512, is_split_into_words=split_into_words, return_tensors="pt").to(device)
+        tokenized_facts = tokenizer(tokens, padding=True, truncation=True, max_length=512, is_split_into_words=split_into_words, return_tensors="pt").to(parent_device)
         states = model(**tokenized_facts).hidden_states
         output = torch.stack([states[i] for i in range(len(states))])
         output = output.squeeze()
@@ -54,15 +52,15 @@ def entailment_prob(fact_embeddings, generated_ngram, threshold=None):
         return np.mean((torch.max(similarities, dim=1).values > threshold).int().cpu().numpy())
     return np.mean(torch.max(similarities, dim=1).values.cpu().numpy())
 
-def get_coverage_reward(generated, source):
+def get_coverage_reward(generated, source,  model, parentTokenizer, parent_device):
     generated = re.sub(r"[',.।()]", '', generated)
     generated_tokens = re.sub(r'[ ]{2,}', ' ', generated.strip()).split()
     print(generated_tokens)
-    generated_embeddings, g_idx = get_embedding(tuple(generated_tokens), True)
+    generated_embeddings, g_idx = get_embedding(tuple(generated_tokens), model, parentTokenizer, True, parent_device)
     gen_emb = group_duplicates(generated_embeddings, g_idx)
 
     facts, fact_pos = get_facts(source, token_split=True)
-    fact_embeddings, f_idx = get_embedding(tuple(facts), split_into_words=True)
+    fact_embeddings, f_idx = get_embedding(tuple(facts), model, parentTokenizer, split_into_words=True, parent_device=parent_device)
     fact_embeddings = group_duplicates(fact_embeddings, f_idx)
     fact_emb = torch.cat(fact_embeddings).squeeze()
     

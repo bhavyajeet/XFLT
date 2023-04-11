@@ -1,5 +1,12 @@
 import torch
 
+
+
+def get_bl_reward(ref_text, generated_text):
+
+
+
+
 def sectitleReward(para, title, titletok, titlemodel, sectitle_device):
     inp = f'<s> {title} {para} </s>'
     emb = titletok(
