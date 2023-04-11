@@ -1,8 +1,14 @@
 import torch
+from sacrebleu.metrics import BLEU
+import sacrebleu
 
 
 
 def get_bl_reward(ref_text, generated_text):
+    score = sacrebleu.corpus_bleu([generated_text], [[ref_text]])
+    return float(str(score).split()[2])/100
+
+    
 
 
 
