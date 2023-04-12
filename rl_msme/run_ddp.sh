@@ -27,16 +27,16 @@ PYTHON="/home2/aditya_hari/miniconda3/envs/multisent/bin/python"  #change requir
 SCRATCH_DIR=/scratch/aditya_hari
 mkdir -p $SCRATCH_DIR
 CHECKPOINT_PATH=$SCRATCH_DIR/checkpoint   #change required
-
+MT5_CHECKPOINT='/home2/aditya_hari/multisent/baselines/epoch15.ckpt'
 
 BATCH_SIZE=2
 TEST_BATCH_SIZE=2
-EPOCHS=5
+EPOCHS=10
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=25
-TGT_MAX_SEQ_LENGTH=25
+SRC_MAX_SEQ_LENGTH=250
+TGT_MAX_SEQ_LENGTH=250
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
@@ -95,6 +95,9 @@ while [ $# -gt 0 ]; do
     --dataset_dir=*)
       DATASET_DIR="${1#*=}"
       ;;
+    --mt5_checkpoint=*)
+      MT5_CHECKPOINT="${1#*=}"
+      ;;
     *)
       printf "***************************\n"
       printf "* Error: Invalid argument. please check argument $1 *\n"
@@ -126,6 +129,7 @@ echo "PRETRAINED : $PRETRAINED"
 echo "ONLINE_SYNC : $ONLINE_SYNC"
 echo "DATASET_DIR : $DATASET_DIR"
 echo "LANGUAGE : $LANG"
+echo "mt5 checkpoint : $MT5_CHECKPOINT"
 echo "--------------------------------------------------- >>"
 printf "\n"
 
@@ -136,7 +140,7 @@ printf "\n"
 torchrun \
     --nproc_per_node=$NUM_GPUS_PER_NODE \
     --nnodes=$NUM_NODES \
-    train_ddp.py --langs en --dataset_dir /home2/aditya_hari/multisent/data/small_data --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1  --model_gpus 0,1 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl --world_size 2 --isTrial 1
+    train_ddp.py --langs all --num_epochs $EPOCHS --dataset_dir $DATASET_DIR --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1  --model_gpus 0,1 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl --world_size 2 --mt5_checkpoint $MT5_CHECKPOINT --isTrial 0
 
 
 
