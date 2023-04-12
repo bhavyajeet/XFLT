@@ -1,13 +1,21 @@
 import torch
 from sacrebleu.metrics import BLEU
 import sacrebleu
+from icecream import ic
 
-
-
-def get_bl_reward(ref_text, generated_text):
+def get_bl(ref_text, generated_text):
     score = sacrebleu.corpus_bleu([generated_text], [[ref_text]])
     return float(str(score).split()[2])/100
 
+
+def get_bl_reward(ref_text, generated_text):
+    bl_reward_list = [] 
+    # ic(ref_text,generated_text)
+    for idx in range(len(ref_text)): 
+        bl_reward_list.append(get_bl(ref_text[idx], generated_text[idx]))
+
+    bl_reward = torch.FloatTensor(bl_reward_list)
+    return bl_reward
     
 
 

@@ -93,29 +93,29 @@ class GenModel(torch.nn.Module):
             do_sample=True,
             top_k = 1, 
             max_length=self.tgt_max_seq_len,
-            return_dict_in_generate=True,
+            # return_dict_in_generate=True,
         )
         outputs = self(batch)
         loss, logits = outputs['loss'], outputs['logits']
         out = F.softmax(logits, dim=-1)
 
-        # greedy_idx = torch.argmax(out, dim=-1)
-        # tgt_gre = []
-        # for g in greedy_idx:
-        #     g_e = torch.arange(len(g))[g.eq(self.tokenizer.eos_token_id).cpu()]
-        #     g_e = g_e[0] if len(g_e)>0  and 0<g_e[0]<self.tgt_max_seq_len else self.tgt_max_seq_len
-        #     our_gen = self.tokenizer.batch_decode(g[:g_e], skip_special_tokens=True)
-        #     # ic(our_gen)
-        #     tgt_gre.append(g[:g_e].cpu().tolist())
+        greedy_idx = torch.argmax(out, dim=-1)
+        tgt_gre = []
+        for g in greedy_idx:
+            g_e = torch.arange(len(g))[g.eq(self.tokenizer.eos_token_id).cpu()]
+            g_e = g_e[0] if len(g_e)>0  and 0<g_e[0]<self.tgt_max_seq_len else self.tgt_max_seq_len
+            our_gen = self.tokenizer.batch_decode([g[:g_e]], skip_special_tokens=True)
+            # ic(our_gen)
+            tgt_gre.append(' '.join(our_gen))
 
         # ic(generated_ids.shape, greedy_idx.shape)
-        # model_gen = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+        model_gen = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
         # ic(model_gen)
-        # ic(input_txt)
-
         input_text = self.tokenizer.batch_decode(batch['input_ids'], skip_special_tokens=True)
+        ref_text = self.tokenizer.batch_decode(batch['labels'], skip_special_tokens=True)
         pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': pred_text}
+        return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': tgt_gre, 'ref_text':ref_text}
+
 
 
     # def genOutput(self, batch):

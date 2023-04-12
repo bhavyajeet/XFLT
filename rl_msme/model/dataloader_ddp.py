@@ -110,7 +110,7 @@ class TextDataset(Dataset):
         data_instance = self.dataset[idx]
         lang_iso = data_instance['lang'].strip().lower()
         lang_id = languages_map[lang_iso]['id']
-        ic(self.prefix)
+        # ic(self.prefix)
         if self.prefix:
             prefix_str = "generate  %s" % languages_map[lang_iso]['label'].lower()
             if self.add_label:
@@ -129,7 +129,7 @@ class TextDataset(Dataset):
                                         entity=data_instance['entity_name'].lower().strip(), triples=self.process_facts(data_instance['facts']))
 
         src_ids, src_mask = self.preprocess(input_str, self.src_max_seq_len)
-        ic(input_str)
+        # ic(input_str)
         tgt_ids, tgt_mask = self.preprocess(self.process_text(data_instance['sentence'], lang_iso), self.tgt_max_seq_len)
         return src_ids, src_mask, tgt_ids, tgt_mask, lang_id, idx
 

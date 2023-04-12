@@ -80,27 +80,43 @@ def add_special_tokens(tokenizer):
         num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
         return tokenizer 
 
-def calcReward(batch, logits, input_text, pred_text, ref_text, parent_device, parentModel, parentTok ):
-    nerlosses = []
-    seclosses = []
+def calcReward(batch, logits, input_text, pred_text, ref_text, ref_mask, parent_device, parentModel, parentTok, model_device ):
+    bleulosses = []
+    parentlosses = []
+
+    bl_reward = get_bl_reward(ref_text, pred_text)
+
+    probs = torch.nn.functional.softmax(logits, dim=-1)
+    argmax = torch.amax(probs, dim=2)
+    batch_size, max_len = argmax.size()
+    bestaction = torch.log(argmax)
+    mask = ref_mask
+    bl_reward = bl_reward.unsqueeze(1)
+    # ic(bestaction.shape,bl_reward.shape,mask.shape)
+    bl_loss = -bestaction * bl_reward.to(model_device) * mask
+    bl_loss = (bl_loss.sum(-1)/mask.sum(-1)).mean()
 
     for idx in range(len(batch['input_ids'])):
-        
-        bl_reward = get_bl_reward(input_text[idx], pred_text[idx])
-        parent_reward = get_coverage_reward(pred_text[idx], input_text[idx], parentModel, parentTok, parent_device)
+        # parent_reward = get_coverage_reward(pred_text[idx], input_text[idx], parentModel, parentTok, parent_device)
 
         # bl_reward = 0.5
-        # parent_reward = 0.5
-
+        parent_reward = 0.5
+        #print(logits.shape)
+        # ic(logits.shape)
         probs = torch.nn.functional.softmax(logits, dim=-1)
+        # ic(probs.shape)
+        #print(probs.shape)
         argmax = torch.amax(probs, dim=2)
-        bestaction = torch.log(argmax)
-        nerloss = (-bestaction*bl_reward).mean()
-        secloss = (-bestaction*parent_reward).mean()
-        nerlosses.append(nerloss)
-        seclosses.append(secloss)
+        # ic(argmax.shape)
+        bestaction = torch.log(argmax)[idx]
+        # ic(bestaction.shape)
+        # bleuloss = (-bestaction*bl_reward).mean()
+        # ic(bleuloss.shape)
+        parentloss = (-bestaction*parent_reward).mean()
+        # bleulosses.append(bleuloss)
+        parentlosses.append(parentloss)
 
-    return {'nerloss': sum(nerlosses)/len(nerlosses), 'secloss': sum(seclosses)/len(seclosses)}
+    return {'bleuloss':bl_loss, 'parentloss': sum(parentlosses)/len(parentlosses)}
 
 def main():
     dist.init_process_group("nccl")
@@ -131,7 +147,7 @@ def main():
     parser.add_argument('--ner_f_device', default=3, type=int, help='device to load Foreign NER on')
     parser.add_argument('--ner_f_model_path', default='Babelscape/wikineural-multilingual-ner', type=str, help='path to the NER model checkpoint')
     parser.add_argument('--ner_f_tok', default='Babelscape/wikineural-multilingual-ner', type=str, help='tokenizer for NER model')
-    parser.add_argument('--sectitle_device', default='cuda:4', type=str, help='device to load section-title compatibility model on')
+    parser.add_argument('--sectitle_device', default='cuda:3', type=str, help='device to load section-title compatibility model on')
     parser.add_argument('--sectitle_model_path', default='xlm-roberta-base', type=str, help='path to the sectitle model checkpoint')
     parser.add_argument('--sectitle_tok', default='xlm-roberta-base', type=str, help='tokenizer for section-title model')
     parser.add_argument('--isTest', default=0, type=int, help='test run')
@@ -239,16 +255,16 @@ def main():
     merged_directory = _intiate_dataset_merging('train', dataset_path, languages=lang, logger=None)
     train_file_path = os.path.join(os.path.abspath(merged_directory), 'train.jsonl')
     train_loader = get_dataset_loaders(tokenizer, train_file_path, logger = None, dataset_count=0,
-                                            batch_size=train_batch_size,  src_max_seq_len=200, 
-                                            tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
+                                            batch_size=train_batch_size,  src_max_seq_len=args.max_source_length, 
+                                            tgt_max_seq_len=args.max_target_length, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
 
     enable_prefix = True
     merged_directory = _intiate_dataset_merging('val', dataset_path, languages=lang, logger=None)
     val_file_path = os.path.join(os.path.abspath(merged_directory), 'val.jsonl')
     val_loader = get_dataset_loaders(tokenizer, val_file_path, logger =None, dataset_count=0,
-                                            batch_size=args.val_batch_size,  src_max_seq_len=200, 
-                                            tgt_max_seq_len=200, script_unification=True, prefix=enable_prefix,
+                                            batch_size=args.val_batch_size,  src_max_seq_len=args.max_source_length, 
+                                            tgt_max_seq_len=args.max_target_length, script_unification=True, prefix=enable_prefix,
                                             complete_coverage=False)
     ic(f"got datasets {local_rank}")
     start_epoch = 0
@@ -261,10 +277,10 @@ def main():
             filenames = sorted(filenames, key=lambda x: int(x.split('.')[0]))
             final_checkpoint = filenames[-1]
             start_epoch = int(final_checkpoint.split('.')[0]) + 1
-            final_checkpoint = f'{save_dir}{final_checkpoint}'
+            final_checkpoint = f'{save_dir}/{final_checkpoint}'
             
     ic(f"getting model {local_rank}")
-    model_device = torch.device(f"cuda" if torch.cuda.is_available() else "cpu")
+    model_device = torch.device(f"cuda:{local_rank}" if torch.cuda.is_available() else "cpu")
 
     model = GenModel(
         learning_rate=lr,
@@ -278,12 +294,15 @@ def main():
         isTest=isTest,
         final_checkpoint=final_checkpoint
     )
-    ic(f"got model {local_rank}")
+    ic(f"got model {local_rank} {next(model.parameters()).device}")
     print("Loading Parent Model")
     parentModel =  AutoModel.from_pretrained("google/muril-base-cased", output_hidden_states=True).to(sectitle_device)
     parentTok =  AutoTokenizer.from_pretrained("google/muril-base-cased", padding='max_length', truncation='max_length', max_length=512)
-    parentModel.eval()
-    
+    ic(torch.cuda.current_device(), torch.cuda.device_count())
+    torch.cuda.empty_cache()
+    # parentModel.eval()
+    # parentModel = None
+    #parentTok = None
     # print("Loaded Section-Title Model")
 
     # print("Loading IndicNER Model")
@@ -313,16 +332,17 @@ def main():
     )
     wandb.run.name = EXP_NAME
 
-    model_device = torch.device(f"cuda" if torch.cuda.is_available() else "cpu")
+    model_device = torch.device(f"cuda:{local_rank}" if torch.cuda.is_available() else "cpu")
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
     ic(model_gpus)
     model.to(model_device)
     model = DDP(model, device_ids=[local_rank])
-    ic(next(model.parameters()).is_cuda)
+    ic(f" on device {local_rank} model device {next(model.parameters()).device} but {torch.cuda.is_available()} and model_device_var {model_device}")
 
     ic(start_epoch, final_checkpoint)
     pbar = tqdm(range(start_epoch, num_epochs))
+    torch.cuda.empty_cache()
     for epoch in pbar:
         train_loader.sampler.set_epoch(epoch)
         pbar.set_postfix(loss=local_rank)
@@ -362,15 +382,17 @@ def main():
                 input_text=input_text,
                 pred_text=pred_text,
                 ref_text=ref_text,
+                ref_mask = batch['label_attention_mask'],
                 parent_device = sectitle_device,
                 parentModel=parentModel,
-                parentTok=parentTok
+                parentTok=parentTok,
+                model_device=model_device
             )
 
-            reward_loss = 0
+            # reward_loss = 0
 
-            # nerloss, secloss = reward_loss['nerloss'], reward_loss['secloss']
-            total_loss = main_loss + reward_loss
+            bleuloss, parentloss = reward_loss['bleuloss'], reward_loss['parentloss']
+            total_loss = main_loss + bleuloss + parentloss
 
             avg_train_loss.append(total_loss.item())
             total_loss.backward()
@@ -410,8 +432,7 @@ def main():
             batch['labels'] = tgt_ids.to(model_device)
             with torch.no_grad():
                 outputs = model(batch)
-
-            middle_output = model.module.middle(batch)
+                middle_output = model.module.middle(batch)
             loss = middle_output['main_loss']
             avg_val_loss.append(loss.item())
 
@@ -425,11 +446,13 @@ def main():
             wandb.log({
                 'val_loss': valloss,
                 'train_loss': trainloss,
-                'epoch': epoch
+                'epoch': epoch,
+                'offline': True
             })
 
     cleanup()
 
 if __name__ == '__main__':
     main()
+
 

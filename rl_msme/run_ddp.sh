@@ -10,7 +10,7 @@
 # python train_og.py --train_path /scratch/aditya.hari/data/train_extractive.json --val_path /scratch/aditya.hari/data/val_extractive.json --test_path /scratch/aditya.hari/data/test_extractive.json --tokenizer google/mt5-small --model google/mt5-small --is_mt5 1 --exp_name multi-ling-multi-dom-mt5 --save_dir ./genmodels/ --num_epochs 10 --train_batch_size 1 --val_batch_size 1 --test_batch_size 1 --max_source_length 512 --max_target_length 32 --ner_device cuda:1 --sectitle_device cuda:1 --sectitle_model_path ./secmodel/9/ --sectitle_tok xlm-roberta-base --ner_f_device 1 --isTrial 1 --model_gpus 0,2,3
 
 export NUM_NODES=1
-export NUM_GPUS_PER_NODE=4
+export NUM_GPUS_PER_NODE=3
 export NODE_RANK=0
 export WORLD_SIZE=$(($NUM_NODES * $NUM_GPUS_PER_NODE))
 
@@ -35,8 +35,8 @@ EPOCHS=5
 LR=1e-3
 
 # seq length related configuration
-SRC_MAX_SEQ_LENGTH=250
-TGT_MAX_SEQ_LENGTH=250
+SRC_MAX_SEQ_LENGTH=25
+TGT_MAX_SEQ_LENGTH=25
 #transformer model to use
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
@@ -136,7 +136,7 @@ printf "\n"
 torchrun \
     --nproc_per_node=$NUM_GPUS_PER_NODE \
     --nnodes=$NUM_NODES \
-    train_ddp.py --langs en --dataset_dir /home2/aditya_hari/multisent/data/small_data --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1  --model_gpus 0,1,2,3 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl --world_size 4 --isTrial 0
+    train_ddp.py --langs en --dataset_dir /home2/aditya_hari/multisent/data/small_data --save_dir $CHECKPOINT_PATH --max_source_length $SRC_MAX_SEQ_LENGTH --max_target_length $TGT_MAX_SEQ_LENGTH --is_mt5 1  --model_gpus 0,1 --train_batch_size $BATCH_SIZE --val_batch_size $TEST_BATCH_SIZE --test_batch_size $TEST_BATCH_SIZE --exp_name multisent_mt5_rl --world_size 2 --isTrial 1
 
 
 
