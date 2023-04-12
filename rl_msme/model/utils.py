@@ -124,7 +124,7 @@ def linear_fact_str(fact, enable_qualifiers=False):
         fact_str += [' '.join(qualifier_str)]
     return fact_str
 
-def get_text_in_unified_script(text, normalizer, lang):
+def get_text_in_unified_script(text, normalizer, lang, target_lang = "hi"):
     return unicode_transliterate.UnicodeIndicTransliterator.transliterate(
                 " ".join(
                     indic_tokenize.trivial_tokenize(
@@ -132,11 +132,11 @@ def get_text_in_unified_script(text, normalizer, lang):
                     )
                 ),
                 lang,
-                "hi",
+                target_lang,
             ).replace(" ् ", "्")
 
-def get_native_text_from_unified_script(unified_text, lang):
-    return unicode_transliterate.UnicodeIndicTransliterator.transliterate(unified_text, "hi", lang)
+def get_native_text_from_unified_script(unified_text, lang, src_lang='hi'):
+    return unicode_transliterate.UnicodeIndicTransliterator.transliterate(unified_text, src_lang, lang)
 
 def _intiate_dataset_merging(dataset_type, dataset_dir, languages, logger):
     #logger.critical('%s: merging the %d %s different languages dataset' % (dataset_type, len(languages), languages))

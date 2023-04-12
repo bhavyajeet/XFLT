@@ -17,7 +17,7 @@ from model.model_ddp import GenModel
 from model.dataloader_ddp import get_dataset_loaders
 from model.rewards import nerReward, sectitleReward, get_bl_reward
 from model.parent_reward import get_coverage_reward
-from model.utils import _intiate_dataset_merging
+from model.utils import _intiate_dataset_merging, get_native_text_from_unified_script
 
 from transformers import (
     AutoTokenizer,
@@ -29,6 +29,7 @@ from transformers import (
 
 SEED = 42
 
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 # def setup(rank, world_size):
 #     os.environ['MASTER_ADDR'] = 'localhost'
 #     os.environ['MASTER_PORT'] = '12355'
@@ -85,6 +86,7 @@ def calcReward(batch, logits, input_text, pred_text, ref_text, ref_mask, parent_
     parentlosses = []
 
     bl_reward = get_bl_reward(ref_text, pred_text)
+    parent_reward = get_coverage_reward(pred_text, input_text, parentModel, parentTok, parent_device)
 
     probs = torch.nn.functional.softmax(logits, dim=-1)
     argmax = torch.amax(probs, dim=2)
@@ -92,31 +94,37 @@ def calcReward(batch, logits, input_text, pred_text, ref_text, ref_mask, parent_
     bestaction = torch.log(argmax)
     mask = ref_mask
     bl_reward = bl_reward.unsqueeze(1)
+    parent_reward = parent_reward.unsqueeze(1)
+    #ic(parent_reward)
+    #ic(parent_reward.shape)
     # ic(bestaction.shape,bl_reward.shape,mask.shape)
     bl_loss = -bestaction * bl_reward.to(model_device) * mask
     bl_loss = (bl_loss.sum(-1)/mask.sum(-1)).mean()
 
-    for idx in range(len(batch['input_ids'])):
-        # parent_reward = get_coverage_reward(pred_text[idx], input_text[idx], parentModel, parentTok, parent_device)
+    parent_loss = -bestaction * parent_reward.to(model_device) * mask 
+    parent_loss = (parent_loss.sum(-1)/mask.sum(-1)).mean()
+    
+    # for idx in range(len(batch['input_ids'])):
+    #     # parent_reward = get_coverage_reward(pred_text[idx], input_text[idx], parentModel, parentTok, parent_device)
 
-        # bl_reward = 0.5
-        parent_reward = 0.5
-        #print(logits.shape)
-        # ic(logits.shape)
-        probs = torch.nn.functional.softmax(logits, dim=-1)
-        # ic(probs.shape)
-        #print(probs.shape)
-        argmax = torch.amax(probs, dim=2)
-        # ic(argmax.shape)
-        bestaction = torch.log(argmax)[idx]
-        # ic(bestaction.shape)
-        # bleuloss = (-bestaction*bl_reward).mean()
-        # ic(bleuloss.shape)
-        parentloss = (-bestaction*parent_reward).mean()
-        # bleulosses.append(bleuloss)
-        parentlosses.append(parentloss)
+    #     # bl_reward = 0.5
+    #     parent_reward = 0.5
+    #     #print(logits.shape)
+    #     # ic(logits.shape)
+    #     probs = torch.nn.functional.softmax(logits, dim=-1)
+    #     # ic(probs.shape)
+    #     #print(probs.shape)
+    #     argmax = torch.amax(probs, dim=2)
+    #     # ic(argmax.shape)
+    #     bestaction = torch.log(argmax)[idx]
+    #     # ic(bestaction.shape)
+    #     # bleuloss = (-bestaction*bl_reward).mean()
+    #     # ic(bleuloss.shape)
+    #     parentloss = (-bestaction*parent_reward).mean()
+    #     # bleulosses.append(bleuloss)
+    #     parentlosses.append(parentloss)
 
-    return {'bleuloss':bl_loss, 'parentloss': sum(parentlosses)/len(parentlosses)}
+    return {'bleuloss':bl_loss, 'parentloss': parent_loss}
 
 def main():
     dist.init_process_group("nccl")
@@ -154,6 +162,7 @@ def main():
     parser.add_argument('--isTrial', default=0, type=int, help='toy run')
     parser.add_argument('--langs', default='all', type=str, help='languages to use')
     parser.add_argument('--world_size', default=3, type=int, help="world size")
+    parser.add_argument('--mt5_checkpoint', help='mt5 checkpoint')
 
     args = parser.parse_args()
     local_rank = int(os.environ['LOCAL_RANK'])
@@ -193,7 +202,7 @@ def main():
     device = torch.cuda.device(local_rank)
     ic(f"starting setup {local_rank}")
     #setup(rank, args.world_size)
-    torch.cuda.set_device(local_rank)
+    torch.cuda.device(local_rank)
     torch.cuda.manual_seed_all(SEED)
     ner_device = args.ner_device
     ner_model_path = args.ner_model_path
@@ -292,7 +301,8 @@ def main():
         tokenizer=tokenizer,
         model_gpus=local_rank,
         isTest=isTest,
-        final_checkpoint=final_checkpoint
+        final_checkpoint=final_checkpoint,
+        mt5_checkpoint=args.mt5_checkpoint
     )
     ic(f"got model {local_rank} {next(model.parameters()).device}")
     print("Loading Parent Model")
@@ -363,6 +373,7 @@ def main():
             # batch['labels'] = tgt_ids.to(model_device).squeeze()
             batch['labels'] = tgt_ids.to(model_device)
             batch['label_attention_mask'] = tgt_mask.to(model_device)
+            batch['lang_id'] = lang_id
             #print(tgt_ids.shape)
             # outputs = model(batch)
             middle_output = model.module.middle(batch)

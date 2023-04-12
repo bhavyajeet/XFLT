@@ -49,7 +49,10 @@ class TextDataset(Dataset):
         else:
             # return unified script text
             if self.script_unification:
-                return get_text_in_unified_script(text, self.lang_normalizer[lang], lang)
+                if lang in ['kn','ml','te','ta']:
+                    return get_text_in_unified_script(text, self.lang_normalizer[lang], lang, 'ml')
+                else :
+                    return get_text_in_unified_script(text, self.lang_normalizer[lang], lang, 'hi')
             
             # return original text
             return " ".join(
