@@ -441,6 +441,7 @@ def main():
             batch['attention_mask'] = src_mask.to(model_device)
             # batch['labels'] = tgt_ids.to(model_device).squeeze()
             batch['labels'] = tgt_ids.to(model_device)
+            batch['lang_id'] = lang_id
             with torch.no_grad():
                 outputs = model(batch)
                 middle_output = model.module.middle(batch)
