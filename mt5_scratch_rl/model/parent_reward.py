@@ -95,6 +95,6 @@ def get_coverage_reward(generated, source,  model, parentTokenizer, parent_devic
         return torch.FloatTensor(batch_eps)
     except Exception:
         ic(f"Coverage reward problem {generated} {source}")
-        return torch.FloatToensor([0.3 for _ in range(len(generated))])
+        return torch.FloatTensor([0.3 for _ in range(len(generated))])
 
 # def get_coverage_reward(generated, source, model, parentTokenizer, parent_device):
