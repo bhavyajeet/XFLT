@@ -22,7 +22,7 @@ def group_duplicates(embeddings, lst, mean=True):
     i = 0
     for idx, i in enumerate(lst):
         if(i is not None):
-            if(output[i] == None):
+            if(output[i] is None):
                 output[i] = embeddings[idx, :].reshape(1, -1)
             else:
                 output[i] = torch.cat((output[i], embeddings[idx, :].reshape(1, -1)), dim=0)

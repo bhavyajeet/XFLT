@@ -352,7 +352,7 @@ def main():
 
     ic(start_epoch, final_checkpoint)
     pbar = tqdm(range(start_epoch, num_epochs))
-    torch.cuda.empty_cache()
+    # torch.cuda.empty_cache()
     for epoch in pbar:
         train_loader.sampler.set_epoch(epoch)
         pbar.set_postfix(loss=local_rank)
