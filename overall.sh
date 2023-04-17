@@ -7,7 +7,6 @@ dir_path=$(dirname "$file_path")
 
 #setting up the defaults
 LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
-LANG='as,or' #ml,pa,as,or
 GPUS=4
 MODEL_DIR=$dir_path   #optional
 PRE_PYTHON="/home2/aditya_hari/miniconda3/envs/old_py/bin/python"  #change required
