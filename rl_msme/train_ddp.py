@@ -403,7 +403,7 @@ def main():
             # reward_loss = 0
 
             bleuloss, parentloss = reward_loss['bleuloss'], reward_loss['parentloss']
-            total_loss = main_loss + bleuloss + parentloss
+            total_loss = (0.25*main_loss) + (0.5*bleuloss) + (0.25*parentloss)
 
             avg_train_loss.append(total_loss.item())
             total_loss.backward()
