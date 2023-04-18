@@ -1,0 +1,132 @@
+==========================================
+SLURM_JOB_ID = 868334
+SLURM_NODELIST = gnode042
+SLURM_JOB_GPUS = 0,1,2,3
+==========================================
+2023-04-02 00:42:35.077449: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-02 00:42:37.102124: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-04-02 00:42:37.102273: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-04-02 00:42:37.102293: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+heck
+heck
+Loading Main Model
+Main Model successfully loaded
+2023-04-02 00:43:42.662680: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-02 00:43:44.949831: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-04-02 00:43:44.950469: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-04-02 00:43:44.950507: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+wandb: W&B syncing is set to `offline` in this directory.  Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mmodel_gpus[39m[38;5;245m:[39m[38;5;245m [39m[38;5;245m[[39m[38;5;36m0[39m[38;5;245m,[39m[38;5;245m [39m[38;5;36m2[39m[38;5;245m,[39m[38;5;245m [39m[38;5;36m3[39m[38;5;245m][39m
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;32mnext[39m[38;5;245m([39m[38;5;247mmodel[39m[38;5;245m.[39m[38;5;247mparameters[39m[38;5;245m([39m[38;5;245m)[39m[38;5;245m)[39m[38;5;245m.[39m[38;5;247mis_cuda[39m[38;5;245m:[39m[38;5;245m [39m[38;5;100mTrue[39m
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mstart_epoch[39m[38;5;245m:[39m[38;5;245m [39m[38;5;36m1[39m
+[38;5;245m    [39m[38;5;247mfinal_checkpoint[39m[38;5;245m:[39m[38;5;245m [39m[38;5;36m'[39m[38;5;36m/scratch/aditya_hari/checkpoints/0.pt[39m[38;5;36m'[39m
+  0% 0/4 [00:00<?, ?it/s]
+  0% 0/135728 [00:00<?, ?it/s][AWARNING conda.models.version:get_matcher(546): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 20.3.*, but conda is ignoring the .* and treating it as 20.3
+/home2/aditya_hari/miniconda3/envs/multisent/lib/python3.7/site-packages/torch/nn/parallel/_functions.py:64: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+  0% 1/135728 [00:07<264:04:01,  7.00s/it][A
+  0% 2/135728 [00:07<192:36:17,  5.11s/it][A
+  0% 3/135728 [00:08<144:59:46,  3.85s/it][A
+  0% 4/135728 [00:09<107:11:09,  2.84s/it][A
+  0% 5/135728 [00:10<86:43:26,  2.30s/it] [A
+  0% 6/135728 [00:10<68:26:15,  1.82s/it][A
+  0% 7/135728 [00:11<53:24:53,  1.42s/it][A
+  0% 8/135728 [00:13<60:23:51,  1.60s/it][A
+  0% 9/135728 [00:15<69:12:36,  1.84s/it][A  0% 9/135728 [00:16<68:06:09,  1.81s/it]
+
+  0% 0/27083 [00:00<?, ?it/s][A
+  0% 1/27083 [00:01<10:28:16,  1.39s/it][A
+  0% 2/27083 [00:02<9:33:57,  1.27s/it] [A
+  0% 3/27083 [00:02<7:46:24,  1.03s/it][A
+  0% 4/27083 [00:03<7:41:22,  1.02s/it][A
+  0% 5/27083 [00:04<6:24:49,  1.17it/s][A
+  0% 6/27083 [00:05<7:08:46,  1.05it/s][A
+  0% 7/27083 [00:05<5:56:58,  1.26it/s][A
+  0% 8/27083 [00:06<5:10:08,  1.45it/s][A
+  0% 9/27083 [00:06<4:37:59,  1.62it/s][A  0% 9/27083 [00:07<6:10:29,  1.22it/s]
+ 25% 1/4 [00:27<01:23, 27.81s/it]
+  0% 0/135728 [00:00<?, ?it/s][A
+  0% 1/135728 [00:00<32:51:55,  1.15it/s][A
+  0% 2/135728 [00:01<30:04:49,  1.25it/s][A
+  0% 3/135728 [00:02<27:08:41,  1.39it/s][A
+  0% 4/135728 [00:07<79:28:25,  2.11s/it][A
+  0% 5/135728 [00:08<67:21:01,  1.79s/it][A
+  0% 6/135728 [00:09<54:56:10,  1.46s/it][A
+  0% 7/135728 [00:09<44:08:23,  1.17s/it][A
+  0% 8/135728 [00:11<47:09:03,  1.25s/it][A
+  0% 9/135728 [00:13<64:10:05,  1.70s/it][A  0% 9/135728 [00:14<60:02:42,  1.59s/it]
+
+  0% 0/27083 [00:00<?, ?it/s][A
+  0% 1/27083 [00:01<13:26:50,  1.79s/it][A
+  0% 2/27083 [00:02<11:02:04,  1.47s/it][A
+  0% 3/27083 [00:02<8:46:51,  1.17s/it] [A
+  0% 4/27083 [00:03<8:21:00,  1.11s/it][A
+  0% 5/27083 [00:04<6:51:47,  1.10it/s][A
+  0% 6/27083 [00:05<6:33:50,  1.15it/s][A
+  0% 7/27083 [00:05<5:36:37,  1.34it/s][A
+  0% 8/27083 [00:06<4:58:13,  1.51it/s][A
+  0% 9/27083 [00:06<4:30:09,  1.67it/s][A  0% 9/27083 [00:07<6:06:58,  1.23it/s]
+ 50% 2/4 [00:53<00:54, 27.29s/it]
+  0% 0/135728 [00:00<?, ?it/s][A
+  0% 1/135728 [00:00<33:28:22,  1.13it/s][A
+  0% 2/135728 [00:01<31:01:01,  1.22it/s][A
+  0% 3/135728 [00:02<27:56:50,  1.35it/s][A
+  0% 4/135728 [00:06<68:49:30,  1.83s/it][A
+  0% 5/135728 [00:07<64:16:16,  1.70s/it][A
+  0% 6/135728 [00:10<79:03:19,  2.10s/it][A
+  0% 7/135728 [00:11<61:03:54,  1.62s/it][A
+  0% 8/135728 [00:12<50:20:41,  1.34s/it][A
+  0% 9/135728 [00:14<66:50:17,  1.77s/it][A  0% 9/135728 [00:15<64:31:22,  1.71s/it]
+
+  0% 0/27083 [00:00<?, ?it/s][A
+  0% 1/27083 [00:01<13:08:09,  1.75s/it][A
+  0% 2/27083 [00:02<11:01:55,  1.47s/it][A
+  0% 3/27083 [00:03<8:50:31,  1.18s/it] [A
+  0% 4/27083 [00:04<8:22:53,  1.11s/it][A
+  0% 5/27083 [00:04<7:03:13,  1.07it/s][A
+  0% 6/27083 [00:06<9:14:34,  1.23s/it][A
+  0% 7/27083 [00:06<7:26:35,  1.01it/s][A
+  0% 8/27083 [00:07<6:14:22,  1.21it/s][A
+  0% 9/27083 [00:07<5:23:29,  1.39it/s][A  0% 9/27083 [00:08<7:18:49,  1.03it/s]
+ 75% 3/4 [01:21<00:27, 27.50s/it]
+  0% 0/135728 [00:00<?, ?it/s][A
+  0% 1/135728 [00:00<32:45:47,  1.15it/s][A
+  0% 2/135728 [00:01<30:18:35,  1.24it/s][A
+  0% 3/135728 [00:02<27:21:01,  1.38it/s][A
+  0% 4/135728 [00:02<24:49:51,  1.52it/s][A
+  0% 5/135728 [00:04<37:36:32,  1.00it/s][A
+  0% 6/135728 [00:07<62:04:14,  1.65s/it][A
+  0% 7/135728 [00:08<49:04:29,  1.30s/it][A
+  0% 8/135728 [00:08<41:53:17,  1.11s/it][A
+  0% 9/135728 [00:11<57:02:26,  1.51s/it][A  0% 9/135728 [00:11<48:51:04,  1.30s/it]
+
+  0% 0/27083 [00:00<?, ?it/s][A
+  0% 1/27083 [00:02<15:02:48,  2.00s/it][A
+  0% 2/27083 [00:02<12:42:03,  1.69s/it][A
+  0% 3/27083 [00:03<9:58:37,  1.33s/it] [A
+  0% 4/27083 [00:04<8:58:31,  1.19s/it][A
+  0% 5/27083 [00:04<7:22:06,  1.02it/s][A
+  0% 6/27083 [00:06<8:22:41,  1.11s/it][A
+  0% 7/27083 [00:06<6:50:06,  1.10it/s][A
+  0% 8/27083 [00:07<5:47:58,  1.30it/s][A
+  0% 9/27083 [00:07<5:04:35,  1.48it/s][A  0% 9/27083 [00:08<7:08:15,  1.05it/s]
+100% 4/4 [01:45<00:00, 26.41s/it]100% 4/4 [01:45<00:00, 26.44s/it]
+[0mwandb: Waiting for W&B process to finish, PID 19590... (success).
+wandb: Run history:
+wandb:        epoch ▁▃▆█
+wandb:   train_loss █▄▃▁
+wandb:     val_loss █▇▅▁
+wandb: 
+wandb: Run summary:
+wandb:        epoch 4
+wandb:   train_loss 24.60886
+wandb:     val_loss 22.93591
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home2/aditya_hari/multisent/rl_code/outline_generation/wandb/offline-run-20230402_004340-2gpyra9h
+wandb: Find logs at: ./wandb/offline-run-20230402_004340-2gpyra9h/logs/debug.log
+wandb: 
+
