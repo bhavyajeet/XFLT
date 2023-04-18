@@ -151,7 +151,7 @@ echo "--------------------------------------------------- >>"
 printf "\n"
 
 # execute training
-#$PRE_PYTHON $MODEL_DIR/generation/prompt_uni/main.py --dataset_path $DATASET_DIR --epochs $PRE_EPOCHS --gpus $GPUS --batch_size $MT5_BATCH_SIZE --eval_batch_size $TEST_MT5_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --enable_script_unification 1
+$PRE_PYTHON $MODEL_DIR/generation/prompt_uni/main.py --dataset_path $DATASET_DIR --epochs $PRE_EPOCHS --gpus $GPUS --batch_size $MT5_BATCH_SIZE --eval_batch_size $TEST_MT5_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --enable_script_unification 1
 
 # inference
 #$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose --inference --enable_script_unification 1
