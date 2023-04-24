@@ -225,7 +225,24 @@ class ModelWrapper(pl.LightningModule):
                     # writing the model generated outputs
                     store_txt(src_txt, os.path.join(self.config_args.verbose_output_dir, '%s-src.txt' % end_type))
                     store_txt(ref_txt, os.path.join(self.config_args.verbose_output_dir, '%s-ref.txt' % end_type))
+                    keyforlog = end_type + '-ref.txt'
+                    for lol in ref_txt:
+                        args.logger.info(lol)
+                    #self.logger.log(key=keyforlog,data=ref_txt)
+                    keyforlog = end_type + '-src.txt'
+                    #self.logger.log_text(key=keyforlog,data=src_txt)
+                    args.logger.info('REF COMPLETE')
+                    for lol in src_txt:
+                        args.logger.info(lol)
+
+                
                 store_txt(pred_txt, os.path.join(self.config_args.verbose_output_dir, '%s-predicted-epoch-%d.txt' % (end_type, self.current_epoch)))
+                keyforlog = end_type+'-predicted-epoch-' + str(self.current_epoch) + '.txt'
+                args.logger.info('SRC COMPLETE')
+                for lol in pred_txt:
+                    args.logger.info(lol)
+                #self.logger.log_text(key=keyforlog,data=pred_txt)
+
 
             # calculating the bleu score
             if (len(self.config_args.lang)==1 and self.config_args.enable_bleu_cal_per_epoch==1):
@@ -436,7 +453,7 @@ def start_training(args):
         args.logger.debug('about to start testing loop...')
         # change gpus to 1 while testing
         trainer.gpus = 1
-        model.load_state_dict(torch.load('/scratch/results_plis/checkpoint/'+args.exp_id)['state_dict'])
+        model.load_state_dict(torch.load(args.check_path)['state_dict'])
         trainer.test(model=model)
         args.logger.debug('testing done.')
     else:
@@ -460,6 +477,8 @@ if __name__ == "__main__":
     # Global model configuration
     parser.add_argument('--checkpoint_path', default=default_checkpoint_path, type=str,
                         help='directory where checkpoints are stored')
+    parser.add_argument('--check_path', type=str,
+                        help='exact path to the modified checkpoint')
     parser.add_argument('--dataset_path', required=True, type=str,
                         help='directory where dataset exits')
     parser.add_argument('--gpus', default=1, type=int,

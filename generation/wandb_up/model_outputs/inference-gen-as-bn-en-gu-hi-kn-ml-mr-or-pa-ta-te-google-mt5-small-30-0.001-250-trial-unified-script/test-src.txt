@@ -1,0 +1,10 @@
+generate english high : <H> charlie townsend <R> date_of_birth <T> 07 november 1876 <R> date_of_death <T> 17 october 1958 <R> occupation <T> cricketer
+generate english high : <H> matthew kleinveldt <R> country_of_citizenship <T> united kingdom <R> date_of_birth <T> 10 august 1989 <R> occupation <T> cricketer
+generate english high : <H> italo de zan <R> date_of_birth <T> 01 july 1925 <R> date_of_death <T> 09 march 2020 <R> occupation <T> sport cyclist
+generate english high : <H> hina kaware <R> country_of_citizenship <T> india <R> occupation <T> politician
+generate english high : <H> harishankar jaladas <R> date_of_birth <T> 12 october 1955 <R> place_of_birth <T> patenga thana
+generate english high : <H> ibn qayyim al-jawziyya <R> student <T> ibn rajab
+generate english high : <H> calli cox <R> date_of_birth <T> 26 february 1977 <R> occupation <T> pornographic actor <R> occupation <T> actor
+generate english high : <H> abu ali al-hasan al-murrakushi <R> country_of_citizenship <T> morocco <R> occupation <T> mathematician <R> occupation <T> astronomer <R> place_of_birth <T> morocco
+generate english high : <H> cathy lee crosby <R> date_of_birth <T> 02 december 1944 <R> occupation <T> tennis player <R> occupation <T> television actor <R> sport <T> tennis
+generate english high : <H> 19th kushok bakula rinpoche <R> country_of_citizenship <T> india <R> place_of_birth <T> ladakh

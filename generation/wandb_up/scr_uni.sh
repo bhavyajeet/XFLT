@@ -28,7 +28,7 @@ TGT_MAX_SEQ_LENGTH=250
 MODEL_NAME='google/mt5-small'
 PRETRAINED=1
 
-ONLINE_SYNC=0  #control w&b online syncronization, 0 means inactive
+ONLINE_SYNC=1  #control w&b online syncronization, 0 means inactive
 
 DATASET_DIR=$SCRATCH_DIR/datasets
 
@@ -41,6 +41,9 @@ while [ $# -gt 0 ]; do
       ;;
     --checkpoint_path=*)
       CHECKPOINT_PATH="${1#*=}"/checkpoint
+      ;;
+    --check_path=*)
+      CHECK_PATH="${1#*=}"
       ;;
     --model_dir=*)
       MODEL_DIR="${1#*=}"
@@ -102,7 +105,7 @@ done
 #print argument captures in shell script
 echo "<< ----------- Experiment configurations -------------"
 echo "GPUS : $GPUS"
-echo "CHECKPOINT_PATH : $CHECKPOINT_PATH"
+echo "CHECKPOINT_PATH : $CHECK_PATH"
 echo "MODEL_DIR : $MODEL_DIR"
 echo "PYTHON : $PYTHON"
 echo "BATCH_SIZE : $BATCH_SIZE"
@@ -123,4 +126,4 @@ printf "\n"
 #$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --verbose
 
 # inference
-$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --exp_id $EXP_ID --verbose --inference --enable_script_unification 1
+$PYTHON $MODEL_DIR/main.py --dataset_path $DATASET_DIR --epochs $EPOCHS --gpus $GPUS --batch_size $BATCH_SIZE --eval_batch_size $TEST_BATCH_SIZE --src_max_seq_len $SRC_MAX_SEQ_LENGTH --tgt_max_seq_len $TGT_MAX_SEQ_LENGTH --checkpoint_path $CHECKPOINT_PATH --check_path $CHECK_PATH --learning_rate $LR --model_name $MODEL_NAME --online_mode $ONLINE_SYNC --use_pretrained $PRETRAINED --lang $LANG --exp_id $EXP_ID --verbose --inference --enable_script_unification 1
