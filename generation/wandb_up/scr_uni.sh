@@ -13,7 +13,7 @@ MODEL_DIR=$dir_path   #optional
 PYTHON="/home2/manav.chaudhary/miniconda3/envs/mnvxalign/bin/python"  #change required
 SCRATCH_DIR=/scratch/results_plis
 mkdir -p $SCRATCH_DIR
-CHECKPOINT_PATH=$SCRATCH_DIR/checkpoint   #change required
+CHECKPOINT_PATH=$SCRATCH_DIR/this_aint_a_directory   #change required
 
 
 BATCH_SIZE=2
@@ -38,9 +38,6 @@ while [ $# -gt 0 ]; do
   case "$1" in
     --gpus=*)
       GPUS="${1#*=}"
-      ;;
-    --checkpoint_path=*)
-      CHECKPOINT_PATH="${1#*=}"/checkpoint
       ;;
     --check_path=*)
       CHECK_PATH="${1#*=}"
