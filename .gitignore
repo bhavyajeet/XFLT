@@ -1,3 +1,4 @@
+*.log
 datasets
 dataset_ordered.zip
 generation/mT5-baseline/wandb
@@ -6,9 +7,11 @@ generation/coverage-prompt/wandb
 generation/mT5-baseline/model_outputs
 generation/dravidian_unif/model_outputs
 generation/coverage-prompt/model_outputs
+generation/prompt_uni/model_outputs
 clustering/mT5-baseline/wandb
 clustering/mT5-baseline/model_outputs
 generation/mT5-baseline/__pycache__
+generation/prompt_uni/__pycache__
 clustering/mT5-baseline/__pycache__
 rl_msme/model/__pycache__
 rl_msme/wandb

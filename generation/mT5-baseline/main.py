@@ -3,7 +3,6 @@ import time
 import random
 import json
 from argparse import ArgumentParser
-import similarity
 
 import numpy as np
 import torch
@@ -132,8 +131,8 @@ class ModelWrapper(pl.LightningModule):
             num_beams=self.config_args.eval_beams,
             max_length=self.config_args.tgt_max_seq_len,
             length_penalty=self.config_args.length_penalty,
-            tokenizer = self.tokenizer,
-            sim_func = similarity.get_similarity,
+            #tokenizer = self.tokenizer,
+            #sim_func = similarity.get_similarity,
         )
 
         preds = self.ids_to_clean_text(generated_ids)
@@ -511,6 +510,8 @@ if __name__ == "__main__":
                         help='specify the text generation length penalty.')
     parser.add_argument('--eval_beams', type=int, default=5,
                         help='specify size of beam search.')
+    parser.add_argument('--exp_id', type=str, default="",
+                        help="id of the experiment")
     # script unification
     parser.add_argument('--enable_script_unification', type=int, default=1,
                         help="specify value greater than 0 to enable script unification to Devanagri for Indic languages.")
@@ -529,7 +530,9 @@ if __name__ == "__main__":
         print('Invalid language(s) specified !!!')
         sys.exit(0)
 
-    args.logger_exp_name = "%s-%s-%s-%s-%s-%s" % ("gen",'-'.join(args.lang), args.model_name, args.epochs, args.learning_rate, args.src_max_seq_len)
+    args.logger_exp_name = "%s-%s-%s-%s-%s-%s-%s" % ("gen",'-'.join(args.lang), args.model_name, args.epochs, args.learning_rate, args.src_max_seq_len, args.exp_id)
+
+
     args.logger_exp_name = args.logger_exp_name.replace('/', '-')
 
     if args.complete_coverage > 0:
