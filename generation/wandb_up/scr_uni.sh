@@ -8,7 +8,7 @@ dir_path=$(dirname "$file_path")
 #setting up the defaults
 LANG='as,bn,en,gu,hi,kn,ml,mr,or,pa,ta,te'
 #LANG="$1" #ml,pa,as,or
-GPUS=4
+GPUS=1
 MODEL_DIR=$dir_path   #optional
 PYTHON="/home2/manav.chaudhary/miniconda3/envs/mnvxalign/bin/python"  #change required
 SCRATCH_DIR=/scratch/results_plis
