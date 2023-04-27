@@ -12,6 +12,8 @@ generation/mT5-baseline/__pycache__
 clustering/mT5-baseline/__pycache__
 rl_msme/model/__pycache__
 rl_msme/wandb
+baseline_rl/model/__pycache__
+baseline_rl/wandb
 mt5_scratch_rl/model/__pycache__
 mt5_scratch_rl/wandb
 hallucination/src/*.log
