@@ -184,6 +184,7 @@ class ModelWrapper(pl.LightningModule):
         native_text = text
         if self.config_args.enable_script_unification>0 and lang!='en':
             # convert unified script to native langauge text
+            #native_text = get_native_text_from_unified_script(text, lang)
             if lang in ['kn','ml','te','ta']:
                 native_text = get_native_text_from_unified_script(text, lang,src_lang='ml')
             else :
@@ -425,15 +426,12 @@ def start_training(args):
     trainer = pl.Trainer(**global_callback_params)
     if args.inference:
         if not checkpoint_exists:
-            pass
             args.logger.error('No checkpoint found in directory : %s' % final_checkpoint_path)
-            #sys.exit(0)
+            sys.exit(0)
         args.logger.debug('about to start testing loop...')
         # change gpus to 1 while testing
         trainer.gpus = 1
-        #trainer.test(model=model, ckpt_path=checkpoint_file)
-        model.load_state_dict(torch.load(args.check_path)['state_dict'])
-        trainer.test(model=model)
+        trainer.test(model=model, ckpt_path=checkpoint_file)
         args.logger.debug('testing done.')
     else:
         # finally train the model
@@ -456,8 +454,6 @@ if __name__ == "__main__":
     # Global model configuration
     parser.add_argument('--checkpoint_path', default=default_checkpoint_path, type=str,
                         help='directory where checkpoints are stored')
-    parser.add_argument('--check_path', type=str,
-                        help='exact path to the modified checkpoint')
     parser.add_argument('--dataset_path', required=True, type=str,
                         help='directory where dataset exits')
     parser.add_argument('--gpus', default=1, type=int,
@@ -540,7 +536,7 @@ if __name__ == "__main__":
     if(len(args.lang)==0):
         print('Invalid language(s) specified !!!')
         sys.exit(0)
-
+        
     args.logger_exp_name = "%s-%s-%s-%s-%s-%s-%s" % ("gen",'-'.join(args.lang), args.model_name, args.epochs, args.learning_rate, args.src_max_seq_len, args.exp_id)
     args.logger_exp_name = args.logger_exp_name.replace('/', '-')
 

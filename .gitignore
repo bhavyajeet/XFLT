@@ -1,5 +1,8 @@
 datasets
 dataset_ordered.zip
+generation/prompt_uni/model_outputs
+*.log
+generation/prompt_uni/wandb
 generation/mT5-baseline/wandb
 generation/dravidian_unif/wandb
 generation/coverage-prompt/wandb

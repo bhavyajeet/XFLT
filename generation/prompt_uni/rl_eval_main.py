@@ -27,6 +27,7 @@ from transformers import (
     Adafactor,
     MT5ForConditionalGeneration,
     MT5Tokenizer,
+    AutoTokenizer,
     get_linear_schedule_with_warmup,
     get_constant_schedule_with_warmup
 )
@@ -57,6 +58,9 @@ class ModelWrapper(pl.LightningModule):
         self.step_loss_labels = {'train': 'loss', 'val': 'val_loss', 'test': 'test_loss'}
         self.config_args = args
         self.tokenizer = MT5Tokenizer.from_pretrained(args.model_name, cache_dir="/tmp/hugginface")
+        print ('='*30)
+        print (self.tokenizer.is_fast)
+        print ('='*30)
         self.add_special_tokens()
         self.cal_bleu = BLEU(tokenize='none')
         self.lang_normalizer = get_language_normalizer()
@@ -125,7 +129,6 @@ class ModelWrapper(pl.LightningModule):
         #print (len(batch))
         #print (batch[0].size())
         #print ("periwal ----"*20)
-        all_fact_embs = similarity.get_fact_emb(batch[0])
         generated_ids = self.model.generate(
             batch[0],
             attention_mask=batch[1],
@@ -133,9 +136,8 @@ class ModelWrapper(pl.LightningModule):
             num_beams=self.config_args.eval_beams,
             max_length=self.config_args.tgt_max_seq_len,
             length_penalty=self.config_args.length_penalty,
-            tokenizer = self.tokenizer,
-            sim_func = similarity.get_similarity,
-            fact_embs = all_fact_embs
+            #tokenizer = self.tokenizer,
+            #sim_func = similarity.get_similarity,
         )
 
         preds = self.ids_to_clean_text(generated_ids)
@@ -189,6 +191,9 @@ class ModelWrapper(pl.LightningModule):
             else :
                 native_text = get_native_text_from_unified_script(text, lang,src_lang='hi')
 
+
+
+
         native_text = native_text.strip()
         # as input and predicted text are already space tokenized
         native_text = ' '.join([x for x in native_text.split()])
@@ -220,7 +225,24 @@ class ModelWrapper(pl.LightningModule):
                     # writing the model generated outputs
                     store_txt(src_txt, os.path.join(self.config_args.verbose_output_dir, '%s-src.txt' % end_type))
                     store_txt(ref_txt, os.path.join(self.config_args.verbose_output_dir, '%s-ref.txt' % end_type))
+                    keyforlog = end_type + '-ref.txt'
+                    for lol in ref_txt:
+                        args.logger.info(lol)
+                    #self.logger.log(key=keyforlog,data=ref_txt)
+                    keyforlog = end_type + '-src.txt'
+                    #self.logger.log_text(key=keyforlog,data=src_txt)
+                    args.logger.info('REF COMPLETE')
+                    for lol in src_txt:
+                        args.logger.info(lol)
+
+                
                 store_txt(pred_txt, os.path.join(self.config_args.verbose_output_dir, '%s-predicted-epoch-%d.txt' % (end_type, self.current_epoch)))
+                keyforlog = end_type+'-predicted-epoch-' + str(self.current_epoch) + '.txt'
+                args.logger.info('SRC COMPLETE')
+                for lol in pred_txt:
+                    args.logger.info(lol)
+                #self.logger.log_text(key=keyforlog,data=pred_txt)
+
 
             # calculating the bleu score
             if (len(self.config_args.lang)==1 and self.config_args.enable_bleu_cal_per_epoch==1):
@@ -431,7 +453,6 @@ def start_training(args):
         args.logger.debug('about to start testing loop...')
         # change gpus to 1 while testing
         trainer.gpus = 1
-        #trainer.test(model=model, ckpt_path=checkpoint_file)
         model.load_state_dict(torch.load(args.check_path)['state_dict'])
         trainer.test(model=model)
         args.logger.debug('testing done.')
@@ -513,8 +534,6 @@ if __name__ == "__main__":
                         help="specify value greater than 0 to calculate the bleu score per epoch for monolingual setting. warning this may slow down the training process")
     parser.add_argument('--src_max_seq_len', type=int, default=200,
                         help="specify the maximum sequence length for input sequence.")
-    parser.add_argument('--exp_id', type=str, default="",
-                        help="id of the experiment")
     parser.add_argument('--tgt_max_seq_len', type=int, default=200,
                         help="specify the maximum sequence length for output sequence.")
     parser.add_argument('--lang', type=str, required=True, 
@@ -523,6 +542,8 @@ if __name__ == "__main__":
                         help='specify the text generation length penalty.')
     parser.add_argument('--eval_beams', type=int, default=5,
                         help='specify size of beam search.')
+    parser.add_argument('--exp_id', type=str, default="",
+                        help="id of the experiment")
     # script unification
     parser.add_argument('--enable_script_unification', type=int, default=1,
                         help="specify value greater than 0 to enable script unification to Devanagri for Indic languages.")
