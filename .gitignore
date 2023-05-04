@@ -1,4 +1,5 @@
 datasets
+*.log
 dataset_ordered.zip
 generation/prompt_uni/model_outputs
 *.log
@@ -8,6 +9,7 @@ generation/dravidian_unif/wandb
 generation/coverage-prompt/wandb
 generation/mT5-baseline/model_outputs
 generation/dravidian_unif/model_outputs
+generation/prompt_uni/model_outputs
 generation/coverage-prompt/model_outputs
 clustering/mT5-baseline/wandb
 clustering/mT5-baseline/model_outputs
