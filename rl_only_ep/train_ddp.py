@@ -461,8 +461,10 @@ def main():
                 'epoch': epoch,
                 'offline': True
             })
-
+            
     cleanup()
+    if local_rank == 0 :
+        wandb.save(f'{save_dir}/*.pt')
 
 if __name__ == '__main__':
     main()
