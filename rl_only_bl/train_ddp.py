@@ -463,10 +463,8 @@ def main():
             })
 
     cleanup()
-    wandb.save(
-        path=f'{savedir}/*.pt', 
-        policy="now"
-    )    
+    if local_rank == 0 :
+        wandb.save(f'{save_dir}/*.pt')    
 
 if __name__ == '__main__':
     main()

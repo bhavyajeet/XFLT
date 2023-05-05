@@ -103,29 +103,43 @@ class GenModel(torch.nn.Module):
         outputs = self(batch)
         loss, logits = outputs['loss'], outputs['logits']
         out = F.softmax(logits, dim=-1)
+        ic(out.shape)
         lang = batch['lang_id']
         lang_codes = [languages_map_inv[l.item()] for l in lang]
         greedy_idx = torch.argmax(out, dim=-1)
         tgt_gre = []
+        tgt_smp = []
 
-        sample_idx = torch.multinomial(out,1)
+        sample_idx = torch.zeros(out.size(0), out.size(1))
+        for ind, smp in enumerate(out):
+            temp_idx = torch.multinomial(smp,1)
+            # ic(smp.shape,temp_idx.shape)
+            sample_idx[ind] = temp_idx.squeeze(1)
+        sample_idx = sample_idx.long()
+        # ic(sample_idx.shape,greedy_idx.shape)
 
-        ic(sample_idx.share,greedy_idx.shape,out.shape)
 
-
-        for g in greedy_idx:
+        for g,smp in zip(greedy_idx,sample_idx):
             g_e = torch.arange(len(g))[g.eq(self.tokenizer.eos_token_id).cpu()]
             g_e = g_e[0] if len(g_e)>0  and 0<g_e[0]<self.tgt_max_seq_len else self.tgt_max_seq_len
             our_gen = ' '.join(self.tokenizer.batch_decode([g[:g_e]], skip_special_tokens=True))
             tgt_gre.append(our_gen)
+
+            s_e = torch.arange(len(smp))[smp.eq(self.tokenizer.eos_token_id).cpu()]
+            s_e = s_e[0] if len(s_e)>0  and 0<s_e[0]<self.tgt_max_seq_len else self.tgt_max_seq_len
+            our_gen_smp = ' '.join(self.tokenizer.batch_decode([smp[:s_e]], skip_special_tokens=True))
+            tgt_smp.append(our_gen_smp)
+            ic (our_gen,our_gen_smp)
         
         for i, txt in enumerate(tgt_gre):
             lang = lang_codes[i]
             if(lang not in ['en']):
                 if lang in ['kn', 'te','ml', 'ta']:
                     tgt_gre[i] = get_native_text_from_unified_script(txt, lang_codes[i], 'ml')
+                    tgt_smp[i] = get_native_text_from_unified_script(tgt_smp[i], lang_codes[i], 'ml')
                 else:
                     tgt_gre[i] = get_native_text_from_unified_script(txt, lang_codes[i], 'hi')
+                    tgt_smp[i] = get_native_text_from_unified_script(tgt_smp[i], lang_codes[i], 'hi')
 
         # ic(generated_ids.shape, greedy_idx.shape)
         # model_gen = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
@@ -134,7 +148,7 @@ class GenModel(torch.nn.Module):
         ref_text = self.tokenizer.batch_decode(batch['labels'], skip_special_tokens=True)
         # print(tgt_gre)
         # pred_text = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': tgt_gre, 'ref_text':ref_text}
+        return {'main_loss': loss, 'logits': logits, 'input_text': input_text, 'pred_text': tgt_gre, 'ref_text':ref_text, 'pred_text_sample':tgt_smp}
 
 
 

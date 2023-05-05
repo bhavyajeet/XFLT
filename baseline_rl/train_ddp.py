@@ -81,12 +81,21 @@ def add_special_tokens(tokenizer):
         num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
         return tokenizer 
 
-def calcReward(batch, logits, input_text, pred_text, ref_text, ref_mask, parent_device, parentModel, parentTok, model_device ):
+def calcReward(batch, logits, input_text, pred_text, ref_text, ref_mask, parent_device, parentModel, parentTok, model_device, pred_text_sample, baseline = False ):
     bleulosses = []
     parentlosses = []
 
-    bl_reward = get_bl_reward(ref_text, pred_text)
-    parent_reward = get_coverage_reward(pred_text, input_text, parentModel, parentTok, parent_device)
+    bl_reward_grd = get_bl_reward(ref_text, pred_text)
+    bl_reward_smp = get_bl_reward(ref_text, pred_text_sample)
+    parent_reward_grd = get_coverage_reward(pred_text, input_text, parentModel, parentTok, parent_device)
+    parent_reward_smp = get_coverage_reward(pred_text_sample, input_text, parentModel, parentTok, parent_device)
+
+    if baseline :
+        bl_reward = bl_reward_smp - bl_reward_grd
+        parent_reward = parent_reward_smp - parent_reward_grd
+    else :
+        bl_reward = bl_reward_grd
+        parent_reward = parent_reward_grd 
 
     probs = torch.nn.functional.softmax(logits, dim=-1)
     argmax = torch.amax(probs, dim=2)
@@ -377,7 +386,7 @@ def main():
             #print(tgt_ids.shape)
             # outputs = model(batch)
             middle_output = model.module.middle(batch)
-            main_loss, logits, input_text, pred_text, ref_text = middle_output['main_loss'], middle_output['logits'], middle_output['input_text'], middle_output['pred_text'], middle_output['ref_text']
+            main_loss, logits, input_text, pred_text, ref_text, pred_text_sample = middle_output['main_loss'], middle_output['logits'], middle_output['input_text'], middle_output['pred_text'], middle_output['ref_text'],  middle_output['pred_text_sample']
             #ic(f'{input_text} in model {local_rank}')
             # reward_loss = calcTestReward(
             #     batch=batch,
@@ -397,13 +406,14 @@ def main():
                 parent_device = sectitle_device,
                 parentModel=parentModel,
                 parentTok=parentTok,
-                model_device=model_device
+                model_device=model_device,
+                pred_text_sample=pred_text_sample
             )
 
             # reward_loss = 0
 
             bleuloss, parentloss = reward_loss['bleuloss'], reward_loss['parentloss']
-            total_loss = (0.25*main_loss) + (0.5*bleuloss) + (0.25*parentloss)
+            total_loss = (0.25*main_loss) + (0.6*bleuloss) + (0.15*parentloss)
 
             avg_train_loss.append(total_loss.item())
             total_loss.backward()

@@ -33,7 +33,7 @@ MT5_CHECKPOINT='/home2/aditya_hari/multisent/baselines/epoch15.ckpt'
 
 BATCH_SIZE=2
 TEST_BATCH_SIZE=2
-EPOCHS=10
+EPOCHS=2
 LR=1e-3
 
 # seq length related configuration
@@ -45,7 +45,7 @@ PRETRAINED=1
 
 ONLINE_SYNC=1  #control w&b online syncronization, 0 means inactive
 
-DATASET_DIR=$SCRATCH_DIR/datasets
+DATASET_DIR=$SCRATCH_DIR/prompt_data
 
 printf "\n\n"
 #dynamically set above default values through shell arguments
