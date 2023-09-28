@@ -1,0 +1,3 @@
+generate marathi high : <H> ray illingworth <R> date_of_birth <T> 08 june 1932 <R> occupation <T> cricketer
+generate bengali high : <H> bernard katz <R> country_of_citizenship <T> germany <R> place_of_birth <T> leipzig
+generate bengali high : <H> bernard katz <R> academic_degree <T> doctor of sciences <R> educated_at <T> university college london <R> educated_at <T> leipzig university <R> employer <T> university college london <R> field_of_work <T> biophysics <R> occupation <T> university teacher
